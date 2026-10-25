@@ -1,47 +1,73 @@
-# ElderIndex — independent website rebuild
+# ElderIndex — care-sector website
 
-A code-owned, static rebuild of the **ElderIndex Webflow design**, including 21 pages recovered from the Webflow site on 25 October 2026. The design system is plum/gold/ivory/sage; all site pages are actual HTML with CSS and JS, not images of a website.
+A static, code-owned website for UK care homes and home care agencies, built with Node.js and ordinary HTML, CSS and JavaScript. There are 22 routes, including six guides. Design concepts and worked examples are clearly labelled illustrations, not client work.
 
-## Build and preview
+## Build, check and preview
 
-Requires Node.js 18+, and **no npm dependencies**.
+Requires Node.js 18+ and Python 3. The production build has no third-party runtime dependencies. Development dependencies provide browser and accessibility tests.
 
 ```bash
+npm ci
 npm run build
 npm run check
-python3 -m http.server 4173 -d dist
+npm run dev
 ```
 
-Visit `http://localhost:4173`. Build output is in `dist/`.
+Build output is `dist/`; the preview server uses port 4173. Python's preview server does not interpret Cloudflare `_redirects` or `_headers`; verify those against a Cloudflare deployment.
 
-## Deploy for free
+```bash
+# Install Chromium for tests if it is not already available:
+npx playwright install chromium
+npm test
+```
 
-Cloudflare Pages → connect GitHub repository → **Build command** `npm run build` → **Output directory** `dist` → **Root directory** `/` (default). Cloudflare automatically builds a preview deployment for non-production branches. You can also upload `dist/` directly via Cloudflare Pages Direct Upload. Vercel can build the site with the same build command and output directory.
+Tests use system `/usr/bin/chromium` when available, or Playwright's Chromium. Override with `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` if needed. Browser tests intercept Formspree and analytics requests: they never send real enquiries. The test runner rebuilds with real configuration after removing its fake analytics fixture.
 
-### Hosting prerequisites
+## Cloudflare staging and production
 
-- Connect `elderindex.co.uk` only after the replacement site and form are approved.
-- Retain all existing email DNS records (MX, SPF, DKIM, DMARC) during any domain changes.
-- Check existing URLs in Search Console and expand `_redirects` for other legacy paths before launch.
-- This repo does **not** contain analytics, tracking pixels or cookies beyond platform essentials.
+Cloudflare build command: `npm run build`. Deploy command: `npx wrangler deploy`. `wrangler.jsonc` declares `dist/` as static assets, enables the staging `workers.dev` route and serves the custom 404. Cloudflare Pages can use the same build and `dist` output without Wrangler.
 
-## Honest limitations / before-launch checklist
+All variables below are **build-time** values. Changing them requires a rebuild. Do not place secrets in public build configuration.
 
-- **Contact form** uses JavaScript to open a pre-filled mail app. It does **not** send server-side submissions. A genuine server-side contact endpoint or hosted form service must be configured before replacing an existing working form. The button states exactly what happens.
-- **Photography** uses live external Pexels URLs sourced from the Webflow concept. Check licence/source and replace with locally hosted, approved genuine photos before production. Fallback colours render when external images are unavailable.
-- **Website concept previews** are illustrative, uncommissioned designs — not client sites or case studies.
-- **Privacy/terms/cookies** are marked drafts, with `noindex` and excluded from the sitemap until the operator reviews, completes and approves them. Remove `noindex` after completion.
-- **Business claims** avoid testimonials, client outcomes, made-up metrics and ranking guarantees.
-- **SEO**: 21 static routes, unique titles, descriptions, one H1, canonical URLs, internal links, sitemap, robots, 11 groups of root-to-nested redirects; guides/specialist pages nested under `/guides` and `/services`.
-- **Image optimisation**: Move production photography to local assets and generate multiple responsive sizes for performance.
-- **Visual QA**: Review desktop/tablet/mobile screenshots, tab/keyboard navigation, form behaviour and Lighthouse before launching.
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `FORM_ENDPOINT` | `https://formspree.io/f/xpqlvnaa` | Public Formspree form endpoint supplied by the owner. Set to an empty string to disable online enquiries. Do not use a project ID, deploy key or API key. |
+| `GA4_MEASUREMENT_ID` | empty | Analytics stays off unless a real `G-…` ID is supplied. When configured, it only loads after opt-in. |
+| `SITE_ENV` | `staging` | Only the exact value `production` enables indexing of non-legal pages. Keep staging builds unindexed. |
+| `SITE_URL` | `https://elderindex.co.uk` | HTTPS canonical origin. Confirm the intended canonical domain before launch. |
 
-## Editorial maintenance
+Staging builds use `noindex` in HTML and an `X-Robots-Tag` header. Robots permits crawling so search engines can see the noindex instruction. Production builds allow non-legal pages; privacy, terms and cookies remain draft/noindex. Staging protection is a crawler instruction, not access control. Use Cloudflare Access if the site must be private. Do not connect the live domain until the outstanding launch checks are completed.
 
-- `src/data.mjs`: headings, page copy, service lists, guides, meta titles/descriptions.
-- `src/template.mjs`: sections, card layouts, structured data, internal linking.
-- `src/styles.css`: complete design system and responsive styles.
-- `src/client.js`: mobile menu and contact email-draft behaviour.
-- `scripts/build.mjs`: writes final static HTML and SEO files.
+```bash
+# Verify the production variant locally, then restore staging:
+SITE_ENV=production npm run build
+SITE_ENV=production npm run check
+npm run build
+```
 
-The existing `joshfrasershaw/EI2.0` project is a different website and **must remain untouched**.
+## Form delivery and analytics
+
+Forms POST directly to Formspree. They validate fields, preserve input on failures, prevent duplicate submissions and show success only after a successful JSON response containing `ok: true`. The homepage uses name, email, optional organisation and message. Other enquiry forms retain the website and multi-select service fields.
+
+A genuine live submission and inbox receipt must be confirmed in Formspree and the recipient mailbox before production launch. Receiving a response in a simulated browser test is not inbox-delivery verification. No Formspree secret is required in this static site; configure recipient verification, spam protection, origin restrictions and notifications in the Formspree account.
+
+No GA4 ID has been supplied. When configured, equal-weight allow/reject controls store a preference in local storage for up to 180 days. Footer preferences allow changes. Analytics only records `generate_lead` after confirmed submission, and separate `email_click`/`phone_click` actions. Events do not include enquiry contents, addresses or phone numbers; page locations omit query strings. Review GA4 enhanced measurement settings to avoid automatic form/PII collection; disable form-interaction and outbound-click enhanced measurement unless independently reviewed. No phone number is invented or displayed; tracking supports `tel:` links if a real number is added later.
+
+## Content and assets
+
+- `src/data.mjs`: base page inventory, services and guide cards.
+- `src/editorial.mjs`: expanded service/guide content, worked examples, approved founder biography and contextual next steps.
+- `src/template.mjs`: semantic rendering, safe contextual links, navigation and forms.
+- `src/seo.mjs`: Organization, Person, WebSite, WebPage, BreadcrumbList, Article and Service relationships.
+- `src/config.mjs`: public build settings and validation.
+- `src/client.js`: navigation, POST forms and consent-gated measurement.
+- `src/styles.css`: design and responsive/accessibility styles.
+- `scripts/check.mjs`: generated-page, metadata, headings, schema, links, asset, redirect and sitemap checks.
+- `public/assets/fonts/`: self-hosted, OFL-licensed brand fonts; sources and licences included.
+- `scripts/social-card.html`: editable social-card artwork. Run `npm run social:build` to regenerate the 1200 × 630 PNG using Chromium.
+
+Guide publication/update dates refer to the actual 25 October 2026 source publication and revisions. They are **not** dates on which external platform terms were verified. Keep future content revisions and dates aligned.
+
+Photography still uses the original external Pexels URLs. Approved local photographs, source/permission records and responsive variants are outstanding. Do not replace them with invented client imagery. Current directory package features and commercial terms also require checking with the official platforms; the comparison deliberately avoids invented pricing or contractual claims.
+
+See [launch status and remaining checks](docs/launch-status.md). The separate `joshfrasershaw/EI2.0` repository is unrelated and must remain untouched.

@@ -1,6 +1,8 @@
 // Reconstructed from ElderIndex's Webflow page titles, descriptions and editorial copy.
 // No fabricated client outcomes, endorsements or rankings.
-export const baseUrl = 'https://elderindex.co.uk';
+import { config } from './config.mjs';
+import { applyEditorial } from './editorial.mjs';
+export const baseUrl = config.baseUrl;
 export const services = [
   {title:'Website design',href:'/services/website-design/',text:'Beautiful, accessible websites that make your care clear and the next step easier.',icon:'▣',tint:'lilac'},
   {title:'Search visibility',href:'/services/search-visibility/',text:'Practical SEO and useful content to help the right families discover your care.',icon:'⌁',tint:'sand'},
@@ -73,7 +75,7 @@ export const pages = [
     ['Directories and external profiles','Relevant home care directories and Google profiles should accurately reflect your services and contact details.','We support this work subject to platform access and agreed scope.'],
     ['Management as you grow','New services and towns may require changes to your website and profiles. Ongoing management is available separately if it is helpful.']
   ],faqs:[['Can you help a live-in care agency?','Yes, where the agency provides those services.'],['Should we create town pages?','Yes, when useful information and actual service coverage justify them.'],['Do we need a complete website rebuild?','Not necessarily. We can start with a review and recommend changes.']],related:['/services/home-care/','/services/website-design/','/guides/home-care-local-seo/'],cta:'Help more families understand the care you offer.'},
-  {path:'/about/',kind:'about',title:'About ElderIndex | Built on Real Care Experience',description:'Meet the founder of ElderIndex, with experience as a Deputy Care Home Manager, Care Home Manager and Operations Manager.',headline:'Care-sector experience. Applied to digital services.',intro:'Not an agency that has merely swapped “restaurant” for “care home” in its marketing copy.',sections:[
+  {path:'/about/',kind:'about',title:'About ElderIndex | Built on Real Care Experience',description:'Meet Josh Fraser-Shaw, founder of ElderIndex. Care home management, operations and customer relations experience inform our websites, SEO and enquiry journeys.',headline:'Care-sector experience. Applied to digital services.',intro:'Not an agency that has merely swapped “restaurant” for “care home” in its marketing copy.',sections:[
     ['Experience inside care businesses','Before creating ElderIndex, the founder worked as a Deputy Care Home Manager, then a Care Home Manager and later an Operations Manager.','This first-hand operational background informs how we think about families’ questions, admissions enquiries and the commercial realities of running care.'],
     ['Practical understanding, not borrowed authority','Running care services is different from marketing to care providers. We understand why fee information needs care, why enquiries must be appropriate and why accurate service details matter.','That is founder experience, not an ElderIndex client case study or a claim of proven agency results.'],
     ['Why ElderIndex exists','UK care businesses deserve thoughtful websites and search support that reflect the realities of their sector.','Our approach is to build useful websites, improve how they are discovered, and manage the digital details when that is valuable.'],
@@ -141,4 +143,5 @@ export const pages = [
     ['Before publication','Complete a live cookie audit, list purposes and retention, and link to current privacy and preference controls.']
   ]}
 ];
+applyEditorial(pages, guides);
 export const lookup = new Map(pages.map(p=>[p.path,p]));

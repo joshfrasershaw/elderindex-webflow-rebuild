@@ -6,8 +6,16 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "dev": "npm run build && npx --yes serve dist -l 4173",
-    "check": "node scripts/check.mjs"
+    "dev": "npm run build && python3 -m http.server 4173 -d dist",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/test.mjs",
+    "social:build": "node scripts/render-social.mjs"
   },
-  "engines": {"node": ">=18"}
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1"
+  }
 }
