@@ -36,3 +36,29 @@
 .contact-grid{align-items:start}.contact-copy h1{font-size:clamp(2.8rem,4.2vw,4.5rem);color:var(--deep)}.contact-copy .next-heading{font-size:clamp(2rem,3vw,2.8rem);margin:32px 0 20px}.contact-form>h2{font-size:2rem;margin-bottom:25px}.service-options{min-width:0;border:1px solid #ded7df;border-radius:12px;margin:0 0 20px;padding:18px 16px}.service-options legend{font-size:.8rem;font-weight:700;color:#453747;padding:0 6px}.service-options-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px}.contact-form .service-option{display:flex;align-items:flex-start;gap:10px;margin:0;min-height:44px;padding:8px 0;cursor:pointer;line-height:1.5}.contact-form .service-option input{appearance:auto;flex:0 0 18px;width:18px;height:18px;margin:0;padding:0;accent-color:#452b51;cursor:pointer}.contact-form .service-option span{color:#453747}.contact-form .form-privacy{font-size:.73rem;color:#79707a;line-height:1.6;margin:16px 0 0}.form-privacy a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:850px){.contact-grid{grid-template-columns:1fr}.contact-copy p{max-width:none}}
 @media(max-width:600px){.service-options-grid{grid-template-columns:1fr}.contact-form>h2{font-size:1.8rem}}
+
+/* Spacious four-stage process */
+.process{padding:clamp(48px,6vw,100px) 0 34px;background:linear-gradient(110deg,#301c39,#45294b)}
+.process>.wrap,.process+.midcta>.wrap{width:min(1440px,80%)}
+.process>.wrap{min-height:clamp(560px,68svh,850px);display:flex;flex-direction:column}
+.process-head{display:grid;grid-template-columns:1.65fr 1fr;gap:clamp(48px,9vw,150px);align-items:center}
+.process-head h2{font-size:clamp(2.8rem,4vw,4.6rem);line-height:1.08;letter-spacing:-.025em}
+.process-head>p{max-width:390px;font-size:clamp(1rem,1.22vw,1.3rem);line-height:1.65;margin:0;color:#eee4ed}
+.process-steps{list-style:none;padding:0;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(24px,3vw,54px);margin:clamp(56px,5vw,92px) 0 0}
+.process .step{display:block;min-width:0}
+.step-marker{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px;gap:18px}
+.process .step-num{width:clamp(58px,4vw,76px);height:clamp(58px,4vw,76px);flex:none;font:700 1.9rem/1 var(--serif)}
+.process .step-1{background:#e8deef}.process .step-2{background:#f4dfb4}.process .step-3{background:#d4e9f4}.process .step-4{background:#e0edcf}
+.step-arrow{font-size:2rem;line-height:1;color:#b99fae;margin-right:0;font-family:Arial,sans-serif}
+.process .step h3{font:700 clamp(1.4rem,1.85vw,2.2rem)/1.18 var(--serif);margin:0 0 16px;letter-spacing:-.02em}
+.process .step p{font-size:clamp(.98rem,1.13vw,1.22rem);line-height:1.7;color:#eee3ed;margin:0}
+.process-links{display:flex;flex-wrap:wrap;gap:20px 44px;margin-top:auto;padding-top:clamp(56px,6vw,110px)}
+.process-links .text-link{font-size:clamp(1rem,1.12vw,1.2rem);color:var(--gold);border-bottom:2px solid #b18d44;padding-bottom:6px}
+.process+.midcta{position:relative;overflow:hidden;background:linear-gradient(110deg,#301c39,#45294b);padding:30px 0}
+.process+.midcta::after{content:'';position:absolute;width:280px;height:280px;border:1px solid #d1ac6055;border-radius:50%;right:-25px;top:-110px;pointer-events:none}
+.process+.midcta .midcta-inner{position:relative;z-index:1;gap:35px}
+.process+.midcta h2{font-size:clamp(1.65rem,2.35vw,2.9rem)}
+.process+.midcta p{font-size:clamp(.95rem,1.05vw,1.15rem)}
+.process+.midcta .pill{font-size:.95rem;padding:18px 26px}
+@media(max-width:1000px){.process>.wrap,.process+.midcta>.wrap{width:calc(100% - 64px)}.process-head{grid-template-columns:1.4fr 1fr;gap:35px}.process-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}.process .step h3{font-size:1.7rem}.process .step:nth-child(2) .step-arrow{visibility:hidden}.process+.midcta .midcta-inner{align-items:flex-start;flex-direction:column}}
+@media(max-width:600px){.process{padding:52px 0 40px}.process>.wrap,.process+.midcta>.wrap{width:calc(100% - 38px)}.process>.wrap{min-height:0}.process-head{display:block}.process-head h2{font-size:2.5rem;margin-bottom:24px}.process-head h2 br{display:none}.process-head>p{font-size:1rem}.process-steps{grid-template-columns:1fr;margin-top:42px;gap:34px}.step-marker{margin-bottom:18px}.process .step-arrow{display:none}.process .step h3{font-size:1.65rem;margin-bottom:12px}.process .step p{font-size:1rem;max-width:35ch}.process-links{padding-top:42px;gap:20px}.process+.midcta{padding:30px 0 34px}.process+.midcta h2{font-size:2rem}.process+.midcta .pill{white-space:normal;text-align:center}.process+.midcta p{margin:0}}
