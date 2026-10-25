@@ -1,0 +1,13 @@
+{
+  "name": "elderindex-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent ElderIndex website, built from the 2026 Webflow design and content",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && npx --yes serve dist -l 4173",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {"node": ">=18"}
+}

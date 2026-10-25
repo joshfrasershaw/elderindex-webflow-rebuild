@@ -1,0 +1,4 @@
+import fs from 'node:fs';import path from 'node:path';import {pages,lookup} from '../src/data.mjs';
+const root='dist';let failures=[];let count=0;const allPaths=new Set(pages.map(p=>p.path));
+for(const p of pages){const f=path.join(root,p.path,'index.html');if(!fs.existsSync(f)){failures.push(`Missing: ${p.path}`);continue}const html=fs.readFileSync(f,'utf8');const heads=[...html.matchAll(/<h1(?:\s[^>]*)?>/g)];if(heads.length!==1)failures.push(`${p.path} has ${heads.length} H1 headings`);const links=[...html.matchAll(/href="(\/[^"#?]*)"/g)];for(const [,href] of links){if(href.startsWith('/assets/'))continue;if(!allPaths.has(href))failures.push(`${p.path} broken internal link to ${href}`)}if(!html.includes('rel="canonical"'))failures.push(`${p.path} missing canonical`);count++;}
+console.log(`${count} pages checked; ${failures.length} issues`);if(failures.length){for(const f of failures.slice(0,50))console.error(f);process.exit(1)}
