@@ -10,7 +10,6 @@
     const setOpen = open => {
       clearTimeout(closeTimer);
       toggle.setAttribute('aria-expanded', String(open));
-      toggle.setAttribute('aria-label', open ? 'Hide services' : 'Show services');
       submenu.hidden = !open;
     };
     servicesDropdown.addEventListener('pointerenter', e => { if (e.pointerType === 'mouse') setOpen(true); });
