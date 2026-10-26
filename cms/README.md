@@ -111,4 +111,4 @@ Package choice was checked against the official Puck GitHub quickstart and API d
 
 ## Hosted adapter update
 
-A Cloudflare Workers adapter is now prepared separately under [hosted/](hosted/README.md), with Access JWT verification and durable cloud drafts/media. It has not been deployed. The local commands above continue to run the local editor; the hosted guide describes the separate browser-based deployment and its remaining account-access requirements. Public-site publishing remains disconnected in both modes.
+A Cloudflare Workers adapter is now prepared separately under [hosted/](hosted/README.md), with Access JWT verification and durable cloud drafts/media. The owner has deployed the hosted adapter through Cloudflare; login/dashboard corrections are being verified. The local commands above continue to run the local editor; the hosted guide describes the separate browser-based deployment and its remaining account-access requirements. Public-site publishing remains disconnected in both modes.

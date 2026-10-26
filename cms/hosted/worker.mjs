@@ -19,7 +19,7 @@ export default {async fetch(request,env){
   let identity;try{identity=await authenticate(request,env);}catch(error){const diagnostic=accessDiagnostic(error);console.warn('CMS Access rejected:',diagnostic.code);return secure(json(diagnostic,403));}
   const url=new URL(request.url);
   if(!['GET','HEAD'].includes(request.method)&&(request.headers.get('Origin')!==env.PUBLIC_ORIGIN||request.headers.get('X-CMS-CSRF')!==identity.csrf))return secure(json({error:'Reload the editor before saving; this request could not be verified.'},403));
-  if(url.pathname==='/api/bootstrap'&&request.method==='GET')return secure(json({...snapshot,originalHtml:undefined,initialData:undefined,media:undefined,csrf:identity.csrf,mode:'hosted',pageId:'website-design',email:identity.email}));
+  if(url.pathname==='/api/bootstrap'&&request.method==='GET')return secure(json({...snapshot,pages:snapshot.pageList,originalHtml:undefined,initialData:undefined,media:undefined,csrf:identity.csrf,mode:'hosted',pageId:'website-design',email:identity.email}));
   if(url.pathname.startsWith('/api/')||url.pathname.startsWith('/preview/')||url.pathname.startsWith('/cms-media/')){
    const headers=new Headers(request.headers);headers.delete('Cf-Access-Jwt-Assertion');headers.delete('Cookie');headers.set('X-CMS-Editor',identity.email);
    const response=await env.CMS_STATE.get(env.CMS_STATE.idFromName('elderindex')).fetch(new Request(request,{headers}));return secure(response);

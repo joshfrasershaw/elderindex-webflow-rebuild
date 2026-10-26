@@ -1,6 +1,6 @@
-# Hosted ElderIndex editor: prepared, not deployed
+# Hosted ElderIndex editor
 
-The local prototype now has a separate Cloudflare Workers deployment adapter. The live ElderIndex website remains hosted on Vercel. This editor is independent of the public site deployment and does not change the apex, www, portal or email DNS records.
+The editor has a separate Cloudflare Workers deployment adapter. Initial deployment was confirmed by the owner-supplied Cloudflare build log on 26 October 2026; post-deployment login/dashboard fixes and owner verification are tracked separately. The live ElderIndex website remains hosted on Vercel. This editor is independent of the public site deployment and does not change the apex, www, portal or email DNS records.
 
 ## Configured identity and destination
 
@@ -46,9 +46,9 @@ The CMS package pins Wrangler. If the dashboard-generated build token is restric
 
 If Cloudflare requests a paid plan or any additional purchase, stop rather than accepting automatically. Confirm that the existing Access policy remains attached to the same hostname.
 
-## Checks before declaring it live
+## Checks after deployment
 
-1. Build and run all CMS tests. Run `npm run cms:hosted:dry-run` to compile with Cloudflare's actual Wrangler bundler. A dry-run does not create resources or attach DNS.
+1. Build and run all CMS tests. `npm run cms:hosted:browser` checks the compiled dashboard, real Worker bootstrap API, signed test session, and editing/save/reload flow in a browser against local SQLite storage. Run `npm run cms:hosted:dry-run` to compile with Cloudflare's actual Wrangler bundler. A dry-run does not create resources or attach DNS.
 2. Deploy using the separate CMS configuration. Verify that only the CMS hostname is attached; leave existing Vercel/email records unchanged.
 3. Open a private browser window: the CMS must require Access authentication. An unapproved account must be denied.
 4. Sign in with an approved account. Verify dashboard, images, inline text, section movement, mobile previews, upload, Save draft, page reload and download backup.

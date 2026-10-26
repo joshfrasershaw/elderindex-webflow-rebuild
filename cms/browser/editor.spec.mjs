@@ -34,3 +34,10 @@ test('hosted mode shows cloud storage and converts uploads in the browser',async
  await page.goto('/edit/website-design');await expect(page.getByText('PRIVATE CMS',{exact:true})).toBeVisible();await expect(page.getByText('Private drafts are saved in Cloudflare. The live website is unchanged.')).toBeVisible();await canvas(page).locator('h1').click();
  const image=await sharp({create:{width:1800,height:1200,channels:3,background:'#452b52'}}).png().toBuffer();const sent=page.waitForRequest(r=>r.url().endsWith('/api/media')&&r.method()==='POST');await page.locator('input[aria-label="Upload replacement image"]:visible').setInputFiles({name:'large.png',mimeType:'image/png',buffer:image});const request=await sent;expect(request.headers()['content-type']).toBe('image/webp');await expect(canvas(page).locator('section.cms-section').first().locator('img').first()).toHaveAttribute('src',/^\/cms-media\//);
 });
+
+test('startup failures show an error and reload control instead of a blank interface',async({page})=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));let denied=true;
+ await page.route('**/api/bootstrap',async route=>{if(denied)return route.fulfill({status:403,json:{error:'Sign in again',code:'ACCESS_SESSION_EXPIRED'}});const response=await route.fetch();const body=await response.json();delete body.pages;return route.fulfill({json:body});});
+ await page.goto('/');await expect(page.getByRole('alert')).toContainText('ACCESS_SESSION_EXPIRED');await expect(page.getByRole('button',{name:'Reload editor',exact:true})).toBeVisible();
+ denied=false;await page.reload();await expect(page.getByRole('alert')).toContainText('incomplete page data');await expect(page.getByRole('heading',{name:'ElderIndex',exact:true})).toBeVisible();expect(errors).toEqual([]);
+});
