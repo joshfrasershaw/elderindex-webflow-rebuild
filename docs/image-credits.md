@@ -1,15 +1,13 @@
 # Editorial image sources and placement record
 
-Reviewed 26 October 2026. All 29 photographs were visually reviewed and downloaded from Pexels. The [Pexels licence](https://www.pexels.com/license/) permits website use and modification; it does not permit implying endorsement by the people or brands pictured. The images illustrate care, domestic settings and digital work. They do not depict ElderIndex’s own premises, staff or clients, and the homes in design concepts are illustrative.
+Reviewed 26 October 2026. All 26 active stock photographs were visually reviewed and downloaded from Pexels. The [Pexels licence](https://www.pexels.com/license/) permits website use and modification; it does not permit implying endorsement by the people or brands pictured. The images illustrate care, domestic settings and digital work. They do not depict ElderIndex’s own premises, staff or clients, and the homes in design concepts are illustrative.
 
 Every source photograph appears in exactly one rendered placement across the whole site. This includes different photographs on the homepage and guide-hub cards, and different laptop/phone concept imagery. Responsive resolutions are variants of the same photograph, not additional images. Shared logos and social-sharing artwork are branding rather than editorial photographs.
 
-All responsive variants are local WebP files in `public/assets/photos/`. `src/imagery.json` is the maintained manifest: source IDs, photographers, source/licence URLs, review date, accurate alt descriptions, focal points, original hashes and variant hashes/dimensions. `src/imagery.mjs` renders each explicit page/slot assignment. `npm run check` rejects duplicate source IDs, duplicate originals, unused assignments and missing or changed assets. Browser tests decode all 29 at desktop and mobile widths.
+All responsive variants are local WebP files in `public/assets/photos/`. `src/imagery.json` is the maintained manifest: source IDs, photographers, source/licence URLs, review date, accurate alt descriptions, focal points, original hashes and variant hashes/dimensions. `src/imagery.mjs` renders each explicit page/slot assignment. `npm run check` rejects duplicate source IDs, duplicate originals, unused assignments and missing or changed assets. Browser tests decode all 26 stock photographs and both uploaded hero graphics at desktop and mobile widths.
 
 | Page | Placement | Pexels photo | Photographer |
 | --- | --- | --- | --- |
-| / | laptop | [37291570](https://www.pexels.com/photo/charming-english-cottage-with-lush-garden-37291570/) | Neville Hawkins |
-| / | phone | [28539228](https://www.pexels.com/photo/modern-living-room-with-indoor-outdoor-design-28539228/) | Damm aaaa |
 | / | story | [8088906](https://www.pexels.com/photo/elderly-couple-smiling-while-looking-at-each-other-8088906/) | Yaroslav Shuraev |
 | / | residential-concept | [37095303](https://www.pexels.com/photo/charming-brick-house-with-floral-vine-exterior-37095303/) | Neville Hawkins |
 | / | domiciliary-concept | [7551686](https://www.pexels.com/photo/a-man-and-a-woman-assisting-an-elderly-man-in-standing-7551686/) | Kampus Production |
@@ -17,7 +15,6 @@ All responsive variants are local WebP files in `public/assets/photos/`. `src/im
 | / | Guide: home-care-local-seo | [8062289](https://www.pexels.com/photo/gray-laptop-beside-white-printer-paper-8062289/) | Nataliya Vaitkevich |
 | / | Guide: care-directory-comparison | [6248436](https://www.pexels.com/photo/smiling-senior-using-tablet-6248436/) | Kampus Production |
 | /services/ | overview | [8584020](https://www.pexels.com/photo/brown-couch-in-the-living-room-8584020/) | Curtis Adams |
-| /services/website-design/ | hero | [7027771](https://www.pexels.com/photo/the-interior-of-a-living-room-of-a-house-7027771/) | Curtis Adams |
 | /services/website-design/ | interlude | [4443134](https://www.pexels.com/photo/a-man-writing-on-the-notebook-4443134/) | Polina Tankilevitch |
 | /services/search-visibility/ | interlude | [7947999](https://www.pexels.com/photo/person-using-black-and-gray-laptop-7947999/) | RDNE Stock project |
 | /services/website-management/ | interlude | [7679449](https://www.pexels.com/photo/a-woman-making-a-content-plan-using-a-laptop-7679449/) | MART  PRODUCTION |
@@ -37,3 +34,13 @@ All responsive variants are local WebP files in `public/assets/photos/`. `src/im
 | /guides/ | Guide: carehome-co-uk-profile | [37441096](https://www.pexels.com/photo/beautiful-english-cottage-garden-in-bloom-37441096/) | Neville Hawkins |
 | /guides/ | Guide: google-business-profile-care | [6972643](https://www.pexels.com/photo/photo-of-an-elderly-man-writing-6972643/) | Mikhail Nilov |
 | /guides/ | Guide: multi-location-home-care-seo | [8145328](https://www.pexels.com/photo/persons-using-laptops-on-table-with-charts-8145328/) | olia danilevich |
+
+## Owner-provided hero graphics
+
+The owner uploaded these original files through GitHub. They are used as supplied, with their complete laptop/phone compositions visible and no cropping:
+
+- `public/assets/3129.png`: Riverside House, homepage hero.
+- `public/assets/3127.jpg`: The Oaklands, Website Design service hero. A CSS silhouette mask removes the surplus black JPEG canvas while preserving its screen colours; the original file is unchanged.
+- `public/assets/3128.png`: Hawthorn Hall, retained without assigning a page yet.
+
+These concept graphics replace three previous stock-photo slots: the homepage laptop and phone, and the Website Design hero. Other pages retain their own distinct editorial photographs. The current uploaded graphics are 512 pixels wide; use higher-resolution originals if the owner later supplies them, without inventing additional detail.

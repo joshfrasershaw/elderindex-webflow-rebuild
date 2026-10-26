@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pages, baseUrl } from '../src/data.mjs';
 import { config } from '../src/config.mjs';
-import { imagery } from '../src/imagery.mjs';
+import { imagery, heroConcepts } from '../src/imagery.mjs';
 import { createHash } from 'node:crypto';
 const root=path.resolve('dist'), issues=[], titles=new Set(), descriptions=new Set();
 const urls=new Set(pages.map(p=>p.path));
@@ -81,7 +81,15 @@ for(const [key,photo] of Object.entries(imagery)){
     else if(createHash('sha256').update(fs.readFileSync(file)).digest('hex')!==variant.sha256)fail('imagery','Asset differs from reviewed file '+variant.src);
   }
 }
+const usedConcepts=[];
+for(const [route,html] of htmlByPath)for(const match of (html||'').matchAll(/data-concept-id="([^"]+)" src="([^"]+)"/g)){
+  const [,key,src]=match;
+  if(usedConcepts.includes(key))fail(route,'Concept graphic reused '+key);
+  usedConcepts.push(key);
+  if(heroConcepts[key]?.src!==src||!fs.existsSync(path.join(root,src)))fail(route,'Missing or incorrect uploaded concept '+key);
+}
+if(usedConcepts.length!==Object.keys(heroConcepts).length)fail('hero concepts','Every uploaded hero assignment must be used once');
 const png=fs.readFileSync(path.join(root,'assets/elderindex-social.png'));
 if(png.readUInt32BE(16)!==1200||png.readUInt32BE(20)!==630)fail('social image','Expected 1200 × 630 PNG');
-console.log(`${pages.length} pages checked; ${issues.length} issues. Checked metadata, headings, schema, links, assets, sitemap, robots and ${redirects.length} redirect rules; ${seenPhotos.size} unique photographs.`);
+console.log(`${pages.length} pages checked; ${issues.length} issues. Checked metadata, headings, schema, links, assets, sitemap, robots and ${redirects.length} redirect rules; ${seenPhotos.size} unique photographs and ${usedConcepts.length} uploaded hero graphics.`);
 if(issues.length){issues.forEach(x=>console.error(x));process.exit(1);}

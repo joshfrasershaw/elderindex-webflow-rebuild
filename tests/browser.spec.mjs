@@ -1,6 +1,7 @@
 import AxeBuilder from '@axe-core/playwright';
 import {test,expect} from '@playwright/test';
 import {pages} from '../src/data.mjs';
+import {imagery,heroConcepts} from '../src/imagery.mjs';
 const endpoint='https://formspree.io/f/xpqlvnaa';
 test.beforeEach(async({page})=>{
   await page.route(/^https:\/\/(fonts\.|images\.pexels|www\.googletagmanager|www\.google-analytics)/,route=>route.fulfill({status:200,body:'',contentType:'text/plain'}));
@@ -100,11 +101,11 @@ test('crawl every page at desktop and mobile widths without JS exceptions or mis
       await page.goto(p.path);await expect(page.locator('h1')).toHaveCount(1);
       expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${p.path} overflow at ${width}`).toBe(true);
       for(const input of await page.locator('form input,form textarea').all())expect(await input.evaluate(e=>Boolean(e.labels?.length)),p.path+' field label').toBe(true);
-      const photos=await page.locator('img[data-photo-id]').evaluateAll(async images=>{for(const img of images){img.loading='eager';await img.decode();if(!img.naturalWidth)throw new Error('Undecodable photograph '+img.src);}return images.map(img=>({id:img.dataset.photoId,local:new URL(img.currentSrc).origin===location.origin,rendered:img.getBoundingClientRect().width>0&&img.getBoundingClientRect().height>0}));});
+      const photos=await page.locator('img[data-photo-id],img[data-concept-id]').evaluateAll(async images=>{for(const img of images){img.loading='eager';await img.decode();if(!img.naturalWidth)throw new Error('Undecodable photograph '+img.src);}return images.map(img=>({id:img.dataset.photoId||('concept:'+img.dataset.conceptId),local:new URL(img.currentSrc).origin===location.origin,rendered:img.getBoundingClientRect().width>0&&img.getBoundingClientRect().height>0}));});
       for(const photo of photos){expect(seenPhotos.has(photo.id),'Repeated photo '+photo.id).toBe(false);seenPhotos.add(photo.id);expect(photo.local&&photo.rendered,'Local visible photo '+photo.id).toBe(true);}
       const tables=page.locator('.table-scroll');for(const table of await tables.all())expect(await table.evaluate(e=>e.clientWidth<=document.documentElement.clientWidth)).toBe(true);
     }
-    expect(seenPhotos.size).toBe(29);
+    expect(seenPhotos.size).toBe(Object.keys(imagery).length+Object.keys(heroConcepts).length);
   }
   expect(errors).toEqual([]);
 });

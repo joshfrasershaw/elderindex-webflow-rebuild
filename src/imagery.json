@@ -1,76 +1,4 @@
 {
-  "/::laptop": {
-    "page": "/",
-    "slot": "laptop",
-    "sourceId": 37291570,
-    "alt": "A red-brick house set among lawns and mature trees.",
-    "position": "50% 50%",
-    "source": "https://www.pexels.com/photo/charming-english-cottage-with-lush-garden-37291570/",
-    "photographer": "Neville Hawkins",
-    "license": "https://www.pexels.com/license/",
-    "licenseChecked": "2026-10-26",
-    "download": "https://images.pexels.com/photos/37291570/pexels-photo-37291570.jpeg?auto=compress&cs=tinysrgb&w=1440",
-    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
-    "originalSha256": "7e100d5eb21b3a420a4f7ca10d46baf0b731d5f016a107c682dacf0cdcc802e8",
-    "width": 1440,
-    "height": 1050,
-    "variants": [
-      {
-        "width": 480,
-        "height": 350,
-        "src": "/assets/photos/37291570-480.webp",
-        "sha256": "afb3cca334e11910eccb1624b4d5d928f57c3056d2b0cb685c6875811612384c"
-      },
-      {
-        "width": 960,
-        "height": 700,
-        "src": "/assets/photos/37291570-960.webp",
-        "sha256": "2c7677354e382373cb99530a5a4202d5710410ebe995f00d3dd5edc2b9e13203"
-      },
-      {
-        "width": 1440,
-        "height": 1050,
-        "src": "/assets/photos/37291570-1440.webp",
-        "sha256": "d596224d86ea429faf21e24cfe469828923fc19b5081907bb7a9a101a7fc43ce"
-      }
-    ]
-  },
-  "/::phone": {
-    "page": "/",
-    "slot": "phone",
-    "sourceId": 28539228,
-    "alt": "A sitting room with a sofa and a window looking onto greenery.",
-    "position": "50% 50%",
-    "source": "https://www.pexels.com/photo/modern-living-room-with-indoor-outdoor-design-28539228/",
-    "photographer": "Damm aaaa",
-    "license": "https://www.pexels.com/license/",
-    "licenseChecked": "2026-10-26",
-    "download": "https://images.pexels.com/photos/28539228/pexels-photo-28539228.jpeg?auto=compress&cs=tinysrgb&w=1440",
-    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
-    "originalSha256": "b4aa020b25c0a6448cda8ec02f6ee50d47e6dccb9db071606ec9cce620177b45",
-    "width": 1440,
-    "height": 2160,
-    "variants": [
-      {
-        "width": 480,
-        "height": 720,
-        "src": "/assets/photos/28539228-480.webp",
-        "sha256": "f09f3141890075f8fe5100d68597ae3240e488a871c0224bb5ea035fe6ce6cc9"
-      },
-      {
-        "width": 960,
-        "height": 1440,
-        "src": "/assets/photos/28539228-960.webp",
-        "sha256": "8ba9ce0aed678185283b777bd62b2fb06ce7af240ec8c1edde89f56c93d627c1"
-      },
-      {
-        "width": 1440,
-        "height": 2160,
-        "src": "/assets/photos/28539228-1440.webp",
-        "sha256": "8a29e491e783e4a13764d6f0d4d3ac353b0db3be78dfb37d53389561758552ad"
-      }
-    ]
-  },
   "/::story": {
     "page": "/",
     "slot": "story",
@@ -320,42 +248,6 @@
         "height": 960,
         "src": "/assets/photos/8584020-1440.webp",
         "sha256": "6c23181fa459d982a1c22cd1fa969fc5c3f04767088ccdb10b561e7dcb212092"
-      }
-    ]
-  },
-  "/services/website-design/::hero": {
-    "page": "/services/website-design/",
-    "slot": "hero",
-    "sourceId": 7027771,
-    "alt": "A light sitting room arranged around a fireplace.",
-    "position": "50% 50%",
-    "source": "https://www.pexels.com/photo/the-interior-of-a-living-room-of-a-house-7027771/",
-    "photographer": "Curtis Adams",
-    "license": "https://www.pexels.com/license/",
-    "licenseChecked": "2026-10-26",
-    "download": "https://images.pexels.com/photos/7027771/pexels-photo-7027771.jpeg?auto=compress&cs=tinysrgb&w=1440",
-    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
-    "originalSha256": "1e6f629465f05ef636f5f0e8fb53f90d93cd52733c64663bb4d5ebe96e92dfa5",
-    "width": 1440,
-    "height": 960,
-    "variants": [
-      {
-        "width": 480,
-        "height": 320,
-        "src": "/assets/photos/7027771-480.webp",
-        "sha256": "da4a636c4e019c2d053ccc0156af97ad2bf6791b115226e5709f05d518006b2e"
-      },
-      {
-        "width": 960,
-        "height": 640,
-        "src": "/assets/photos/7027771-960.webp",
-        "sha256": "210c8106d1372de2ffd02da80d30e215bc2dd4e1beb44d389e4a01d327d9beac"
-      },
-      {
-        "width": 1440,
-        "height": 960,
-        "src": "/assets/photos/7027771-1440.webp",
-        "sha256": "86acbc40ce9f69eab9ee8caea8a2d6142d9ca3cf2c7813ea02c87c1461bbcd10"
       }
     ]
   },

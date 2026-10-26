@@ -104,3 +104,11 @@
 .ornament-flipped{transform:rotate(180deg)}
 @media(max-width:1350px){.ornament-duet>span:first-child{width:140px;height:140px;right:-112px}.ornament-duet>span:last-child{width:140px;height:140px;right:-96px}.ornament-rings>span:first-child{left:-295px}.ornament-rings>span:last-child{right:-375px}}
 @media(max-width:600px){.ornament-rings>span:first-child{width:210px;height:210px;left:-195px;top:24px;border-color:#54315d26}.ornament-rings>span:last-child{width:260px;height:260px;right:-243px;bottom:32px;border-color:#54315d26}.ornament-duet>span:first-child{width:120px;height:120px;right:-104px;top:44px;background:#5e3e7015}.ornament-duet>span:last-child{width:120px;height:120px;right:-98px;top:28px;border-color:#bd954c80}.ornament-soft>span:first-child{width:260px;height:260px;right:-170px;bottom:-80px}.ornament-soft>span:last-child{width:220px;height:220px;right:-204px;top:25px}}
+
+/* Owner-supplied laptop/phone concepts: show the complete graphics without cropping. */
+.device-scene-uploaded{height:auto;aspect-ratio:512/341;min-height:0}
+.uploaded-concept{display:block;width:100%;height:auto;object-fit:contain}
+.service-device-figure{margin:0;min-width:0;width:100%}
+.service-device-figure .concept-disclosure{margin:14px 0 0;font-size:.75rem;line-height:1.5;color:#eee2ef}
+/* Mask the JPEG’s surplus black canvas while preserving the original device/screen colours. */
+.uploaded-concept-jpeg{mask-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20342%22%3E%3Crect%20x%3D%2230%22%20y%3D%2215%22%20width%3D%22424%22%20height%3D%22296%22%20rx%3D%2218%22%20fill%3D%22white%22%2F%3E%3Cpath%20d%3D%22M5%20300H402V322H27Q5%20322%205%20314Z%22%20fill%3D%22white%22%2F%3E%3Crect%20x%3D%22397%22%20y%3D%2283%22%20width%3D%22112%22%20height%3D%22244%22%20rx%3D%2222%22%20fill%3D%22white%22%2F%3E%3C%2Fsvg%3E");mask-size:100% 100%;mask-repeat:no-repeat}
