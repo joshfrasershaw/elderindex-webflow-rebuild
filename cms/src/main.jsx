@@ -16,7 +16,7 @@ class EditorBoundary extends React.Component{
 }
 function App(){
   const[bootstrap,setBootstrap]=useState(null),[record,setRecord]=useState(null),[assets,setAssets]=useState([]),[error,setError]=useState(''),[notice,setNotice]=useState(''),[busy,setBusy]=useState(false),[dirty,setDirty]=useState(false),[query,setQuery]=useState(''),[history,setHistory]=useState([]),[showHistory,setShowHistory]=useState(false);
-  const current=useRef(null),baseline=useRef(''),revision=useRef(0);const route=location.pathname;
+  const current=useRef(null),baseline=useRef(''),revision=useRef(0);const route=location.pathname.replace(/\/+$/,'')||'/';
   const request=useCallback(async(url,{method='GET',data,body,contentType}={})=>{const res=await fetch(url,{method,headers:{...(method!=='GET'?{'X-CMS-CSRF':bootstrap?.csrf,...(contentType?{'Content-Type':contentType}:data?{'Content-Type':'application/json'}:{})}: {})},...(data?{body:JSON.stringify(data)}:body?{body}:{})});return readResponse(res);},[bootstrap]);
   useEffect(()=>{Promise.all([fetch('/api/bootstrap').then(readResponse),fetch('/api/pages/website-design').then(readResponse),fetch('/api/media').then(readResponse)]).then(([boot,draft,media])=>{
     if(!Array.isArray(boot?.pages)||boot.pages.some(p=>typeof p?.title!=='string'||typeof p?.path!=='string')||!boot.templates||!boot.shell||typeof boot.csrf!=='string'||!draft?.data?.root?.props||!Array.isArray(draft.data.content)||!Number.isInteger(draft.revision)||!Array.isArray(media))throw new Error('The editor received incomplete page data. Please reload or try again shortly.');

@@ -2,6 +2,7 @@ import {authenticate,secure,accessDiagnostic} from './auth.mjs';
 import snapshot from './.generated/snapshot.json' with {type:'json'};
 import {validateData,renderPreview} from './.generated/model.mjs';
 import {zipSync} from 'fflate';
+const editorPaths=new Set(['/','/media','/settings','/edit/website-design']);
 const json=(value,status=200)=>Response.json(value,{status});
 const failure=(message,status=400)=>Object.assign(new Error(message),{status});
 async function bytes(request,max){const reader=request.body?.getReader();if(!reader)return new Uint8Array();const chunks=[];let length=0;while(true){const {done,value}=await reader.read();if(done)break;length+=value.length;if(length>max){await reader.cancel();throw failure('The request is too large.',413);}chunks.push(value);}const out=new Uint8Array(length);let offset=0;for(const chunk of chunks){out.set(chunk,offset);offset+=chunk.length;}return out;}
@@ -26,9 +27,10 @@ export default {async fetch(request,env){
   }
   if(!['GET','HEAD'].includes(request.method))return secure(json({error:'Method not allowed'},405));
   // The Worker executes first for every asset, including JS, images and fallback URLs.
-  let asset=await env.ASSETS.fetch(request);
-  if(asset.status===404&&['/','/media','/settings','/edit/website-design'].includes(url.pathname))asset=await env.ASSETS.fetch(new Request(new URL('/index.html',url),request));
-  return secure(asset);
+  // /index.html is canonicalised to / by Cloudflare's HTML asset handler.
+  // Fetch the shell at its canonical asset URL, preserving the browser's route.
+  if(editorPaths.has(url.pathname.replace(/\/+$/,'')||'/'))return secure(await env.ASSETS.fetch(new Request(new URL('/',url),request)));
+  return secure(await env.ASSETS.fetch(request));
  }catch(error){console.error('CMS hosted request failed',error.message);return secure(json({error:'The editor is temporarily unavailable. Your previous saved draft is retained.'},503));}
 }};
 export class CmsState{

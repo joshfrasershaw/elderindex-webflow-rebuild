@@ -48,7 +48,7 @@ If Cloudflare requests a paid plan or any additional purchase, stop rather than 
 
 ## Checks after deployment
 
-1. Build and run all CMS tests. `npm run cms:hosted:browser` checks the compiled dashboard, real Worker bootstrap API, signed test session, and editing/save/reload flow in a browser against local SQLite storage. Run `npm run cms:hosted:dry-run` to compile with Cloudflare's actual Wrangler bundler. A dry-run does not create resources or attach DNS.
+1. Build and run all CMS tests. `npm run cms:hosted:browser` checks the compiled dashboard, the real Cloudflare static-assets handler and its redirects, signed test sessions, Media/Settings/Edit links, private media upload/reload, and editing/save/reload against local SQLite storage. Run `npm run cms:hosted:dry-run` to compile with Cloudflare's actual Wrangler bundler. A dry-run does not create resources or attach DNS.
 2. Deploy using the separate CMS configuration. Verify that only the CMS hostname is attached; leave existing Vercel/email records unchanged.
 3. Open a private browser window: the CMS must require Access authentication. An unapproved account must be denied.
 4. Sign in with an approved account. Verify dashboard, images, inline text, section movement, mobile previews, upload, Save draft, page reload and download backup.
