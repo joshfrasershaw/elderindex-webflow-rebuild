@@ -117,3 +117,41 @@ test('representative pages pass automated WCAG A/AA accessibility checks',async(
     expect(results.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),path).toEqual([]);
   }
 });
+
+test('commercial entry pages keep a direct enquiry route',async({page})=>{
+  const destinations=pages.filter(p=>p.kind==='service'||p.kind==='services').map(p=>p.path);
+  for(const path of destinations){
+    await page.goto(path);
+    const enquiry=page.locator('.page-hero a[href="/talk-to-us/"]').first();
+    await expect(enquiry,path).toBeVisible();
+  }
+});
+
+test('SEO readers can compare design and management without losing the direct SEO enquiry',async({page})=>{
+  for(const path of ['/services/care-home-seo/','/services/home-care/']){
+    await page.goto(path);
+    await expect(page.locator('.page-hero a[href="/talk-to-us/"]').first()).toBeVisible();
+    await page.locator('.service-copy-block a[href="/services/website-design/"]').click();
+    await expect(page).toHaveURL(/\/services\/website-design\/$/);
+    await page.locator('.service-copy-block a[href="/services/website-management/"]').click();
+    await expect(page).toHaveURL(/\/services\/website-management\/$/);
+    await page.locator('.service-copy-block a[href="/services/website-design/"]').click();
+    await page.locator('.page-hero a[href="/talk-to-us/"]').first().click();
+    await expect(page.locator('form[data-enquiry-form="contact"]')).toBeVisible();
+  }
+});
+
+test('guides retain SEO implementation routes and offer relevant complementary services',async({page})=>{
+  await page.goto('/guides/home-care-local-seo/');
+  await page.locator('.guide-block a[href="/services/home-care/"]').click();
+  await expect(page).toHaveURL(/\/services\/home-care\/$/);
+  await page.goto('/guides/home-care-local-seo/');
+  await page.locator('.guide-block a[href="/services/website-management/"]').click();
+  await expect(page).toHaveURL(/\/services\/website-management\/$/);
+  await page.locator('.page-hero a[href="/talk-to-us/"]').first().click();
+  await expect(page.locator('form[data-enquiry-form="contact"]')).toBeVisible();
+  await page.goto('/guides/care-directory-comparison/');
+  await expect(page.locator('.guide-block a[href="/services/care-directory-management/"]')).toHaveCount(1);
+  await page.locator('.guide-block a[href="/services/website-design/"]').click();
+  await expect(page).toHaveURL(/\/services\/website-design\/$/);
+});

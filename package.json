@@ -9,7 +9,8 @@
     "dev": "npm run build && python3 -m http.server 4173 -d dist",
     "check": "node scripts/check.mjs",
     "test": "node scripts/test.mjs",
-    "social:build": "node scripts/render-social.mjs"
+    "social:build": "node scripts/render-social.mjs",
+    "audit:links": "python3 scripts/audit-internal-links.py"
   },
   "engines": {
     "node": ">=18"

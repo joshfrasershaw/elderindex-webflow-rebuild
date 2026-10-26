@@ -72,3 +72,11 @@ Guide publication/update dates refer to the actual 25 October 2026 source public
 The site uses 26 distinct, locally hosted Pexels photographs, with three responsive WebP sizes per image, plus two owner-supplied hero graphics. Riverside House (`3129.png`) is used on the homepage; The Oaklands (`3127.jpg`) is used on Website Design. Hawthorn Hall (`3128.png`) is retained for a future placement. Every editorial photograph is assigned to one placement only. Source/licence records and photographer credits are in [image credits](docs/image-credits.md). Stock imagery is illustrative, not a claim of client work or a portrait of the ElderIndex team. Current directory package features and commercial terms also require checking with the official platforms; the comparison deliberately avoids invented pricing or contractual claims.
 
 See [launch status and remaining checks](docs/launch-status.md). The separate `joshfrasershaw/EI2.0` repository is unrelated and must remain untouched.
+
+## Permanent SEO guidance and publication
+
+Future SEO audits and content changes must follow [commercial strategy](docs/seo/strategy.md) and [internal linking/cross-selling guidance](docs/seo/internal-linking.md), as required by [AGENTS.md](AGENTS.md). Significant changes belong in the [SEO activity log](docs/seo/activity-log.md).
+
+Run `npm run build`, then `npm run audit:links -- --output /tmp/elderindex-links.json` for a placement-aware rendered-site audit. Use `--compare` with a pre-change report to inspect removed links and metadata changes. Design and management have commercial priority, while each page retains its own search intent and useful SEO links.
+
+SEO changes are prepared locally for review. Pushing `main` automatically triggers Cloudflare; do not push or deploy a review draft without an explicit publication instruction.
