@@ -1,4 +1,4 @@
-import {authenticate,secure} from './auth.mjs';
+import {authenticate,secure,accessDiagnostic} from './auth.mjs';
 import snapshot from './.generated/snapshot.json' with {type:'json'};
 import {validateData,renderPreview} from './.generated/model.mjs';
 import {zipSync} from 'fflate';
@@ -16,7 +16,7 @@ export function webpDimensions(b){
 }
 export default {async fetch(request,env){
  try{
-  let identity;try{identity=await authenticate(request,env);}catch{ return secure(json({error:'Sign in through the configured Cloudflare Access application. The CMS denies access until its Access configuration is complete.'},403)); }
+  let identity;try{identity=await authenticate(request,env);}catch(error){const diagnostic=accessDiagnostic(error);console.warn('CMS Access rejected:',diagnostic.code);return secure(json(diagnostic,403));}
   const url=new URL(request.url);
   if(!['GET','HEAD'].includes(request.method)&&(request.headers.get('Origin')!==env.PUBLIC_ORIGIN||request.headers.get('X-CMS-CSRF')!==identity.csrf))return secure(json({error:'Reload the editor before saving; this request could not be verified.'},403));
   if(url.pathname==='/api/bootstrap'&&request.method==='GET')return secure(json({...snapshot,originalHtml:undefined,initialData:undefined,media:undefined,csrf:identity.csrf,mode:'hosted',pageId:'website-design',email:identity.email}));

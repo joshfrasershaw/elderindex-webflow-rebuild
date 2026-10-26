@@ -27,3 +27,11 @@ The prepared Cloudflare adapter passes six security/state checks: signed Access 
 Cloudflare Wrangler 4.152.0 compiles the deployment successfully in dry-run mode. A local workerd smoke test verifies unauthenticated asset rejection, saving/reloading the actual SQLite-backed Durable Object and rendering its saved HTML preview. No account resources or DNS records were changed by these tests. The public source/build scripts/Worker configuration remain unchanged.
 
 Live Access redirects, identity-provider behavior, Cloudflare account provisioning and custom-domain routing still need post-deployment verification. Hosted publishing into GitHub/Vercel is deliberately unavailable. See `hosted/README.md` for the exact separate Worker deployment settings and scope.
+
+## Access verification fix (26 October 2026)
+
+A full signed-login test in the actual local Cloudflare runtime reproduced `TypeError: Invalid redirect value` when retrieving Access signing keys: Workers does not implement Fetch's `redirect: "error"` option. The request now uses `redirect: "manual"` and explicitly rejects non-success responses, including redirects.
+
+The expanded runtime check passes a real RSA-signed test JWT through the public Worker using both the forwarded assertion and the Access session cookie, checks the verified identity, rejects an unsigned/missing session and a write without CSRF proof, and retains the existing SQLite draft/preview checks. The issuer, signing key and audience are test-only fixtures and cannot authenticate to the deployed CMS. Nine targeted security/state tests pass, including forged cookies, wrong issuer/audience, expired sessions, safe diagnostic responses and signing-key redirect rejection. The CMS bundle and Wrangler dry-run also pass.
+
+Live owner login still requires verification after the automatic CMS redeployment. No Access policy, DNS record, public-site source or public-site deployment configuration is changed by this fix. The optional GitHub Actions queue-bypass draft remains unpushed.
