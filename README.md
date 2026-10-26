@@ -80,3 +80,7 @@ Future SEO audits and content changes must follow [commercial strategy](docs/seo
 Run `npm run build`, then `npm run audit:links -- --output /tmp/elderindex-links.json` for a placement-aware rendered-site audit. Use `--compare` with a pre-change report to inspect removed links and metadata changes. Design and management have commercial priority, while each page retains its own search intent and useful SEO links.
 
 SEO changes are prepared locally for review. Pushing `main` automatically triggers Cloudflare; do not push or deploy a review draft without an explicit publication instruction.
+
+## Local visual editor prototype
+
+A separate Puck app can visually edit the existing Website Design page without changing the live site. It requires Node.js 22.12+. Run `npm run cms:install`, then `npm run cms:dev`, and open `http://127.0.0.1:4321` on that computer. See [the full startup and editing guide](cms/README.md) for draft saving, image uploads, previews, backups, architecture and production work still required. Publishing and production login are not connected.

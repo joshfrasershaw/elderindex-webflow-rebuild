@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "pageId": "website-design",
+  "baseHash": "03baefb01e9e23e0285415ae45f49f8a788d39bbda2bd731123a9d9fe0a18e75",
+  "data": {
+    "root": {
+      "props": {
+        "title": "Care Home & Home Care Website Design | ElderIndex",
+        "description": "Professional website design and redesign for care homes and home care agencies. Clear, accessible websites that help families find the right information.",
+        "path": "/services/website-design/",
+        "canonical": "https://elderindex.co.uk/services/website-design/",
+        "indexing": "noindex",
+        "ogTitle": "Care Home & Home Care Website Design | ElderIndex",
+        "ogDescription": "Professional website design and redesign for care homes and home care agencies. Clear, accessible websites that help families find the right information.",
+        "ogImage": "https://elderindex.co.uk/assets/elderindex-social.png"
+      }
+    },
+    "content": [
+      {
+        "type": "Hero",
+        "props": {
+          "id": "Hero-existing",
+          "background": "original",
+          "textColor": "auto",
+          "headingFont": "original",
+          "bodyFont": "original",
+          "alignment": "original",
+          "layout": "original",
+          "heading1": "Website design for care homes and home care agencies.",
+          "copy2": "<p>Beautiful, accessible websites that explain your care, reassure families and make the next step easier. Built around your services, your audience and your goals.</p>",
+          "button3Text": "Discuss your project",
+          "button3Href": "/talk-to-us/",
+          "button4Text": "See what’s included",
+          "button4Href": "#what-we-do",
+          "image5": {
+            "src": "/assets/3127.jpg",
+            "alt": "Illustrative The Oaklands care-home website displayed on a laptop and phone."
+          }
+        }
+      },
+      {
+        "type": "Benefits",
+        "props": {
+          "id": "Benefits-existing",
+          "background": "original",
+          "textColor": "auto",
+          "headingFont": "original",
+          "bodyFont": "original",
+          "alignment": "original",
+          "layout": "original",
+          "heading1": "What matters for a useful care website.",
+          "heading2": "Built around families",
+          "copy3": "<p>Clear, reassuring information and straightforward ways to enquire.</p>",
+          "heading4": "Accessible by design",
+          "copy5": "<p>Readable pages, intuitive navigation and mobile-first layouts.</p>",
+          "heading6": "Flexible ownership",
+          "copy7": "<p>Agree scope, hosting and ongoing support before work starts.</p>",
+          "heading8": "Made to be useful",
+          "copy9": "<p>Every page should have a purpose beyond looking beautiful.</p>"
+        }
+      },
+      {
+        "type": "ServiceContent",
+        "props": {
+          "id": "ServiceContent-existing",
+          "background": "original",
+          "textColor": "auto",
+          "headingFont": "original",
+          "bodyFont": "original",
+          "alignment": "original",
+          "layout": "original",
+          "heading1": "Built for real care businesses, not generic templates.",
+          "copy2": "<p>Practical decisions, clear scope, considered design and reliable information.</p>",
+          "heading3": "What makes a useful care website?",
+          "copy4": "<p>Choosing care is a significant decision. Families need genuine information about services, locations, facilities and what happens when they enquire. The website should answer those questions without making them hunt.</p>",
+          "copy5": "<p>A residential care home needs to present the environment and daily life. A home care agency needs clear service areas and care types. We design differently for each.</p>",
+          "heading6": "Website design and redesign",
+          "copy7": "<p>We plan the structure, page journeys and copy, then design responsive layouts and build the website. Projects can be a new site or an improvement to something already online.</p>",
+          "copy8": "<p>We consider mobile usability, accessible navigation, clear contact routes, practical loading performance and sensible on-page search foundations.</p>",
+          "heading9": "What is included?",
+          "copy10": "<p>A typical project can include discovery, page planning, design, development, content refinement, testing and launch. The exact deliverables are agreed before work starts.</p>",
+          "copy11": "<p>We avoid invented imagery or claims about your care provision. You approve service details, photography and any sensitive or regulated information.</p>",
+          "heading12": "From the brief to launch",
+          "copy13": "<p>First, we understand your service and what families need to know. Then we map the pages and agree the content. After design and development, we test navigation, forms and the experience on smaller screens.</p>",
+          "copy14": "<p>The aim is a reliable, understandable website — not a showreel of unnecessary animations.</p>",
+          "heading15": "Ongoing support is optional",
+          "copy16": "<p>Once live, you can maintain the website yourself or ask us to handle agreed updates and improvements. If growing organic visibility is the next challenge, our <a href=\"/services/search-visibility/\">SEO and local search support</a> can help families discover the website.</p>",
+          "copy17": "<p>Our guide on choosing a care website explains the practical decisions in greater detail.</p>",
+          "copy18": "<p>Before briefing a build, use the <a href=\"/guides/choosing-a-care-website/\">care website checklist</a> to review family information, accessibility and enquiry delivery. After launch, <a href=\"/services/website-management/\">website management</a> can support approved updates when teams, care services or contact arrangements change.</p>",
+          "heading19": "What does your care business need?",
+          "copy20": "<p>Tell us what you’re trying to improve. We’ll discuss the most useful next step.</p>",
+          "button21Text": "Let’s talk",
+          "button21Href": "/talk-to-us/",
+          "heading22": "Explore further",
+          "button23Text": "Website management for care providers.",
+          "button23Href": "/services/website-management/",
+          "button24Text": "Digital support for residential & nursing care homes.",
+          "button24Href": "/for-care-homes/",
+          "button25Text": "Digital support for home care agencies.",
+          "button25Href": "/for-home-care-agencies/",
+          "button26Text": "What makes a good care home website?",
+          "button26Href": "/guides/choosing-a-care-website/"
+        }
+      },
+      {
+        "type": "PhotoStory",
+        "props": {
+          "id": "PhotoStory-existing",
+          "background": "original",
+          "textColor": "auto",
+          "headingFont": "original",
+          "bodyFont": "original",
+          "alignment": "original",
+          "layout": "original",
+          "image1": {
+            "src": "/assets/photos/4443134-960.webp",
+            "alt": "Hands sketching ideas in a notebook beside a laptop."
+          },
+          "heading2": "Real care experience.\nA more useful approach.",
+          "copy3": "<p>ElderIndex’s founder, Josh, has worked in care home management, operations and customer relations. That informs the questions we ask, the information we prioritise and the way we think about each enquiry.</p>",
+          "button4Text": "Why ElderIndex is different",
+          "button4Href": "/about/"
+        }
+      },
+      {
+        "type": "CallToAction",
+        "props": {
+          "id": "CallToAction-existing",
+          "background": "original",
+          "textColor": "auto",
+          "headingFont": "original",
+          "bodyFont": "original",
+          "alignment": "original",
+          "layout": "original",
+          "heading1": "A care website should look beautiful and work hard.",
+          "copy2": "<p>Let’s talk about clear, useful digital support that makes the next step easier for families.</p>",
+          "button3Text": "Discuss your website",
+          "button3Href": "/talk-to-us/"
+        }
+      },
+      {
+        "type": "FAQs",
+        "props": {
+          "id": "FAQs-existing",
+          "background": "original",
+          "textColor": "auto",
+          "headingFont": "original",
+          "bodyFont": "original",
+          "alignment": "original",
+          "layout": "original",
+          "heading1": "Your questions, answered.",
+          "copy2": "<p>Practical information before you get in touch.</p>",
+          "heading3": "Can you redesign an existing site?＋",
+          "copy4": "<p>Yes. We can review what to keep, what to improve and whether a partial redesign or complete rebuild makes sense.</p>",
+          "heading5": "Do I have to buy monthly support?＋",
+          "copy6": "<p>No. We discuss ownership, hosting and platform arrangements transparently before work begins.</p>",
+          "heading7": "Is SEO included?＋",
+          "copy8": "<p>The build includes sensible technical and content foundations. Ongoing search optimisation can be commissioned separately.</p>",
+          "heading9": "How long does a care website take?＋",
+          "copy10": "<p>It depends on the number of pages, content and feedback rounds. We agree a realistic schedule after reviewing your requirements.</p>"
+        }
+      },
+      {
+        "type": "Contact",
+        "props": {
+          "id": "Contact-existing",
+          "background": "original",
+          "textColor": "auto",
+          "headingFont": "original",
+          "bodyFont": "original",
+          "alignment": "original",
+          "layout": "original",
+          "heading1": "Tell us what you\nneed help with.",
+          "copy2": "<p>We work with residential and nursing care homes, domiciliary agencies and live-in care providers in the UK.</p>",
+          "copy3": "<p>Share what you'd like to improve. We can discuss whether website design, search visibility or ongoing management makes sense.</p>",
+          "heading4": "What happens next?",
+          "copy5": "<p>We review your enquiry and respond to arrange a useful conversation. There is no obligation to commission work. Please do not include confidential information about anyone receiving care.</p>",
+          "copy6": "<p><a href=\"/services/\" class=\"text-link\">Explore our services <span aria-hidden=\"true\">↗</span></a></p>",
+          "copy7": "<p class=\"contact-email\">Prefer email? <a href=\"mailto:hello@elderindex.co.uk\">hello@elderindex.co.uk ↗</a></p>",
+          "heading8": "Start a conversation."
+        }
+      }
+    ]
+  }
+}

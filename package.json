@@ -10,7 +10,15 @@
     "check": "node scripts/check.mjs",
     "test": "node scripts/test.mjs",
     "social:build": "node scripts/render-social.mjs",
-    "audit:links": "python3 scripts/audit-internal-links.py"
+    "audit:links": "python3 scripts/audit-internal-links.py",
+    "cms:install": "npm --prefix cms ci --include=dev",
+    "cms:dev": "npm --prefix cms run dev",
+    "cms:build": "npm --prefix cms run build",
+    "cms:test": "npm --prefix cms test && playwright test --config cms/playwright.config.mjs",
+    "cms:hosted:build": "node cms/scripts/hosted-build.mjs",
+    "cms:hosted:test": "npm run cms:hosted:build && node --test cms/test/hosted.test.mjs cms/hosted/state-test.mjs",
+    "cms:hosted:dry-run": "npm run cms:hosted:build && cms/node_modules/.bin/wrangler deploy --config cms/hosted/wrangler.jsonc --dry-run",
+    "cms:hosted:runtime": "npm run cms:hosted:build && node cms/hosted/runtime-check.mjs"
   },
   "engines": {
     "node": ">=18"

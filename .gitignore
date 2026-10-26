@@ -4,3 +4,10 @@ dist/
 .env*
 test-results/
 playwright-report/
+cms/.local/
+cms/build/
+cms/test-results/
+
+cms/hosted/.generated/
+cms/.wrangler/
+cms/hosted/.wrangler/
