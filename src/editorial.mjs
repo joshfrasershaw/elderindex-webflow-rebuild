@@ -6,6 +6,49 @@ const table = (caption, headers, rows) => ({type:'table', caption, headers, rows
 export function applyEditorial(pages, guides) {
   const page = path => pages.find(p => p.path === path);
   page('/').title = 'Web Design & SEO for Care Homes and Home Care Agencies | ElderIndex';
+  const design = page('/services/website-design/');
+  design.description = 'Care home and home care website design informed by real care-sector experience. Clear care information, authentic imagery and welcoming enquiry journeys.';
+  design.intro = 'Website design and redesign for care homes and home care agencies, shaped by real care-sector experience. Help families understand your service and feel comfortable starting a conversation.';
+  design.sections = [
+    ['Designed for how care is actually chosen',
+      'In Josh’s experience managing care homes, families often first heard about a home through a directory, a social worker, a professional recommendation or somebody they trusted. The website was where they went next to understand the place and decide whether to get in touch.',
+      'That shapes our care home website design: show the people, daily life, care provision and practical information behind the recommendation. Make it easy to ask a question or arrange a visit, without expecting the website to replace a helpful conversation.'],
+    ['A single home, a care group or a home care agency',
+      list('For a single care home, help families picture one place: accommodation, shared spaces, daily life, the care genuinely available and the people who handle visits and enquiries.',
+        'For a care group, give each home its own identity, current information and enquiry route. Keep shared explanations central where useful, while making each home’s location, care provision and team clear.',
+        'For a domiciliary or home care agency, explain support in people’s own homes, actual service areas and the office responsible for enquiries. Separate care enquiries from recruitment, and do not imply that every town has a branch.'),
+      'We plan those differences before choosing layouts. The aim is a structure your team can keep accurate, rather than extra pages for every keyword variation.'],
+    ['Show the care you actually provide',
+      'Real photographs of rooms, gardens, activities and everyday interactions help explain what a visit might feel like. We review your existing images, what is missing and your permission to use them. If genuine material is not ready, we can discuss clearly illustrative stock imagery and an agreed plan to replace it; stock must not be presented as your people or premises.',
+      'People profiles can make the enquiry team approachable when the provider supplies and approves names, responsibilities, biographies and photographs with appropriate permission. A named contact invitation can still reach a central inbox: the important part is that somebody owns the response.'],
+    ['A website that sounds like your organisation',
+      'Some providers say “residents”; others prefer “people who live here”. Some use “staff”, while others describe their team differently. We ask about your language and culture rather than impose the same wording on every home.',
+      'You approve descriptions of care, fees, funding information and service availability. Where website information and directory listings disagree, we flag the discrepancy for a factual decision. Funding arrangements vary by provider and local authority; the website should explain your own process without promising eligibility or care suitability.'],
+    ['Website design and redesign',
+      'We plan the structure, page journeys and copy, then design responsive layouts and build the website. Projects can be a new site or an improvement to something already online.',
+      'We consider mobile usability, accessible navigation, readable text and contrast, labelled forms, practical loading performance and sensible on-page search foundations. Existing useful pages and URLs are reviewed before a redesign; any necessary URL changes need a redirect plan.'],
+    ['What is included?',
+      'An agreed project scope can include discovery with the owner, director or nominated lead; a page and content plan; design and development; content refinement; and testing before launch. We identify what your team supplies, what we prepare and who approves it.',
+      'You approve service details, photography and any sensitive or regulated information. We agree deliverables, hosting, access, ownership and handover before work begins; we do not assume an unlimited content or development scope.'],
+    ['From the brief to launch',
+      'First, we understand your service and what families need to know. Then we map the pages and agree the content. After design and development, we test navigation, forms and the experience on smaller screens.',
+      'Enquiry testing includes checking the receiving process with your team, the right home or office destination and what happens when a submission fails. Before briefing a build, use the [care website checklist](/guides/choosing-a-care-website/) to review family information, accessibility and enquiry delivery.'],
+    ['What happens after launch?',
+      'Your website can be handed over for your team to run, with access and responsibilities agreed for the chosen platform. Alternatively, [website management](/services/website-management/) can support approved updates when teams, care services or contact arrangements change.',
+      'If growing organic visibility is the next challenge, our [SEO and local search support](/services/search-visibility/) can be scoped separately. Neither ongoing service is a compulsory add-on to a website build.']
+  ];
+  const management = page('/services/website-management/');
+  management.title = 'Website Management for Care Homes & Agencies | ElderIndex';
+  management.description = 'Website management and maintenance for care homes and home care agencies. Agree approved content updates, platform upkeep and clear responsibilities.';
+  management.intro = 'Website management and maintenance for care homes and home care agencies: approved content updates and practical upkeep, with scope and responsibilities agreed around your site.';
+  management.sections[0] = ['A website that stays true to your service',
+    'Teams change, care services evolve and contact details need updating. A website should reflect what families will find when they call or visit. An old biography, out-of-date fee explanation or incorrect service area can create avoidable confusion.',
+    'We can agree updates to approved content, photographs, people profiles and enquiry information. Your nominated lead confirms the facts; we keep a record of the changes and check the affected pages and contact routes.'];
+  management.sections[1].push('Before starting, we review the platform and access, identify the provider’s approver and agree how changes are requested and checked. Support hours, response arrangements, exclusions and responsibility for any third-party costs belong in the proposal.');
+  management.sections[2].push('Where relevant, changes can be coordinated with separately commissioned [directory updates](/services/care-directory-management/), so the website and external profiles use the same approved facts.');
+  management.sections[4] = ['Maintenance and SEO have different scopes',
+    'Keeping pages accurate and checking that they work is website maintenance. Researching search demand, planning new search content and reporting organic visibility are separately agreed SEO work. Routine upkeep alone does not guarantee better rankings.',
+    'The [care website checklist](/guides/choosing-a-care-website/) helps identify useful maintenance priorities. If the main issue is how families discover the site, compare the scope with [search visibility](/services/search-visibility/).'];
   page('/privacy/').sections.splice(2,0, ['Enquiry delivery through Formspree', 'The website sends enquiries to Formspree using HTTPS. Fields can include your name, email, organisation, message and, on the contact page, website and selected services. The website shows confirmation only when Formspree confirms receipt.', 'Before launch, the operator must review Formspree’s current processing terms, retention, international transfers and account settings, and complete the lawful basis and rights information in this notice.']);
   page('/cookies/').sections.splice(2,0, ['Analytics preference controls', 'When Google Analytics is configured, it is loaded only after you choose Allow analytics. Reject analytics leaves it off. A preference is stored in this browser’s local storage for up to 180 days; you can reopen Analytics preferences in the footer and change your choice.', 'No GA4 Measurement ID has been supplied for the initial build. When one is added, audit the live deployment, confirm the analytics settings and complete this notice before relying on it as a final declaration.']);
   const about = page('/about/');
@@ -16,11 +59,9 @@ export function applyEditorial(pages, guides) {
     ['Why enquiry management shapes the work', 'An enquiry is not just a form completion. Families may need to understand care types, fees, availability, assessment or visiting arrangements before they can decide what to do. The person responding also needs enough context to have a useful conversation.', 'I have seen the difference it makes when a family arrives with a clear preference for a particular home because of what they have found online. That preference matters whether care is privately funded or arranged through a local authority.', 'That is why we look beyond website traffic to the questions families ask, how enquiries reach the right team and how they are followed up. My customer relations experience informs the whole journey from discovering a home to arranging a useful conversation.'],
     ['Why directory information deserves attention', 'A family may discover a home through its website, Carehome.co.uk, Autumna, Lottie or another relevant platform. Contradictory care types, old photographs or an unmonitored contact route can create avoidable uncertainty.', 'That is why [directory management](/services/care-directory-management/) focuses on approved facts, clear ownership and useful enquiry routes. We do not control a directory’s placement rules, commercial terms or the decisions families make.'],
     ['Care-sector experience and technical competence', 'Operational experience is valuable context; it is not proof of SEO results. Our [Home Care SEO methodology](/services/home-care/) and [Care Home SEO audit process](/services/care-home-seo/) explain the work, the evidence we look for and how changes are verified.', 'That operational perspective also informs [care-provider website design](/services/website-design/): making services, locations and the next enquiry step clear. Once live, [ongoing website care](/services/website-management/) can keep approved information accurate as the provider changes.', 'Our website concepts and fictional worked examples demonstrate approaches, not client projects. ElderIndex is a new business and does not claim testimonials, case studies, admissions or search improvements that have not been established.'],
-    ['How we work with providers', 'We start with the provider’s real services, locations and priorities. We agree scope and responsibilities, ask the provider to approve care information and explain what is known, what needs testing and what we cannot promise.', 'If you need a new website, clearer local information or consistent directory profiles, [tell us what you want to improve](/talk-to-us/). The next step is a practical conversation, not an obligation to commission work.']
+    ['How we work with providers', 'We start with a conversation with the owner, director or nominated lead about real services, locations, wording preferences, photographs and permissions, and who responds to enquiries. That turns care-sector experience into concrete page and content decisions. We agree responsibilities, ask you to approve care information and explain what needs testing.', 'If you need a new website, clearer local information or consistent directory profiles, [tell us what you want to improve](/talk-to-us/). The next step is a practical conversation, not an obligation to commission work.']
   ];
   const contextual = {
-    '/services/website-design/':'Before briefing a build, use the [care website checklist](/guides/choosing-a-care-website/) to review family information, accessibility and enquiry delivery. After launch, [website management](/services/website-management/) can support approved updates when teams, care services or contact arrangements change.',
-    '/services/website-management/':'The [care website checklist](/guides/choosing-a-care-website/) helps identify useful maintenance priorities. If the main issue is how families discover the site, compare the scope with [search visibility](/services/search-visibility/).',
     '/services/search-visibility/':'For a more specific scope, review [Home Care SEO](/services/home-care/) or [Care Home SEO](/services/care-home-seo/). The [local SEO guide](/guides/home-care-local-seo/) explains the planning decisions before implementation.',
     '/services/care-directory-management/':'Use the [directory comparison](/guides/care-directory-comparison/) to assess platform fit and questions about terms, then the [Carehome.co.uk profile checklist](/guides/carehome-co-uk-profile/) to review a home’s factual information.'
   };
@@ -103,6 +144,7 @@ export function applyEditorial(pages, guides) {
     ['What will the engagement and reporting look like?',
       'After the initial conversation we agree access, deliverables, approvals and the implementation sequence. Care information is reviewed by the provider before publication. We keep a change log so reported activity can be tied to actual changes.',
       'Reporting can review relevant query visibility, landing pages, local profile interactions and successful enquiries where measurement is available. Compare homes individually as well as the group overall; a group total can hide a home with a broken contact route.',
+      'A family may already know the home through a professional referral, recommendation or directory. Separate branded searches and referral visits where attribution permits. A form submission or contact click is an indicator, not proof of a suitable admission; your enquiry records provide that context.',
       'Enquiry quality and occupancy also depend on capacity, fees, reputation, assessment and operations. SEO cannot guarantee occupancy or a top Google position. The useful question is whether more suitable families can find accurate information and take the next step.']
   ];
   care.faqs = [
@@ -136,7 +178,10 @@ export function applyEditorial(pages, guides) {
       'Choose the next improvement from evidence. If pages are not indexed, investigate that first. If visitors reach the right page but cannot tell whether you serve them, improve coverage and service information before writing more articles.',
       'Once coverage information is clear, [managed care website updates](/services/website-management/) can help keep it accurate when services or operating areas change. Provider approval still comes before publishing new availability claims.']
   ];
-  page('/guides/choosing-a-care-website/').sections = [
+  const websiteGuide = page('/guides/choosing-a-care-website/');
+  websiteGuide.description = 'Commissioning a care home website? A practical checklist for your brief, photography, accessibility, enquiry routes, handover and ongoing website care.';
+  websiteGuide.intro = 'A practical checklist for care-home owners and teams commissioning or improving a website: what to prepare, what to ask a designer and what to check after launch.';
+  websiteGuide.sections = [
     ['What must a family understand in the first minute?',
       'A family should be able to identify the home, its location, the care it actually offers and how to contact a person. Start with those questions rather than an animation or a long brand statement. For a group, make it easy to reach an individual home without losing its identity in a corporate page.',
       'Review recent enquiries with the team: which questions recur, what information is missing, and where people misunderstand the offer? Turn those findings into page priorities. The [care home SEO service](/services/care-home-seo/) explains how this connects to search journeys.'],
@@ -147,6 +192,7 @@ export function applyEditorial(pages, guides) {
       list('Use only the keyboard: reach the navigation, open menus, follow links and submit the form with clear focus indicators.', 'Zoom to 200% and check that text remains readable and controls do not overlap.', 'On a narrow phone, check tap targets, labels, contrast and reading order; do not rely on colour alone.', 'Make informative images understandable with meaningful alternative text; decorative images should not add repetitive announcements.', 'Ensure the form has visible labels, clear validation messages and a result that is announced to assistive technology.'),
       'These checks catch obvious barriers but are not an accessibility certification. Follow [WCAG guidance from W3C](https://www.w3.org/WAI/standards-guidelines/wcag/) and arrange a fuller assessment where needed.'],
     ['What should we ask about photography and page speed?',
+      'List the real spaces and everyday life you want to show: rooms, gardens, meals, activities and interactions. Record image ownership and permissions before sharing material. If using illustrative stock while photographs are prepared, label it honestly and agree who will replace it. Do not present a stock model as a member of your team.',
       'Use approved, accurate images rather than an enormous decorative download. Supply images at the dimensions the layout needs, offer responsive variants and use modern formats where supported. Reserve space to prevent layout shifts. Load images further down the page only when needed; do not delay the main image just because lazy loading is available.',
       'Check real phones as well as desktop screenshots. A fast page that conceals the phone number or shows no useful care information still needs work.'],
     ['Does the enquiry journey actually work?',
@@ -154,7 +200,12 @@ export function applyEditorial(pages, guides) {
       'A button that only opens an email application is not equivalent to a delivered website enquiry. Test the actual receiving process before replacing an existing form.'],
     ['What should a redesign proposal include?',
       'Ask for a page and URL inventory, a plan for legacy redirects, content responsibilities, a working mobile prototype, accessible components, image ownership and a verified enquiry journey. Define what is included after launch and who keeps care information accurate.',
-      'Our [website design service](/services/website-design/) covers the build; [website management](/services/website-management/) can support ongoing updates. A rebuild is useful when it solves real limitations, not simply because a site is old.']
+      'Ask who owns the site and accounts, which hosting or platform costs continue, how access and handover work, and what your team can update. Agree how requests are approved, who checks forms and who replaces out-of-date photographs or biographies. A self-managed handover, ongoing maintenance and a search campaign are different choices, not an automatic bundle.',
+      'Our [website design service](/services/website-design/) covers the build; [website management](/services/website-management/) can support ongoing updates. A rebuild is useful when it solves real limitations, not simply because a site is old.'],
+    ['What should we prepare before briefing a designer?',
+      'Gather actual care provision and coverage, who handles enquiries, what you can accurately explain about fees and funding, approved photographs, current directory listings and the language your organisation uses. Josh’s care-home management experience informs these questions: a website can help a family check a recommendation as well as discover a home for the first time.',
+      'For people profiles, identify whose role helps a visitor and arrange approval of names, biographies and images with appropriate permission. Ask what happens when that person leaves. A friendly named invitation can route to a monitored central inbox without promising direct access to someone who cannot respond.',
+      'For a group, distinguish shared information from each home’s care, team and location. For home care, agree genuine coverage and the responsible office rather than inventing branches. If content is incomplete, say so: plan for approved updates rather than filling gaps with unsupported claims.']
   ];
   const comparison = page('/guides/care-directory-comparison/');
   comparison.sections = [
@@ -231,7 +282,7 @@ export function applyEditorial(pages, guides) {
     '/guides/carehome-co-uk-profile/': ['Need help keeping home profiles accurate?','Discuss the homes, platforms and approved information that need ongoing attention.','/services/care-directory-management/','Explore directory management'],
     '/guides/google-business-profile-care/': ['Make local profiles and your website agree.','Start with the relevant search visibility work and agree which profile changes need provider approval.','/services/search-visibility/','Explore search visibility']
   };
-  const commerciallyUpdatedGuides = new Set(['/guides/home-care-local-seo/','/guides/care-directory-comparison/','/guides/carehome-co-uk-profile/','/guides/google-business-profile-care/','/guides/multi-location-home-care-seo/']);
+  const commerciallyUpdatedGuides = new Set(['/guides/choosing-a-care-website/','/guides/home-care-local-seo/','/guides/care-directory-comparison/','/guides/carehome-co-uk-profile/','/guides/google-business-profile-care/','/guides/multi-location-home-care-seo/']);
   for (const p of pages.filter(p=>p.kind==='guide')) {
     // Keep the original publication date; advance only guides actually edited in this review.
     p.datePublished = '2026-10-25';

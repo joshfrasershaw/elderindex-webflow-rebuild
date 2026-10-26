@@ -45,6 +45,8 @@ These examples do not prescribe adding both design and management links everywhe
 
 Review the header, cards, footer, related-service blocks, prose and enquiry routes separately. Reordering an existing service list may improve commercial emphasis without changing page targeting. Preserve navigation to SEO services and guides.
 
+For a design buyer, make the difference between a self-managed handover, optional maintenance and a separate SEO scope understandable before adding more links. One integrated after-launch explanation can be enough. Preserve existing guide contents/deep-link anchors when expanding articles; append a section or provide stable IDs rather than silently changing an established fragment's meaning. Topic clusters should connect genuinely different questions; the six existing guides already have service routes and must not be described as orphans merely because more content could be useful.
+
 ## Repeatable audit workflow
 
 1. Read `AGENTS.md`, this document, `strategy.md` and the activity log. Check the working tree and preserve the user's changes.

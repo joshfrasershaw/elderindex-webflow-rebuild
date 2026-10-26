@@ -155,3 +155,55 @@ test('guides retain SEO implementation routes and offer relevant complementary s
   await page.locator('.guide-block a[href="/services/website-design/"]').click();
   await expect(page).toHaveURL(/\/services\/website-design\/$/);
 });
+
+test('design buyers can compare optional upkeep and SEO and use the briefing guide on mobile',async({page})=>{
+  await page.setViewportSize({width:390,height:844});
+  await page.goto('/services/website-design/');
+  const afterLaunch=page.locator('.service-copy-block').filter({has:page.getByRole('heading',{name:'What happens after launch?',exact:true})});
+  await expect(afterLaunch).toContainText('Neither ongoing service is a compulsory add-on');
+  await afterLaunch.getByRole('link',{name:'website management',exact:true}).click();
+  await expect(page).toHaveTitle('Website Management for Care Homes & Agencies | ElderIndex');
+  await expect(page.getByRole('heading',{name:'Maintenance and SEO have different scopes'})).toBeVisible();
+  await page.locator('.service-copy-block a[href="/services/search-visibility/"]').click();
+  await expect(page.locator('.page-hero a[href="/talk-to-us/"]').first()).toBeVisible();
+  await page.goto('/guides/choosing-a-care-website/');
+  await page.locator('.article-contents a').filter({hasText:'What should we prepare before briefing a designer?'}).click();
+  await expect(page.locator(':target')).toContainText('names, biographies and images');
+  await page.locator('.guide-block a[href="/services/website-design/"]').click();
+  await expect(page.locator('.page-hero a[href="/talk-to-us/"]').first()).toBeVisible();
+});
+
+test('rendered schema identifies visible page subjects and images without inventing proof',async({page})=>{
+  for(const p of pages){
+    await page.goto(p.path);
+    const graph=await page.locator('script[type="application/ld+json"]').evaluate(el=>JSON.parse(el.textContent)['@graph']);
+    const webpage=graph.find(n=>n['@type']==='WebPage');
+    const ids=graph.map(n=>n['@id']);
+    expect(new Set(ids).size,p.path).toBe(ids.length);
+    if(p.kind==='service'||p.kind==='guide'){
+      const entity=graph.find(n=>n['@type']===(p.kind==='service'?'Service':'Article'));
+      expect(webpage.mainEntity['@id']).toBe(entity['@id']);
+      expect(entity.mainEntityOfPage['@id']).toBe(webpage['@id']);
+      if(p.kind==='service')expect(entity.serviceType).not.toContain('|');
+      else {
+        expect(entity.author['@id']).toBe('https://elderindex.co.uk/about/#founder');
+        expect(entity.image).toBeUndefined();
+      }
+    }
+    if(webpage.primaryImageOfPage){
+      const imagePath=new URL(webpage.primaryImageOfPage.url).pathname;
+      await expect(page.locator(`main img[src="${imagePath}"]`)).toHaveCount(1);
+      expect(webpage.primaryImageOfPage.width).toBeGreaterThan(0);
+    }
+    expect(graph.some(n=>['Review','AggregateRating'].includes(n['@type']))).toBe(false);
+    await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content','noindex, follow');
+  }
+});
+
+test('expanded design, management and buying guide pass automated accessibility checks',async({page})=>{
+  for(const path of ['/services/website-design/','/services/website-management/','/guides/choosing-a-care-website/']){
+    await page.goto(path);await page.evaluate(()=>document.fonts.ready);
+    const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
+    expect(result.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),path).toEqual([]);
+  }
+});

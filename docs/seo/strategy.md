@@ -53,6 +53,16 @@ A visitor can land directly on any service, audience page or guide. Commercial p
 - No invented rankings, traffic, occupancy results, testimonials, client projects or official platform partnerships. A code audit does not establish live ranking performance.
 - Use Search Console queries, landing pages and enquiry records when authorised data is available. Do not fabricate that evidence or require it as a reason to leave obvious broken links unfixed.
 
+## Content evidence and service clarity
+
+Care-sector experience should change practical decisions: provider language, genuine care provision and coverage, approved photographs/people profiles, who receives an enquiry and who keeps facts current. Attribute Josh's observations as personal experience; do not turn them into market statistics or ElderIndex client results. The agency is new and has no completed client projects or results to claim. Clearly labelled concepts remain illustrations.
+
+The existing combined Design page can explain single-home, group and home-care needs without splitting into keyword variants. Keep handover/self-management, optional website management and separately scoped SEO clear. Expand useful existing guides before creating new pages; validate a distinct audience question and substantive evidence first. Ambiguous phrases such as “care home websites” and “home care web management” require actual search-intent checks, not automatic exact-match targets.
+
+Audit final rendered HTML after editorial overrides. Schema.org relationships must describe visible facts and appropriate page images; a shared social card is not automatically every page's primary image. A schema graph is not evidence of Google Knowledge Graph inclusion, ranking strength or rich-result eligibility. Record when competitor/source access or live search evidence is unavailable.
+
+See [26 October commercial review](commercial-clusters-2026-10-26.md) for the reviewed implementation, query map, research limitations and 30/60/90-day measurement plan. The owner subsequently authorised pushing this patch to `main`; deployment completion remains unverified.
+
 ## Measurement and publication
 
 Use placement-specific referral counts and customer-journey checks as diagnostics, not link quotas or ranking forecasts. Where real analytics is configured and consent allows, review successful enquiries for design, management and SEO separately, alongside the provider's own enquiry records. Never send enquiry contents or personal data as analytics event parameters.

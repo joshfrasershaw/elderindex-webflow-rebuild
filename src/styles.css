@@ -105,6 +105,8 @@
 @media(max-width:1350px){.ornament-duet>span:first-child{width:140px;height:140px;right:-112px}.ornament-duet>span:last-child{width:140px;height:140px;right:-96px}.ornament-rings>span:first-child{left:-295px}.ornament-rings>span:last-child{right:-375px}}
 @media(max-width:600px){.ornament-rings>span:first-child{width:210px;height:210px;left:-195px;top:24px;border-color:#54315d26}.ornament-rings>span:last-child{width:260px;height:260px;right:-243px;bottom:32px;border-color:#54315d26}.ornament-duet>span:first-child{width:120px;height:120px;right:-104px;top:44px;background:#5e3e7015}.ornament-duet>span:last-child{width:120px;height:120px;right:-98px;top:28px;border-color:#bd954c80}.ornament-soft>span:first-child{width:260px;height:260px;right:-170px;bottom:-80px}.ornament-soft>span:last-child{width:220px;height:220px;right:-204px;top:25px}}
 
+/* Keep the small labels in service illustrations readable on their pale panels. */
+.visual-browser-header,.dash-task small,.visual-dashboard>p{color:#665b6b}
 /* Owner-supplied laptop/phone concepts: show the complete graphics without cropping. */
 .device-scene-uploaded{height:auto;aspect-ratio:512/341;min-height:0}
 .uploaded-concept{display:block;width:100%;height:auto;object-fit:contain}

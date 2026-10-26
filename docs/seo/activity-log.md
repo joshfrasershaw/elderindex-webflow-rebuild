@@ -2,6 +2,30 @@
 
 Record significant changes here. Every entry must identify its date, evidence, affected pages, purpose, validation and publication state. Do not label a local build or a commit as a deployment. Record ranking or enquiry outcomes only when supported by actual data.
 
+## 26 October 2026 — Evidence-led commercial page and semantic review
+
+**Status:** reviewed on `review/commercial-seo-2026-10-26`, based on `origin/main` at `0a80960`. The owner subsequently explicitly instructed “yes push to repo please” after being told this would publish to `main` and trigger deployment. This authorises committing and pushing this specific patch to `main`; Cloudflare completion remains unverified. Main website only; CMS code/configuration untouched. No live-domain or DNS/Access changes.
+
+**Purpose:** make the existing design and management offers concrete for care operators, preserve specialist SEO intent and useful internal links, and connect practical commissioning guidance to optional post-launch choices.
+
+**Evidence and plan:** [commercial cluster review](commercial-clusters-2026-10-26.md) includes all 22 route decisions, metadata before/after, material copy excerpts, guide paths, schema findings, research limitations and a 30/60/90-day measurement plan. [Before](evidence/commercial-before-2026-10-26.json) and [after](evidence/commercial-after-2026-10-26.json) snapshots capture final rendered metadata/headings/canonical/robots/schema and classified internal links. Live competitor/Google requests were blocked by the environment proxy; supplied competitor observations were not independently verified. No ranking, volume, client-result or enquiry-outcome data is claimed.
+
+**Significant changes:**
+
+- Website Design retains its title/H1 and combined audience URL. The introduction and description now explain real care-sector experience. Revised sections distinguish a single home, group and home-care agency; cover genuine images, permission, provider language, factual care information, enquiry routing, delivery scope and optional handover/management/SEO.
+- Website Management gains an audience-specific title and maintenance-focused description/introduction, concrete update/approval responsibilities and a clear maintenance-versus-SEO distinction. One contextual link to Directory Management explains coordination of approved facts. No security, SLA or unlimited-work guarantee added.
+- Care Home SEO retains its title, H1, examples, distinctions and all links. One reporting paragraph adds referral/brand context and distinguishes contact actions from suitable admissions.
+- The existing website guide gains briefing, photography/people-profile, ownership and handover questions. Existing section fragments remain; its real modification date advances to 26 October, publication stays 25 October. About's discovery paragraph now names the provider questions that inform design decisions.
+- Schema retains all existing entity IDs, author/provider identity and breadcrumbs; adds reciprocal page subjects, descriptive service types and visible page images where appropriate. Generic social cards remain sharing images but are no longer claimed as article/primary page illustrations. No fabricated entities, ratings or rich-result claims.
+- New accessibility coverage found pre-existing low-contrast management-illustration labels (3.05–3.91:1); darkened only those small labels to `#665b6b`. Approved photographs, uploaded concepts and layouts remain.
+- Updated permanent strategy and linking guidance with evidence boundaries, optional-service clarity, existing-guide reuse and deep-link preservation.
+
+**Validation:** frozen `npm ci` succeeded (restricted initial install needed retry with network-enabled execution). Baseline `npm run build`, `npm run check`, placement-aware audit and all 13 original browser tests passed. Final `npm test` passed **16/16**, including new mobile optional-service/guide journeys, all-page schema checks and automated WCAG A/AA checks on Design, Management and the expanded guide. The first expanded accessibility run identified the illustration contrast issue; final full suite passed after correction. These are automated checks, not accessibility certification.
+
+Final `npm run check` passed all 22 pages with zero issues, 22 known redirect rules, 26 unique photographs and two uploaded hero graphics. `npm run audit:links -- --compare /tmp/elderindex-seo-before.json --output /tmp/elderindex-seo-after.json` reports no removed links, broken links, orphans, unreachable routes or repeated contextual pairs. One contextual link and one new guide contents link were added. Design/Management contextual referring pages stay 11/12; Directory Management grows 6 → 7. Footer-only main-content discovery for Terms/Cookies remains intentional. All canonicals, H1s and schema entity IDs are preserved; metadata changes are limited to Design, Management and the website guide. The local production build/check also passed, with staging rebuilt and checked afterwards. `git diff --check` passed.
+
+**Limits and publication:** no live Cloudflare statuses, headers, performance, Google indexing or actual inbox delivery were tested. Existing legal, vendor-term and live launch checks remain in `docs/launch-status.md`. No new pages, URL changes or mandatory service bundles. No blocking editorial decision remains. The owner supplied the explicit publication instruction after reviewing the local patch; deployment success must still be verified separately.
+
 ## 26 October 2026 — Commercial cross-selling and permanent linking strategy
 
 **Status:** implementation reviewed by the owner and explicitly approved for publication to `main`. Cloudflare build/deployment completion remains unverified. Baseline commit: `b405cd0`. No live-domain or environment publication changes.
