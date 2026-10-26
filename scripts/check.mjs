@@ -2,6 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pages, baseUrl } from '../src/data.mjs';
 import { config } from '../src/config.mjs';
+import { imagery } from '../src/imagery.mjs';
+import { createHash } from 'node:crypto';
 const root=path.resolve('dist'), issues=[], titles=new Set(), descriptions=new Set();
 const urls=new Set(pages.map(p=>p.path));
 const htmlByPath=new Map(pages.map(p=>[p.path,fs.existsSync(path.join(root,p.path,'index.html'))?fs.readFileSync(path.join(root,p.path,'index.html'),'utf8'):null]));
@@ -57,7 +59,29 @@ const redirects=fs.readFileSync(path.join(root,'_redirects'),'utf8').trim().spli
 for(const rule of redirects){const [from,to,status]=rule.split(/\s+/);if(!from.startsWith('/')||!urls.has(to)||status!=='301')fail('redirects','Invalid rule '+rule);}
 const css=fs.readFileSync(path.join(root,'assets/site.css'),'utf8');
 for(const match of css.matchAll(/url\(['"]?(\/[^)'"]+)['"]?\)/g))if(!fs.existsSync(path.join(root,match[1])))fail('stylesheet','Missing local resource '+match[1]);
+const seenPhotos=new Set(), usedPhotos=[];
+for(const [route,html] of htmlByPath){
+  for(const match of (html||'').matchAll(/data-photo-key="([^"]+)" data-photo-id="(\d+)"/g)){
+    const [,key,id]=match;usedPhotos.push(key);
+    if(seenPhotos.has(id))fail(route,'Photograph reused: '+id);
+    seenPhotos.add(id);
+    if(String(imagery[key]?.sourceId)!==id)fail(route,'Unknown photo assignment '+key);
+  }
+}
+if(usedPhotos.length!==Object.keys(imagery).length||new Set(usedPhotos).size!==usedPhotos.length)fail('imagery','Every photograph must have exactly one placement');
+const sourceHashes=new Set();
+for(const [key,photo] of Object.entries(imagery)){
+  if(!usedPhotos.includes(key))fail('imagery','Unused assignment '+key);
+  if(sourceHashes.has(photo.originalSha256))fail('imagery','Duplicate original photograph '+key);
+  sourceHashes.add(photo.originalSha256);
+  if(!photo.alt||!photo.source||!photo.photographer||!photo.licenseChecked)fail('imagery','Incomplete source record '+key);
+  for(const variant of photo.variants){
+    const file=path.join(root,variant.src);
+    if(!fs.existsSync(file))fail('imagery','Missing responsive variant '+variant.src);
+    else if(createHash('sha256').update(fs.readFileSync(file)).digest('hex')!==variant.sha256)fail('imagery','Asset differs from reviewed file '+variant.src);
+  }
+}
 const png=fs.readFileSync(path.join(root,'assets/elderindex-social.png'));
 if(png.readUInt32BE(16)!==1200||png.readUInt32BE(20)!==630)fail('social image','Expected 1200 × 630 PNG');
-console.log(`${pages.length} pages checked; ${issues.length} issues. Checked metadata, headings, schema, links, assets, sitemap, robots and ${redirects.length} redirect rules.`);
+console.log(`${pages.length} pages checked; ${issues.length} issues. Checked metadata, headings, schema, links, assets, sitemap, robots and ${redirects.length} redirect rules; ${seenPhotos.size} unique photographs.`);
 if(issues.length){issues.forEach(x=>console.error(x));process.exit(1);}

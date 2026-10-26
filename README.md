@@ -60,6 +60,7 @@ No GA4 ID has been supplied. When configured, equal-weight allow/reject controls
 - `src/template.mjs`: semantic rendering, safe contextual links, navigation and forms.
 - `src/seo.mjs`: Organization, Person, WebSite, WebPage, BreadcrumbList, Article and Service relationships.
 - `src/config.mjs`: public build settings and validation.
+- `src/imagery.json` and `src/imagery.mjs`: unique per-placement photographs, source/licence records, responsive variants and descriptive alternatives.
 - `src/client.js`: navigation, POST forms and consent-gated measurement.
 - `src/styles.css`: design and responsive/accessibility styles.
 - `scripts/check.mjs`: generated-page, metadata, headings, schema, links, asset, redirect and sitemap checks.
@@ -68,6 +69,6 @@ No GA4 ID has been supplied. When configured, equal-weight allow/reject controls
 
 Guide publication/update dates refer to the actual 25 October 2026 source publication and revisions. They are **not** dates on which external platform terms were verified. Keep future content revisions and dates aligned.
 
-Photography still uses the original external Pexels URLs. Approved local photographs, source/permission records and responsive variants are outstanding. Do not replace them with invented client imagery. Current directory package features and commercial terms also require checking with the official platforms; the comparison deliberately avoids invented pricing or contractual claims.
+The site uses 29 distinct, locally hosted Pexels photographs, with three responsive WebP sizes per image. Every editorial photograph is assigned to one placement only. Source/licence records and photographer credits are in [image credits](docs/image-credits.md). Stock imagery is illustrative, not a claim of client work or a portrait of the ElderIndex team. Current directory package features and commercial terms also require checking with the official platforms; the comparison deliberately avoids invented pricing or contractual claims.
 
 See [launch status and remaining checks](docs/launch-status.md). The separate `joshfrasershaw/EI2.0` repository is unrelated and must remain untouched.

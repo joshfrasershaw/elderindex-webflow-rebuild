@@ -95,12 +95,16 @@ test('crawl every page at desktop and mobile widths without JS exceptions or mis
   const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith('http://127.0.0.1:4185')&&r.status()>=400)errors.push(r.url()+': '+r.status());});
   for(const width of [1440,390]){
     await page.setViewportSize({width,height:1000});
+    const seenPhotos=new Set();
     for(const p of pages){
       await page.goto(p.path);await expect(page.locator('h1')).toHaveCount(1);
       expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${p.path} overflow at ${width}`).toBe(true);
       for(const input of await page.locator('form input,form textarea').all())expect(await input.evaluate(e=>Boolean(e.labels?.length)),p.path+' field label').toBe(true);
+      const photos=await page.locator('img[data-photo-id]').evaluateAll(async images=>{for(const img of images){img.loading='eager';await img.decode();if(!img.naturalWidth)throw new Error('Undecodable photograph '+img.src);}return images.map(img=>({id:img.dataset.photoId,local:new URL(img.currentSrc).origin===location.origin,rendered:img.getBoundingClientRect().width>0&&img.getBoundingClientRect().height>0}));});
+      for(const photo of photos){expect(seenPhotos.has(photo.id),'Repeated photo '+photo.id).toBe(false);seenPhotos.add(photo.id);expect(photo.local&&photo.rendered,'Local visible photo '+photo.id).toBe(true);}
       const tables=page.locator('.table-scroll');for(const table of await tables.all())expect(await table.evaluate(e=>e.clientWidth<=document.documentElement.clientWidth)).toBe(true);
     }
+    expect(seenPhotos.size).toBe(29);
   }
   expect(errors).toEqual([]);
 });

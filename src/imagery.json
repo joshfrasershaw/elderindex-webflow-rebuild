@@ -1,0 +1,1046 @@
+{
+  "/::laptop": {
+    "page": "/",
+    "slot": "laptop",
+    "sourceId": 37291570,
+    "alt": "A red-brick house set among lawns and mature trees.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/charming-english-cottage-with-lush-garden-37291570/",
+    "photographer": "Neville Hawkins",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/37291570/pexels-photo-37291570.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "7e100d5eb21b3a420a4f7ca10d46baf0b731d5f016a107c682dacf0cdcc802e8",
+    "width": 1440,
+    "height": 1050,
+    "variants": [
+      {
+        "width": 480,
+        "height": 350,
+        "src": "/assets/photos/37291570-480.webp",
+        "sha256": "afb3cca334e11910eccb1624b4d5d928f57c3056d2b0cb685c6875811612384c"
+      },
+      {
+        "width": 960,
+        "height": 700,
+        "src": "/assets/photos/37291570-960.webp",
+        "sha256": "2c7677354e382373cb99530a5a4202d5710410ebe995f00d3dd5edc2b9e13203"
+      },
+      {
+        "width": 1440,
+        "height": 1050,
+        "src": "/assets/photos/37291570-1440.webp",
+        "sha256": "d596224d86ea429faf21e24cfe469828923fc19b5081907bb7a9a101a7fc43ce"
+      }
+    ]
+  },
+  "/::phone": {
+    "page": "/",
+    "slot": "phone",
+    "sourceId": 28539228,
+    "alt": "A sitting room with a sofa and a window looking onto greenery.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/modern-living-room-with-indoor-outdoor-design-28539228/",
+    "photographer": "Damm aaaa",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/28539228/pexels-photo-28539228.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "b4aa020b25c0a6448cda8ec02f6ee50d47e6dccb9db071606ec9cce620177b45",
+    "width": 1440,
+    "height": 2160,
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/assets/photos/28539228-480.webp",
+        "sha256": "f09f3141890075f8fe5100d68597ae3240e488a871c0224bb5ea035fe6ce6cc9"
+      },
+      {
+        "width": 960,
+        "height": 1440,
+        "src": "/assets/photos/28539228-960.webp",
+        "sha256": "8ba9ce0aed678185283b777bd62b2fb06ce7af240ec8c1edde89f56c93d627c1"
+      },
+      {
+        "width": 1440,
+        "height": 2160,
+        "src": "/assets/photos/28539228-1440.webp",
+        "sha256": "8a29e491e783e4a13764d6f0d4d3ac353b0db3be78dfb37d53389561758552ad"
+      }
+    ]
+  },
+  "/::story": {
+    "page": "/",
+    "slot": "story",
+    "sourceId": 8088906,
+    "alt": "An older adult sharing a warm moment with another person beside a window.",
+    "position": "50% 35%",
+    "source": "https://www.pexels.com/photo/elderly-couple-smiling-while-looking-at-each-other-8088906/",
+    "photographer": "Yaroslav Shuraev",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/8088906/pexels-photo-8088906.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "b17073264d5029f6decb1106c7a33a2d2a6e7336af30fc9f37637252ec6b622e",
+    "width": 1440,
+    "height": 2160,
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/assets/photos/8088906-480.webp",
+        "sha256": "5dba42a1ccc3e7f20ef14450fe2fe321cb9a1b63bccbdbe2020522874af2edc7"
+      },
+      {
+        "width": 960,
+        "height": 1440,
+        "src": "/assets/photos/8088906-960.webp",
+        "sha256": "a5ac58d89a1fd0decfa1b63f5c43e2b007d47f5c4fdbc36bd3df49eb3fc341f1"
+      },
+      {
+        "width": 1440,
+        "height": 2160,
+        "src": "/assets/photos/8088906-1440.webp",
+        "sha256": "ce3bec7a9b6b75e3c65e4b5c5d750684e607d6da90cbc1c117035afa49d007c6"
+      }
+    ]
+  },
+  "/::residential-concept": {
+    "page": "/",
+    "slot": "residential-concept",
+    "sourceId": 37095303,
+    "alt": "A brick house with a garden and outdoor seating.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/charming-brick-house-with-floral-vine-exterior-37095303/",
+    "photographer": "Neville Hawkins",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/37095303/pexels-photo-37095303.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "f075a2ebd87c6c5bf56d51751b1a1623fe6b9414b9ba5179a844cbd6b31a99c6",
+    "width": 1440,
+    "height": 978,
+    "variants": [
+      {
+        "width": 480,
+        "height": 326,
+        "src": "/assets/photos/37095303-480.webp",
+        "sha256": "c5c85b7f50a3c4368334fe213687be21a4b1ff698112e7b030c7cf7947750aa0"
+      },
+      {
+        "width": 960,
+        "height": 652,
+        "src": "/assets/photos/37095303-960.webp",
+        "sha256": "a9f44ce6d61a996f34e3039a0f5f5e145563d4d8358d7f03d979ee031d1f7abe"
+      },
+      {
+        "width": 1440,
+        "height": 978,
+        "src": "/assets/photos/37095303-1440.webp",
+        "sha256": "a00a254a5eb6d90c338094ebbc5379d2c16cba66ddeecba1b9b7421a43bfb64b"
+      }
+    ]
+  },
+  "/::domiciliary-concept": {
+    "page": "/",
+    "slot": "domiciliary-concept",
+    "sourceId": 7551686,
+    "alt": "Two adults supporting an older man as he stands in a sitting room.",
+    "position": "50% 40%",
+    "source": "https://www.pexels.com/photo/a-man-and-a-woman-assisting-an-elderly-man-in-standing-7551686/",
+    "photographer": "Kampus Production",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7551686/pexels-photo-7551686.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "9ddfff0980e24d394e997a25101bfe899a80b2a20ebc11ed75f5ec58cd766f60",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7551686-480.webp",
+        "sha256": "53bd63da8f3b19f9349f31bc4432ff15508ee94096f9cab6c65068c06510833c"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/7551686-960.webp",
+        "sha256": "b5e914f732823116b54de9a04924756da61beeaf4aa4a65f1422aaa99b414495"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/7551686-1440.webp",
+        "sha256": "8183f2d8667cdfd2a77ac0f48a2b35ef6b958d0aeb15b7d6301e556e31d11ff6"
+      }
+    ]
+  },
+  "/::guide:/guides/choosing-a-care-website/": {
+    "page": "/",
+    "slot": "guide:/guides/choosing-a-care-website/",
+    "sourceId": 10847181,
+    "alt": "A bright, comfortable lounge with sofas and large windows.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/sofas-in-a-living-room-10847181/",
+    "photographer": "Đỗ Huy Hoàng",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/10847181/pexels-photo-10847181.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "33003d0e5b041746d19e881fb05aa3bd742cd7910ac4cab1fcf6c724b783bf97",
+    "width": 1440,
+    "height": 961,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/10847181-480.webp",
+        "sha256": "662dd90a117a6ed513b87cdd68575f35c706610f4e0fe970ad1569e3a5c4aa8f"
+      },
+      {
+        "width": 960,
+        "height": 641,
+        "src": "/assets/photos/10847181-960.webp",
+        "sha256": "2802f122f27cf9754b164deab496b3ad990214c2a906128638afa5c634ceec02"
+      },
+      {
+        "width": 1440,
+        "height": 961,
+        "src": "/assets/photos/10847181-1440.webp",
+        "sha256": "bdb0bb8aacedb5a055a9bcc08ca4dd1b927b3ca1541b1061a6cc6f1dc14cac2b"
+      }
+    ]
+  },
+  "/::guide:/guides/home-care-local-seo/": {
+    "page": "/",
+    "slot": "guide:/guides/home-care-local-seo/",
+    "sourceId": 8062289,
+    "alt": "Laptops, printed charts and notes laid out for planning.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/gray-laptop-beside-white-printer-paper-8062289/",
+    "photographer": "Nataliya Vaitkevich",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/8062289/pexels-photo-8062289.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "629b1e73aa215d84a3add166ef24f40b6e0aee8955aa3818436ca0bf13763a33",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/8062289-480.webp",
+        "sha256": "8d5a756ae2b731fac62c686e12316d8868a0058e52dfcbba0b65f8220ff2bbfe"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/8062289-960.webp",
+        "sha256": "e61ffa8fe8135b1cab727a39fc53aafa3d0f5161f6c77ece705b97d2b4dc6d6b"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/8062289-1440.webp",
+        "sha256": "3cebb93f5473836e2cc00e1647a123aa1f145f492899bbd2649b5849913b48b3"
+      }
+    ]
+  },
+  "/::guide:/guides/care-directory-comparison/": {
+    "page": "/",
+    "slot": "guide:/guides/care-directory-comparison/",
+    "sourceId": 6248436,
+    "alt": "An older woman using a tablet at home.",
+    "position": "50% 40%",
+    "source": "https://www.pexels.com/photo/smiling-senior-using-tablet-6248436/",
+    "photographer": "Kampus Production",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/6248436/pexels-photo-6248436.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "ef5d7350325958271ed46e67888d471e9532514b15d8ce47d08cf803f85b2980",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/6248436-480.webp",
+        "sha256": "f0bf46ce79777391886aaac1c794886d2cafbf08752c95ccf36872156076ceec"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/6248436-960.webp",
+        "sha256": "73105e1b8bd73932172fbf65baaf3cf2611e0fb96c51959b36106d6438d89965"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/6248436-1440.webp",
+        "sha256": "1d06c2a0fffb811555eec4d95b8c7a4d049c95daf9c9a04139e04720c0205850"
+      }
+    ]
+  },
+  "/services/::overview": {
+    "page": "/services/",
+    "slot": "overview",
+    "sourceId": 8584020,
+    "alt": "A welcoming sitting room with armchairs, a sofa and a fireplace.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/brown-couch-in-the-living-room-8584020/",
+    "photographer": "Curtis Adams",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/8584020/pexels-photo-8584020.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "0de745e72730437476097d16966f83c0a3cdc7e7a6b85f108a00f17cee73d253",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/8584020-480.webp",
+        "sha256": "7554038af0fbcabf1c84fd33ba09d9e71aab33405efcb0146dbc18d37233591a"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/8584020-960.webp",
+        "sha256": "13c96088b51b2802d5e111d2a5baf4f53543a47a13931cd9b870f964577c4d9b"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/8584020-1440.webp",
+        "sha256": "6c23181fa459d982a1c22cd1fa969fc5c3f04767088ccdb10b561e7dcb212092"
+      }
+    ]
+  },
+  "/services/website-design/::hero": {
+    "page": "/services/website-design/",
+    "slot": "hero",
+    "sourceId": 7027771,
+    "alt": "A light sitting room arranged around a fireplace.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/the-interior-of-a-living-room-of-a-house-7027771/",
+    "photographer": "Curtis Adams",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7027771/pexels-photo-7027771.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "1e6f629465f05ef636f5f0e8fb53f90d93cd52733c64663bb4d5ebe96e92dfa5",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7027771-480.webp",
+        "sha256": "da4a636c4e019c2d053ccc0156af97ad2bf6791b115226e5709f05d518006b2e"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/7027771-960.webp",
+        "sha256": "210c8106d1372de2ffd02da80d30e215bc2dd4e1beb44d389e4a01d327d9beac"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/7027771-1440.webp",
+        "sha256": "86acbc40ce9f69eab9ee8caea8a2d6142d9ca3cf2c7813ea02c87c1461bbcd10"
+      }
+    ]
+  },
+  "/services/website-design/::interlude": {
+    "page": "/services/website-design/",
+    "slot": "interlude",
+    "sourceId": 4443134,
+    "alt": "Hands sketching ideas in a notebook beside a laptop.",
+    "position": "50% 60%",
+    "source": "https://www.pexels.com/photo/a-man-writing-on-the-notebook-4443134/",
+    "photographer": "Polina Tankilevitch",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/4443134/pexels-photo-4443134.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "56523dc59ab68d7351c87f39b2161309de0459612c3283b36b849ac3acec348b",
+    "width": 1440,
+    "height": 2160,
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/assets/photos/4443134-480.webp",
+        "sha256": "666ab7ffeafe9e3fa501c3751dcd2a7d7c5e9f0689f535bca40659ffcd9c8731"
+      },
+      {
+        "width": 960,
+        "height": 1440,
+        "src": "/assets/photos/4443134-960.webp",
+        "sha256": "552d4fc0fb1497584269b00d2cdec89ad1e899f8fff6b52f7454ae7720dffa54"
+      },
+      {
+        "width": 1440,
+        "height": 2160,
+        "src": "/assets/photos/4443134-1440.webp",
+        "sha256": "b022dee277ff382aaec612c0cdd6250039b72fb338b6d7ad42490174c4558b3d"
+      }
+    ]
+  },
+  "/services/search-visibility/::interlude": {
+    "page": "/services/search-visibility/",
+    "slot": "interlude",
+    "sourceId": 7947999,
+    "alt": "A person reviewing charts and reports on a laptop.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/person-using-black-and-gray-laptop-7947999/",
+    "photographer": "RDNE Stock project",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7947999/pexels-photo-7947999.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "959c32f1ad8b1fa5e1a47b637b44ac0bbaf14709d47c8019c1236bc4920daf54",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7947999-480.webp",
+        "sha256": "a3288d25eee2aeb3c19dd16e22054626d39199fddd2acaa57986d862a7c36053"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/7947999-960.webp",
+        "sha256": "a4c8b2318b78e23b66f538b7d9a128394b819090cf1bdc1529d39fd4aaa43e34"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/7947999-1440.webp",
+        "sha256": "c1e41cfad762fb150c8621b99085c05bc34de9e13fcdb941bfb0e385fbdbee60"
+      }
+    ]
+  },
+  "/services/website-management/::interlude": {
+    "page": "/services/website-management/",
+    "slot": "interlude",
+    "sourceId": 7679449,
+    "alt": "A person working on a content plan on a laptop.",
+    "position": "50% 40%",
+    "source": "https://www.pexels.com/photo/a-woman-making-a-content-plan-using-a-laptop-7679449/",
+    "photographer": "MART  PRODUCTION",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7679449/pexels-photo-7679449.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "4b9f9f5780b1dd31a6dc654b4ab69f39851d61b66c9fed0e3932403ad590711f",
+    "width": 1440,
+    "height": 2160,
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "src": "/assets/photos/7679449-480.webp",
+        "sha256": "d31b312eaa3a0d4ec0e619d63914ee9f6cfd5b9fb4f01884b1a98b3ad36afde9"
+      },
+      {
+        "width": 960,
+        "height": 1440,
+        "src": "/assets/photos/7679449-960.webp",
+        "sha256": "2a26a4fee40a876f80ba4183f4a888a486fb7fa29f7c96c55f6aaf7fa7991186"
+      },
+      {
+        "width": 1440,
+        "height": 2160,
+        "src": "/assets/photos/7679449-1440.webp",
+        "sha256": "d6715c7853bb779d50ae9873b7a1dbc403233734bde9f9d3d3254da4a7f5738c"
+      }
+    ]
+  },
+  "/services/care-directory-management/::interlude": {
+    "page": "/services/care-directory-management/",
+    "slot": "interlude",
+    "sourceId": 8871432,
+    "alt": "An older woman using a tablet while seated in a living room.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/side-view-of-a-woman-in-the-couch-holding-a-picture-frame-8871432/",
+    "photographer": "Kampus Production",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/8871432/pexels-photo-8871432.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "a7dabe2580bbbf8d95aece3adf331b5c96ec6dca1d86d76b80363bf814469f11",
+    "width": 1440,
+    "height": 961,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/8871432-480.webp",
+        "sha256": "e02f162fa4373fe290d86adf842ab6d213421ebda15ba21de858c8486e6bd7bc"
+      },
+      {
+        "width": 960,
+        "height": 641,
+        "src": "/assets/photos/8871432-960.webp",
+        "sha256": "63eb24cde1e1ba6fd6992ce2053d4cfd0a4463e8132c11a539447f4edd6c9802"
+      },
+      {
+        "width": 1440,
+        "height": 961,
+        "src": "/assets/photos/8871432-1440.webp",
+        "sha256": "88d878f58dfc8d1014a027738c5d85e8737d01b0dffc41572c5084857ac1e71a"
+      }
+    ]
+  },
+  "/services/home-care/::hero": {
+    "page": "/services/home-care/",
+    "slot": "hero",
+    "sourceId": 5793547,
+    "alt": "A softly lit living room with a comfortable sofa.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/interior-of-a-living-room-5793547/",
+    "photographer": "Mariette de Villiers",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/5793547/pexels-photo-5793547.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "e56e0636b9bac776c8a76233b826d4e90eb97f3475d123265b854558b9e10419",
+    "width": 1440,
+    "height": 1920,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "src": "/assets/photos/5793547-480.webp",
+        "sha256": "6439682372a3e7df823153699a78f465b592dc8e28de4c61c9affdb87c5954bb"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "src": "/assets/photos/5793547-960.webp",
+        "sha256": "11689c5eea7da3b1d46889ac9d77fedfc804c8ab9bd4f3a36791ed270732760e"
+      },
+      {
+        "width": 1440,
+        "height": 1920,
+        "src": "/assets/photos/5793547-1440.webp",
+        "sha256": "654d241a9b7392d5661b486eae6e11c7e002a0d281e5f1281e5ea9d64739c673"
+      }
+    ]
+  },
+  "/services/home-care/::interlude": {
+    "page": "/services/home-care/",
+    "slot": "interlude",
+    "sourceId": 7551583,
+    "alt": "Three adults smiling together in a home setting.",
+    "position": "50% 40%",
+    "source": "https://www.pexels.com/photo/people-smiling-together-7551583/",
+    "photographer": "Kampus Production",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7551583/pexels-photo-7551583.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "144e07057d816d3b53f682006fcffa0c3e6c1785cb2c2ef96772b93054d7480d",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7551583-480.webp",
+        "sha256": "d75cf6a50f28ce4bf0947dcdc1e06700a7c1245c84598fc6b9aa5367dccd4f03"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/7551583-960.webp",
+        "sha256": "ccf70ec0607065ac40d2a65265d9f5f65321126974fe4e7592c9677dd4682202"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/7551583-1440.webp",
+        "sha256": "e31f9edb9f08d6eeb9861d4b1c8757aac89b8dfe00c376adf76de82003d3a6d5"
+      }
+    ]
+  },
+  "/services/care-home-seo/::hero": {
+    "page": "/services/care-home-seo/",
+    "slot": "hero",
+    "sourceId": 14714646,
+    "alt": "A traditional sitting room with upholstered seating and a chandelier.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/living-room-with-retro-decor-14714646/",
+    "photographer": "Wellington Silva",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/14714646/pexels-photo-14714646.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "107d3c284a5c4b748820d2a4259b3b6981c587de4338ddd8420bf76e2ac79022",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/14714646-480.webp",
+        "sha256": "0539fcabc7d478f539dd93c527b15d6a9dbc90b8efa6e63bc7c8a261f1e7261d"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/14714646-960.webp",
+        "sha256": "1d86df930e19ccc37bf3984a22ec13a520c6e51090272ab84adb5d85dd3d9105"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/14714646-1440.webp",
+        "sha256": "599dc6485038caf0df3261712d81386f8464e0ab0b018c67e92db7debc25fe92"
+      }
+    ]
+  },
+  "/services/care-home-seo/::interlude": {
+    "page": "/services/care-home-seo/",
+    "slot": "interlude",
+    "sourceId": 18459198,
+    "alt": "A care professional bringing a drink to an older woman in a communal room.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/caregiver-helping-elderly-people-in-nursing-home-18459198/",
+    "photographer": "Jsme  MILA  ",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/18459198/pexels-photo-18459198.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "9af2921f66a82da89ee07c91c93c9638bacf4ab8b556335011957db1a5fb8f3f",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/18459198-480.webp",
+        "sha256": "3184635ec5cb7adad53c6be88113555a207cf5473682f62833a30b83ed6e2492"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/18459198-960.webp",
+        "sha256": "91e249b8822e263c7c9fa9ae4d6ed655ad5fddf042cb1032404ae52367a317bc"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/18459198-1440.webp",
+        "sha256": "ebb8389d47373b079f269201065df4fb2666cc4371fbaf6f9e3c6d9c6ba87273"
+      }
+    ]
+  },
+  "/for-care-homes/::hero": {
+    "page": "/for-care-homes/",
+    "slot": "hero",
+    "sourceId": 37178437,
+    "alt": "A historic stone house with formal gardens and a lawn.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/historic-english-manor-with-scenic-garden-pathway-37178437/",
+    "photographer": "Phil Ledwith",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/37178437/pexels-photo-37178437.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "554bbed8a649fcad70ad1b47477ed6b83940e17e74fe7bac84e184e5e628853c",
+    "width": 1440,
+    "height": 810,
+    "variants": [
+      {
+        "width": 480,
+        "height": 270,
+        "src": "/assets/photos/37178437-480.webp",
+        "sha256": "89b173ef783154bb6a8c92bfe3e6ae5a5ad334d351aaa62b486425faba951bec"
+      },
+      {
+        "width": 960,
+        "height": 540,
+        "src": "/assets/photos/37178437-960.webp",
+        "sha256": "b05f52c72a7537f517340dc203666cb224e983f4d831bae147e25a25c7f80a04"
+      },
+      {
+        "width": 1440,
+        "height": 810,
+        "src": "/assets/photos/37178437-1440.webp",
+        "sha256": "3fcb7c10814cec02fc09567ed8350cd25119dde5254eabd96f18b12f283d7a27"
+      }
+    ]
+  },
+  "/for-care-homes/::interlude": {
+    "page": "/for-care-homes/",
+    "slot": "interlude",
+    "sourceId": 18459207,
+    "alt": "Older adults and care staff sharing conversation around a dining table.",
+    "position": "50% 40%",
+    "source": "https://www.pexels.com/photo/seniors-by-table-in-nursing-home-18459207/",
+    "photographer": "Jsme  MILA  ",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/18459207/pexels-photo-18459207.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "242ae9b02de7665455f836a919489356d942f2fe7ebe88373939b019685efd0d",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/18459207-480.webp",
+        "sha256": "3c033da2b8ed68955d6f223815b73e2a611394deacd8dd9682e0c053c6d80e38"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/18459207-960.webp",
+        "sha256": "dcf726b580d11b07644f02351ead8dd381b3ad0ea6a1696e63a3f12c722ec592"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/18459207-1440.webp",
+        "sha256": "65d97666cd953e2bb3c6526734b9834a5bc9449e3db43801045ed7a38dc3b573"
+      }
+    ]
+  },
+  "/for-home-care-agencies/::hero": {
+    "page": "/for-home-care-agencies/",
+    "slot": "hero",
+    "sourceId": 7546648,
+    "alt": "A domestic sitting room with a blue sofa and a television.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/interior-design-of-room-7546648/",
+    "photographer": "Max Vakhtbovych",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7546648/pexels-photo-7546648.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "aee7fb029de71af8d1d4c5248c8e25b8c19a2e37a7d8be00d4553d36aaf0aa33",
+    "width": 1440,
+    "height": 961,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7546648-480.webp",
+        "sha256": "8b304694c3d555fb1fab77ccd9505a2e479f8f5e2f4ce117fe040911c82bd8a5"
+      },
+      {
+        "width": 960,
+        "height": 641,
+        "src": "/assets/photos/7546648-960.webp",
+        "sha256": "4854deed55f6cb51cebe1478f7b0badce24b54deded770bbc2bcabd8ebf9f0a5"
+      },
+      {
+        "width": 1440,
+        "height": 961,
+        "src": "/assets/photos/7546648-1440.webp",
+        "sha256": "3c84a0fd551bb2f689767a0e554a70c20adb916e066d8b9e256b0822c65e7244"
+      }
+    ]
+  },
+  "/for-home-care-agencies/::interlude": {
+    "page": "/for-home-care-agencies/",
+    "slot": "interlude",
+    "sourceId": 6923486,
+    "alt": "A close-up of hands resting together in a reassuring gesture.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/couple-showing-affection-6923486/",
+    "photographer": "cottonbro studio",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/6923486/pexels-photo-6923486.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "f186863f8c8712fb1d4815b4836def4bd47af481a88dfe083effde6bcfbfad28",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/6923486-480.webp",
+        "sha256": "623e18da02cbfacabd55fb69e8de66ffd2260b88c14ddf1b302bc32b5c4fe49e"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/6923486-960.webp",
+        "sha256": "2f6fc5da7e1bf842e74e0f29ed91dc71e6c8831cf2d7b09f394674367109c875"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/6923486-1440.webp",
+        "sha256": "6ac2bccf48e9e674f072822fa1bd2499e57725a146436089998ccc5a6ab0470c"
+      }
+    ]
+  },
+  "/about/::hero": {
+    "page": "/about/",
+    "slot": "hero",
+    "sourceId": 18429308,
+    "alt": "Older adults and care staff talking together around a table.",
+    "position": "50% 40%",
+    "source": "https://www.pexels.com/photo/a-caregiver-talking-to-a-group-of-seniors-sitting-at-a-table-18429308/",
+    "photographer": "Jsme  MILA  ",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/18429308/pexels-photo-18429308.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "64fc23f36840c7bd4b418a17edd9913f16ba03f228f4a00233bc59c4bbd665aa",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/18429308-480.webp",
+        "sha256": "e405c0bcb597a809b73a733e6ac47eb1dabc96ca3e4b05ffe07e7debe9cfd640"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/18429308-960.webp",
+        "sha256": "a37c9556853975805cab602d81f8613782a9996059b152387f878b25cbc09372"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/18429308-1440.webp",
+        "sha256": "568c0acd08409598a1a1ffc76c1d19f010d11d3c569490d13708a60fd92e4ff7"
+      }
+    ]
+  },
+  "/guides/::guide:/guides/choosing-a-care-website/": {
+    "page": "/guides/",
+    "slot": "guide:/guides/choosing-a-care-website/",
+    "sourceId": 7983606,
+    "alt": "An older woman using a tablet during a group session.",
+    "position": "50% 45%",
+    "source": "https://www.pexels.com/photo/woman-sitting-on-table-holding-digital-tablet-7983606/",
+    "photographer": "Kampus Production",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7983606/pexels-photo-7983606.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "921c55a96d501f491b47fe2dda78db9c6a0d645d2f60040d8bf644496388d28b",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7983606-480.webp",
+        "sha256": "17e6dabeba5c73eb97f876b2c1f18bf9bafc3872a7dfd89ee894eaa0594beaf5"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/7983606-960.webp",
+        "sha256": "70766d044df1a12710c3f05589e47eb104e50dc0a2557329d149cfe2c3e99b9b"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/7983606-1440.webp",
+        "sha256": "acbc7187bd8f15bdbf9c67c1ea84bb22532910a6fabf6d1e5538c0c4b061d903"
+      }
+    ]
+  },
+  "/guides/::guide:/guides/home-care-local-seo/": {
+    "page": "/guides/",
+    "slot": "guide:/guides/home-care-local-seo/",
+    "sourceId": 7278882,
+    "alt": "Two people discussing plans using a laptop and notebook.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/gray-and-black-laptop-on-the-table-7278882/",
+    "photographer": " Anastasia  Shuraeva",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7278882/pexels-photo-7278882.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "5d0dad50c16deadc44e812de3e032709ed4fa5f5906c0b0e16246715567fad3e",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7278882-480.webp",
+        "sha256": "4a5fac624f8b23c38bd98fccfea2a362c1ffcabf9e4caa424778239248126c48"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/7278882-960.webp",
+        "sha256": "0a140698796a6ac40355942b96b42fac71f624190dd4184fd53eac982276e7b3"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/7278882-1440.webp",
+        "sha256": "90659c01faa0a311f9b21ffe8495e6e390fbf69f683a0c0e3aa87c212bd64a26"
+      }
+    ]
+  },
+  "/guides/::guide:/guides/care-directory-comparison/": {
+    "page": "/guides/",
+    "slot": "guide:/guides/care-directory-comparison/",
+    "sourceId": 7983611,
+    "alt": "An older man using a tablet in a bright room.",
+    "position": "50% 40%",
+    "source": "https://www.pexels.com/photo/an-elderly-man-using-a-tablet-7983611/",
+    "photographer": "Kampus Production",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/7983611/pexels-photo-7983611.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "a0b210ea915f2773fb77d75ea5ab271742587a3dcbe0986609d0627aebdce4df",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/7983611-480.webp",
+        "sha256": "8058741409eb9f4e951bfb00921b6824dab7c5cc2bf295c2136a62946aadbb59"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/7983611-960.webp",
+        "sha256": "ac346860e9cd12b7b529382c015546a969dcbc3c055f420a5f32e7aba6664efc"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/7983611-1440.webp",
+        "sha256": "1d5092de90abe66a940a9275b0c8519d522f4adc71916fd3b9833d769328e476"
+      }
+    ]
+  },
+  "/guides/::guide:/guides/carehome-co-uk-profile/": {
+    "page": "/guides/",
+    "slot": "guide:/guides/carehome-co-uk-profile/",
+    "sourceId": 37441096,
+    "alt": "A cottage garden with colourful flowers and outdoor seating.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/beautiful-english-cottage-garden-in-bloom-37441096/",
+    "photographer": "Neville Hawkins",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/37441096/pexels-photo-37441096.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "179f5107c7f9896449269a54ebb0ae58aec9358c87e3f243b012f8a6a571a4fe",
+    "width": 1440,
+    "height": 954,
+    "variants": [
+      {
+        "width": 480,
+        "height": 318,
+        "src": "/assets/photos/37441096-480.webp",
+        "sha256": "49982fc435a1d4e1dd348b752ee3888648eaf61213099bc7dc84ea3d92db23ee"
+      },
+      {
+        "width": 960,
+        "height": 636,
+        "src": "/assets/photos/37441096-960.webp",
+        "sha256": "8bde6cb1dab75904790d40d478acf01ce72288de3197bc859423d66047127a68"
+      },
+      {
+        "width": 1440,
+        "height": 954,
+        "src": "/assets/photos/37441096-1440.webp",
+        "sha256": "37fa29bf447735f47ae4b3ee72934e0504ce27f254425673c213891b1fb0c98c"
+      }
+    ]
+  },
+  "/guides/::guide:/guides/google-business-profile-care/": {
+    "page": "/guides/",
+    "slot": "guide:/guides/google-business-profile-care/",
+    "sourceId": 6972643,
+    "alt": "A man reading information on a tablet while sitting on a sofa.",
+    "position": "50% 45%",
+    "source": "https://www.pexels.com/photo/photo-of-an-elderly-man-writing-6972643/",
+    "photographer": "Mikhail Nilov",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/6972643/pexels-photo-6972643.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "10b6c61536c1f9f4a9471013248c51c649b010de02ba0c986558dc20582c8ff0",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/6972643-480.webp",
+        "sha256": "d489de38fe32f096c2e20b76f5b6520fc752fa7839635ecb73f388174426d8b3"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/6972643-960.webp",
+        "sha256": "4e6d5100c2701459604998bae848ab4f3e0d333c460d0deebd50fea3b7765f2a"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/6972643-1440.webp",
+        "sha256": "0f747552b80f166abd3576a32105981f1cd761f90b1ddcfe26b82dec3a1d98d3"
+      }
+    ]
+  },
+  "/guides/::guide:/guides/multi-location-home-care-seo/": {
+    "page": "/guides/",
+    "slot": "guide:/guides/multi-location-home-care-seo/",
+    "sourceId": 8145328,
+    "alt": "A team comparing printed charts and laptop information around a table.",
+    "position": "50% 50%",
+    "source": "https://www.pexels.com/photo/persons-using-laptops-on-table-with-charts-8145328/",
+    "photographer": "olia danilevich",
+    "license": "https://www.pexels.com/license/",
+    "licenseChecked": "2026-10-26",
+    "download": "https://images.pexels.com/photos/8145328/pexels-photo-8145328.jpeg?auto=compress&cs=tinysrgb&w=1440",
+    "context": "Illustrative stock photography; not ElderIndex clients, premises or team members.",
+    "originalSha256": "8ccf97a273e4579299d6bd917cd119bcef4148994a2bea5904832560401f8c84",
+    "width": 1440,
+    "height": 960,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "src": "/assets/photos/8145328-480.webp",
+        "sha256": "89f02016dda307c12d0c7a14aae2a7e082f37b9302fd6707cbfd138d8b0fe26d"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "src": "/assets/photos/8145328-960.webp",
+        "sha256": "4bc44a75a367df8bfeead7700aa6af3ab57863c86404b8b27aa00f92c4db43a6"
+      },
+      {
+        "width": 1440,
+        "height": 960,
+        "src": "/assets/photos/8145328-1440.webp",
+        "sha256": "5222f444c2822b9c29307352bb6f191d27f886900a740d5937299c25d098d152"
+      }
+    ]
+  }
+}
