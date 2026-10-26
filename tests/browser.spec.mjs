@@ -82,7 +82,7 @@ test('analytics waits for consent, persists rejection, records contact clicks se
 test('homepage is compact, contact qualifies, guides use contextual next steps and genuine author metadata',async({page})=>{
   await page.goto('/');await expect(page.locator('form input:not([type="checkbox"]), form textarea')).toHaveCount(4);await expect(page.getByRole('checkbox')).toHaveCount(0);
   await page.goto('/talk-to-us/');await expect(page.getByRole('checkbox')).toHaveCount(5);
-  await page.goto('/guides/care-directory-comparison/');await expect(page.locator('table tbody tr')).toHaveCount(4);await expect(page.locator('form')).toHaveCount(0);await expect(page.locator('.article-byline')).toContainText('Josh Fraser-Shaw');await expect(page.locator('.guide-next-step a').first()).toHaveAttribute('href','/services/care-directory-management/');
+  await page.goto('/guides/care-directory-comparison/');await expect(page.locator('table tbody tr')).toHaveCount(4);await expect(page.locator('form')).toHaveCount(0);await expect(page.locator('.article-byline')).toContainText('Josh');await expect(page.locator('.guide-next-step a').first()).toHaveAttribute('href','/services/care-directory-management/');
   await expect(page.getByRole('link',{name:'Google Business Profile checklist'})).toHaveCount(0);
 });
 test('navigation supports hover, focus, Escape and mobile taps',async({page})=>{

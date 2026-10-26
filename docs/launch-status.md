@@ -7,7 +7,7 @@ The code changes support staging review. This is not a declaration that the prod
 - Formspree POST integration using the owner's public endpoint; inline validation, pending/success/error/timeout states, duplicate suppression and retained input on failure.
 - Compact homepage form; service checkboxes and qualifying fields on the contact page.
 - Optional GA4 wiring with opt-in/rejection/preferences and consent-gated lead/email/phone events. No real Measurement ID exists yet, so analytics remains off.
-- Accurate Josh Fraser-Shaw profile based on the owner's care home management, operations and customer relations background. Named author links, real source dates and appropriate schema.
+- Accurate Josh profile based on the owner's care home management, operations and customer relations background. Named author links, real source dates and appropriate schema.
 - Expanded Home Care SEO and Care Home SEO methods, deliverables, examples and buying questions.
 - Five improved guides plus a distinct multi-location home care planning guide. Keyword-to-page mapping is included in the local SEO guide rather than an unnecessary separate keyword page.
 - In-paragraph links, guide contents navigation and relevant next steps instead of repeated full forms on guides.

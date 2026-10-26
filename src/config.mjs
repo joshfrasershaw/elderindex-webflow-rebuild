@@ -17,5 +17,5 @@ export const config = {
   production: env.SITE_ENV === 'production',
   formEndpoint: endpoint,
   measurementId,
-  founderName: 'Josh Fraser-Shaw',
+  founderName: 'Josh',
 };
