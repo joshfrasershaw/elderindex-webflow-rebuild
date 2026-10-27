@@ -1,0 +1,13 @@
+{
+  "releaseId": "EI-20261027-RC1",
+  "sourceSha": "752f6a9f5d8b5be47bd9312c4ec58fcc3b85eb89",
+  "sourceCommittedUtc": "2026-10-27T09:45:47Z",
+  "archiveName": "elderindex-release-752f6a9-proposed-www-production.zip",
+  "archiveBytes": 7645648,
+  "sha256": "04abfb6a4b247f6834481de728f74e1c1bae1e24eddabbbb9a95b28083df2481",
+  "builtAtUtc": "2026-10-27T09:47:28.206981+00:00",
+  "environment": "production",
+  "canonicalOrigin": "https://www.elderindex.co.uk",
+  "trackedChanges": false,
+  "approval": "REVIEW ARTEFACT ONLY; www host and production release not approved; no deployment or DNS change"
+}

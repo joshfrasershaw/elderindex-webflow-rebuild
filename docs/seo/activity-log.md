@@ -2,7 +2,7 @@
 
 ## 27 October 2026 — Release candidate preparation (review lane)
 
-**Status:** authorised non-deploying policy-branch checkpoint; no merge, deployment or domain changes. [EI-20261027-02](../changes/2026-10-27-launch-readiness.md) records code/tooling, ten verified migration mappings, retained migration blockers and lossless homepage optimisation. [Go-live report](../launch/go-live-report.md) is the current release-specific gate evidence. Remaining account/legal/migration decisions are explicit; no GSC, real inbox receipt or production result is invented. Implementation commit `ab9b014` passed all remote quality checks and 16 browser tests in run 40482477807; evidence/QA follow-up is linked from PR #1. No production deployment or cutover occurred.
+**Status:** authorised non-deploying policy-branch checkpoint; no merge, deployment or domain changes. [EI-20261027-02](../changes/2026-10-27-launch-readiness.md) records code/tooling, ten verified migration mappings, retained migration blockers and lossless homepage optimisation. [Go-live report](../launch/go-live-report.md) is the current release-specific gate evidence. Remaining account/legal/migration decisions are explicit; no GSC, real inbox receipt or production result is invented. Release implementation commit `752f6a9` passed all remote quality checks and 16 browser tests in run 40483263628; final documentation-only handoff is linked from PR #1. A hashed clean-source proposed-www production build is recorded, with staging restored. No production deployment or cutover occurred.
 
 ## 27 October 2026 — Policy-driven SEO operating system and cutover governance
 
