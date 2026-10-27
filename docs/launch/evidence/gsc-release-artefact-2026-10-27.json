@@ -1,0 +1,12 @@
+{
+  "source_sha": "1f56b8de850cc644091ff5e2383a8ccb5ee253f2",
+  "created_at_utc": "2026-10-27T15:07:08.068744+00:00",
+  "path": "/workspace/exports/elderindex-release-1f56b8d-www-production.zip",
+  "sha256": "a4b58c7d5b1d7d07cc0469617266e79e676a375cef7c553cbf88330fe45bc632",
+  "bytes": 7684732,
+  "environment": "production",
+  "canonical_origin": "https://www.elderindex.co.uk",
+  "deployed": false,
+  "page_count": 30,
+  "redirect_rule_count": 126
+}

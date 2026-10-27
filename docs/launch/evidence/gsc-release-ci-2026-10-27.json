@@ -1,0 +1,128 @@
+{
+  "observed_at_utc": "2026-10-27T15:15:03.065674+00:00",
+  "github": {
+    "conclusion": "",
+    "createdAt": "2026-10-27T15:05:24Z",
+    "databaseId": 40527503780,
+    "headSha": "1f56b8de850cc644091ff5e2383a8ccb5ee253f2",
+    "jobs": [
+      {
+        "completedAt": "0001-01-01T00:00:00Z",
+        "conclusion": "",
+        "databaseId": 122270950942,
+        "name": "quality",
+        "startedAt": "2026-10-27T15:05:34Z",
+        "status": "in_progress",
+        "steps": [
+          {
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "number": 2,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "number": 3,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 4,
+            "status": "completed"
+          },
+          {
+            "conclusion": "",
+            "name": "Run npx playwright install --with-deps chromium",
+            "number": 5,
+            "status": "in_progress"
+          },
+          {
+            "conclusion": "",
+            "name": "Policy and repository hygiene",
+            "number": 6,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Provenance negative tests",
+            "number": 7,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Staging build and classified link audit",
+            "number": 8,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Browser, enquiry simulations and accessibility",
+            "number": 9,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Production build and actual asset-router checks (local only)",
+            "number": 10,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Restore safe staging output",
+            "number": 11,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "number": 12,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "number": 23,
+            "status": "pending"
+          },
+          {
+            "conclusion": "",
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "number": 24,
+            "status": "pending"
+          }
+        ],
+        "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40527503780/job/122270950942"
+      }
+    ],
+    "status": "in_progress",
+    "updatedAt": "2026-10-27T15:05:35Z",
+    "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40527503780"
+  },
+  "checks": [
+    {
+      "completed_at": "2026-10-27T15:07:15Z",
+      "conclusion": "success",
+      "details_url": "https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/481f3a9d-75b0-41ec-8b3f-c57a7df995a7",
+      "name": "Workers Builds: elderindex-webflow-rebuild",
+      "status": "completed",
+      "summary": "\nBuild ID: [481f3a9d-75b0-41ec-8b3f-c57a7df995a7](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/481f3a9d-75b0-41ec-8b3f-c57a7df995a7)\nScript: [elderindex-webflow-rebuild](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production)\nVersion ID: 0402e4f1-5e06-4c76-b035-199129287428\n"
+    },
+    {
+      "completed_at": null,
+      "conclusion": null,
+      "details_url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40527503780/job/122270950942",
+      "name": "quality",
+      "status": "in_progress",
+      "summary": null
+    }
+  ],
+  "note": "GitHub quality pending browser installation at this observation, not declared passed. Logging commits can supersede/cancel runs under existing concurrency; inspect latest main checks. Local full release checks passed; no CI check disabled or failure cause invented."
+}

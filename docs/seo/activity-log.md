@@ -84,3 +84,5 @@ Verified staging publication for EI-20261027-06: `125e8900313c215e79237344f0bfed
 ## 27 October 2026 — EI-20261027-07: GSC-backed preservation and consolidation
 
 [Change record](../changes/2026-10-27-gsc-migration.md) and [first-party baseline](gsc-baseline-2026-10-25.md). The previously missing export has arrived. All 23 page rows matched; Home Care SEO HTML unchanged. Glossary/97 anchors retained, CARE pillars substantively consolidated, platform topics retained in expanded comparison, six distinct resources preserved. All 60 legacy paths have justified destinations; no retirement based on absent rows. Main staging verification and exact source are recorded after tests/deployment, not inferred from a push.
+
+Verified staging publication for EI-20261027-07: `1f56b8de850cc644091ff5e2383a8ccb5ee253f2`, 2026-10-27T15:08:26.906432+00:00, https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/. Cloudflare succeeded; 30 pages and all 126 redirect rules verified. Local full release checks passed; GitHub quality still in browser installation at the checkpoint, not declared passed. All 60 migration paths resolved; live-domain acceptance awaits owner cutover.
