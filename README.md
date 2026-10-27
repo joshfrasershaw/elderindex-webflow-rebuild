@@ -75,11 +75,11 @@ See [launch status and remaining checks](docs/launch-status.md). The separate `j
 
 ## Permanent SEO guidance and publication
 
-Future SEO audits and content changes must follow [commercial strategy](docs/seo/strategy.md) and [internal linking/cross-selling guidance](docs/seo/internal-linking.md), as required by [AGENTS.md](AGENTS.md). Significant changes belong in the [SEO activity log](docs/seo/activity-log.md).
+Future SEO audits and content changes must follow [autonomous publishing](docs/ops/autonomous-publishing.md) and [commercial strategy](docs/seo/strategy.md) and [internal linking/cross-selling guidance](docs/seo/internal-linking.md), as required by [AGENTS.md](AGENTS.md). Significant changes belong in the [SEO activity log](docs/seo/activity-log.md).
 
 Run `npm run build`, then `npm run audit:links -- --output /tmp/elderindex-links.json` for a placement-aware rendered-site audit. Use `--compare` with a pre-change report to inspect removed links and metadata changes. Design and management have commercial priority, while each page retains its own search intent and useful SEO links.
 
-SEO changes are prepared locally for review. Pushing `main` automatically triggers Cloudflare; do not push or deploy a review draft without an explicit publication instruction.
+The owner has given standing authority for Codex to audit, implement, test and publish framework-compliant SEO work directly to `main`. Verify deployed state and record each live change and rollback under `docs/changes/`; no routine PR approval required. The initial old-site domain switch, legal and other reserved actions remain separate. See [autonomous publishing](docs/ops/autonomous-publishing.md) and [routine Codex job](docs/codex/AUDIT-FIX-PUBLISH.md).
 
 ## Policy-driven SEO operating system (27 October 2026)
 
