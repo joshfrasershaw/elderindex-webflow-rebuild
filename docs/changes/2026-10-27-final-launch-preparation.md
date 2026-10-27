@@ -14,3 +14,5 @@
 - Publication status: implementation prepared on main. Actual commit/build/staging verification timestamps are added only after observation. New production/apex targets NOT deployed by this task (no authenticated account access). Public-domain launch: NONE.
 - Rollback: selective revert of this implementation commit and re-run complete checks, preserving unrelated main/CMS changes. Operator-controlled domain rollback uses authenticated DNS/routes export and retained Vercel deployment ID, which this task cannot invent. Baseline is replacement staging code, not an old-site Vercel deployment ID.
 - Remaining owner-only actions: confirm one dashboard/inbox receipt and production form origin settings; finalise/approve actual legal facts; authenticate/deploy unbound targets, save real recovery point and perform approved domain switch with post-binding verification. See `docs/launch/production-cutover.md`.
+
+- Final notice clarification: describe the absence of a liability waiver/service contract in the draft, rather than imply a legal conclusion about contract formation. This remains part of the same unapproved publication candidate, not legal signoff.

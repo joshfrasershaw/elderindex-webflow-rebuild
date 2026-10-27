@@ -21,7 +21,7 @@ export function applyLegal(pages,config){
    ['Examples and illustrations','Design concepts and fictional worked examples are labelled as illustrations, not completed client projects or case studies. Stock photographs do not show ElderIndex clients or team members.'],
    ['Project and support arrangements','Individual projects and ongoing services require an agreed scope, responsibilities, pricing, access and terms in writing. Website management and ongoing SEO are separate choices, not compulsory additions to a website build. Care providers approve factual and regulated statements about their own services.'],
    ['Other websites and platforms','Linked directories and platforms control their own features, permissions and commercial terms. A link does not imply an official partnership or control over a platform’s ranking or decisions. Check the agreement offered to your business before making a purchase.'],
-   ['Contact and approval status','Contact ElderIndex through [the enquiry page](/talk-to-us/) or hello@elderindex.co.uk. The operator must confirm legal business details and approve applicable intellectual-property, liability and governing-law terms before treating this draft as final. No unapproved liability waiver or service contract is created by this text.']
+   ['Contact and approval status','Contact ElderIndex through [the enquiry page](/talk-to-us/) or hello@elderindex.co.uk. The operator must confirm legal business details and approve applicable intellectual-property, liability and governing-law terms before treating this draft as final. This draft does not include a liability waiver or set out a service contract.']
   ]
  });
  Object.assign(page('/cookies/'),{
