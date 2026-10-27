@@ -1,0 +1,48 @@
+{
+  "initial_responses": [
+    {
+      "path": "/contact",
+      "initial_status": 308,
+      "location": "/talk-to-us",
+      "checked_at_utc": "2026-10-27T14:37:17.558142+00:00"
+    },
+    {
+      "path": "/glossary/crawlability",
+      "initial_status": 308,
+      "location": "/glossary",
+      "checked_at_utc": "2026-10-27T14:37:17.737739+00:00"
+    },
+    {
+      "path": "/glossary/url-structure",
+      "initial_status": 308,
+      "location": "/glossary",
+      "checked_at_utc": "2026-10-27T14:37:17.925842+00:00"
+    }
+  ],
+  "destinations": [
+    {
+      "path": "/contact",
+      "status": 200,
+      "final_url": "https://www.elderindex.co.uk/talk-to-us",
+      "canonical": "https://www.elderindex.co.uk/talk-to-us",
+      "checked_at_utc": "2026-10-27T14:36:18.441825+00:00",
+      "main_text_length": 861
+    },
+    {
+      "path": "/glossary/crawlability",
+      "status": 200,
+      "final_url": "https://www.elderindex.co.uk/glossary",
+      "canonical": "https://www.elderindex.co.uk/glossary",
+      "checked_at_utc": "2026-10-27T14:36:19.102813+00:00",
+      "main_text_length": 29958
+    },
+    {
+      "path": "/glossary/url-structure",
+      "status": 200,
+      "final_url": "https://www.elderindex.co.uk/glossary",
+      "canonical": "https://www.elderindex.co.uk/glossary",
+      "checked_at_utc": "2026-10-27T14:36:19.797761+00:00",
+      "main_text_length": 29958
+    }
+  ]
+}

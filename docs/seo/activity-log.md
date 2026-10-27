@@ -72,3 +72,8 @@ Final `npm run check` passed all 22 pages with zero issues, 22 known redirect ru
 **Publication authorisation:** the owner explicitly instructed “yes push it all, please”, authorising this change to be committed and pushed to `main`. That push triggers Cloudflare. This authorisation applies to this reviewed change; future SEO changes still require their own publication instruction.
 
 **Owner review:** the owner confirmed “all reviews and happy”, then explicitly authorised the push. The successful pre-publication checks are recorded above; a push alone does not establish that Cloudflare finished deploying.
+
+
+## 27 October 2026 — EI-20261027-06: implement current frameworks on main
+
+[Implementation and before/after record](../changes/2026-10-27-framework-implementation.md): all-page rendered/axe audit, image alternatives, audience concept correction, service scope clarity, preserved www canonical default, nine equivalent migrations plus direct contact alias. Existing Home Care SEO intent is preserved. GSC export is requested but has not arrived; no figures invented. Final exact-SHA tests and verified staging deployment are recorded in the current [go-live report](../launch/go-live-report.md). Old-domain DNS and CMS drafts remain untouched.

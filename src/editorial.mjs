@@ -6,6 +6,8 @@ const table = (caption, headers, rows) => ({type:'table', caption, headers, rows
 export function applyEditorial(pages, guides) {
   const page = path => pages.find(p => p.path === path);
   page('/').title = 'Web Design & SEO for Care Homes and Home Care Agencies | ElderIndex';
+  page('/').description = 'Website design, redesign and ongoing management for care homes and home care agencies. Practical SEO and directory support shaped by care-sector experience.';
+  page('/services/').intro = 'Compare website design and redesign, ongoing management, SEO and directory support for your care business. Choose the work you need; services can be commissioned separately.';
   const design = page('/services/website-design/');
   design.description = 'Care home and home care website design informed by real care-sector experience. Clear care information, authentic imagery and welcoming enquiry journeys.';
   design.intro = 'Website design and redesign for care homes and home care agencies, shaped by real care-sector experience. Help families understand your service and feel comfortable starting a conversation.';
@@ -66,6 +68,16 @@ export function applyEditorial(pages, guides) {
     '/services/care-directory-management/':'Use the [directory comparison](/guides/care-directory-comparison/) to assess platform fit and questions about terms, then the [Carehome.co.uk profile checklist](/guides/carehome-co-uk-profile/) to review a home’s factual information.'
   };
   for(const [path,text] of Object.entries(contextual))page(path).sections.at(-1).push(text);
+  const search = page('/services/search-visibility/');
+  search.sections.find(s=>s[0]==='Digital PR and appropriate authority')[1] = 'Where relevant, we identify opportunities for useful editorial contributions, genuine local relationships and sector resources. We do not buy links to manipulate rankings or imply partnerships that do not exist.';
+  search.sections.find(s=>s[0]==='Measure qualified enquiries').splice(2,1);
+  search.sections.push(['From an initial review to implementation',
+    'We confirm your care model, real locations, current website and enquiry priorities before agreeing an audit. With authorised access, we review search data, technical issues, relevant profiles and the pages families use. Findings lead to a prioritised scope with implementation responsibilities and provider approvals stated.',
+    'Your team supplies or approves care facts, coverage, photographs and contact arrangements. We implement the agreed changes, check affected pages and enquiry routes, and record what changed. Any directory work, redesign or ongoing maintenance is separately agreed; there is no automatic retainer or guaranteed ranking timetable.',
+    'Reporting distinguishes completed work, relevant search visibility and accepted enquiries from suitable care enquiries confirmed by your team. We explain evidence gaps and choose the next action from the findings.']);
+  page('/services/care-directory-management/').sections.push(['How profile work is agreed and checked',
+    'Start with the homes or agencies, relevant platforms and the profiles your business controls. You nominate an approver and provide authorised access and an approved record of services, contacts, imagery and coverage. We agree the profiles, changes and review frequency before starting.',
+    'We record requested edits, check what the platform publishes and test available website links and enquiry destinations. Platform approval, paid features, subscription or introduction fees and response times remain outside our control. A website update or SEO campaign is not automatically included.']);
   const home = page('/services/home-care/');
   home.sections = [
     ['What does home care SEO actually improve?',
@@ -282,6 +294,13 @@ export function applyEditorial(pages, guides) {
     '/guides/carehome-co-uk-profile/': ['Need help keeping home profiles accurate?','Discuss the homes, platforms and approved information that need ongoing attention.','/services/care-directory-management/','Explore directory management'],
     '/guides/google-business-profile-care/': ['Make local profiles and your website agree.','Start with the relevant search visibility work and agree which profile changes need provider approval.','/services/search-visibility/','Explore search visibility']
   };
+  page('/services/care-home-seo/').sections.push(['Why might a care home be missing from Google?',
+    'First distinguish a missing website result from a missing Google Business Profile. For the website, check the actual HTTP response, robots directives, canonical URL, sitemap and Search Console indexing evidence. A noindex directive, broken page or unintended redirect needs a technical correction before more articles are commissioned.',
+    'For a local profile, check ownership, eligibility, verification, accurate categories and any issue reported in the authorised account. Follow [Google’s business representation guidelines](https://support.google.com/business/answer/3038177) and [local ranking explanation](https://support.google.com/business/answer/7091). Do not assume a particular rating, review schedule or schema change will secure a position.',
+    'Then review whether the home’s pages explain its genuine services, location and enquiry route. Organic search and Maps have different diagnostics; finding the cause needs evidence rather than a promise that every missing result has the same fix.']);
+  home.sections.push(['Planning search content for live-in care',
+    'For a live-in care agency, map the questions families need answered before enquiring: how the arrangement works, the support actually offered, where the agency operates, and how costs and assessment are discussed. Publish only provider-approved details; do not assume live-in care is always cheaper or more suitable than a care home.',
+    'A useful service page can address related comparison questions and link to genuine coverage information. Separate guides are justified only when they answer a distinct question with evidence. A broad operating area does not establish offices in every town, and recruitment searches need a separate route from family enquiries.']);
   const commerciallyUpdatedGuides = new Set(['/guides/choosing-a-care-website/','/guides/home-care-local-seo/','/guides/care-directory-comparison/','/guides/carehome-co-uk-profile/','/guides/google-business-profile-care/','/guides/multi-location-home-care-seo/']);
   for (const p of pages.filter(p=>p.kind==='guide')) {
     // Keep the original publication date; advance only guides actually edited in this review.

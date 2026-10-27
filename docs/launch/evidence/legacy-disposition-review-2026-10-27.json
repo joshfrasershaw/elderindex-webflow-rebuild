@@ -1,0 +1,368 @@
+{
+  "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+  "scope": "All 40 formerly unresolved paths; actual archived main HTML from same-day old-site crawl examined. No GSC data invented.",
+  "equivalent_redirects_added": 9,
+  "remaining_retention_decisions": 31,
+  "entries": [
+    {
+      "path": "/cookie-settings",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "9345dec1030d9e9fa45d68b26940f0d6f42c008cbb37c99ab418f7f58e4d8d30",
+      "source_observed_utc": "2026-10-27T08:57:14.864858+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/cookies/",
+      "rationale": "Same cookie/analytics information and settings purpose. Destination now reports actual configured analytics state and offers working preferences when configured; no dummy marketing toggle. Legal approval is separate."
+    },
+    {
+      "path": "/directory-guides/autumna",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "cc03414bfb7b4fa66dd3c948b314ad6513ec3cff6b0284884795b78161e2b4d9",
+      "source_observed_utc": "2026-10-27T08:57:15.217594+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name."
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "7d08b851d2aa9fbea49c327c2915cff7f04684e631ac618a1fad87e31f363db1",
+      "source_observed_utc": "2026-10-27T08:57:15.342956+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name."
+    },
+    {
+      "path": "/directory-guides/lottie",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "cf48e0f7571a0a6179e24a1b0e583283088deedaa193cf96f03906c8445e3d82",
+      "source_observed_utc": "2026-10-27T08:57:15.360111+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name."
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "f6f6841fe505d0e8f76fd27eac7cd4e6809584fff5afe2ae7a5ac0cfc8fe65bd",
+      "source_observed_utc": "2026-10-27T08:57:15.452215+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name."
+    },
+    {
+      "path": "/framework",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "a1a8c6e6b590bc88fcdc30728b2d9a8ea01254795bc0e4c9a5dabed2be1afa33",
+      "source_observed_utc": "2026-10-27T08:57:15.458488+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation."
+    },
+    {
+      "path": "/framework/authority",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "052406808df1e588fc217867caad7fac313b48ee0c6722ee95f8a6b05bbb2805",
+      "source_observed_utc": "2026-10-27T08:57:15.492126+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation."
+    },
+    {
+      "path": "/framework/credible",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "ec32d86d9528748a9278836a071f7b8361006457e72b3ea6c865ec8deb235883",
+      "source_observed_utc": "2026-10-27T08:57:15.535974+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation."
+    },
+    {
+      "path": "/framework/effective",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "258df613bb0a5eb3ab4cf9f7a95cda08ba0382de4a598fcde2d5bf7e450b3115",
+      "source_observed_utc": "2026-10-27T08:57:15.702788+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation."
+    },
+    {
+      "path": "/framework/relevance",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "228f95164d7b920bd0ff87c9efbf86a239c32e27a5f2df376c4fd29baaece70f",
+      "source_observed_utc": "2026-10-27T08:57:15.710648+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation."
+    },
+    {
+      "path": "/glossary",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:15.910050+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/how-it-works",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "1825f2ee6425523877e03ab3ebd26e0fba908195299263749dcb4829b45ac4b7",
+      "source_observed_utc": "2026-10-27T08:57:16.128291+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/services/search-visibility/",
+      "rationale": "New explicit review-to-implementation section answers the old SEO process intent: inputs, access, scope, implementation, verification and reporting; old free-audit deadlines/results promises are not repeated."
+    },
+    {
+      "path": "/resources/care-groups",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "46a6512848fb9ad141b339040a9aa0499c042bc177232fc9fe1a7779ec74e7de",
+      "source_observed_utc": "2026-10-27T08:57:16.228158+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/services/care-home-seo/",
+      "rationale": "Existing three-home worked example covers group/home architecture, distinct contacts and shared services; replaces unsupported guarantees with a scoped group SEO method."
+    },
+    {
+      "path": "/resources/care-home-google-ranking",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "acf19fc7a434bc12a6ad79f5d1f7f311fb2c77d9cb050f63bcf358735c94c6b3",
+      "source_observed_utc": "2026-10-27T08:57:16.368154+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/services/care-home-seo/",
+      "rationale": "Care-home organic/local SEO and new missing-result diagnostics cover the same operator problem without invented ranking timelines."
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "0ff9be833f276bf11d1303c32f7161810d598a6bb82b95b609e9ceb2e7055b4b",
+      "source_observed_utc": "2026-10-27T08:57:16.545402+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished."
+    },
+    {
+      "path": "/resources/dementia-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "6c980398bcecd8874b04fde8a3fde701ba00ffcaf83bd0650ac4862b0101f10f",
+      "source_observed_utc": "2026-10-27T08:57:16.835203+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished."
+    },
+    {
+      "path": "/resources/domiciliary-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "1ca27b9b7ead39929828b9d18e8ccdd2014d3ff62d55be7208a16d30d04099f4",
+      "source_observed_utc": "2026-10-27T08:57:16.840617+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/guides/home-care-local-seo/",
+      "rationale": "Same domiciliary agency area-page and local-search planning intent; guide preserves practical answers without blanket town-page or ranking claims."
+    },
+    {
+      "path": "/resources/live-in-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "0cef099bf20c9d2cb1e368c063b28f9f4697cb7ef085caaa6612e658dacef01f",
+      "source_observed_utc": "2026-10-27T08:57:16.848476+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/services/home-care/",
+      "rationale": "Existing domiciliary/live-in SEO service now explicitly covers live-in comparison questions, approved costs/assessment information and genuine coverage."
+    },
+    {
+      "path": "/resources/nursing-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "adae91be0115a440216795ac4891404dad0ae70ee0776b3ad6f2be738c60b56a",
+      "source_observed_utc": "2026-10-27T08:57:16.861104+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/services/care-home-seo/",
+      "rationale": "Same nursing-home SEO intent; destination distinguishes nursing and residential provision with provider approval, without republishing inappropriate Hospital schema or clinical claims."
+    },
+    {
+      "path": "/resources/palliative-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "f0200f16bdcc33c9fb18a1ce94571c39944b391e67a93c5339ecb2372c5cf1c9",
+      "source_observed_utc": "2026-10-27T08:57:16.890389+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished."
+    },
+    {
+      "path": "/resources/residential-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "3b170f085d1eb87bab2c9f1c33e556aaf77ba6a4cc9b8a195b4ac40e641e53f0",
+      "source_observed_utc": "2026-10-27T08:57:17.001585+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/services/care-home-seo/",
+      "rationale": "Same residential-provider SEO intent; destination covers home-specific information, real imagery, local profiles and practical audit scope."
+    },
+    {
+      "path": "/resources/respite-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "32fa25e761cfba6da0897e8bd062833e7bf4ebcdc3b9debcefc4b584b37bf435",
+      "source_observed_utc": "2026-10-27T08:57:17.136926+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished."
+    },
+    {
+      "path": "/resources/specialist-care",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "5d20b0e9f1c83fc69b1301c3d1ed67ecb951d831df7ee5ef01b64edbdfafac97",
+      "source_observed_utc": "2026-10-27T08:57:17.207190+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished."
+    },
+    {
+      "path": "/resources/supported-living",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "a0cf94b6887a86d5b4dd118e3bd3e21e1e4494b0066795a2e069e3b6f3c909b0",
+      "source_observed_utc": "2026-10-27T08:57:17.240214+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished."
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "08adf31310752fbd9abc406060572cb7aa3601e2c016d920c0a8783a26d7e386",
+      "source_observed_utc": "2026-10-27T08:57:17.253473+00:00",
+      "disposition": "EQUIVALENT-301",
+      "destination": "/services/care-home-seo/",
+      "rationale": "Explicit missing-Google-result diagnostic section distinguishes website indexing from eligible Google profiles and links to current official rules."
+    },
+    {
+      "path": "/glossary/autumna",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:17.649188+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/carehome-co-uk",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:17.649785+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/core-web-vitals",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:17.650427+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/cqc",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:17.651100+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/duty-of-candour",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:17.652777+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/google-business-profile",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:17.653897+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/indexability",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.142339+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/nap-consistency",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.190769+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/nice-guidelines",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.213516+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/registered-manager",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.249364+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/review-score",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.288992+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/review-velocity",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.340963+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/schema-markup",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.897492+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/scie",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.914623+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    },
+    {
+      "path": "/glossary/section-20a",
+      "reviewed_at_utc": "2026-10-27T12:02:33.643986+00:00",
+      "archived_html_sha256": "d3a0d3a9b85d30a5be219daa8243561ac52958e41d606e5ca5c5b90c07507bdc",
+      "source_observed_utc": "2026-10-27T08:57:18.961496+00:00",
+      "disposition": "RETAIN-OR-OWNER-RETIRE",
+      "destination": null,
+      "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect."
+    }
+  ]
+}

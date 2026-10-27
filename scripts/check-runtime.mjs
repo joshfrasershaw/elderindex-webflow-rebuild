@@ -2,7 +2,7 @@
 import {spawn} from 'node:child_process';import fs from 'node:fs';import assert from 'node:assert/strict';
 import {pages}from'../src/data.mjs';import{config}from'../src/config.mjs';
 const origin='http://127.0.0.1:4197';const started=new Date().toISOString();let logs='';
-const child=spawn('node_modules/.bin/wrangler',['dev','--local','--ip','127.0.0.1','--port','4197','--persist-to','/tmp/elderindex-release-workerd'],{env:{...process.env,WRANGLER_SEND_METRICS:'false'},stdio:['ignore','pipe','pipe']});
+const child=spawn('node_modules/.bin/wrangler',['dev','--local','--ip','127.0.0.1','--port','4197','--persist-to','/tmp/elderindex-release-workerd'],{env:{...process.env,WRANGLER_SEND_METRICS:'false',XDG_CONFIG_HOME:'/tmp/elderindex-wrangler-config'},stdio:['ignore','pipe','pipe']});
 child.stdout.on('data',d=>logs+=d);child.stderr.on('data',d=>logs+=d);
 const results=[];
 async function check(route,status){const r=await fetch(origin+route,{redirect:'manual'});assert.equal(r.status,status,route+' HTTP status');results.push({path:route,status:r.status,location:r.headers.get('location'),robotsHeader:r.headers.get('x-robots-tag')});return r;}

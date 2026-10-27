@@ -46,6 +46,13 @@ for(const p of pages){
       if(html.includes('data-enquiry-form='))fail(p.path,'Guide should use a contextual CTA, not a full enquiry form');
     }
   }catch(e){fail(p.path,'Invalid structured data: '+e.message);}
+  for(const match of html.matchAll(/<img\b[^>]*>/g)){
+    const tag=match[0],src=attr(tag,'src');
+    if(attr(tag,'alt')===undefined)fail(p.path,'Image missing alt '+src);
+    if(!(Number(attr(tag,'width'))>0&&Number(attr(tag,'height'))>0))fail(p.path,'Image missing dimensions '+src);
+    if(!['eager','lazy'].includes(attr(tag,'loading')))fail(p.path,'Image loading not explicit '+src);
+    if(tag.includes('class="site-image"')&&!attr(tag,'srcset'))fail(p.path,'Photograph missing responsive sources '+src);
+  }
   if(!html.includes('property="og:image"')||!html.includes('name="twitter:image"'))fail(p.path,'Missing social image metadata');
   if(html.includes('data-mailto'))fail(p.path,'Legacy mailto form remains');
 }

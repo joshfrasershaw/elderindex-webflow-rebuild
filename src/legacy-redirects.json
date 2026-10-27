@@ -116,5 +116,45 @@
     "source_url": "https://www.elderindex.co.uk/terms",
     "rationale": "Existing live slashless URL to replacement canonical; explicit permanent redirect replaces default 307. Canonical slash URL must stay HTTP 200.",
     "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/resources/care-groups",
+    "to": "/services/care-home-seo/"
+  },
+  {
+    "from": "/resources/care-home-google-ranking",
+    "to": "/services/care-home-seo/"
+  },
+  {
+    "from": "/resources/why-is-my-care-home-not-on-google",
+    "to": "/services/care-home-seo/"
+  },
+  {
+    "from": "/resources/domiciliary-care",
+    "to": "/guides/home-care-local-seo/"
+  },
+  {
+    "from": "/resources/live-in-care",
+    "to": "/services/home-care/"
+  },
+  {
+    "from": "/resources/residential-care",
+    "to": "/services/care-home-seo/"
+  },
+  {
+    "from": "/resources/nursing-care",
+    "to": "/services/care-home-seo/"
+  },
+  {
+    "from": "/how-it-works",
+    "to": "/services/search-visibility/"
+  },
+  {
+    "from": "/cookie-settings",
+    "to": "/cookies/"
+  },
+  {
+    "from": "/contact",
+    "to": "/talk-to-us/"
   }
 ]

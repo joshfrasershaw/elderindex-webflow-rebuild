@@ -1,5 +1,6 @@
 // Public build-time configuration. Never put API tokens or other secrets here.
 const env = process.env;
+if (env.SITE_ENV && !['staging', 'production'].includes(env.SITE_ENV)) throw new Error('SITE_ENV must be staging or production');
 const endpoint = (env.FORM_ENDPOINT ?? 'https://formspree.io/f/xpqlvnaa').trim();
 if (endpoint && !/^https:\/\//.test(endpoint)) throw new Error('FORM_ENDPOINT must be an HTTPS URL');
 if (endpoint) {
@@ -8,7 +9,7 @@ if (endpoint) {
 }
 const measurementId = (env.GA4_MEASUREMENT_ID || '').trim();
 if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) throw new Error('Invalid GA4_MEASUREMENT_ID');
-const canonical = new URL(env.SITE_URL || 'https://elderindex.co.uk');
+const canonical = new URL(env.SITE_URL || 'https://www.elderindex.co.uk');
 if (canonical.protocol !== 'https:' || canonical.pathname !== '/' || canonical.search || canonical.hash || canonical.username || canonical.password) {
   throw new Error('SITE_URL must be an HTTPS origin');
 }

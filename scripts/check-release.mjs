@@ -27,7 +27,7 @@ const routes=pages.map(p=>{
  const graph=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1])['@graph'];
  const ids=graph.map(x=>x['@id']);assert.equal(ids.length,new Set(ids).size,p.path+' entity IDs');
  const walk=n=>{if(!n||typeof n!=='object')return;if(n['@id']&&Object.keys(n).length===1)assert.ok(ids.includes(n['@id']),p.path+' unresolved entity '+n['@id']);for(const v of Object.values(n))if(typeof v==='object')Array.isArray(v)?v.forEach(walk):walk(v);};graph.forEach(walk);
- return {path:p.path,kind:p.kind,canonical:baseUrl+p.path,robots,title:p.title,h1:p.headline||'template heading'};
+ return {path:p.path,kind:p.kind,canonical:baseUrl+p.path,robots,title:html.match(/<title>(.*?)<\/title>/s)[1],h1:html.match(/<h1(?:\s[^>]*)?>(.*?)<\/h1>/s)[1].replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim()};
 });
 const rules=read('_redirects').trim().split('\n').map(x=>x.split(/\s+/));
 assert.equal(new Set(rules.map(r=>r[0])).size,rules.length,'Duplicate redirect source');

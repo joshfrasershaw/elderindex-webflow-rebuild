@@ -36,3 +36,10 @@ Existing remote staging confirms old shortcut rules work on deployed Static Asse
 ### Review correction: canonical slash migration
 
 Local Cloudflare verification found implicit **307** redirects for `/about`, `/services`, `/services/home-care`, `/talk-to-us`, `/privacy` and `/terms`. These are now explicit **301** rules. Their slash variants are intentionally NOT generated as redirect sources: those are the canonical destination pages and must stay 200. Together with the ten equivalent-content mappings and 11 original shortcut pairs, the corrected build has 48 rules. The older “seven paths under normal HTML slash handling” evidence is superseded: only root stays unchanged; the other six require these permanent aliases.
+
+
+### Current main implementation — 27 October 2026
+
+The prior review-only and 40-unresolved descriptions above are historical. Main now implements nine more content-equivalent mappings and the independently verified `/contact` alias: 68 rules. All 40 former exceptions have a content-based disposition in `evidence/legacy-disposition-review-2026-10-27.json`. The inventory adds `/contact`, `/glossary/crawlability` and `/glossary/url-structure`, giving 60 paths. The latter two are existing 308 aliases of the glossary, not separate articles. There are 33 remaining retention/retirement decisions (31 former paths plus two glossary aliases). No valuable unmatched URL has been silently approved for deletion.
+
+The owner-specified GSC window is 26 July–25 October 2026. The export did not arrive in this session; all metrics remain null pending actual file receipt. Do not infer zero demand. Existing `/services/home-care` remains a direct permanent redirect to the retained specialist canonical page. See the current go-live report for exact source/runtime/deployment evidence.

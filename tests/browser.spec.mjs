@@ -1,6 +1,6 @@
 import AxeBuilder from '@axe-core/playwright';
 import {test,expect} from '@playwright/test';
-import {pages} from '../src/data.mjs';
+import {pages,baseUrl} from '../src/data.mjs';
 import {imagery,heroConcepts} from '../src/imagery.mjs';
 const endpoint='https://formspree.io/f/xpqlvnaa';
 test.beforeEach(async({page})=>{
@@ -110,8 +110,10 @@ test('crawl every page at desktop and mobile widths without JS exceptions or mis
   expect(errors).toEqual([]);
 });
 
-test('representative pages pass automated WCAG A/AA accessibility checks',async({page})=>{
-  for(const path of ['/', '/talk-to-us/', '/services/home-care/', '/guides/care-directory-comparison/']){
+test('every generated page passes automated WCAG A/AA checks on desktop and mobile',async({page})=>{
+  test.setTimeout(180000);
+  for(const width of [1440,390]) for(const {path} of pages){
+    await page.setViewportSize({width,height:1000});
     await page.goto(path);await page.evaluate(()=>document.fonts.ready);
     const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
     expect(results.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),path).toEqual([]);
@@ -186,7 +188,7 @@ test('rendered schema identifies visible page subjects and images without invent
       expect(entity.mainEntityOfPage['@id']).toBe(webpage['@id']);
       if(p.kind==='service')expect(entity.serviceType).not.toContain('|');
       else {
-        expect(entity.author['@id']).toBe('https://elderindex.co.uk/about/#founder');
+        expect(entity.author['@id']).toBe(baseUrl+'/about/#founder');
         expect(entity.image).toBeUndefined();
       }
     }
