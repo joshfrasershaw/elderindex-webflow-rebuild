@@ -27,5 +27,24 @@
   "rootCause": "UNKNOWN: no diagnostic log available through GitHub check output",
   "reviewBranchBuildTrigger": "CONFIRMED: Cloudflare posted a build check on the policy branch commit",
   "reviewBranchDeploymentTrigger": "UNVERIFIED: account production/preview branch and deploy-command settings unavailable",
-  "ownerAction": "Open the linked Cloudflare build, download/copy its complete log with secrets redacted, and inspect Build settings > production branch, preview branch rules, build and deploy commands. Confirm policy/** cannot publish production before any release. Do not change or disable checks merely to hide this failure."
+  "ownerAction": "Open the linked Cloudflare build, download/copy its complete log with secrets redacted, and inspect Build settings > production branch, preview branch rules, build and deploy commands. Confirm policy/** cannot publish production before any release. Do not change or disable checks merely to hide this failure.",
+  "latestInvestigatedSourceSha": "3e891be6611f5745e0e6c5258e5284d888b27139",
+  "latestChecks": [
+    {
+      "completed_at": "2026-10-27T10:09:44Z",
+      "conclusion": "failure",
+      "details_url": "https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/953a1da2-c148-490d-9619-9b2b337cd9f9",
+      "id": 122128930613,
+      "name": "Workers Builds: elderindex-webflow-rebuild",
+      "output": {
+        "annotations_count": 0,
+        "annotations_url": "https://api.github.com/repos/joshfrasershaw/elderindex-webflow-rebuild/check-runs/122128930613/annotations",
+        "summary": "\nBuild ID: [953a1da2-c148-490d-9619-9b2b337cd9f9](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/953a1da2-c148-490d-9619-9b2b337cd9f9)\nScript: [elderindex-webflow-rebuild](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production)\n",
+        "text": null,
+        "title": "Workers Builds: elderindex-webflow-rebuild"
+      },
+      "started_at": "2026-10-27T10:09:44Z",
+      "status": "completed"
+    }
+  ]
 }

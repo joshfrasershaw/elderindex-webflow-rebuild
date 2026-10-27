@@ -29,7 +29,7 @@
     "destination_path": "/about/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "Pending corrected local runtime verification; not remotely deployed",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Specialist Care Sector SEO \u2014 ElderIndex"
   },
@@ -46,7 +46,7 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Target covers local profile eligibility, relevance/distance/prominence and website connection.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Care Home Google Map Pack - How to Appear and Rank - ElderIndex \u2014 ElderIndex"
   },
@@ -63,7 +63,7 @@
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same Carehome.co.uk improvement topic; target explains limits on current placement rules.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "How to Rank Higher on Carehome.co.uk - ElderIndex \u2014 ElderIndex"
   },
@@ -97,7 +97,7 @@
     "destination_path": "/guides/care-directory-comparison/",
     "rationale": "Directory overview to provider-facing comparison of relevant platforms.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Care Directory Ranking Guides \u2014 ElderIndex"
   },
@@ -131,7 +131,7 @@
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same platform-specific factual profile improvement intent; no old ranking formula claims copied.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "How to Rank on Carehome.co.uk \u2014 ElderIndex \u2014 ElderIndex"
   },
@@ -148,7 +148,7 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Same eligible Google Business Profile guidance.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Google Business Profile for Care Homes \u2014 ElderIndex \u2014 ElderIndex"
   },
@@ -318,7 +318,7 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Same Google Business Profile care-provider topic.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Google Business Profile for Care Homes - ElderIndex \u2014 ElderIndex"
   },
@@ -352,7 +352,7 @@
     "destination_path": "/privacy/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "Pending corrected local runtime verification; not remotely deployed",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Privacy Policy \u2014 ElderIndex \u2014 ElderIndex"
   },
@@ -369,7 +369,7 @@
     "destination_path": "/guides/",
     "rationale": "Same provider-facing guide/resource hub.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Guides & Resources for UK Care Providers \u2014 ElderIndex \u2014 ElderIndex"
   },
@@ -420,7 +420,7 @@
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same platform explanation and profile-improvement subject.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "How Carehome.co.uk Ranking Works \u2014 ElderIndex \u2014 ElderIndex"
   },
@@ -624,7 +624,7 @@
     "destination_path": "/services/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "Pending corrected local runtime verification; not remotely deployed",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "SEO Services for UK Care Providers \u2014 ElderIndex"
   },
@@ -641,7 +641,7 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Target explicitly covers groups, distinct homes and home-level reporting.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Care Group SEO - ElderIndex \u2014 ElderIndex"
   },
@@ -658,7 +658,7 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Same specialist residential/nursing care-home SEO service.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Care Home SEO Agency \u2014 Specialist SEO for UK Care Homes \u2014 ElderIndex"
   },
@@ -675,7 +675,7 @@
     "destination_path": "/services/home-care/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "Pending corrected local runtime verification; not remotely deployed",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Home Care SEO & Organic Growth \u2014 ElderIndex \u2014 ElderIndex"
   },
@@ -692,7 +692,7 @@
     "destination_path": "/talk-to-us/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "Pending corrected local runtime verification; not remotely deployed",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Talk To Us \u2014 SEO for Care Providers \u2014 ElderIndex"
   },
@@ -709,7 +709,7 @@
     "destination_path": "/terms/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "Pending corrected local runtime verification; not remotely deployed",
+    "staging_test_status": "PASS: 48 explicit rules checked in local staging/production workerd at implementation 3e891be; same-origin direct target 200/query preservation. NOT deployed to remote staging.",
     "production_test_status": "NOT-RUN: no cutover authorised",
     "intent": "Terms of Service \u2014 ElderIndex \u2014 ElderIndex"
   },

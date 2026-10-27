@@ -2,7 +2,7 @@
 
 ## 27 October 2026 — Review corrections
 
-[EI-20261027-03](../changes/2026-10-27-release-review-corrections.md) records six permanent canonicalisation aliases, strict release identity/clean-source validation, meaningful negative/runtime tests and the unresolved Cloudflare account-log blocker. Baseline `fa0b4be`; policy review branch only. No main merge, deployment, DNS change or CMS modification. Clean committed-source validation follows the implementation commit.
+[EI-20261027-03](../changes/2026-10-27-release-review-corrections.md) records six permanent canonicalisation aliases, strict release identity/clean-source validation, meaningful negative/runtime tests and the unresolved Cloudflare account-log blocker. Baseline `fa0b4be`; policy review branch only. No main merge, deployment, DNS change or CMS modification. Clean implementation `3e891be` passed push CI 40486303392: 16 browser tests, 10 provenance unit tests, three CLI cases per environment and 231 runtime checks per environment. No metadata/internal links changed. Cloudflare external build remains failed/blocked pending the owner log and trigger-setting review.
 
 ## 27 October 2026 — Release candidate preparation (review lane)
 
