@@ -1,5 +1,5 @@
 # ElderIndex operating system — active policies
-Version: 1.0 | Approved intent: owner discussion on 27 October 2026 | Status: proposed for owner review; not a claim of production approval.
+Version: 1.0 | Approved intent: owner discussion on 27 October 2026 | Status: owner authorised framework execution in the review lane on 27 October 2026; production adoption/cutover remains subject to release gates and explicit approval.
 
 ## Purpose
 Josh and ChatGPT agree the objectives and update standards; Codex audits, researches, implements, tests and records compliance. Codex does NOT invent policy on its own. Autonomous corrections are explicitly permitted only within the decision-rights policy and safe execution boundary.

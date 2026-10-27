@@ -1,0 +1,36 @@
+{
+  "scope": "Production configuration on local HTTP server; not deployed production, not field CWV",
+  "fetchTime": "2026-10-27T09:29:19.481Z",
+  "lighthouseVersion": "13.0.1",
+  "formFactor": "mobile",
+  "performanceScore": 0.85,
+  "metrics": {
+    "first-contentful-paint": {
+      "value": 1512.1152,
+      "display": "1.5\u00a0s",
+      "score": 0.96
+    },
+    "largest-contentful-paint": {
+      "value": 4208.076800000001,
+      "display": "4.2\u00a0s",
+      "score": 0.44
+    },
+    "total-blocking-time": {
+      "value": 75,
+      "display": "80\u00a0ms",
+      "score": 0.99
+    },
+    "cumulative-layout-shift": {
+      "value": 0,
+      "display": "0",
+      "score": 1
+    },
+    "speed-index": {
+      "value": 1512.1152,
+      "display": "1.5\u00a0s",
+      "score": 1
+    }
+  },
+  "failedNetwork": [],
+  "imageRequests": 2
+}

@@ -1,7 +1,7 @@
 # Quality assurance and CI implementation policy
 Version 1.0 | 27 October 2026.
 
-Main currently has no .github/workflows directory. Codex should install a PR/push quality workflow on its NON-DEPLOYING branch, with least-privilege read access and pinned major/action versions, respecting repository restrictions. Do not add a workflow that deploys, publishes, changes DNS or uses production credentials until explicit authorisation.
+The review branch installs `.github/workflows/quality.yml`, a PR/push quality workflow with read-only repository permission and immutable action SHAs. It does not deploy, publish, change DNS or use production credentials. An unrelated untracked CMS deployment draft is excluded. Node 24 and pinned Wrangler provide the local Cloudflare Static Assets test runtime; they are development tools, not public-site runtime dependencies.
 
 Required checks on the exact proposed SHA:
 1. npm ci; npm run build; npm run check.
@@ -12,5 +12,7 @@ Required checks on the exact proposed SHA:
 6. Retain concise test/log output and artefacts for code review, not real user data. Don't run real Formspree submissions or unauthorised traffic against production in CI.
 
 Production smoke tests after a release must verify actual HTTP status, X-Robots-Tag, canonical, sitemap, 301 redirect mapping, form receipt via an authorised test, mobile hero and menus. CI success isn't deployed-state proof.
+
+Commands added in the 27 October review: `npm run check:release -- <manifest.json>` checks generated environment, indexability, schema references, canonical sitemap and redirect integrity; `npm run check:runtime -- <results.json>` checks actual **local** workerd HTTP responses, query retention, assets and 404s; `npm run check:policy` checks gate-report structure, recorded material changes, tracked-file hygiene and common credential patterns. Pattern checks are not a comprehensive security audit or legal signoff. `dist/release.json` identifies the build source/environment and whether tracked edits existed, without credentials. CI uploads separate staging/production manifests and HTTP results under the exact Actions SHA, then restores staging.
 
 A test cannot decide marketing tone or quality on its own. Use code tests for deterministic invariants and owner review for material editorial claims and tradeoffs.

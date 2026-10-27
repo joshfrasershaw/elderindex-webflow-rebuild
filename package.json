@@ -10,13 +10,17 @@
     "check": "node scripts/check.mjs",
     "test": "node scripts/test.mjs",
     "social:build": "node scripts/render-social.mjs",
-    "audit:links": "python3 scripts/audit-internal-links.py"
+    "audit:links": "python3 scripts/audit-internal-links.py",
+    "check:release": "node scripts/check-release.mjs",
+    "check:runtime": "node scripts/check-runtime.mjs",
+    "check:policy": "node scripts/check-policy.mjs"
   },
   "engines": {
     "node": ">=18"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",
-    "@playwright/test": "1.64.1"
+    "@playwright/test": "1.64.1",
+    "wrangler": "4.152.0"
   }
 }

@@ -1,0 +1,177 @@
+[
+  {
+    "url": "https://elderindex.co.uk/",
+    "checked_at_utc": "2026-10-27T08:56:12.515127+00:00",
+    "status": 200,
+    "final_url": "https://www.elderindex.co.uk/",
+    "headers": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-type": "text/html; charset=utf-8",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::ztwqg-1793091373215-7f3ad74b4475"
+    },
+    "body_file": "public-0.txt"
+  },
+  {
+    "url": "https://www.elderindex.co.uk/",
+    "checked_at_utc": "2026-10-27T08:56:12.516864+00:00",
+    "status": 200,
+    "final_url": "https://www.elderindex.co.uk/",
+    "headers": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-type": "text/html; charset=utf-8",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::ng6vr-1793091372967-204880af41cb"
+    },
+    "body_file": "public-1.txt"
+  },
+  {
+    "url": "http://elderindex.co.uk/",
+    "checked_at_utc": "2026-10-27T08:56:12.517624+00:00",
+    "status": 200,
+    "final_url": "https://www.elderindex.co.uk/",
+    "headers": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-type": "text/html; charset=utf-8",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::jjp64-1793091373198-f61973693357"
+    },
+    "body_file": "public-2.txt"
+  },
+  {
+    "url": "https://elderindex.co.uk/robots.txt",
+    "checked_at_utc": "2026-10-27T08:56:12.518030+00:00",
+    "status": 200,
+    "final_url": "https://www.elderindex.co.uk/robots.txt",
+    "headers": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-type": "text/plain; charset=utf-8",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::8bgmp-1793091373253-4b97dbd521ca"
+    },
+    "body_file": "public-3.txt"
+  },
+  {
+    "url": "https://elderindex.co.uk/sitemap.xml",
+    "checked_at_utc": "2026-10-27T08:56:12.518851+00:00",
+    "status": 200,
+    "final_url": "https://www.elderindex.co.uk/sitemap.xml",
+    "headers": {
+      "cache-control": "public, max-age=0, must-revalidate",
+      "content-type": "application/xml",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::78ftz-1793091373136-9960bc4ae099"
+    },
+    "body_file": "public-4.txt"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/",
+    "checked_at_utc": "2026-10-27T08:56:12.519706+00:00",
+    "status": 200,
+    "final_url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/",
+    "headers": {
+      "content-type": "text/html",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-robots-tag": "noindex, follow",
+      "cf-ray": "a5107c7828a161ac-ORD"
+    },
+    "body_file": "public-5.txt"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/robots.txt",
+    "checked_at_utc": "2026-10-27T08:56:12.522382+00:00",
+    "status": 200,
+    "final_url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/robots.txt",
+    "headers": {
+      "content-type": "text/plain",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-robots-tag": "noindex, follow",
+      "cf-ray": "a5107c788ad960a2-ORD"
+    },
+    "body_file": "public-6.txt"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/website-design",
+    "checked_at_utc": "2026-10-27T08:56:12.527272+00:00",
+    "status": 200,
+    "final_url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-design/",
+    "headers": {
+      "content-type": "text/html",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "x-robots-tag": "noindex, follow",
+      "cf-ray": "a5107c793e1d0d5b-ORD"
+    },
+    "body_file": "public-7.txt"
+  },
+  {
+    "url": "https://developers.cloudflare.com/workers/static-assets/redirects/",
+    "checked_at_utc": "2026-10-27T08:56:12.950570+00:00",
+    "status": 200,
+    "final_url": "https://developers.cloudflare.com/workers/static-assets/redirects/",
+    "headers": {
+      "content-type": "text/html",
+      "cache-control": "public, max-age=0, must-revalidate",
+      "cf-ray": "a5107c799b1cd250-ORD"
+    },
+    "body_file": "public-8.txt"
+  },
+  {
+    "url": "https://support.google.com/business/answer/3038177",
+    "checked_at_utc": "2026-10-27T08:56:12.982926+00:00",
+    "status": 200,
+    "final_url": "https://support.google.com/business/answer/3038177",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "cache-control": "private, max-age=0"
+    },
+    "body_file": "public-9.txt"
+  },
+  {
+    "url": "https://www.carehome.co.uk/",
+    "checked_at_utc": "2026-10-27T08:56:13.022155+00:00",
+    "status": 200,
+    "final_url": "https://www.carehome.co.uk/",
+    "headers": {
+      "content-type": "text/html",
+      "cache-control": "no-cache, no-store"
+    },
+    "body_file": "public-10.txt"
+  },
+  {
+    "url": "https://www.homecare.co.uk/",
+    "checked_at_utc": "2026-10-27T08:56:13.094405+00:00",
+    "status": 200,
+    "final_url": "https://www.homecare.co.uk/",
+    "headers": {
+      "content-type": "text/html",
+      "cache-control": "no-cache, no-store"
+    },
+    "body_file": "public-11.txt"
+  },
+  {
+    "url": "https://www.autumna.co.uk/",
+    "checked_at_utc": "2026-10-27T08:56:13.190167+00:00",
+    "status": 200,
+    "final_url": "https://www.autumna.co.uk/",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "max-age=0, no-cache, no-store, must-revalidate, private",
+      "x-robots-tag": "all",
+      "cf-ray": "a5107c7b5fdf0c7b-ORD"
+    },
+    "body_file": "public-12.txt"
+  },
+  {
+    "url": "https://lottie.org/",
+    "checked_at_utc": "2026-10-27T08:56:13.191169+00:00",
+    "status": 200,
+    "final_url": "https://lottie.org/",
+    "headers": {
+      "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "content-type": "text/html; charset=utf-8",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cle1::lhr1::jjp64-1793091373698-40379e9c49dc"
+    },
+    "body_file": "public-13.txt"
+  }
+]

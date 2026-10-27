@@ -4,6 +4,8 @@ Before **any** change to ElderIndex, read docs/ops/README.md, docs/ops/decision-
 
 **Operate autonomously within written authority:** inspect -> establish baseline -> correct deterministic noncompliance -> test -> leave a docs/changes record with why, before/after, SHA and rollback. Do NOT micro-escalate authorised low-risk corrections. Push safe review branches only by default; do not infer approval to merge into production or change the old live domain. Release to production, switch DNS and commit legal/business promises only within docs/ops/decision-rights.md and docs/launch/release-gates.md. The default public build is intentionally staging/noindex: never mistake it for a live SEO error. Stop or escalate specific contradictions; continue unrelated safe work.
 
+The owner's 27 October execution instruction authorises adopting and executing framework v1.0 in the non-deploying review lane, including commits, pushes and a PR. The older publication wording below continues to prohibit unapproved production publication; it does not prohibit authorised review-branch pushes or deterministic corrections. Policy precedence is defined in `docs/ops/README.md`. No autonomous production lane or cutover approval has been enabled.
+
 ---
 
 # ElderIndex repository instructions

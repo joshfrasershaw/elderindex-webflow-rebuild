@@ -1,5 +1,9 @@
 # SEO activity log
 
+## 27 October 2026 — Release candidate preparation (review lane)
+
+**Status:** authorised non-deploying policy-branch checkpoint; no merge, deployment or domain changes. [EI-20261027-02](../changes/2026-10-27-launch-readiness.md) records code/tooling, ten verified migration mappings, retained migration blockers and lossless homepage optimisation. [Go-live report](../launch/go-live-report.md) is the current release-specific gate evidence. Remaining account/legal/migration decisions are explicit; no GSC, real inbox receipt or production result is invented. Exact committed-SHA CI evidence follows the checkpoint push.
+
 ## 27 October 2026 — Policy-driven SEO operating system and cutover governance
 
 **Status:** committed on non-deploying branch policy/seo-ops-and-launch-2026-10-27, owner review pending. Old live site and main source unchanged by this documentation work. No domain or DNS changes and no claimed website release.

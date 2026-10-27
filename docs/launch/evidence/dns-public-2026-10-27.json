@@ -1,0 +1,150 @@
+[
+  {
+    "type": "NS",
+    "Answer": [
+      {
+        "name": "elderindex.co.uk.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "alexis.ns.cloudflare.com."
+      },
+      {
+        "name": "elderindex.co.uk.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "aron.ns.cloudflare.com."
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "type": "A",
+    "Answer": [
+      {
+        "name": "elderindex.co.uk.",
+        "type": 1,
+        "TTL": 300,
+        "data": "216.198.79.1"
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "type": "MX",
+    "Answer": [
+      {
+        "name": "elderindex.co.uk.",
+        "type": 15,
+        "TTL": 300,
+        "data": "10 mx01.ionos.co.uk."
+      },
+      {
+        "name": "elderindex.co.uk.",
+        "type": 15,
+        "TTL": 300,
+        "data": "10 mx00.ionos.co.uk."
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "type": "TXT",
+    "Answer": [
+      {
+        "name": "elderindex.co.uk.",
+        "type": 16,
+        "TTL": 300,
+        "data": "google-site-verification=qhBR1ALEOWfrlRhA_xbKAJBUyvQbOAw1_7bdl0eE2WE"
+      },
+      {
+        "name": "elderindex.co.uk.",
+        "type": 16,
+        "TTL": 300,
+        "data": "v=spf1 include:_spf-eu.ionos.com ~all"
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "type": "DS",
+    "Answer": [],
+    "Status": 0
+  },
+  {
+    "name": "www.elderindex.co.uk",
+    "Answer": [
+      {
+        "name": "www.elderindex.co.uk.",
+        "type": 5,
+        "TTL": 300,
+        "data": "19c7fb3e4d54c23b.vercel-dns-017.com."
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "name": "s1-ionos._domainkey.elderindex.co.uk",
+    "Answer": [
+      {
+        "name": "s1-ionos._domainkey.elderindex.co.uk.",
+        "type": 5,
+        "TTL": 300,
+        "data": "s1.dkim.ionos.com."
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "name": "s2-ionos._domainkey.elderindex.co.uk",
+    "Answer": [
+      {
+        "name": "s2-ionos._domainkey.elderindex.co.uk.",
+        "type": 5,
+        "TTL": 300,
+        "data": "s2.dkim.ionos.com."
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "name": "s42582890._domainkey.elderindex.co.uk",
+    "Answer": [
+      {
+        "name": "s42582890._domainkey.elderindex.co.uk.",
+        "type": 5,
+        "TTL": 300,
+        "data": "s42582890.dkim.ionos.com."
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "name": "_dmarc.elderindex.co.uk",
+    "Answer": [
+      {
+        "name": "_dmarc.elderindex.co.uk.",
+        "type": 5,
+        "TTL": 300,
+        "data": "dmarc.ionos.co.uk."
+      }
+    ],
+    "Status": 0
+  },
+  {
+    "name": "cms.elderindex.co.uk",
+    "Answer": [],
+    "Status": 0
+  },
+  {
+    "name": "portal.elderindex.co.uk",
+    "Answer": [
+      {
+        "name": "portal.elderindex.co.uk.",
+        "type": 5,
+        "TTL": 300,
+        "data": "cname.vercel-dns.com."
+      }
+    ],
+    "Status": 0
+  }
+]
