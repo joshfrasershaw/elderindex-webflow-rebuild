@@ -1,3 +1,5 @@
+> **Separation of concerns — 27 Oct 2026:** These gates protect the **ONE-OFF old-site -> replacement-domain CUTOVER**, not every future code/text/SEO edit. The owner authorises Codex to commit and publish normal framework-compliant fixes directly to main, subject to [autonomous publishing](../ops/autonomous-publishing.md). Existing live website stays on its old host until Josh approves the switch; once the replacement is live, Codex may publish eligible improvements without a new gate signoff for every release. Verification and dated live change logging are still mandatory. Do not claim a release went live if the host build failed.
+
 # Release gates — definitive ElderIndex website cutover standard
 Version 1.0 | 27 October 2026 | This document REPLACES docs/launch-status.md as the go/no-go standard. The older file remains historic evidence.
 
