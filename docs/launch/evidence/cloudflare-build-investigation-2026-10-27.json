@@ -1,0 +1,31 @@
+{
+  "checkedAtUtc": "2026-10-27T10:04:11.938119+00:00",
+  "sourceSha": "fa0b4be2752badf4f74efdd6644dc48bf3283590",
+  "checks": [
+    {
+      "completed_at": "2026-10-27T09:49:46Z",
+      "conclusion": "failure",
+      "details_url": "https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/b82cef8d-7c96-4c8f-a700-051f614013df",
+      "id": 122120267826,
+      "name": "Workers Builds: elderindex-webflow-rebuild",
+      "output": {
+        "annotations_count": 0,
+        "annotations_url": "https://api.github.com/repos/joshfrasershaw/elderindex-webflow-rebuild/check-runs/122120267826/annotations",
+        "summary": "\nBuild ID: [b82cef8d-7c96-4c8f-a700-051f614013df](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/b82cef8d-7c96-4c8f-a700-051f614013df)\nScript: [elderindex-webflow-rebuild](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production)\n",
+        "text": null,
+        "title": "Workers Builds: elderindex-webflow-rebuild"
+      },
+      "started_at": "2026-10-27T09:49:46Z",
+      "status": "completed"
+    }
+  ],
+  "credentialAvailability": {
+    "cloudflareEnvironmentCredentialPresent": false,
+    "wranglerLoginPresent": false
+  },
+  "dashboardRead": "HTTP 200 SPA shell only; not authenticated build-log evidence",
+  "rootCause": "UNKNOWN: no diagnostic log available through GitHub check output",
+  "reviewBranchBuildTrigger": "CONFIRMED: Cloudflare posted a build check on the policy branch commit",
+  "reviewBranchDeploymentTrigger": "UNVERIFIED: account production/preview branch and deploy-command settings unavailable",
+  "ownerAction": "Open the linked Cloudflare build, download/copy its complete log with secrets redacted, and inspect Build settings > production branch, preview branch rules, build and deploy commands. Confirm policy/** cannot publish production before any release. Do not change or disable checks merely to hide this failure."
+}

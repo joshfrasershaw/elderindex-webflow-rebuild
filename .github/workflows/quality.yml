@@ -17,6 +17,9 @@ jobs:
     timeout-minutes: 20
     env:
       WRANGLER_SEND_METRICS: 'false'
+      # Push checks use the push SHA; PR checks use GitHub's synthetic merge SHA.
+      EXPECTED_RELEASE_SHA: ${{ github.sha }}
+      PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
       CHANGE_BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -31,12 +34,15 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Policy and repository hygiene
         run: npm run check:policy
+      - name: Provenance negative tests
+        run: npm run test:provenance
       - name: Staging build and classified link audit
         run: |
           mkdir -p .release-evidence
           npm run build
           npm run check
           npm run check:release -- .release-evidence/staging-manifest.json
+          npm run test:release-cli
           npm run audit:links -- --output .release-evidence/links.json
           npm run check:runtime -- .release-evidence/staging-runtime.json
       - name: Browser, enquiry simulations and accessibility
@@ -48,6 +54,7 @@ jobs:
           npm run build
           npm run check
           npm run check:release -- .release-evidence/production-manifest.json
+          npm run test:release-cli
           npm run check:runtime -- .release-evidence/production-runtime.json
       - name: Restore safe staging output
         if: always()

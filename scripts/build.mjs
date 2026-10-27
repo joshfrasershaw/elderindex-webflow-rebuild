@@ -11,8 +11,8 @@ const redirects=[['/website-design','/services/website-design/'],['/website-mana
 // Only substantiated intent equivalents from the dated public-site crawl.
 // Unmatched framework, glossary and specialist articles remain owner decisions.
 const legacy=JSON.parse(fs.readFileSync(path.join(dir,'src/legacy-redirects.json'),'utf8'));
-for(const rule of legacy) redirects.push([rule.from,rule.to]);
-fs.writeFileSync(path.join(dist,'_redirects'),redirects.flatMap(([from,to])=>[`${from} ${to} 301`,`${from}/ ${to} 301`]).join('\n')+'\n');
+for(const rule of legacy) redirects.push([rule.from,rule.to,rule.slashVariants??true]);
+fs.writeFileSync(path.join(dist,'_redirects'),redirects.flatMap(([from,to,slashVariants=true])=>slashVariants?[`${from} ${to} 301`,`${from}/ ${to} 301`]:[`${from} ${to} 301`]).join('\n')+'\n');
 fs.writeFileSync(path.join(dist,'_headers'),`/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n${config.production?'':'  X-Robots-Tag: noindex, follow\n'}\n/assets/*\n  Cache-Control: public, max-age=86400\n`);
 fs.writeFileSync(path.join(dist,'robots.txt'),`User-agent: *\nAllow: /${config.production?'':'\n# Staging pages are marked noindex in HTML and response headers.'}\nSitemap: ${baseUrl}/sitemap.xml\n`);
 let sourceSha='UNVERIFIED',trackedChanges=true;

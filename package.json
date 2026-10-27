@@ -13,7 +13,9 @@
     "audit:links": "python3 scripts/audit-internal-links.py",
     "check:release": "node scripts/check-release.mjs",
     "check:runtime": "node scripts/check-runtime.mjs",
-    "check:policy": "node scripts/check-policy.mjs"
+    "check:policy": "node scripts/check-policy.mjs",
+    "test:provenance": "node --test scripts/test-release-provenance.mjs",
+    "test:release-cli": "node --test scripts/test-release-cli.mjs"
   },
   "engines": {
     "node": ">=18"

@@ -10,10 +10,22 @@ try{
  let ready=false;for(let n=0;n<200;n++){if(child.exitCode!==null)throw Error(logs);try{await fetch(origin);ready=true;break;}catch{}await new Promise(r=>setTimeout(r,100));}assert.ok(ready,'Local Cloudflare runtime startup: '+logs);
  for(const p of pages){const r=await check(p.path,200);assert.equal(r.headers.get('x-robots-tag'),config.production?null:'noindex, follow');const h=await r.text();assert.ok(h.includes(`content="${config.production&&p.kind!=='legal'?'index':'noindex'}, follow"`));}
  const rules=fs.readFileSync('dist/_redirects','utf8').trim().split('\n').map(l=>l.split(/\s+/));
- for(const[from,to]of rules){const r=await check(from,301);assert.equal(new URL(r.headers.get('location'),origin).pathname,to);const q=await check(from+'?utm_source=release-check',301);assert.equal(new URL(q.headers.get('location'),origin).pathname,to);assert.equal(new URL(q.headers.get('location'),origin).search,'?utm_source=release-check');}
+ for(const[from,to]of rules){
+  for(const search of ['', '?utm_source=release-check']){
+   const r=await check(from+search,301);assert.ok(r.headers.get('location'),'Missing Location '+from);
+   const destination=new URL(r.headers.get('location'),origin);
+   assert.equal(destination.origin,origin,'Unexpected redirect host '+from);assert.equal(destination.pathname,to);
+   assert.equal(destination.search,search,'Query changed '+from);assert.equal(destination.hash,'');
+   const final=await check(destination.pathname+destination.search,200);assert.equal(final.headers.get('location'),null,'Redirect chain/loop '+from);
+  }
+ }
+ // Canonical forms of old slashless URLs must remain 200, never self-redirect.
+ for(const p of ['/about/','/services/','/services/home-care/','/talk-to-us/','/privacy/','/terms/']){
+  const r=await check(p,200);assert.equal(r.headers.get('location'),null,'Canonical self-redirect '+p);
+ }
  for(const route of ['/robots.txt','/sitemap.xml','/assets/site.css','/assets/site.js'])await check(route,200);
  for(const route of ['/this-release-path-does-not-exist','/cms/','/api/bootstrap'])await check(route,404);
- const encoded=await fetch(origin+'/%77ebsite-design',{redirect:'manual'});results.push({path:'/%77ebsite-design',status:encoded.status,location:encoded.headers.get('location')});
+ const encoded=await fetch(origin+'/%77ebsite-design',{redirect:'manual'});assert.equal(encoded.status,301,'Encoded shortcut');assert.equal(new URL(encoded.headers.get('location'),origin).pathname,'/services/website-design/');results.push({path:'/%77ebsite-design',status:encoded.status,location:encoded.headers.get('location')});
  await check('/WEBSITE-DESIGN',404); // No unsupported case-insensitive migration invented.
  const out=process.argv[2];if(out)fs.writeFileSync(out,JSON.stringify({checkedAtUtc:started,scope:'LOCAL Cloudflare workerd, not deployed HTTP',environment:config.production?'production':'staging',results},null,2)+'\n');
  console.log(`Cloudflare local runtime: ${results.length} HTTP checks passed (${config.production?'production':'staging'}), including redirects with queries, assets, indexability and 404s.`);

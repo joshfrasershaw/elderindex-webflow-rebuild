@@ -1,5 +1,9 @@
 # SEO activity log
 
+## 27 October 2026 — Review corrections
+
+[EI-20261027-03](../changes/2026-10-27-release-review-corrections.md) records six permanent canonicalisation aliases, strict release identity/clean-source validation, meaningful negative/runtime tests and the unresolved Cloudflare account-log blocker. Baseline `fa0b4be`; policy review branch only. No main merge, deployment, DNS change or CMS modification. Clean committed-source validation follows the implementation commit.
+
 ## 27 October 2026 — Release candidate preparation (review lane)
 
 **Status:** authorised non-deploying policy-branch checkpoint; no merge, deployment or domain changes. [EI-20261027-02](../changes/2026-10-27-launch-readiness.md) records code/tooling, ten verified migration mappings, retained migration blockers and lossless homepage optimisation. [Go-live report](../launch/go-live-report.md) is the current release-specific gate evidence. Remaining account/legal/migration decisions are explicit; no GSC, real inbox receipt or production result is invented. Release implementation commit `752f6a9` passed all remote quality checks and 16 browser tests in run 40483257586; final documentation-only handoff is linked from PR #1. A hashed clean-source proposed-www production build is recorded, with staging restored. No production deployment or cutover occurred.
