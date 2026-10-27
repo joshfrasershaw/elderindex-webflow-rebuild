@@ -1,3 +1,5 @@
+> **v2.0 publication-first clarification (27 October 2026):** Under [autonomous publishing](autonomous-publishing.md), Codex is authorised to **make and publish** routine framework-compliant work before any owner review. The change record is an AFTER-THE-FACT, evidence-backed trail, not a pre-publication approval ticket. Commit, build start, deployed environment, verified public URL and optional actual domain cutover are distinct. If deployed verification fails, mark `NOT LIVE` and investigate. Use live timestamp/URL annotations for later Search Console comparisons.
+
 # Change control, change history, experiment attribution and rollback
 Version 1.0 | 27 October 2026.
 
