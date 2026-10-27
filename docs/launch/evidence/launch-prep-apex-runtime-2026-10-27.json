@@ -1,0 +1,1431 @@
+{
+  "checkedAtUtc": "2026-10-27T16:29:52.268Z",
+  "scope": "LOCAL Cloudflare apex Worker, not deployed; real HTTP Host handling",
+  "results": [
+    {
+      "path": "/website-design",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-design/"
+    },
+    {
+      "path": "/website-design?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-design/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/website-design/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-design/"
+    },
+    {
+      "path": "/website-design/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-design/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/website-management",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-management/"
+    },
+    {
+      "path": "/website-management?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-management/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/website-management/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-management/"
+    },
+    {
+      "path": "/website-management/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-management/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/search-visibility",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/"
+    },
+    {
+      "path": "/search-visibility?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/search-visibility/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/"
+    },
+    {
+      "path": "/search-visibility/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-directory-management",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-directory-management/"
+    },
+    {
+      "path": "/care-directory-management?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-directory-management/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-directory-management/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-directory-management/"
+    },
+    {
+      "path": "/care-directory-management/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-directory-management/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-home-seo",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/care-home-seo?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-home-seo/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/care-home-seo/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/home-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/"
+    },
+    {
+      "path": "/home-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/home-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/"
+    },
+    {
+      "path": "/home-care/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/choosing-a-care-website",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/choosing-a-care-website/"
+    },
+    {
+      "path": "/choosing-a-care-website?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/choosing-a-care-website/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/choosing-a-care-website/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/choosing-a-care-website/"
+    },
+    {
+      "path": "/choosing-a-care-website/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/choosing-a-care-website/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/home-care-local-seo",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/"
+    },
+    {
+      "path": "/home-care-local-seo?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/home-care-local-seo/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/"
+    },
+    {
+      "path": "/home-care-local-seo/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-directory-comparison",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/care-directory-comparison?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-directory-comparison/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/care-directory-comparison/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/carehome-co-uk-profile",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/carehome-co-uk-profile?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/carehome-co-uk-profile/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/google-business-profile-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/google-business-profile-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/google-business-profile-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/google-business-profile-care/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/services/care-homes",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/services/care-homes?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/services/care-homes/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/services/care-homes/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/services/care-groups",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/services/care-groups?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/services/care-groups/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/services/care-groups/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/"
+    },
+    {
+      "path": "/resources?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/"
+    },
+    {
+      "path": "/resources/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/carehome-co-uk-ranking",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/carehome-co-uk-ranking?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/carehome-co-uk-ranking/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/carehome-co-uk-ranking/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/google-business-profile",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/directory-guides/google-business-profile?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/google-business-profile/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/directory-guides/google-business-profile/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/google-business-profile-care-home",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/google-business-profile-care-home?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/google-business-profile-care-home/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/google-business-profile-care-home/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-home-map-pack",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/care-home-map-pack?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/care-home-map-pack/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/care-home-map-pack/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/about",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/about/"
+    },
+    {
+      "path": "/about?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/about/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/services",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/"
+    },
+    {
+      "path": "/services?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/services/home-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/"
+    },
+    {
+      "path": "/services/home-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/talk-to-us",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/talk-to-us/"
+    },
+    {
+      "path": "/talk-to-us?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/talk-to-us/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/privacy",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/privacy/"
+    },
+    {
+      "path": "/privacy?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/privacy/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/terms",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/terms/"
+    },
+    {
+      "path": "/terms?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/terms/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/care-groups",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/care-groups?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/care-groups/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/care-groups/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/care-home-google-ranking",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/care-home-google-ranking?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/care-home-google-ranking/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/care-home-google-ranking/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/domiciliary-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/"
+    },
+    {
+      "path": "/resources/domiciliary-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/domiciliary-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/"
+    },
+    {
+      "path": "/resources/domiciliary-care/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/live-in-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/"
+    },
+    {
+      "path": "/resources/live-in-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/live-in-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/"
+    },
+    {
+      "path": "/resources/live-in-care/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/residential-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/residential-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/residential-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/residential-care/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/nursing-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/nursing-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/nursing-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/resources/nursing-care/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/how-it-works",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/"
+    },
+    {
+      "path": "/how-it-works?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/how-it-works/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/"
+    },
+    {
+      "path": "/how-it-works/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/cookie-settings",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/cookies/"
+    },
+    {
+      "path": "/cookie-settings?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/cookies/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/cookie-settings/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/cookies/"
+    },
+    {
+      "path": "/cookie-settings/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/cookies/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/contact",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/talk-to-us/"
+    },
+    {
+      "path": "/contact?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/talk-to-us/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/contact/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/talk-to-us/"
+    },
+    {
+      "path": "/contact/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/talk-to-us/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/autumna",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/autumna?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/autumna/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/autumna/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/lottie",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/lottie?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/lottie/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/lottie/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/authority",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/authority?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/authority/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/authority/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/credible",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/credible?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/credible/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/credible/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/effective",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/effective?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/effective/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/effective/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/relevance",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/relevance?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/framework/relevance/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "path": "/framework/relevance/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/cqc-rating-enquiries/"
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/cqc-rating-enquiries/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/dementia-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/dementia-care/"
+    },
+    {
+      "path": "/resources/dementia-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/dementia-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/palliative-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/palliative-care/"
+    },
+    {
+      "path": "/resources/palliative-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/palliative-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/respite-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/respite-care/"
+    },
+    {
+      "path": "/resources/respite-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/respite-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/specialist-care",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/specialist-care/"
+    },
+    {
+      "path": "/resources/specialist-care?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/specialist-care/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/resources/supported-living",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/supported-living/"
+    },
+    {
+      "path": "/resources/supported-living?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/supported-living/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/autumna",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/autumna?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/autumna/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/autumna/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/carehome-co-uk",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/carehome-co-uk?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/carehome-co-uk/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/carehome-co-uk/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/core-web-vitals",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/core-web-vitals?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/core-web-vitals/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/core-web-vitals/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/cqc",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/cqc?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/cqc/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/cqc/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/duty-of-candour",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/duty-of-candour?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/duty-of-candour/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/duty-of-candour/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/google-business-profile",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/google-business-profile?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/google-business-profile/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/google-business-profile/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/indexability",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/indexability?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/indexability/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/indexability/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/nap-consistency",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/nap-consistency?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/nap-consistency/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/nap-consistency/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/nice-guidelines",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/nice-guidelines?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/nice-guidelines/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/nice-guidelines/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/registered-manager",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/registered-manager?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/registered-manager/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/registered-manager/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/review-score",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/review-score?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/review-score/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/review-score/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/review-velocity",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/review-velocity?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/review-velocity/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/review-velocity/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/schema-markup",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/schema-markup?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/schema-markup/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/schema-markup/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/scie",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/scie?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/scie/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/scie/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/section-20a",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/section-20a?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/section-20a/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/section-20a/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/crawlability",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/crawlability?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/crawlability/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/crawlability/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/url-structure",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/url-structure?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/glossary/url-structure/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/glossary/url-structure/?utm_source=apex-runtime&value=a%20b",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/?utm_source=apex-runtime&value=a%20b"
+    },
+    {
+      "path": "/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/"
+    },
+    {
+      "path": "/services/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/"
+    },
+    {
+      "path": "/services/website-design/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-design/"
+    },
+    {
+      "path": "/services/search-visibility/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/search-visibility/"
+    },
+    {
+      "path": "/services/website-management/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/website-management/"
+    },
+    {
+      "path": "/services/care-directory-management/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-directory-management/"
+    },
+    {
+      "path": "/services/home-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/home-care/"
+    },
+    {
+      "path": "/services/care-home-seo/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/services/care-home-seo/"
+    },
+    {
+      "path": "/for-care-homes/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/for-care-homes/"
+    },
+    {
+      "path": "/for-home-care-agencies/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/for-home-care-agencies/"
+    },
+    {
+      "path": "/about/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/about/"
+    },
+    {
+      "path": "/guides/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/"
+    },
+    {
+      "path": "/talk-to-us/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/talk-to-us/"
+    },
+    {
+      "path": "/guides/choosing-a-care-website/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/choosing-a-care-website/"
+    },
+    {
+      "path": "/guides/home-care-local-seo/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/home-care-local-seo/"
+    },
+    {
+      "path": "/guides/care-directory-comparison/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+    },
+    {
+      "path": "/guides/carehome-co-uk-profile/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+    },
+    {
+      "path": "/guides/google-business-profile-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+    },
+    {
+      "path": "/privacy/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/privacy/"
+    },
+    {
+      "path": "/terms/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/terms/"
+    },
+    {
+      "path": "/cookies/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/cookies/"
+    },
+    {
+      "path": "/guides/multi-location-home-care-seo/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/guides/multi-location-home-care-seo/"
+    },
+    {
+      "path": "/resources/dementia-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/dementia-care/"
+    },
+    {
+      "path": "/resources/palliative-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/palliative-care/"
+    },
+    {
+      "path": "/resources/respite-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/respite-care/"
+    },
+    {
+      "path": "/resources/specialist-care/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/specialist-care/"
+    },
+    {
+      "path": "/resources/supported-living/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/supported-living/"
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/resources/cqc-rating-enquiries/"
+    },
+    {
+      "path": "/glossary/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/glossary/"
+    },
+    {
+      "path": "/framework/",
+      "status": 301,
+      "location": "https://www.elderindex.co.uk/framework/"
+    },
+    {
+      "host": "www.elderindex.co.uk",
+      "status": 421,
+      "location": null
+    },
+    {
+      "host": "untrusted.invalid",
+      "status": 421,
+      "location": null
+    },
+    {
+      "method": "POST",
+      "status": 405,
+      "location": null
+    }
+  ]
+}

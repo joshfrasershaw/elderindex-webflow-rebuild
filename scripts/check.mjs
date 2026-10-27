@@ -4,7 +4,7 @@ import { pages, baseUrl } from '../src/data.mjs';
 import { config } from '../src/config.mjs';
 import { imagery, heroConcepts } from '../src/imagery.mjs';
 import { createHash } from 'node:crypto';
-const root=path.resolve('dist'), issues=[], titles=new Set(), descriptions=new Set();
+const root=path.resolve(process.env.BUILD_OUTPUT_DIR||'dist'), issues=[], titles=new Set(), descriptions=new Set();
 const urls=new Set(pages.map(p=>p.path));
 const htmlByPath=new Map(pages.map(p=>[p.path,fs.existsSync(path.join(root,p.path,'index.html'))?fs.readFileSync(path.join(root,p.path,'index.html'),'utf8'):null]));
 const fail=(p,message)=>issues.push(`${p}: ${message}`);

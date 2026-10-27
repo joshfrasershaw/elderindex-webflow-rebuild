@@ -1,0 +1,8 @@
+{
+  "name": "elderindex-public-apex",
+  "main": "./deploy/apex-entry.mjs",
+  "compatibility_date": "2025-10-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "account_id": "c27156f8f3cc29038495bf64fbf2bae7"
+}

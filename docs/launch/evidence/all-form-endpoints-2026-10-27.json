@@ -1,0 +1,213 @@
+{
+  "checked_at_utc": "2026-10-27T16:25:25.947368+00:00",
+  "scope": "Actual deployed staging HTML, all 30 pages",
+  "forms": 13,
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/services/website-design/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/services/search-visibility/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/services/website-management/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/services/care-directory-management/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/services/home-care/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/services/care-home-seo/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/for-care-homes/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/for-home-care-agencies/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/talk-to-us/",
+      "status": 200,
+      "form_count": 1,
+      "endpoints": [
+        "https://formspree.io/f/xpqlvnaa"
+      ]
+    },
+    {
+      "path": "/guides/choosing-a-care-website/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/guides/home-care-local-seo/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/guides/care-directory-comparison/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/guides/carehome-co-uk-profile/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/guides/google-business-profile-care/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/cookies/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/guides/multi-location-home-care-seo/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/resources/dementia-care/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/resources/palliative-care/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/resources/respite-care/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/resources/specialist-care/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/resources/supported-living/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/glossary/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    },
+    {
+      "path": "/framework/",
+      "status": 200,
+      "form_count": 0,
+      "endpoints": []
+    }
+  ]
+}

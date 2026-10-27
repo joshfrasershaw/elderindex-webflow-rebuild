@@ -2,14 +2,14 @@
 import {spawn} from 'node:child_process';import fs from 'node:fs';import assert from 'node:assert/strict';
 import {pages}from'../src/data.mjs';import{config}from'../src/config.mjs';
 const origin='http://127.0.0.1:4197';const started=new Date().toISOString();let logs='';
-const child=spawn('node_modules/.bin/wrangler',['dev','--local','--ip','127.0.0.1','--port','4197','--persist-to','/tmp/elderindex-release-workerd'],{env:{...process.env,WRANGLER_SEND_METRICS:'false',XDG_CONFIG_HOME:'/tmp/elderindex-wrangler-config'},stdio:['ignore','pipe','pipe']});
+const child=spawn('node_modules/.bin/wrangler',['dev','--config',process.env.WRANGLER_CONFIG||'wrangler.jsonc','--local','--ip','127.0.0.1','--port','4197','--persist-to','/tmp/elderindex-release-workerd'],{env:{...process.env,WRANGLER_SEND_METRICS:'false',XDG_CONFIG_HOME:'/tmp/elderindex-wrangler-config'},stdio:['ignore','pipe','pipe']});
 child.stdout.on('data',d=>logs+=d);child.stderr.on('data',d=>logs+=d);
 const results=[];
 async function check(route,status){const r=await fetch(origin+route,{redirect:'manual'});assert.equal(r.status,status,route+' HTTP status');results.push({path:route,status:r.status,location:r.headers.get('location'),robotsHeader:r.headers.get('x-robots-tag')});return r;}
 try{
  let ready=false;for(let n=0;n<200;n++){if(child.exitCode!==null)throw Error(logs);try{await fetch(origin);ready=true;break;}catch{}await new Promise(r=>setTimeout(r,100));}assert.ok(ready,'Local Cloudflare runtime startup: '+logs);
  for(const p of pages){const r=await check(p.path,200);assert.equal(r.headers.get('x-robots-tag'),config.production?null:'noindex, follow');const h=await r.text();assert.ok(h.includes(`content="${config.production&&p.kind!=='legal'?'index':'noindex'}, follow"`));}
- const rules=fs.readFileSync('dist/_redirects','utf8').trim().split('\n').map(l=>l.split(/\s+/));
+ const rules=fs.readFileSync((process.env.BUILD_OUTPUT_DIR||'dist')+'/_redirects','utf8').trim().split('\n').map(l=>l.split(/\s+/));
  for(const[from,to]of rules){
   for(const search of ['', '?utm_source=release-check']){
    const r=await check(from+search,301);assert.ok(r.headers.get('location'),'Missing Location '+from);

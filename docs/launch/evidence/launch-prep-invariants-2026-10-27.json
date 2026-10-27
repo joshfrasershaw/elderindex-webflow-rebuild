@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-27T16:33:16.966147+00:00",
+  "home_care_html_sha256_before": "e283bbb7f504b95bf23f9a78e662d7a30d09a1ddedf4f155a554910c87b37aa9",
+  "home_care_html_sha256_after": "e283bbb7f504b95bf23f9a78e662d7a30d09a1ddedf4f155a554910c87b37aa9",
+  "home_care_html_unchanged": true,
+  "all_126_static_redirect_rules_unchanged": true,
+  "canonical_pages": 30,
+  "legacy_map_paths": 60,
+  "gsc_and_editorial_content": "unchanged except legal publication candidates"
+}

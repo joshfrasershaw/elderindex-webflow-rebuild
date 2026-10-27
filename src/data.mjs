@@ -1,3 +1,4 @@
+import {applyLegal} from './legal.mjs';
 import {applyMigrationContent} from './migration-content.mjs';
 // Reconstructed from ElderIndex's Webflow page titles, descriptions and editorial copy.
 // No fabricated client outcomes, endorsements or rankings.
@@ -125,25 +126,12 @@ export const pages = [
     ['Understand local ranking factors','Google explains that local results are mainly based on relevance, distance and prominence. Business information and wider web signals can contribute.','There is no way to request or pay Google for a better position in its organic local ranking. Be cautious of agencies promising otherwise.'],
     ['Connect the profile to your website','Use the correct website destination and maintain consistent business details. A profile should lead people to clear pages explaining the care types and locations relevant to them.','For help with a joined-up approach, explore care search visibility or ongoing directory management.']
   ],related:['/services/search-visibility/','/services/care-directory-management/','/guides/home-care-local-seo/']},
-  {path:'/privacy/',kind:'legal',title:'Privacy Policy | ElderIndex',description:'How ElderIndex handles enquiries, personal information and website privacy.',headline:'Privacy notice.',intro:'Important information about enquiries and personal data. This is a working draft which must be reviewed before launch.',sections:[
-    ['Privacy notice — draft for review','ElderIndex is a UK business trading name operated as a sole trader. Privacy enquiries may be directed to hello@elderindex.co.uk.'],
-    ['What an enquiry involves','The contact process can request your name, email address, organisation and message in order to respond. Please do not submit special-category or confidential care information about residents or service users.'],
-    ['Before publication','Confirm the correct lawful bases for processing, hosting and email providers, any analytics services, retention periods, international transfers and the procedure for exercising data protection rights.'],
-    ['Your rights','Review current ICO guidance and the services actually enabled on the published website before treating this notice as final.']
-  ]},
-  {path:'/terms/',kind:'legal',title:'Terms of Use | ElderIndex',description:'Information about using the ElderIndex website and how to discuss services.',headline:'Website terms.',intro:'Basic information about using ElderIndex’s website. Working draft for review.',sections:[
-    ['Website terms — draft for review','This draft needs legal and business review before publication and is not a service agreement.'],
-    ['Information on this website','The content describes ElderIndex’s intended website, SEO and digital management services. It is general information and does not guarantee search rankings, enquiries or care business outcomes.'],
-    ['Service arrangements','Individual projects and ongoing services require agreed deliverables, responsibilities, pricing and terms in writing. Care providers remain responsible for approving facts about their services.'],
-    ['Before publication','Confirm business contact details and review intellectual property, liability and governing law wording appropriate to actual business practices.']
-  ]},
-  {path:'/cookies/',kind:'legal',title:'Cookie Information | ElderIndex',description:'How ElderIndex explains and manages cookies used on its website.',headline:'Cookie information.',intro:'An explanation of the cookies and technologies used by this website. Working draft for review.',sections:[
-    ['Cookie notice — draft for review','This is not a final cookie declaration. The technologies used by the published site need to be audited before launch.'],
-    ['Essential website functions','Website infrastructure and forms may use technical functionality necessary to provide the requested service. The actual technologies and their purposes need to be documented.'],
-    ['Analytics and optional cookies','If analytics or other non-essential tracking is enabled, review applicable consent requirements and implement suitable controls before those technologies run.'],
-    ['Before publication','Complete a live cookie audit, list purposes and retention, and link to current privacy and preference controls.']
-  ]}
+  {path:'/privacy/',kind:'legal',title:'Privacy Policy | ElderIndex',description:'How ElderIndex handles enquiries, personal information and website privacy.',headline:'Privacy notice.',sections:[]},
+  {path:'/terms/',kind:'legal',title:'Terms of Use | ElderIndex',description:'Information about using the ElderIndex website and how to discuss services.',headline:'Website terms.',sections:[]},
+  {path:'/cookies/',kind:'legal',title:'Cookie Information | ElderIndex',description:'Cookies, browser storage and enquiry requests used by the ElderIndex website.',headline:'Cookie information.',sections:[]}
+
 ];
 applyEditorial(pages, guides);
 applyMigrationContent(pages);
+applyLegal(pages,config);
 export const lookup = new Map(pages.map(p=>[p.path,p]));

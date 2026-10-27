@@ -1,0 +1,44 @@
+{
+  "testId": "EI-LAUNCH-20261027161513",
+  "startedAtUtc": "2026-10-27T16:15:13.370Z",
+  "completedAtUtc": "2026-10-27T16:15:19.598Z",
+  "origin": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev",
+  "endpoint": "https://formspree.io/f/xpqlvnaa",
+  "formActions": [
+    {
+      "action": "https://formspree.io/f/xpqlvnaa",
+      "method": "post"
+    }
+  ],
+  "before": {
+    "cookies": "",
+    "localStorageKeys": [],
+    "analyticsId": "",
+    "externalScripts": [
+      "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/assets/site.js?v=1bbc7ae00c0b"
+    ]
+  },
+  "posts": [
+    {
+      "url": "https://formspree.io/f/xpqlvnaa",
+      "method": "POST"
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "contentType": "application/json",
+      "body": "{\"next\":\"/thanks?language=en\",\"ok\":true}\n"
+    }
+  ],
+  "failures": [],
+  "result": {
+    "feedback": "Thank you — your enquiry has been received. We’ll respond to arrange a useful conversation.",
+    "state": "success",
+    "buttonDisabled": true,
+    "fieldsReset": true
+  },
+  "mailboxDelivery": "UNVERIFIED: no mailbox/Formspree account tools or credentials available",
+  "scope": "One real authorised UI submission, no mocks, no retries; public business address only.",
+  "browserTrust": "Pinned only the execution environment-provided proxy CA SPKI; no blanket ignoreHTTPSErrors. Curl separately validates the environment-trusted HTTPS chain. Initial navigation failed before any POST because Chromium did not inherit that CA."
+}

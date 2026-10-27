@@ -34,8 +34,10 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - name: Policy and repository hygiene
         run: npm run check:policy
-      - name: Provenance negative tests
-        run: npm run test:provenance
+      - name: Provenance and production-target tests
+        run: |
+          npm run test:provenance
+          npm run test:production-targets
       - name: Staging build and classified link audit
         run: |
           mkdir -p .release-evidence
@@ -47,15 +49,14 @@ jobs:
           npm run check:runtime -- .release-evidence/staging-runtime.json
       - name: Browser, enquiry simulations and accessibility
         run: npm test
-      - name: Production build and actual asset-router checks (local only)
-        env:
-          SITE_ENV: production
+      - name: Isolated production build and asset-router checks (local only)
         run: |
-          npm run build
-          npm run check
-          npm run check:release -- .release-evidence/production-manifest.json
-          npm run test:release-cli
-          npm run check:runtime -- .release-evidence/production-runtime.json
+          sha256sum dist/release.json dist/robots.txt dist/index.html > .release-evidence/staging-before-production.sha256
+          npm run build:production
+          npm run check:production -- .release-evidence/production-manifest.json
+          npm run check:runtime:production -- .release-evidence/production-runtime.json
+          npm run check:runtime:apex -- .release-evidence/apex-runtime.json
+          sha256sum --check .release-evidence/staging-before-production.sha256
       - name: Restore safe staging output
         if: always()
         run: npm run build

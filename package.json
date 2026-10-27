@@ -15,7 +15,12 @@
     "check:runtime": "node scripts/check-runtime.mjs",
     "check:policy": "node scripts/check-policy.mjs",
     "test:provenance": "node --test scripts/test-release-provenance.mjs",
-    "test:release-cli": "node --test scripts/test-release-cli.mjs"
+    "test:release-cli": "node --test scripts/test-release-cli.mjs",
+    "build:production": "node scripts/production.mjs build",
+    "check:production": "node scripts/production.mjs check",
+    "check:runtime:production": "node scripts/production.mjs runtime",
+    "test:production-targets": "node --test scripts/test-production-targets.mjs",
+    "check:runtime:apex": "node scripts/check-apex-runtime.mjs"
   },
   "engines": {
     "node": ">=18"
