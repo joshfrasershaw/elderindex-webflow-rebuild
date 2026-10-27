@@ -58,7 +58,7 @@ For a design buyer, make the difference between a self-managed handover, optiona
    ```
 
 3. Review all generated pages for missing contextual links, weak commercial destinations, orphans/unreachable pages, repetitive links, guide-to-service routes and direct commercial enquiry paths. Inspect actual copy rather than relying only on counts.
-4. Produce a prioritised plan. Record an explicit content reason for each proposed complementary service. Preserve the current architecture and intent unless the approved scope says otherwise.
+4. Prioritise and implement compliant improvements autonomously. Record an explicit content reason for each complementary service. Preserve architecture and search intent unless the approved framework justifies changing them; escalate only reserved exceptions.
 5. Implement small edits or links to existing phrases. Do not generate a new page or repeated sales block merely to create more links.
 6. Build and compare:
 
@@ -71,7 +71,7 @@ For a design buyer, make the difference between a self-managed handover, optiona
 
 7. Inspect additions for benefit-led copy and natural anchors. Review any removed links or changed metadata from the comparison. Test the affected desktop/mobile journeys, table/contents anchors and forms. Verify every guide can reach a relevant service and every commercial page can reach the enquiry page directly.
 8. Save the findings, before/after evidence, validation and publication status in `docs/seo/activity-log.md`. Update article modification dates only for real changes; keep publication dates genuine.
-9. Leave the diff local for review. Do not push to `main` or deploy without an explicit publication instruction.
+9. Under the owner's standing autonomous-publishing mandate, commit authorised framework-compliant fixes to `main`, verify the configured deployment and log actual live URL and UTC timestamp or mark NOT LIVE. Do not require a pre-publication PR or micro-approval. The initial domain/DNS cutover and restricted actions remain owner-controlled. See `../ops/autonomous-publishing.md` and `../codex/AUDIT-FIX-PUBLISH.md`.
 
 The audit reads `dist/`, never a remote site. It also reports the generated 404 utility page separately from the canonical-page graph, so an intentional error page is not incorrectly flagged as an orphan. It classifies **contextual** links as prose/list links within editorial/service sections; header/footer/breadcrumb/contents links, sidebars, cards and CTAs are separate. “Contextual referring pages” counts distinct other source pages. A footer link on every page is not evidence of strong contextual support. Same-target links in prose and a helpful related-services block are not automatically wasteful.
 
