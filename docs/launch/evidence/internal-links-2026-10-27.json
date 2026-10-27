@@ -1,0 +1,1677 @@
+{
+  "page_count": 22,
+  "utility_pages": [
+    {
+      "path": "/404.html",
+      "title": "Page not found | ElderIndex",
+      "h1": [
+        "That page isn't here."
+      ],
+      "has_homepage_return": true
+    }
+  ],
+  "broken_links": [],
+  "orphan_pages": [],
+  "unreachable_from_home": [],
+  "pages_without_main_inbound": [
+    "/cookies/",
+    "/terms/"
+  ],
+  "inbound": {
+    "/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 0,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [],
+        "body": [],
+        "related": [],
+        "header": [
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": [
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ]
+      }
+    },
+    "/about/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 15,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [
+          "/"
+        ],
+        "body": [
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/"
+        ],
+        "related": [],
+        "header": [
+          "/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/cookies/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 0,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [],
+        "body": [],
+        "related": [],
+        "header": [],
+        "footer": [
+          "/",
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/for-care-homes/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 5,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [],
+        "body": [
+          "/services/"
+        ],
+        "related": [
+          "/about/",
+          "/guides/carehome-co-uk-profile/",
+          "/services/care-home-seo/",
+          "/services/website-design/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/for-home-care-agencies/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 4,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [],
+        "body": [
+          "/services/"
+        ],
+        "related": [
+          "/about/",
+          "/services/home-care/",
+          "/services/website-design/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/guides/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 7,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/"
+        ],
+        "body": [
+          "/"
+        ],
+        "related": [],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": [
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/"
+        ]
+      }
+    },
+    "/guides/care-directory-comparison/": {
+      "all_referring_pages": 6,
+      "main_referring_pages": 6,
+      "contextual_referring_pages": 4,
+      "contextual_links": 4,
+      "sources_by_placement": {
+        "contextual": [
+          "/guides/carehome-co-uk-profile/",
+          "/guides/home-care-local-seo/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/"
+        ],
+        "cta": [],
+        "body": [
+          "/",
+          "/guides/"
+        ],
+        "related": [
+          "/services/care-directory-management/"
+        ],
+        "header": [],
+        "footer": [],
+        "breadcrumb": []
+      }
+    },
+    "/guides/carehome-co-uk-profile/": {
+      "all_referring_pages": 5,
+      "main_referring_pages": 5,
+      "contextual_referring_pages": 4,
+      "contextual_links": 4,
+      "sources_by_placement": {
+        "contextual": [
+          "/guides/care-directory-comparison/",
+          "/guides/choosing-a-care-website/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/"
+        ],
+        "cta": [],
+        "body": [
+          "/guides/"
+        ],
+        "related": [
+          "/guides/care-directory-comparison/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/"
+        ],
+        "header": [],
+        "footer": [],
+        "breadcrumb": []
+      }
+    },
+    "/guides/choosing-a-care-website/": {
+      "all_referring_pages": 5,
+      "main_referring_pages": 5,
+      "contextual_referring_pages": 3,
+      "contextual_links": 3,
+      "sources_by_placement": {
+        "contextual": [
+          "/services/care-home-seo/",
+          "/services/website-design/",
+          "/services/website-management/"
+        ],
+        "cta": [],
+        "body": [
+          "/",
+          "/guides/"
+        ],
+        "related": [
+          "/services/website-design/"
+        ],
+        "header": [],
+        "footer": [],
+        "breadcrumb": []
+      }
+    },
+    "/guides/google-business-profile-care/": {
+      "all_referring_pages": 5,
+      "main_referring_pages": 5,
+      "contextual_referring_pages": 3,
+      "contextual_links": 3,
+      "sources_by_placement": {
+        "contextual": [
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/home-care/"
+        ],
+        "cta": [],
+        "body": [
+          "/guides/"
+        ],
+        "related": [
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/care-directory-management/"
+        ],
+        "header": [],
+        "footer": [],
+        "breadcrumb": []
+      }
+    },
+    "/guides/home-care-local-seo/": {
+      "all_referring_pages": 7,
+      "main_referring_pages": 7,
+      "contextual_referring_pages": 4,
+      "contextual_links": 4,
+      "sources_by_placement": {
+        "contextual": [
+          "/guides/google-business-profile-care/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/"
+        ],
+        "cta": [],
+        "body": [
+          "/",
+          "/guides/"
+        ],
+        "related": [
+          "/for-home-care-agencies/",
+          "/guides/google-business-profile-care/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/"
+        ],
+        "header": [],
+        "footer": [],
+        "breadcrumb": []
+      }
+    },
+    "/guides/multi-location-home-care-seo/": {
+      "all_referring_pages": 4,
+      "main_referring_pages": 4,
+      "contextual_referring_pages": 3,
+      "contextual_links": 3,
+      "sources_by_placement": {
+        "contextual": [
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/services/home-care/"
+        ],
+        "cta": [],
+        "body": [
+          "/guides/"
+        ],
+        "related": [
+          "/services/home-care/"
+        ],
+        "header": [],
+        "footer": [],
+        "breadcrumb": []
+      }
+    },
+    "/privacy/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 13,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [],
+        "body": [
+          "/",
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/"
+        ],
+        "related": [],
+        "header": [],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/services/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 12,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [
+          "/"
+        ],
+        "body": [
+          "/",
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/"
+        ],
+        "related": [
+          "/about/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [],
+        "breadcrumb": [
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/"
+        ]
+      }
+    },
+    "/services/care-directory-management/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 11,
+      "contextual_referring_pages": 7,
+      "contextual_links": 7,
+      "sources_by_placement": {
+        "contextual": [
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/care-directory-comparison/",
+          "/guides/google-business-profile-care/",
+          "/services/home-care/",
+          "/services/website-management/"
+        ],
+        "cta": [
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/"
+        ],
+        "body": [
+          "/",
+          "/services/"
+        ],
+        "related": [
+          "/for-care-homes/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/google-business-profile-care/",
+          "/services/search-visibility/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/services/care-home-seo/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 7,
+      "contextual_referring_pages": 6,
+      "contextual_links": 6,
+      "sources_by_placement": {
+        "contextual": [
+          "/about/",
+          "/for-care-homes/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/services/search-visibility/"
+        ],
+        "cta": [],
+        "body": [
+          "/services/"
+        ],
+        "related": [
+          "/for-care-homes/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/services/search-visibility/"
+        ],
+        "header": [],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/services/home-care/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 7,
+      "contextual_referring_pages": 6,
+      "contextual_links": 6,
+      "sources_by_placement": {
+        "contextual": [
+          "/about/",
+          "/for-home-care-agencies/",
+          "/guides/care-directory-comparison/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/search-visibility/"
+        ],
+        "cta": [
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/"
+        ],
+        "body": [
+          "/services/"
+        ],
+        "related": [
+          "/for-home-care-agencies/",
+          "/guides/care-directory-comparison/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/search-visibility/"
+        ],
+        "header": [],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/services/search-visibility/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 9,
+      "contextual_referring_pages": 3,
+      "contextual_links": 3,
+      "sources_by_placement": {
+        "contextual": [
+          "/guides/google-business-profile-care/",
+          "/services/website-design/",
+          "/services/website-management/"
+        ],
+        "cta": [
+          "/guides/google-business-profile-care/"
+        ],
+        "body": [
+          "/",
+          "/services/"
+        ],
+        "related": [
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/website-management/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/services/website-design/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 13,
+      "contextual_referring_pages": 11,
+      "contextual_links": 11,
+      "sources_by_placement": {
+        "contextual": [
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/care-directory-comparison/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-management/"
+        ],
+        "cta": [
+          "/guides/choosing-a-care-website/"
+        ],
+        "body": [
+          "/",
+          "/services/"
+        ],
+        "related": [
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/choosing-a-care-website/",
+          "/services/website-management/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-management/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/services/website-management/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 14,
+      "contextual_referring_pages": 12,
+      "contextual_links": 12,
+      "sources_by_placement": {
+        "contextual": [
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/"
+        ],
+        "cta": [],
+        "body": [
+          "/",
+          "/services/"
+        ],
+        "related": [
+          "/guides/choosing-a-care-website/",
+          "/services/website-design/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/talk-to-us/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/talk-to-us/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 18,
+      "contextual_referring_pages": 1,
+      "contextual_links": 1,
+      "sources_by_placement": {
+        "contextual": [
+          "/about/"
+        ],
+        "cta": [
+          "/",
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/"
+        ],
+        "body": [],
+        "related": [
+          "/about/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/"
+        ],
+        "header": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/terms/"
+        ],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/terms/"
+        ],
+        "breadcrumb": []
+      }
+    },
+    "/terms/": {
+      "all_referring_pages": 21,
+      "main_referring_pages": 0,
+      "contextual_referring_pages": 0,
+      "contextual_links": 0,
+      "sources_by_placement": {
+        "contextual": [],
+        "cta": [],
+        "body": [],
+        "related": [],
+        "header": [],
+        "footer": [
+          "/",
+          "/about/",
+          "/cookies/",
+          "/for-care-homes/",
+          "/for-home-care-agencies/",
+          "/guides/",
+          "/guides/care-directory-comparison/",
+          "/guides/carehome-co-uk-profile/",
+          "/guides/choosing-a-care-website/",
+          "/guides/google-business-profile-care/",
+          "/guides/home-care-local-seo/",
+          "/guides/multi-location-home-care-seo/",
+          "/privacy/",
+          "/services/",
+          "/services/care-directory-management/",
+          "/services/care-home-seo/",
+          "/services/home-care/",
+          "/services/search-visibility/",
+          "/services/website-design/",
+          "/services/website-management/",
+          "/talk-to-us/"
+        ],
+        "breadcrumb": []
+      }
+    }
+  },
+  "repeated_contextual_pairs": [],
+  "metadata": {
+    "/": {
+      "title": "Web Design & SEO for Care Homes and Home Care Agencies | ElderIndex",
+      "description": "Websites, SEO and ongoing digital management for UK care providers. Built around real care-sector experience. Discover how ElderIndex can help.",
+      "canonical": "https://elderindex.co.uk/",
+      "h1": [
+        "Wonderful caredeserves a betterfirst impression."
+      ],
+      "h2": [
+        "Website and digital services for care providers",
+        "Your care makesa difference.Your websiteshould too.",
+        "Your website should do more than look beautiful.",
+        "Imagine what your websitecould look like.",
+        "From first conversation toongoing support.",
+        "Let\u2019s make your website your strongest supporter.",
+        "Helpful guides for care providers.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/about/": {
+      "title": "About ElderIndex | Built on Real Care Experience",
+      "description": "Meet Josh, founder of ElderIndex. Care home management, operations and customer relations experience inform our websites, SEO and enquiry journeys.",
+      "canonical": "https://elderindex.co.uk/about/",
+      "h1": [
+        "Meet Josh, founder of ElderIndex."
+      ],
+      "h2": [
+        "Meet Josh, founder of ElderIndex.",
+        "An agency that understands your world.",
+        "From care home operations to ElderIndex",
+        "Why enquiry management shapes the work",
+        "Why directory information deserves attention",
+        "Care-sector experience and technical competence",
+        "How we work with providers",
+        "Your care deserves digital work that understands it.",
+        "Questions, answered plainly.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/cookies/": {
+      "title": "Cookie Information | ElderIndex",
+      "description": "How ElderIndex explains and manages cookies used on its website.",
+      "canonical": "https://elderindex.co.uk/cookies/",
+      "h1": [
+        "Cookie information."
+      ],
+      "h2": [
+        "Cookie notice \u2014 draft for review",
+        "Essential website functions",
+        "Analytics preference controls",
+        "Analytics and optional cookies",
+        "Before publication"
+      ]
+    },
+    "/for-care-homes/": {
+      "title": "Digital Services for Residential Care Homes | ElderIndex",
+      "description": "Websites, SEO and directory support shaped around the needs of residential and nursing care homes. Discover how ElderIndex can help.",
+      "canonical": "https://elderindex.co.uk/for-care-homes/",
+      "h1": [
+        "Digital support for residential & nursing care homes."
+      ],
+      "h2": [
+        "What matters for your digital presence.",
+        "Built for real care businesses, not generic templates.",
+        "Make a reassuring first impression",
+        "Care home website design",
+        "Local visibility for your home",
+        "Carehome.co.uk and directory profiles",
+        "Keep care information current",
+        "Real care experience.A more useful approach.",
+        "Your website should feel as considered as your care home.",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/for-home-care-agencies/": {
+      "title": "Digital Services for Home Care Agencies | ElderIndex",
+      "description": "Digital services for domiciliary and live-in care agencies, from website design to local search visibility and ongoing profile management.",
+      "canonical": "https://elderindex.co.uk/for-home-care-agencies/",
+      "h1": [
+        "Digital support for home care agencies."
+      ],
+      "h2": [
+        "What matters for your digital presence.",
+        "Built for real care businesses, not generic templates.",
+        "Service areas come first",
+        "Websites that explain your care",
+        "Local search for home care",
+        "Directories and external profiles",
+        "Management as you grow",
+        "Real care experience.A more useful approach.",
+        "Help more families understand the care you offer.",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/guides/": {
+      "title": "Care Website, SEO & Directory Guides | ElderIndex",
+      "description": "Practical guides for care providers covering website design, local SEO, care directories and improving your online presence.",
+      "canonical": "https://elderindex.co.uk/guides/",
+      "h1": [
+        "Practical digital guides for care providers."
+      ],
+      "h2": [
+        "Find the advice you need.",
+        "Useful advice is a start. We can also do the work.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/guides/care-directory-comparison/": {
+      "title": "UK Care Directories Compared: A Provider\u2019s Guide | ElderIndex",
+      "description": "Compare UK care directories including Carehome.co.uk, Homecare.co.uk, Autumna and Lottie, with practical considerations for care providers.",
+      "canonical": "https://elderindex.co.uk/guides/care-directory-comparison/",
+      "h1": [
+        "UK care directories compared: a provider\u2019s guide."
+      ],
+      "h2": [
+        "Which directory fits the type of care we provide?",
+        "What should we check in every listing?",
+        "How do we compare the commercial value fairly?",
+        "Should directory profiles copy our website?",
+        "What should we do before renewing a paid arrangement?",
+        "Want a smaller, better-maintained set of profiles?",
+        "In this guide"
+      ]
+    },
+    "/guides/carehome-co-uk-profile/": {
+      "title": "How to Improve Your Carehome.co.uk Profile | ElderIndex",
+      "description": "Practical advice for reviewing your Carehome.co.uk profile, keeping information accurate and helping families understand your care home.",
+      "canonical": "https://elderindex.co.uk/guides/carehome-co-uk-profile/",
+      "h1": [
+        "How to improve your Carehome.co.uk profile."
+      ],
+      "h2": [
+        "Check the core details first",
+        "Write a distinctive description",
+        "Show the environment honestly",
+        "Treat reviews responsibly",
+        "Understand how directory ranking works",
+        "Make enquiries easy to handle",
+        "How can the team run a repeatable profile review?",
+        "Where should we verify platform rules?",
+        "Need help keeping home profiles accurate?",
+        "In this guide"
+      ]
+    },
+    "/guides/choosing-a-care-website/": {
+      "title": "What Makes a Good Care Home Website? | ElderIndex",
+      "description": "Commissioning a care home website? A practical checklist for your brief, photography, accessibility, enquiry routes, handover and ongoing website care.",
+      "canonical": "https://elderindex.co.uk/guides/choosing-a-care-website/",
+      "h1": [
+        "What makes a good care home website?"
+      ],
+      "h2": [
+        "What must a family understand in the first minute?",
+        "Which details build justified confidence?",
+        "How can we check accessibility without specialist tools?",
+        "What should we ask about photography and page speed?",
+        "Does the enquiry journey actually work?",
+        "What should a redesign proposal include?",
+        "What should we prepare before briefing a designer?",
+        "Use the checklist to brief a better care website.",
+        "In this guide"
+      ]
+    },
+    "/guides/google-business-profile-care/": {
+      "title": "Google Business Profile for Care Providers | ElderIndex",
+      "description": "Learn how care providers can maintain accurate Google Business Profiles, improve local information and manage reviews responsibly.",
+      "canonical": "https://elderindex.co.uk/guides/google-business-profile-care/",
+      "h1": [
+        "Google Business Profile for care providers."
+      ],
+      "h2": [
+        "Claim and verify your eligible profile",
+        "Keep the details accurate",
+        "Help people understand the business",
+        "Handle reviews with care",
+        "Understand local ranking factors",
+        "Connect the profile to your website",
+        "How should a provider choose the right website destination?",
+        "Which official Google rules should we consult?",
+        "Make local profiles and your website agree.",
+        "In this guide"
+      ]
+    },
+    "/guides/home-care-local-seo/": {
+      "title": "Local SEO for Home Care Agencies: A UK Guide | ElderIndex",
+      "description": "Learn how home care agencies can improve local visibility through Google Business Profiles, service-area pages, helpful content and relevant directories.",
+      "canonical": "https://elderindex.co.uk/guides/home-care-local-seo/",
+      "h1": [
+        "Local SEO for home care agencies: a UK guide."
+      ],
+      "h2": [
+        "What is the first step in local SEO for a home care agency?",
+        "What should a useful service-area page contain?",
+        "How should keywords be mapped to care pages?",
+        "Can we create a Google profile for each town?",
+        "Which mistakes waste the most time?",
+        "How do we know whether local SEO is useful?",
+        "Ready to turn the plan into practical changes?",
+        "In this guide"
+      ]
+    },
+    "/guides/multi-location-home-care-seo/": {
+      "title": "Multi-Location Home Care SEO: Branch & Service-Area Planning | ElderIndex",
+      "description": "Plan home care branch pages, service areas and shared content without duplicating towns or confusing families. Includes an illustrative expansion workflow.",
+      "canonical": "https://elderindex.co.uk/guides/multi-location-home-care-seo/",
+      "h1": [
+        "Multi-location home care SEO: branches, coverage and clear ownership."
+      ],
+      "h2": [
+        "What counts as a location in a multi-branch agency?",
+        "Which information belongs centrally and which belongs to a branch?",
+        "How would two branches and overlapping coverage work?",
+        "When should a new town or branch get its own page?",
+        "How do we migrate an existing network of pages?",
+        "What should reporting show at branch level?",
+        "Need to untangle branches and service areas?",
+        "In this guide"
+      ]
+    },
+    "/privacy/": {
+      "title": "Privacy Policy | ElderIndex",
+      "description": "How ElderIndex handles enquiries, personal information and website privacy.",
+      "canonical": "https://elderindex.co.uk/privacy/",
+      "h1": [
+        "Privacy notice."
+      ],
+      "h2": [
+        "Privacy notice \u2014 draft for review",
+        "What an enquiry involves",
+        "Enquiry delivery through Formspree",
+        "Before publication",
+        "Your rights"
+      ]
+    },
+    "/services/": {
+      "title": "Digital Services for Care Providers | ElderIndex",
+      "description": "From website design to Google visibility and care directory management, explore digital services built around the needs of UK care providers.",
+      "canonical": "https://elderindex.co.uk/services/",
+      "h1": [
+        "Digital services built around care."
+      ],
+      "h2": [
+        "Website and digital services for care providers",
+        "Specialist SEO for your care model.",
+        "Everything connected. Nothing unnecessary.",
+        "Make an impression worth remembering.",
+        "Different services. Different decisions.",
+        "Wondering where to start with your online presence?",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/services/care-directory-management/": {
+      "title": "Care Directory & Profile Management | ElderIndex",
+      "description": "Keep your care directory profiles accurate, informative and consistent across relevant platforms. Explore our care profile management service.",
+      "canonical": "https://elderindex.co.uk/services/care-directory-management/",
+      "h1": [
+        "Care directory & profile management."
+      ],
+      "h2": [
+        "What matters for your digital presence.",
+        "Built for real care businesses, not generic templates.",
+        "Families look beyond your website",
+        "Keep profile information accurate",
+        "Platforms and profile access",
+        "Responsible review management",
+        "Directory visibility and your site",
+        "Real care experience.A more useful approach.",
+        "Are your care listings telling the whole story?",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/services/care-home-seo/": {
+      "title": "Care Home SEO | Residential & Nursing Homes | ElderIndex",
+      "description": "Specialist SEO for residential and nursing care homes. Improve local search visibility, care home content and relevant online listings.",
+      "canonical": "https://elderindex.co.uk/services/care-home-seo/",
+      "h1": [
+        "SEO for care homes."
+      ],
+      "h2": [
+        "What matters for your digital presence.",
+        "Built for real care businesses, not generic templates.",
+        "How does SEO differ for residential homes, nursing homes and care groups?",
+        "How should a three-home group organise location pages?",
+        "Which trust information helps families decide?",
+        "How do organic search, Google profiles and Carehome.co.uk fit together?",
+        "What happens in a care home SEO audit?",
+        "What will the engagement and reporting look like?",
+        "Real care experience.A more useful approach.",
+        "Make it easier to discover your care home locally.",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/services/home-care/": {
+      "title": "Home Care SEO Services for UK Agencies | ElderIndex",
+      "description": "SEO for UK domiciliary care and home care agencies. Improve local visibility, strengthen service pages and reach families searching for care.",
+      "canonical": "https://elderindex.co.uk/services/home-care/",
+      "h1": [
+        "Home care SEO that helps local families find you."
+      ],
+      "h2": [
+        "What matters for your digital presence.",
+        "Built for real care businesses, not generic templates.",
+        "What does home care SEO actually improve?",
+        "Is a registered location the same as a branch or service area?",
+        "How should services, branches and towns fit together?",
+        "What would an agreed SEO scope include?",
+        "What changes as an agency grows?",
+        "How will we work together and report progress?",
+        "Real care experience.A more useful approach.",
+        "Could more local families find your home care agency?",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/services/search-visibility/": {
+      "title": "SEO & Search Visibility for Care Providers | ElderIndex",
+      "description": "Improve your care business\u2019s visibility with technical SEO, helpful content, local search optimisation, digital PR and ongoing support.",
+      "canonical": "https://elderindex.co.uk/services/search-visibility/",
+      "h1": [
+        "SEO & search visibility for care providers."
+      ],
+      "h2": [
+        "What matters for your digital presence.",
+        "Built for real care businesses, not generic templates.",
+        "How families search for care",
+        "Local search and Google profiles",
+        "Technical SEO and useful content",
+        "Digital PR and appropriate authority",
+        "Measure qualified enquiries",
+        "Real care experience.A more useful approach.",
+        "Help the right families find your care business.",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/services/website-design/": {
+      "title": "Care Home & Home Care Website Design | ElderIndex",
+      "description": "Care home and home care website design informed by real care-sector experience. Clear care information, authentic imagery and welcoming enquiry journeys.",
+      "canonical": "https://elderindex.co.uk/services/website-design/",
+      "h1": [
+        "Website design for care homes and home care agencies."
+      ],
+      "h2": [
+        "What matters for a useful care website.",
+        "Built for real care businesses, not generic templates.",
+        "Designed for how care is actually chosen",
+        "A single home, a care group or a home care agency",
+        "Show the care you actually provide",
+        "A website that sounds like your organisation",
+        "Website design and redesign",
+        "What is included?",
+        "From the brief to launch",
+        "What happens after launch?",
+        "Real care experience.A more useful approach.",
+        "A care website should look beautiful and work hard.",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/services/website-management/": {
+      "title": "Website Management for Care Homes & Agencies | ElderIndex",
+      "description": "Website management and maintenance for care homes and home care agencies. Agree approved content updates, platform upkeep and clear responsibilities.",
+      "canonical": "https://elderindex.co.uk/services/website-management/",
+      "h1": [
+        "Website management for care providers."
+      ],
+      "h2": [
+        "What matters for your digital presence.",
+        "Built for real care businesses, not generic templates.",
+        "A website that stays true to your service",
+        "What support can include",
+        "Care information must stay accurate",
+        "Control and ownership",
+        "Maintenance and SEO have different scopes",
+        "Real care experience.A more useful approach.",
+        "Tired of chasing small website updates?",
+        "Your questions, answered.",
+        "Tell us what youneed help with.",
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/talk-to-us/": {
+      "title": "Contact ElderIndex | Discuss Your Care Website",
+      "description": "Planning a new care website, better Google visibility or ongoing digital support? Tell ElderIndex what your care business needs.",
+      "canonical": "https://elderindex.co.uk/talk-to-us/",
+      "h1": [
+        "Tell us what youneed help with."
+      ],
+      "h2": [
+        "What happens next?",
+        "Start a conversation."
+      ]
+    },
+    "/terms/": {
+      "title": "Terms of Use | ElderIndex",
+      "description": "Information about using the ElderIndex website and how to discuss services.",
+      "canonical": "https://elderindex.co.uk/terms/",
+      "h1": [
+        "Website terms."
+      ],
+      "h2": [
+        "Website terms \u2014 draft for review",
+        "Information on this website",
+        "Service arrangements",
+        "Before publication"
+      ]
+    }
+  },
+  "comparison": {
+    "pages_added": [],
+    "pages_removed": [],
+    "metadata_changed": [],
+    "links_removed": [],
+    "links_added": [],
+    "contextual_links_added": 0
+  }
+}

@@ -12,6 +12,8 @@ assert.equal(release.canonicalOrigin,baseUrl);
 assert.equal(header.includes('X-Robots-Tag: noindex'),!config.production,'Global indexability header');
 const routes=pages.map(p=>{
  const html=read(path.join(p.path,'index.html'));
+ assert.doesNotMatch(html,/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}/,p.path+' credential pattern');
+ assert.doesNotMatch(html,/<script[^>]+src="https?:\/\//,p.path+' unapproved remote script');
  const robots=html.match(/<meta name="robots" content="([^"]+)"/)[1];
  assert.equal(robots,config.production&&p.kind!=='legal'?'index, follow':'noindex, follow',p.path);
  const graph=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1])['@graph'];

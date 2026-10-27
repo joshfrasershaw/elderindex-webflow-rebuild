@@ -1,0 +1,696 @@
+{
+  "checkedAtUtc": "2026-10-27T09:25:16.798Z",
+  "scope": "LOCAL Cloudflare workerd, not deployed HTTP",
+  "environment": "staging",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/website-design/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/search-visibility/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/website-management/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-directory-management/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/home-care/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-home-seo/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/for-care-homes/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/for-home-care-agencies/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/talk-to-us/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/guides/choosing-a-care-website/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/guides/home-care-local-seo/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/guides/care-directory-comparison/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/guides/carehome-co-uk-profile/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/guides/google-business-profile-care/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/cookies/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/guides/multi-location-home-care-seo/",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-design",
+      "status": 301,
+      "location": "/services/website-design/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-design?utm_source=release-check",
+      "status": 301,
+      "location": "/services/website-design/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-design/",
+      "status": 301,
+      "location": "/services/website-design/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-design/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/website-design/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-management",
+      "status": 301,
+      "location": "/services/website-management/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-management?utm_source=release-check",
+      "status": 301,
+      "location": "/services/website-management/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-management/",
+      "status": 301,
+      "location": "/services/website-management/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/website-management/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/website-management/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/search-visibility",
+      "status": 301,
+      "location": "/services/search-visibility/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/search-visibility?utm_source=release-check",
+      "status": 301,
+      "location": "/services/search-visibility/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/search-visibility/",
+      "status": 301,
+      "location": "/services/search-visibility/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/search-visibility/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/search-visibility/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-management",
+      "status": 301,
+      "location": "/services/care-directory-management/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-management?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-directory-management/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-management/",
+      "status": 301,
+      "location": "/services/care-directory-management/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-management/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-directory-management/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-seo",
+      "status": 301,
+      "location": "/services/care-home-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-seo?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-home-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-seo/",
+      "status": 301,
+      "location": "/services/care-home-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-seo/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-home-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care",
+      "status": 301,
+      "location": "/services/home-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care?utm_source=release-check",
+      "status": 301,
+      "location": "/services/home-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care/",
+      "status": 301,
+      "location": "/services/home-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/home-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/choosing-a-care-website",
+      "status": 301,
+      "location": "/guides/choosing-a-care-website/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/choosing-a-care-website?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/choosing-a-care-website/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/choosing-a-care-website/",
+      "status": 301,
+      "location": "/guides/choosing-a-care-website/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/choosing-a-care-website/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/choosing-a-care-website/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care-local-seo",
+      "status": 301,
+      "location": "/guides/home-care-local-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care-local-seo?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/home-care-local-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care-local-seo/",
+      "status": 301,
+      "location": "/guides/home-care-local-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/home-care-local-seo/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/home-care-local-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-comparison",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-comparison?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-comparison/",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-directory-comparison/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-profile",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-profile?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-profile/",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-profile/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care/",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-homes",
+      "status": 301,
+      "location": "/services/care-home-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-homes?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-home-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-homes/",
+      "status": 301,
+      "location": "/services/care-home-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-homes/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-home-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-groups",
+      "status": 301,
+      "location": "/services/care-home-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-groups?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-home-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-groups/",
+      "status": 301,
+      "location": "/services/care-home-seo/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/services/care-groups/?utm_source=release-check",
+      "status": 301,
+      "location": "/services/care-home-seo/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources",
+      "status": 301,
+      "location": "/guides/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources/",
+      "status": 301,
+      "location": "/guides/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/care-directory-comparison/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk/",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-ranking",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-ranking?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-ranking/",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/carehome-co-uk-ranking/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained/",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/carehome-co-uk-profile/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/google-business-profile",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/google-business-profile?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/google-business-profile/",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/directory-guides/google-business-profile/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care-home",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care-home?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care-home/",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/google-business-profile-care-home/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-map-pack",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-map-pack?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-map-pack/",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/care-home-map-pack/?utm_source=release-check",
+      "status": 301,
+      "location": "/guides/google-business-profile-care/?utm_source=release-check",
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/assets/site.css",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/assets/site.js",
+      "status": 200,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/this-release-path-does-not-exist",
+      "status": 404,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/cms/",
+      "status": 404,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/api/bootstrap",
+      "status": 404,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    },
+    {
+      "path": "/%77ebsite-design",
+      "status": 307,
+      "location": "/website-design"
+    },
+    {
+      "path": "/WEBSITE-DESIGN",
+      "status": 404,
+      "location": null,
+      "robotsHeader": "noindex, follow"
+    }
+  ]
+}

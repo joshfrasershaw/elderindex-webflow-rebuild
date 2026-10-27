@@ -1,0 +1,10 @@
+{
+  "cmsBranch": "feature/puck-local-cms",
+  "cmsSha": "b2ced125147663d20113c0c4a55ab2a0268fac05",
+  "seedFingerprint": "03baefb01e9e23e0285415ae45f49f8a788d39bbda2bd731123a9d9fe0a18e75",
+  "reviewRenderedFingerprint": "65627b8d8f686daa89c98f2ccaf83980e469772ddb972f80c722ba3d2ca8ceb1",
+  "compatible": false,
+  "reason": "Content, template, CSS asset-version and schema changes affect rendered HTML. Existing drafts must be exported and explicitly migrated; never replace baseHash to bypass checks.",
+  "privateStoredDrafts": "Not accessed; live draft fingerprint is unverified.",
+  "publishing": "Separate workstream; not enabled or changed"
+}

@@ -60,3 +60,5 @@ jobs:
             .release-evidence/
             test-results/
           retention-days: 14
+          include-hidden-files: true
+          if-no-files-found: error

@@ -13,7 +13,8 @@
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "SEO for UK Care Homes & Home Care Agencies \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/about",
@@ -29,7 +30,8 @@
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Specialist Care Sector SEO \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/care-home-map-pack",
@@ -44,8 +46,9 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Target covers local profile eligibility, relevance/distance/prominence and website connection.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home Google Map Pack - How to Appear and Rank - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/carehome-co-uk-ranking",
@@ -60,8 +63,9 @@
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same Carehome.co.uk improvement topic; target explains limits on current placement rules.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How to Rank Higher on Carehome.co.uk - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/cookie-settings",
@@ -77,7 +81,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Cookie Settings - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides",
@@ -92,8 +97,9 @@
     "destination_path": "/guides/care-directory-comparison/",
     "rationale": "Directory overview to provider-facing comparison of relevant platforms.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Directory Ranking Guides \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/autumna",
@@ -109,7 +115,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How Autumna Works for Care Homes \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/carehome-co-uk",
@@ -124,8 +131,9 @@
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same platform-specific factual profile improvement intent; no old ranking formula claims copied.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How to Rank on Carehome.co.uk \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/google-business-profile",
@@ -140,8 +148,9 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Same eligible Google Business Profile guidance.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Google Business Profile for Care Homes \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/homecare-co-uk",
@@ -157,7 +166,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How to Rank on Homecare.co.uk \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/lottie",
@@ -173,7 +183,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How Lottie Works for Care Providers \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/senior-homes-plus",
@@ -189,7 +200,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Senior Homes Plus for Care Homes \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework",
@@ -205,7 +217,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "The CARE Framework \u2014 Our SEO Methodology \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/authority",
@@ -221,7 +234,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Authority \u2014 The CARE Framework \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/credible",
@@ -237,7 +251,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Credible \u2014 The CARE Framework \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/effective",
@@ -253,7 +268,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Effective \u2014 The CARE Framework \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/relevance",
@@ -269,7 +285,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Relevance \u2014 The CARE Framework \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary",
@@ -285,7 +302,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/google-business-profile-care-home",
@@ -300,8 +318,9 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Same Google Business Profile care-provider topic.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Google Business Profile for Care Homes - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/how-it-works",
@@ -317,7 +336,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How ElderIndex Works - Care Home SEO Process \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/privacy",
@@ -333,7 +353,8 @@
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Privacy Policy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources",
@@ -348,8 +369,9 @@
     "destination_path": "/guides/",
     "rationale": "Same provider-facing guide/resource hub.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Guides & Resources for UK Care Providers \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/care-groups",
@@ -365,7 +387,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Group SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/care-home-google-ranking",
@@ -381,7 +404,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How to Improve Your Care Home Google Ranking - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/carehome-co-uk-ranking-explained",
@@ -396,8 +420,9 @@
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same platform explanation and profile-improvement subject.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "How Carehome.co.uk Ranking Works \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/cqc-rating-enquiries",
@@ -413,7 +438,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Good CQC Rating but Still No Enquiries - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/dementia-care",
@@ -429,7 +455,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Dementia Care SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/domiciliary-care",
@@ -445,7 +472,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Domiciliary Care SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/live-in-care",
@@ -461,7 +489,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Live-in Care SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/nursing-care",
@@ -477,7 +506,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Nursing Care SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/palliative-care",
@@ -493,7 +523,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Palliative & End-of-Life SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/residential-care",
@@ -509,7 +540,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Residential Care SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/respite-care",
@@ -525,7 +557,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Respite Care SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/specialist-care",
@@ -541,7 +574,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Specialist Care SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/supported-living",
@@ -557,7 +591,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Supported Living SEO Strategy \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/why-is-my-care-home-not-on-google",
@@ -573,7 +608,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Why Your Care Home Is Not Appearing on Google \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/services",
@@ -589,7 +625,8 @@
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "SEO Services for UK Care Providers \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/services/care-groups",
@@ -604,8 +641,9 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Target explicitly covers groups, distinct homes and home-level reporting.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Group SEO - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/services/care-homes",
@@ -620,8 +658,9 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Same specialist residential/nursing care-home SEO service.",
     "approval_state": "IMPLEMENTED-REVIEW",
-    "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "staging_test_status": "PASS local Cloudflare workerd (both environments); NOT deployed to remote staging",
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Agency \u2014 Specialist SEO for UK Care Homes \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/services/home-care",
@@ -637,7 +676,8 @@
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Home Care SEO & Organic Growth \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/talk-to-us",
@@ -653,7 +693,8 @@
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Talk To Us \u2014 SEO for Care Providers \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/terms",
@@ -669,7 +710,8 @@
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Terms of Service \u2014 ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/autumna",
@@ -685,7 +727,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/carehome-co-uk",
@@ -701,7 +744,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/core-web-vitals",
@@ -717,7 +761,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/cqc",
@@ -733,7 +778,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/duty-of-candour",
@@ -749,7 +795,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/google-business-profile",
@@ -765,7 +812,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/indexability",
@@ -781,7 +829,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/nap-consistency",
@@ -797,7 +846,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/nice-guidelines",
@@ -813,7 +863,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/registered-manager",
@@ -829,7 +880,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/review-score",
@@ -845,7 +897,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/review-velocity",
@@ -861,7 +914,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/schema-markup",
@@ -877,7 +931,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/scie",
@@ -893,7 +948,8 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/section-20a",
@@ -909,6 +965,7 @@
     "rationale": "No independently equivalent page in current 22-page replacement; preserve old content or approve a specific consolidation/retirement with search evidence before cutover.",
     "approval_state": "OWNER-DECISION",
     "staging_test_status": "NOT-DEPLOYED: local router verification follows",
-    "production_test_status": "NOT-RUN: no cutover authorised"
+    "production_test_status": "NOT-RUN: no cutover authorised",
+    "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex \u2014 ElderIndex"
   }
 ]
