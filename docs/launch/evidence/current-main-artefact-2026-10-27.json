@@ -1,0 +1,10 @@
+{
+  "source_sha": "125e8900313c215e79237344f0bfed648ca99173",
+  "path": "/workspace/exports/elderindex-release-125e890-www-production.zip",
+  "sha256": "fe329d23b9526cd1b8d757f6c465f950b5939a927476f549af620417fa75f427",
+  "bytes": 7648189,
+  "environment": "production",
+  "canonical_origin": "https://www.elderindex.co.uk",
+  "deployed": false,
+  "note": "Immutable local artefact; no domain cutover or account binding performed."
+}

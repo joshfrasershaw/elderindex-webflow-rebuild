@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "source_sha": "125e8900313c215e79237344f0bfed648ca99173",
+      "fetch_time": "2026-10-27T14:40:46.152Z",
+      "scope": "local production homepage, Lighthouse simulated mobile; not field CWV",
+      "performance_score": 78.0,
+      "lcp_ms": 3767.6534451184116,
+      "cls": 0,
+      "tbt_ms": 307.82672255920534,
+      "failed_network_requests": 0,
+      "concurrent_browser_work": true
+    },
+    {
+      "source_sha": "125e8900313c215e79237344f0bfed648ca99173",
+      "fetch_time": "2026-10-27T14:42:18.634Z",
+      "scope": "local production homepage, Lighthouse simulated mobile; not field CWV",
+      "performance_score": 83.0,
+      "lcp_ms": 3755.1216999999997,
+      "cls": 0,
+      "tbt_ms": 240,
+      "failed_network_requests": 0,
+      "concurrent_browser_work": false
+    }
+  ],
+  "limitations": "One concurrent and one isolated local lab run; image decode checks and all-page browser tests separately passed. LCP remains above 2.5-second good-field reference. No claim of good field CWV or future ranking."
+}

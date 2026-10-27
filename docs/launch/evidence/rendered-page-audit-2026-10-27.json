@@ -1,0 +1,2396 @@
+{
+  "checked_at_utc": "2026-10-27T14:41:21.419739+00:00",
+  "source_sha": "125e8900313c215e79237344f0bfed648ca99173",
+  "scope": "Every generated canonical HTML page, not a sample; production configuration. Semantic/editorial judgements also recorded in change record.",
+  "pages": [
+    {
+      "path": "/",
+      "kind": "home",
+      "html_sha256": "e7bcd34a5da94702927aa91a33ac326d519f29ab2e45782e65f310bd1923a948",
+      "metadata": {
+        "title": "Web Design & SEO for Care Homes and Home Care Agencies | ElderIndex",
+        "description": "Website design, redesign and ongoing management for care homes and home care agencies. Practical SEO and directory support shaped by care-sector experience.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Wonderful caredeserves a betterfirst impression."
+        },
+        {
+          "level": "h2",
+          "text": "Website and digital services for care providers"
+        },
+        {
+          "level": "h3",
+          "text": "Website design"
+        },
+        {
+          "level": "h3",
+          "text": "Website management"
+        },
+        {
+          "level": "h3",
+          "text": "Search visibility"
+        },
+        {
+          "level": "h3",
+          "text": "Directory management"
+        },
+        {
+          "level": "h2",
+          "text": "Your care makesa difference.Your websiteshould too."
+        },
+        {
+          "level": "h2",
+          "text": "Your website should do more than look beautiful."
+        },
+        {
+          "level": "h3",
+          "text": "Be found."
+        },
+        {
+          "level": "h3",
+          "text": "Make sense."
+        },
+        {
+          "level": "h3",
+          "text": "Invite action."
+        },
+        {
+          "level": "h3",
+          "text": "Stay useful."
+        },
+        {
+          "level": "h2",
+          "text": "Imagine what your websitecould look like."
+        },
+        {
+          "level": "h3",
+          "text": "Exceptional care in an extraordinary setting."
+        },
+        {
+          "level": "h3",
+          "text": "Residential care home concept"
+        },
+        {
+          "level": "h3",
+          "text": "A little help.A lot of heart."
+        },
+        {
+          "level": "h3",
+          "text": "Home care agency concept"
+        },
+        {
+          "level": "h2",
+          "text": "From first conversation toongoing support."
+        },
+        {
+          "level": "h3",
+          "text": "Understand."
+        },
+        {
+          "level": "h3",
+          "text": "Build or improve."
+        },
+        {
+          "level": "h3",
+          "text": "Launch and connect."
+        },
+        {
+          "level": "h3",
+          "text": "Manage and develop."
+        },
+        {
+          "level": "h2",
+          "text": "Let’s make your website your strongest supporter."
+        },
+        {
+          "level": "h2",
+          "text": "Helpful guides for care providers."
+        },
+        {
+          "level": "h3",
+          "text": "What makes a good care home website?"
+        },
+        {
+          "level": "h3",
+          "text": "Local SEO for home care agencies"
+        },
+        {
+          "level": "h3",
+          "text": "UK care directories compared"
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/3129.webp",
+          "alt": "Illustrative Riverside House care-home website displayed on a laptop and phone.",
+          "width": "512",
+          "height": "341",
+          "loading": "eager",
+          "srcset": null,
+          "fetchpriority": "high"
+        },
+        {
+          "src": "/assets/photos/8088906-960.webp",
+          "alt": "Two older adults smiling together beside a window.",
+          "width": "960",
+          "height": "1440",
+          "loading": "lazy",
+          "srcset": "/assets/photos/8088906-480.webp 480w, /assets/photos/8088906-960.webp 960w, /assets/photos/8088906-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/37095303-960.webp",
+          "alt": "A brick house with a garden and outdoor seating.",
+          "width": "960",
+          "height": "652",
+          "loading": "lazy",
+          "srcset": "/assets/photos/37095303-480.webp 480w, /assets/photos/37095303-960.webp 960w, /assets/photos/37095303-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/7551686-960.webp",
+          "alt": "Two adults supporting an older man as he stands in a sitting room.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/7551686-480.webp 480w, /assets/photos/7551686-960.webp 960w, /assets/photos/7551686-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/10847181-960.webp",
+          "alt": "A bright, comfortable lounge with sofas and large windows.",
+          "width": "960",
+          "height": "641",
+          "loading": "lazy",
+          "srcset": "/assets/photos/10847181-480.webp 480w, /assets/photos/10847181-960.webp 960w, /assets/photos/10847181-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/8062289-960.webp",
+          "alt": "Laptops, printed charts and notes laid out for planning.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/8062289-480.webp 480w, /assets/photos/8062289-960.webp 960w, /assets/photos/8062289-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/6248436-960.webp",
+          "alt": "An older woman using a tablet at home.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/6248436-480.webp 480w, /assets/photos/6248436-960.webp 960w, /assets/photos/6248436-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/services/",
+      "kind": "services",
+      "html_sha256": "f5a41e0e14a46612be04e8477b5387c5da45f8199e31c068371c7c83e9c49f16",
+      "metadata": {
+        "title": "Digital Services for Care Providers | ElderIndex",
+        "description": "From website design to Google visibility and care directory management, explore digital services built around the needs of UK care providers.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/services/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Digital services built around care."
+        },
+        {
+          "level": "h2",
+          "text": "Website and digital services for care providers"
+        },
+        {
+          "level": "h3",
+          "text": "Website design"
+        },
+        {
+          "level": "h3",
+          "text": "Website management"
+        },
+        {
+          "level": "h3",
+          "text": "Search visibility"
+        },
+        {
+          "level": "h3",
+          "text": "Directory management"
+        },
+        {
+          "level": "h2",
+          "text": "Specialist SEO for your care model."
+        },
+        {
+          "level": "h3",
+          "text": "Home Care SEO"
+        },
+        {
+          "level": "h3",
+          "text": "Care Home SEO"
+        },
+        {
+          "level": "h2",
+          "text": "Everything connected. Nothing unnecessary."
+        },
+        {
+          "level": "h3",
+          "text": "Build."
+        },
+        {
+          "level": "h3",
+          "text": "Improve."
+        },
+        {
+          "level": "h3",
+          "text": "Manage."
+        },
+        {
+          "level": "h3",
+          "text": "Connect."
+        },
+        {
+          "level": "h2",
+          "text": "Make an impression worth remembering."
+        },
+        {
+          "level": "h2",
+          "text": "Different services. Different decisions."
+        },
+        {
+          "level": "h3",
+          "text": "For care homes"
+        },
+        {
+          "level": "h3",
+          "text": "For home care agencies"
+        },
+        {
+          "level": "h2",
+          "text": "Wondering where to start with your online presence?"
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/8584020-960.webp",
+          "alt": "A welcoming sitting room with armchairs, a sofa and a fireplace.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/8584020-480.webp 480w, /assets/photos/8584020-960.webp 960w, /assets/photos/8584020-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/services/website-design/",
+      "kind": "service",
+      "html_sha256": "5e4d04144b88fad69849afdcd3851d247a9c3d135a907a9bb1f78171091085d8",
+      "metadata": {
+        "title": "Care Home & Home Care Website Design | ElderIndex",
+        "description": "Care home and home care website design informed by real care-sector experience. Clear care information, authentic imagery and welcoming enquiry journeys.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/services/website-design/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Website design for care homes and home care agencies."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for a useful care website."
+        },
+        {
+          "level": "h3",
+          "text": "Built around families"
+        },
+        {
+          "level": "h3",
+          "text": "Accessible by design"
+        },
+        {
+          "level": "h3",
+          "text": "Flexible ownership"
+        },
+        {
+          "level": "h3",
+          "text": "Made to be useful"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "Designed for how care is actually chosen"
+        },
+        {
+          "level": "h2",
+          "text": "A single home, a care group or a home care agency"
+        },
+        {
+          "level": "h2",
+          "text": "Show the care you actually provide"
+        },
+        {
+          "level": "h2",
+          "text": "A website that sounds like your organisation"
+        },
+        {
+          "level": "h2",
+          "text": "Website design and redesign"
+        },
+        {
+          "level": "h2",
+          "text": "What is included?"
+        },
+        {
+          "level": "h2",
+          "text": "From the brief to launch"
+        },
+        {
+          "level": "h2",
+          "text": "What happens after launch?"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "A care website should look beautiful and work hard."
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/3127.jpg",
+          "alt": "Illustrative The Oaklands care-home website displayed on a laptop and phone.",
+          "width": "512",
+          "height": "342",
+          "loading": "eager",
+          "srcset": null,
+          "fetchpriority": "high"
+        },
+        {
+          "src": "/assets/photos/4443134-960.webp",
+          "alt": "A person writing notes beside a laptop.",
+          "width": "960",
+          "height": "1440",
+          "loading": "lazy",
+          "srcset": "/assets/photos/4443134-480.webp 480w, /assets/photos/4443134-960.webp 960w, /assets/photos/4443134-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/services/search-visibility/",
+      "kind": "service",
+      "html_sha256": "d55d136fd452a2c401b6da7697cd6637d19c3017148cbc5889fa5d68a711d7f6",
+      "metadata": {
+        "title": "SEO & Search Visibility for Care Providers | ElderIndex",
+        "description": "Improve your care business’s visibility with technical SEO, helpful content, local search optimisation, digital PR and ongoing support.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/services/search-visibility/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "SEO & search visibility for care providers."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for your digital presence."
+        },
+        {
+          "level": "h3",
+          "text": "Local discovery"
+        },
+        {
+          "level": "h3",
+          "text": "Search-ready content"
+        },
+        {
+          "level": "h3",
+          "text": "Technical foundations"
+        },
+        {
+          "level": "h3",
+          "text": "Measure what matters"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "How families search for care"
+        },
+        {
+          "level": "h2",
+          "text": "Local search and Google profiles"
+        },
+        {
+          "level": "h2",
+          "text": "Technical SEO and useful content"
+        },
+        {
+          "level": "h2",
+          "text": "Digital PR and appropriate authority"
+        },
+        {
+          "level": "h2",
+          "text": "Measure qualified enquiries"
+        },
+        {
+          "level": "h2",
+          "text": "From an initial review to implementation"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "Help the right families find your care business."
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/7947999-960.webp",
+          "alt": "A person reviewing charts and reports on a laptop.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/7947999-480.webp 480w, /assets/photos/7947999-960.webp 960w, /assets/photos/7947999-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/services/website-management/",
+      "kind": "service",
+      "html_sha256": "8cbd377266b5749c14d904e32ca314cefb529dd601c4422377d90d18417abb83",
+      "metadata": {
+        "title": "Website Management for Care Homes & Agencies | ElderIndex",
+        "description": "Website management and maintenance for care homes and home care agencies. Agree approved content updates, platform upkeep and clear responsibilities.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/services/website-management/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Website management for care providers."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for your digital presence."
+        },
+        {
+          "level": "h3",
+          "text": "Accurate content"
+        },
+        {
+          "level": "h3",
+          "text": "Practical technical care"
+        },
+        {
+          "level": "h3",
+          "text": "Useful improvements"
+        },
+        {
+          "level": "h3",
+          "text": "Flexible support"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "A website that stays true to your service"
+        },
+        {
+          "level": "h2",
+          "text": "What support can include"
+        },
+        {
+          "level": "h2",
+          "text": "Care information must stay accurate"
+        },
+        {
+          "level": "h2",
+          "text": "Control and ownership"
+        },
+        {
+          "level": "h2",
+          "text": "Maintenance and SEO have different scopes"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "Tired of chasing small website updates?"
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/7679449-960.webp",
+          "alt": "A person working on a laptop at a desk.",
+          "width": "960",
+          "height": "1440",
+          "loading": "lazy",
+          "srcset": "/assets/photos/7679449-480.webp 480w, /assets/photos/7679449-960.webp 960w, /assets/photos/7679449-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/services/care-directory-management/",
+      "kind": "service",
+      "html_sha256": "9de79be6bff6b53cfaca9bd9b8c30f07090f0d2d8e973aa526581a1d8ea8bd5e",
+      "metadata": {
+        "title": "Care Directory & Profile Management | ElderIndex",
+        "description": "Keep your care directory profiles accurate, informative and consistent across relevant platforms. Explore our care profile management service.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/services/care-directory-management/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Care directory & profile management."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for your digital presence."
+        },
+        {
+          "level": "h3",
+          "text": "Accurate profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Relevant platforms"
+        },
+        {
+          "level": "h3",
+          "text": "Ongoing oversight"
+        },
+        {
+          "level": "h3",
+          "text": "Connected information"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "Families look beyond your website"
+        },
+        {
+          "level": "h2",
+          "text": "Keep profile information accurate"
+        },
+        {
+          "level": "h2",
+          "text": "Platforms and profile access"
+        },
+        {
+          "level": "h2",
+          "text": "Responsible review management"
+        },
+        {
+          "level": "h2",
+          "text": "Directory visibility and your site"
+        },
+        {
+          "level": "h2",
+          "text": "How profile work is agreed and checked"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "Are your care listings telling the whole story?"
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/8871432-960.webp",
+          "alt": "An older woman using a tablet while seated in a living room.",
+          "width": "960",
+          "height": "641",
+          "loading": "lazy",
+          "srcset": "/assets/photos/8871432-480.webp 480w, /assets/photos/8871432-960.webp 960w, /assets/photos/8871432-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/services/home-care/",
+      "kind": "service",
+      "html_sha256": "63913f1baf40870e859064222b998d2fd6a3715569ace331eab282bfc16ec14d",
+      "metadata": {
+        "title": "Home Care SEO Services for UK Agencies | ElderIndex",
+        "description": "SEO for UK domiciliary care and home care agencies. Improve local visibility, strengthen service pages and reach families searching for care.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/services/home-care/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Home care SEO that helps local families find you."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for your digital presence."
+        },
+        {
+          "level": "h3",
+          "text": "Towns you actually cover"
+        },
+        {
+          "level": "h3",
+          "text": "Care services in plain English"
+        },
+        {
+          "level": "h3",
+          "text": "Findable local presence"
+        },
+        {
+          "level": "h3",
+          "text": "Enquiries that make sense"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "What does home care SEO actually improve?"
+        },
+        {
+          "level": "h2",
+          "text": "Is a registered location the same as a branch or service area?"
+        },
+        {
+          "level": "h2",
+          "text": "How should services, branches and towns fit together?"
+        },
+        {
+          "level": "h3",
+          "text": "Illustrative example: one office, three districts"
+        },
+        {
+          "level": "h2",
+          "text": "What would an agreed SEO scope include?"
+        },
+        {
+          "level": "h2",
+          "text": "What changes as an agency grows?"
+        },
+        {
+          "level": "h2",
+          "text": "How will we work together and report progress?"
+        },
+        {
+          "level": "h2",
+          "text": "Planning search content for live-in care"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "Could more local families find your home care agency?"
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/5793547-960.webp",
+          "alt": "A softly lit living room with a comfortable sofa.",
+          "width": "960",
+          "height": "1280",
+          "loading": "eager",
+          "srcset": "/assets/photos/5793547-480.webp 480w, /assets/photos/5793547-960.webp 960w, /assets/photos/5793547-1440.webp 1440w",
+          "fetchpriority": "high"
+        },
+        {
+          "src": "/assets/photos/7551583-960.webp",
+          "alt": "Three adults smiling together in a home setting.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/7551583-480.webp 480w, /assets/photos/7551583-960.webp 960w, /assets/photos/7551583-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/services/care-home-seo/",
+      "kind": "service",
+      "html_sha256": "50e69c21df36cc96911e03486e06da88d360ee2c56d56a5df13c7d93342aba48",
+      "metadata": {
+        "title": "Care Home SEO | Residential & Nursing Homes | ElderIndex",
+        "description": "Specialist SEO for residential and nursing care homes. Improve local search visibility, care home content and relevant online listings.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/services/care-home-seo/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "SEO for care homes."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for your digital presence."
+        },
+        {
+          "level": "h3",
+          "text": "Distinctive home pages"
+        },
+        {
+          "level": "h3",
+          "text": "Family search journeys"
+        },
+        {
+          "level": "h3",
+          "text": "Connected profiles"
+        },
+        {
+          "level": "h3",
+          "text": "Honest measurement"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "How does SEO differ for residential homes, nursing homes and care groups?"
+        },
+        {
+          "level": "h2",
+          "text": "How should a three-home group organise location pages?"
+        },
+        {
+          "level": "h3",
+          "text": "Illustrative example: three different care homes"
+        },
+        {
+          "level": "h2",
+          "text": "Which trust information helps families decide?"
+        },
+        {
+          "level": "h2",
+          "text": "How do organic search, Google profiles and Carehome.co.uk fit together?"
+        },
+        {
+          "level": "h2",
+          "text": "What happens in a care home SEO audit?"
+        },
+        {
+          "level": "h2",
+          "text": "What will the engagement and reporting look like?"
+        },
+        {
+          "level": "h2",
+          "text": "Why might a care home be missing from Google?"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "Make it easier to discover your care home locally."
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/14714646-960.webp",
+          "alt": "A traditional sitting room with upholstered seating and a chandelier.",
+          "width": "960",
+          "height": "640",
+          "loading": "eager",
+          "srcset": "/assets/photos/14714646-480.webp 480w, /assets/photos/14714646-960.webp 960w, /assets/photos/14714646-1440.webp 1440w",
+          "fetchpriority": "high"
+        },
+        {
+          "src": "/assets/photos/18459198-960.webp",
+          "alt": "An adult handing a mug to an older woman in a communal room.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/18459198-480.webp 480w, /assets/photos/18459198-960.webp 960w, /assets/photos/18459198-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/for-care-homes/",
+      "kind": "service",
+      "html_sha256": "2e2e0f38c5a32101ae925b8d4b3a19f701c4a5264472f806888038225d89cc19",
+      "metadata": {
+        "title": "Digital Services for Residential Care Homes | ElderIndex",
+        "description": "Websites, SEO and directory support shaped around the needs of residential and nursing care homes. Discover how ElderIndex can help.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/for-care-homes/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Digital support for residential & nursing care homes."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for your digital presence."
+        },
+        {
+          "level": "h3",
+          "text": "Show your environment"
+        },
+        {
+          "level": "h3",
+          "text": "Explain your care"
+        },
+        {
+          "level": "h3",
+          "text": "Be visible locally"
+        },
+        {
+          "level": "h3",
+          "text": "Stay current"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "Make a reassuring first impression"
+        },
+        {
+          "level": "h2",
+          "text": "Care home website design"
+        },
+        {
+          "level": "h2",
+          "text": "Local visibility for your home"
+        },
+        {
+          "level": "h2",
+          "text": "Carehome.co.uk and directory profiles"
+        },
+        {
+          "level": "h2",
+          "text": "Keep care information current"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "Your website should feel as considered as your care home."
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/37178437-960.webp",
+          "alt": "A historic stone house with formal gardens and a lawn.",
+          "width": "960",
+          "height": "540",
+          "loading": "eager",
+          "srcset": "/assets/photos/37178437-480.webp 480w, /assets/photos/37178437-960.webp 960w, /assets/photos/37178437-1440.webp 1440w",
+          "fetchpriority": "high"
+        },
+        {
+          "src": "/assets/photos/18459207-960.webp",
+          "alt": "Older adults and other people gathered around a dining table.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/18459207-480.webp 480w, /assets/photos/18459207-960.webp 960w, /assets/photos/18459207-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/for-home-care-agencies/",
+      "kind": "service",
+      "html_sha256": "bf45af1e7438d98f0df16ff0948056ebd8f6ff9d0da84616d610f7eb3c19f073",
+      "metadata": {
+        "title": "Digital Services for Home Care Agencies | ElderIndex",
+        "description": "Digital services for domiciliary and live-in care agencies, from website design to local search visibility and ongoing profile management.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/for-home-care-agencies/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Digital support for home care agencies."
+        },
+        {
+          "level": "h2",
+          "text": "What matters for your digital presence."
+        },
+        {
+          "level": "h3",
+          "text": "Clear care services"
+        },
+        {
+          "level": "h3",
+          "text": "Useful service areas"
+        },
+        {
+          "level": "h3",
+          "text": "Easy enquiries"
+        },
+        {
+          "level": "h3",
+          "text": "Built to grow"
+        },
+        {
+          "level": "h2",
+          "text": "Built for real care businesses, not generic templates."
+        },
+        {
+          "level": "h2",
+          "text": "Service areas come first"
+        },
+        {
+          "level": "h2",
+          "text": "Websites that explain your care"
+        },
+        {
+          "level": "h2",
+          "text": "Local search for home care"
+        },
+        {
+          "level": "h2",
+          "text": "Directories and external profiles"
+        },
+        {
+          "level": "h2",
+          "text": "Management as you grow"
+        },
+        {
+          "level": "h3",
+          "text": "What does your care business need?"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Real care experience.A more useful approach."
+        },
+        {
+          "level": "h2",
+          "text": "Help more families understand the care you offer."
+        },
+        {
+          "level": "h2",
+          "text": "Your questions, answered."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/7546648-960.webp",
+          "alt": "A domestic sitting room with a blue sofa and a television.",
+          "width": "960",
+          "height": "641",
+          "loading": "eager",
+          "srcset": "/assets/photos/7546648-480.webp 480w, /assets/photos/7546648-960.webp 960w, /assets/photos/7546648-1440.webp 1440w",
+          "fetchpriority": "high"
+        },
+        {
+          "src": "/assets/photos/6923486-960.webp",
+          "alt": "A close-up of hands resting together in a reassuring gesture.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/6923486-480.webp 480w, /assets/photos/6923486-960.webp 960w, /assets/photos/6923486-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Service"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/about/",
+      "kind": "about",
+      "html_sha256": "a0c195596d6c71cfdf0dd44732c77792daa7c58e3253d73ecee863e216b77121",
+      "metadata": {
+        "title": "About ElderIndex | Built on Real Care Experience",
+        "description": "Meet Josh, founder of ElderIndex. Care home management, operations and customer relations experience inform our websites, SEO and enquiry journeys.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/about/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Meet Josh, founder of ElderIndex."
+        },
+        {
+          "level": "h2",
+          "text": "Meet Josh, founder of ElderIndex."
+        },
+        {
+          "level": "h2",
+          "text": "An agency that understands your world."
+        },
+        {
+          "level": "h3",
+          "text": "Care first."
+        },
+        {
+          "level": "h3",
+          "text": "Clarity matters."
+        },
+        {
+          "level": "h3",
+          "text": "No invented proof."
+        },
+        {
+          "level": "h3",
+          "text": "Useful support."
+        },
+        {
+          "level": "h2",
+          "text": "From care home operations to ElderIndex"
+        },
+        {
+          "level": "h2",
+          "text": "Why enquiry management shapes the work"
+        },
+        {
+          "level": "h2",
+          "text": "Why directory information deserves attention"
+        },
+        {
+          "level": "h2",
+          "text": "Care-sector experience and technical competence"
+        },
+        {
+          "level": "h2",
+          "text": "How we work with providers"
+        },
+        {
+          "level": "h3",
+          "text": "Tell us about your care business."
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h2",
+          "text": "Your care deserves digital work that understands it."
+        },
+        {
+          "level": "h2",
+          "text": "Questions, answered plainly."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/18429308-960.webp",
+          "alt": "A group of adults talking around a table.",
+          "width": "960",
+          "height": "640",
+          "loading": "eager",
+          "srcset": "/assets/photos/18429308-480.webp 480w, /assets/photos/18429308-960.webp 960w, /assets/photos/18429308-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/guides/",
+      "kind": "guides",
+      "html_sha256": "d5e79d092849830066d2bb820e19e351861f82e0bf7756bc3d77244bd02e1f45",
+      "metadata": {
+        "title": "Care Website, SEO & Directory Guides | ElderIndex",
+        "description": "Practical guides for care providers covering website design, local SEO, care directories and improving your online presence.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/guides/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Practical digital guides for care providers."
+        },
+        {
+          "level": "h2",
+          "text": "Find the advice you need."
+        },
+        {
+          "level": "h3",
+          "text": "What makes a good care home website?"
+        },
+        {
+          "level": "h3",
+          "text": "Local SEO for home care agencies"
+        },
+        {
+          "level": "h3",
+          "text": "UK care directories compared"
+        },
+        {
+          "level": "h3",
+          "text": "Improve your Carehome.co.uk profile"
+        },
+        {
+          "level": "h3",
+          "text": "Google Business Profile for care providers"
+        },
+        {
+          "level": "h3",
+          "text": "Multi-location home care SEO"
+        },
+        {
+          "level": "h2",
+          "text": "Useful advice is a start. We can also do the work."
+        },
+        {
+          "level": "h2",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [
+        {
+          "src": "/assets/photos/7983606-960.webp",
+          "alt": "An older woman using a tablet during a group session.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/7983606-480.webp 480w, /assets/photos/7983606-960.webp 960w, /assets/photos/7983606-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/7278882-960.webp",
+          "alt": "A laptop displaying a business plan beside a notebook.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/7278882-480.webp 480w, /assets/photos/7278882-960.webp 960w, /assets/photos/7278882-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/7983611-960.webp",
+          "alt": "An older man using a tablet in a bright room.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/7983611-480.webp 480w, /assets/photos/7983611-960.webp 960w, /assets/photos/7983611-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/37441096-960.webp",
+          "alt": "A cottage garden with colourful flowers and outdoor seating.",
+          "width": "960",
+          "height": "636",
+          "loading": "lazy",
+          "srcset": "/assets/photos/37441096-480.webp 480w, /assets/photos/37441096-960.webp 960w, /assets/photos/37441096-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/6972643-960.webp",
+          "alt": "A man reading information on a tablet while sitting on a sofa.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/6972643-480.webp 480w, /assets/photos/6972643-960.webp 960w, /assets/photos/6972643-1440.webp 1440w",
+          "fetchpriority": null
+        },
+        {
+          "src": "/assets/photos/8145328-960.webp",
+          "alt": "A team comparing printed charts and laptop information around a table.",
+          "width": "960",
+          "height": "640",
+          "loading": "lazy",
+          "srcset": "/assets/photos/8145328-480.webp 480w, /assets/photos/8145328-960.webp 960w, /assets/photos/8145328-1440.webp 1440w",
+          "fetchpriority": null
+        }
+      ],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/talk-to-us/",
+      "kind": "contact",
+      "html_sha256": "191e6c6862db08148326eaa4bb43068e1477ab6510a6af7201416130750f97c6",
+      "metadata": {
+        "title": "Contact ElderIndex | Discuss Your Care Website",
+        "description": "Planning a new care website, better Google visibility or ongoing digital support? Tell ElderIndex what your care business needs.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/talk-to-us/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Tell us what youneed help with."
+        },
+        {
+          "level": "h2",
+          "text": "What happens next?"
+        },
+        {
+          "level": "h2",
+          "text": "Start a conversation."
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/guides/choosing-a-care-website/",
+      "kind": "guide",
+      "html_sha256": "5990ddbf0702fb639c59638626e0abb6864147daa1b4c9db5ed740e978b2cef2",
+      "metadata": {
+        "title": "What Makes a Good Care Home Website? | ElderIndex",
+        "description": "Commissioning a care home website? A practical checklist for your brief, photography, accessibility, enquiry routes, handover and ongoing website care.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/guides/choosing-a-care-website/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "What makes a good care home website?"
+        },
+        {
+          "level": "h2",
+          "text": "What must a family understand in the first minute?"
+        },
+        {
+          "level": "h2",
+          "text": "Which details build justified confidence?"
+        },
+        {
+          "level": "h2",
+          "text": "How can we check accessibility without specialist tools?"
+        },
+        {
+          "level": "h2",
+          "text": "What should we ask about photography and page speed?"
+        },
+        {
+          "level": "h2",
+          "text": "Does the enquiry journey actually work?"
+        },
+        {
+          "level": "h2",
+          "text": "What should a redesign proposal include?"
+        },
+        {
+          "level": "h2",
+          "text": "What should we prepare before briefing a designer?"
+        },
+        {
+          "level": "h2",
+          "text": "Use the checklist to brief a better care website."
+        },
+        {
+          "level": "h2",
+          "text": "In this guide"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/guides/home-care-local-seo/",
+      "kind": "guide",
+      "html_sha256": "3c462a53196127fdeb3102a9c8a03a30f10ead3d96c1ba5abe6c71af17bc9149",
+      "metadata": {
+        "title": "Local SEO for Home Care Agencies: A UK Guide | ElderIndex",
+        "description": "Learn how home care agencies can improve local visibility through Google Business Profiles, service-area pages, helpful content and relevant directories.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/guides/home-care-local-seo/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Local SEO for home care agencies: a UK guide."
+        },
+        {
+          "level": "h2",
+          "text": "What is the first step in local SEO for a home care agency?"
+        },
+        {
+          "level": "h2",
+          "text": "What should a useful service-area page contain?"
+        },
+        {
+          "level": "h3",
+          "text": "Illustrative page outline"
+        },
+        {
+          "level": "h2",
+          "text": "How should keywords be mapped to care pages?"
+        },
+        {
+          "level": "h2",
+          "text": "Can we create a Google profile for each town?"
+        },
+        {
+          "level": "h2",
+          "text": "Which mistakes waste the most time?"
+        },
+        {
+          "level": "h2",
+          "text": "How do we know whether local SEO is useful?"
+        },
+        {
+          "level": "h2",
+          "text": "Ready to turn the plan into practical changes?"
+        },
+        {
+          "level": "h2",
+          "text": "In this guide"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/guides/care-directory-comparison/",
+      "kind": "guide",
+      "html_sha256": "346957b4a85b043668da93dddd910bf94c4e636663fa9b771af6ed9ac7fdda12",
+      "metadata": {
+        "title": "UK Care Directories Compared: A Provider’s Guide | ElderIndex",
+        "description": "Compare UK care directories including Carehome.co.uk, Homecare.co.uk, Autumna and Lottie, with practical considerations for care providers.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/guides/care-directory-comparison/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "UK care directories compared: a provider’s guide."
+        },
+        {
+          "level": "h2",
+          "text": "Which directory fits the type of care we provide?"
+        },
+        {
+          "level": "h2",
+          "text": "What should we check in every listing?"
+        },
+        {
+          "level": "h2",
+          "text": "How do we compare the commercial value fairly?"
+        },
+        {
+          "level": "h2",
+          "text": "Should directory profiles copy our website?"
+        },
+        {
+          "level": "h2",
+          "text": "What should we do before renewing a paid arrangement?"
+        },
+        {
+          "level": "h2",
+          "text": "Want a smaller, better-maintained set of profiles?"
+        },
+        {
+          "level": "h2",
+          "text": "In this guide"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/guides/carehome-co-uk-profile/",
+      "kind": "guide",
+      "html_sha256": "b5381875629e43c06a2f66f1227febd35cb9d6939ec354cc3695426452673513",
+      "metadata": {
+        "title": "How to Improve Your Carehome.co.uk Profile | ElderIndex",
+        "description": "Practical advice for reviewing your Carehome.co.uk profile, keeping information accurate and helping families understand your care home.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "How to improve your Carehome.co.uk profile."
+        },
+        {
+          "level": "h2",
+          "text": "Check the core details first"
+        },
+        {
+          "level": "h2",
+          "text": "Write a distinctive description"
+        },
+        {
+          "level": "h2",
+          "text": "Show the environment honestly"
+        },
+        {
+          "level": "h2",
+          "text": "Treat reviews responsibly"
+        },
+        {
+          "level": "h2",
+          "text": "Understand how directory ranking works"
+        },
+        {
+          "level": "h2",
+          "text": "Make enquiries easy to handle"
+        },
+        {
+          "level": "h2",
+          "text": "How can the team run a repeatable profile review?"
+        },
+        {
+          "level": "h2",
+          "text": "Where should we verify platform rules?"
+        },
+        {
+          "level": "h2",
+          "text": "Need help keeping home profiles accurate?"
+        },
+        {
+          "level": "h2",
+          "text": "In this guide"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/guides/google-business-profile-care/",
+      "kind": "guide",
+      "html_sha256": "846289ff0a55f174ae8e1a87a0e2e3cc967706be0b6bc96d53fdaf6aac913e7a",
+      "metadata": {
+        "title": "Google Business Profile for Care Providers | ElderIndex",
+        "description": "Learn how care providers can maintain accurate Google Business Profiles, improve local information and manage reviews responsibly.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/guides/google-business-profile-care/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Google Business Profile for care providers."
+        },
+        {
+          "level": "h2",
+          "text": "Claim and verify your eligible profile"
+        },
+        {
+          "level": "h2",
+          "text": "Keep the details accurate"
+        },
+        {
+          "level": "h2",
+          "text": "Help people understand the business"
+        },
+        {
+          "level": "h2",
+          "text": "Handle reviews with care"
+        },
+        {
+          "level": "h2",
+          "text": "Understand local ranking factors"
+        },
+        {
+          "level": "h2",
+          "text": "Connect the profile to your website"
+        },
+        {
+          "level": "h2",
+          "text": "How should a provider choose the right website destination?"
+        },
+        {
+          "level": "h2",
+          "text": "Which official Google rules should we consult?"
+        },
+        {
+          "level": "h2",
+          "text": "Make local profiles and your website agree."
+        },
+        {
+          "level": "h2",
+          "text": "In this guide"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/privacy/",
+      "kind": "legal",
+      "html_sha256": "a2d137df9385d0084020d5059c0692d307c5d5a90da24091a01111ca5fd453f1",
+      "metadata": {
+        "title": "Privacy Policy | ElderIndex",
+        "description": "How ElderIndex handles enquiries, personal information and website privacy.",
+        "robots": "noindex, follow",
+        "canonical": "https://www.elderindex.co.uk/privacy/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Privacy notice."
+        },
+        {
+          "level": "h2",
+          "text": "Privacy notice — draft for review"
+        },
+        {
+          "level": "h2",
+          "text": "What an enquiry involves"
+        },
+        {
+          "level": "h2",
+          "text": "Enquiry delivery through Formspree"
+        },
+        {
+          "level": "h2",
+          "text": "Before publication"
+        },
+        {
+          "level": "h2",
+          "text": "Your rights"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/terms/",
+      "kind": "legal",
+      "html_sha256": "a849ce349bde12873320fcf69f68a7ca8476014b45f7f0a9fa1703fee7c400db",
+      "metadata": {
+        "title": "Terms of Use | ElderIndex",
+        "description": "Information about using the ElderIndex website and how to discuss services.",
+        "robots": "noindex, follow",
+        "canonical": "https://www.elderindex.co.uk/terms/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Website terms."
+        },
+        {
+          "level": "h2",
+          "text": "Website terms — draft for review"
+        },
+        {
+          "level": "h2",
+          "text": "Information on this website"
+        },
+        {
+          "level": "h2",
+          "text": "Service arrangements"
+        },
+        {
+          "level": "h2",
+          "text": "Before publication"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/cookies/",
+      "kind": "legal",
+      "html_sha256": "9d84be84d5f23d9feae591968f55de6523bbab2e1e09a34e7217830c5956a1bc",
+      "metadata": {
+        "title": "Cookie Information | ElderIndex",
+        "description": "How ElderIndex explains and manages cookies used on its website.",
+        "robots": "noindex, follow",
+        "canonical": "https://www.elderindex.co.uk/cookies/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Cookie information."
+        },
+        {
+          "level": "h2",
+          "text": "Cookie notice — draft for review"
+        },
+        {
+          "level": "h2",
+          "text": "Essential website functions"
+        },
+        {
+          "level": "h2",
+          "text": "Analytics preference controls"
+        },
+        {
+          "level": "h2",
+          "text": "Analytics and optional cookies"
+        },
+        {
+          "level": "h2",
+          "text": "Before publication"
+        },
+        {
+          "level": "h2",
+          "text": "Current analytics setting"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    },
+    {
+      "path": "/guides/multi-location-home-care-seo/",
+      "kind": "guide",
+      "html_sha256": "822e525f6e1a43b74817d61617de0a668445036719c6a35d4ffaaf7d84cda64d",
+      "metadata": {
+        "title": "Multi-Location Home Care SEO: Branch & Service-Area Planning | ElderIndex",
+        "description": "Plan home care branch pages, service areas and shared content without duplicating towns or confusing families. Includes an illustrative expansion workflow.",
+        "robots": "index, follow",
+        "canonical": "https://www.elderindex.co.uk/guides/multi-location-home-care-seo/"
+      },
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Multi-location home care SEO: branches, coverage and clear ownership."
+        },
+        {
+          "level": "h2",
+          "text": "What counts as a location in a multi-branch agency?"
+        },
+        {
+          "level": "h2",
+          "text": "Which information belongs centrally and which belongs to a branch?"
+        },
+        {
+          "level": "h2",
+          "text": "How would two branches and overlapping coverage work?"
+        },
+        {
+          "level": "h3",
+          "text": "Illustrative scenario, not a client case study"
+        },
+        {
+          "level": "h2",
+          "text": "When should a new town or branch get its own page?"
+        },
+        {
+          "level": "h2",
+          "text": "How do we migrate an existing network of pages?"
+        },
+        {
+          "level": "h2",
+          "text": "What should reporting show at branch level?"
+        },
+        {
+          "level": "h2",
+          "text": "Need to untangle branches and service areas?"
+        },
+        {
+          "level": "h2",
+          "text": "In this guide"
+        },
+        {
+          "level": "h3",
+          "text": "Explore further"
+        },
+        {
+          "level": "h3",
+          "text": "Services"
+        },
+        {
+          "level": "h3",
+          "text": "Who we help"
+        },
+        {
+          "level": "h3",
+          "text": "Explore"
+        }
+      ],
+      "images": [],
+      "schema_types": [
+        "Organization",
+        "Person",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "Article"
+      ],
+      "content_review": "Retained primary keyword/search intent and provider audience; existing good copy preserved. Changes, evidence and legal exceptions in EI-20261027-06."
+    }
+  ]
+}

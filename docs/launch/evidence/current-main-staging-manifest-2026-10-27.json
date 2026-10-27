@@ -1,0 +1,540 @@
+{
+  "sourceSha": "125e8900313c215e79237344f0bfed648ca99173",
+  "trackedChanges": false,
+  "environment": "staging",
+  "canonicalOrigin": "https://www.elderindex.co.uk",
+  "pageCount": 22,
+  "provenance": {
+    "mode": "strict",
+    "checkoutSha": "125e8900313c215e79237344f0bfed648ca99173",
+    "expectedSha": "125e8900313c215e79237344f0bfed648ca99173",
+    "releaseVerified": true
+  },
+  "ciIdentity": {
+    "event": "local",
+    "checkedOutSha": "125e8900313c215e79237344f0bfed648ca99173",
+    "expectedWorkflowSha": "125e8900313c215e79237344f0bfed648ca99173",
+    "pullRequestHeadSha": null
+  },
+  "analyticsConfigured": false,
+  "routes": [
+    {
+      "path": "/",
+      "kind": "home",
+      "canonical": "https://www.elderindex.co.uk/",
+      "robots": "noindex, follow",
+      "title": "Web Design &amp; SEO for Care Homes and Home Care Agencies | ElderIndex",
+      "h1": "Wonderful care deserves a better first impression."
+    },
+    {
+      "path": "/services/",
+      "kind": "services",
+      "canonical": "https://www.elderindex.co.uk/services/",
+      "robots": "noindex, follow",
+      "title": "Digital Services for Care Providers | ElderIndex",
+      "h1": "Digital services built around care."
+    },
+    {
+      "path": "/services/website-design/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/services/website-design/",
+      "robots": "noindex, follow",
+      "title": "Care Home &amp; Home Care Website Design | ElderIndex",
+      "h1": "Website design for care homes and home care agencies."
+    },
+    {
+      "path": "/services/search-visibility/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/services/search-visibility/",
+      "robots": "noindex, follow",
+      "title": "SEO &amp; Search Visibility for Care Providers | ElderIndex",
+      "h1": "SEO &amp; search visibility for care providers."
+    },
+    {
+      "path": "/services/website-management/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/services/website-management/",
+      "robots": "noindex, follow",
+      "title": "Website Management for Care Homes &amp; Agencies | ElderIndex",
+      "h1": "Website management for care providers."
+    },
+    {
+      "path": "/services/care-directory-management/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/services/care-directory-management/",
+      "robots": "noindex, follow",
+      "title": "Care Directory &amp; Profile Management | ElderIndex",
+      "h1": "Care directory &amp; profile management."
+    },
+    {
+      "path": "/services/home-care/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/services/home-care/",
+      "robots": "noindex, follow",
+      "title": "Home Care SEO Services for UK Agencies | ElderIndex",
+      "h1": "Home care SEO that helps local families find you."
+    },
+    {
+      "path": "/services/care-home-seo/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/services/care-home-seo/",
+      "robots": "noindex, follow",
+      "title": "Care Home SEO | Residential &amp; Nursing Homes | ElderIndex",
+      "h1": "SEO for care homes."
+    },
+    {
+      "path": "/for-care-homes/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/for-care-homes/",
+      "robots": "noindex, follow",
+      "title": "Digital Services for Residential Care Homes | ElderIndex",
+      "h1": "Digital support for residential &amp; nursing care homes."
+    },
+    {
+      "path": "/for-home-care-agencies/",
+      "kind": "service",
+      "canonical": "https://www.elderindex.co.uk/for-home-care-agencies/",
+      "robots": "noindex, follow",
+      "title": "Digital Services for Home Care Agencies | ElderIndex",
+      "h1": "Digital support for home care agencies."
+    },
+    {
+      "path": "/about/",
+      "kind": "about",
+      "canonical": "https://www.elderindex.co.uk/about/",
+      "robots": "noindex, follow",
+      "title": "About ElderIndex | Built on Real Care Experience",
+      "h1": "Meet Josh, founder of ElderIndex."
+    },
+    {
+      "path": "/guides/",
+      "kind": "guides",
+      "canonical": "https://www.elderindex.co.uk/guides/",
+      "robots": "noindex, follow",
+      "title": "Care Website, SEO &amp; Directory Guides | ElderIndex",
+      "h1": "Practical digital guides for care providers."
+    },
+    {
+      "path": "/talk-to-us/",
+      "kind": "contact",
+      "canonical": "https://www.elderindex.co.uk/talk-to-us/",
+      "robots": "noindex, follow",
+      "title": "Contact ElderIndex | Discuss Your Care Website",
+      "h1": "Tell us what you need help with."
+    },
+    {
+      "path": "/guides/choosing-a-care-website/",
+      "kind": "guide",
+      "canonical": "https://www.elderindex.co.uk/guides/choosing-a-care-website/",
+      "robots": "noindex, follow",
+      "title": "What Makes a Good Care Home Website? | ElderIndex",
+      "h1": "What makes a good care home website?"
+    },
+    {
+      "path": "/guides/home-care-local-seo/",
+      "kind": "guide",
+      "canonical": "https://www.elderindex.co.uk/guides/home-care-local-seo/",
+      "robots": "noindex, follow",
+      "title": "Local SEO for Home Care Agencies: A UK Guide | ElderIndex",
+      "h1": "Local SEO for home care agencies: a UK guide."
+    },
+    {
+      "path": "/guides/care-directory-comparison/",
+      "kind": "guide",
+      "canonical": "https://www.elderindex.co.uk/guides/care-directory-comparison/",
+      "robots": "noindex, follow",
+      "title": "UK Care Directories Compared: A Provider’s Guide | ElderIndex",
+      "h1": "UK care directories compared: a provider’s guide."
+    },
+    {
+      "path": "/guides/carehome-co-uk-profile/",
+      "kind": "guide",
+      "canonical": "https://www.elderindex.co.uk/guides/carehome-co-uk-profile/",
+      "robots": "noindex, follow",
+      "title": "How to Improve Your Carehome.co.uk Profile | ElderIndex",
+      "h1": "How to improve your Carehome.co.uk profile."
+    },
+    {
+      "path": "/guides/google-business-profile-care/",
+      "kind": "guide",
+      "canonical": "https://www.elderindex.co.uk/guides/google-business-profile-care/",
+      "robots": "noindex, follow",
+      "title": "Google Business Profile for Care Providers | ElderIndex",
+      "h1": "Google Business Profile for care providers."
+    },
+    {
+      "path": "/privacy/",
+      "kind": "legal",
+      "canonical": "https://www.elderindex.co.uk/privacy/",
+      "robots": "noindex, follow",
+      "title": "Privacy Policy | ElderIndex",
+      "h1": "Privacy notice."
+    },
+    {
+      "path": "/terms/",
+      "kind": "legal",
+      "canonical": "https://www.elderindex.co.uk/terms/",
+      "robots": "noindex, follow",
+      "title": "Terms of Use | ElderIndex",
+      "h1": "Website terms."
+    },
+    {
+      "path": "/cookies/",
+      "kind": "legal",
+      "canonical": "https://www.elderindex.co.uk/cookies/",
+      "robots": "noindex, follow",
+      "title": "Cookie Information | ElderIndex",
+      "h1": "Cookie information."
+    },
+    {
+      "path": "/guides/multi-location-home-care-seo/",
+      "kind": "guide",
+      "canonical": "https://www.elderindex.co.uk/guides/multi-location-home-care-seo/",
+      "robots": "noindex, follow",
+      "title": "Multi-Location Home Care SEO: Branch &amp; Service-Area Planning | ElderIndex",
+      "h1": "Multi-location home care SEO: branches, coverage and clear ownership."
+    }
+  ],
+  "redirectRules": [
+    [
+      "/website-design",
+      "/services/website-design/",
+      "301"
+    ],
+    [
+      "/website-design/",
+      "/services/website-design/",
+      "301"
+    ],
+    [
+      "/website-management",
+      "/services/website-management/",
+      "301"
+    ],
+    [
+      "/website-management/",
+      "/services/website-management/",
+      "301"
+    ],
+    [
+      "/search-visibility",
+      "/services/search-visibility/",
+      "301"
+    ],
+    [
+      "/search-visibility/",
+      "/services/search-visibility/",
+      "301"
+    ],
+    [
+      "/care-directory-management",
+      "/services/care-directory-management/",
+      "301"
+    ],
+    [
+      "/care-directory-management/",
+      "/services/care-directory-management/",
+      "301"
+    ],
+    [
+      "/care-home-seo",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/care-home-seo/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/home-care",
+      "/services/home-care/",
+      "301"
+    ],
+    [
+      "/home-care/",
+      "/services/home-care/",
+      "301"
+    ],
+    [
+      "/choosing-a-care-website",
+      "/guides/choosing-a-care-website/",
+      "301"
+    ],
+    [
+      "/choosing-a-care-website/",
+      "/guides/choosing-a-care-website/",
+      "301"
+    ],
+    [
+      "/home-care-local-seo",
+      "/guides/home-care-local-seo/",
+      "301"
+    ],
+    [
+      "/home-care-local-seo/",
+      "/guides/home-care-local-seo/",
+      "301"
+    ],
+    [
+      "/care-directory-comparison",
+      "/guides/care-directory-comparison/",
+      "301"
+    ],
+    [
+      "/care-directory-comparison/",
+      "/guides/care-directory-comparison/",
+      "301"
+    ],
+    [
+      "/carehome-co-uk-profile",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/carehome-co-uk-profile/",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/google-business-profile-care",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/google-business-profile-care/",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/services/care-homes",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/services/care-homes/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/services/care-groups",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/services/care-groups/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources",
+      "/guides/",
+      "301"
+    ],
+    [
+      "/resources/",
+      "/guides/",
+      "301"
+    ],
+    [
+      "/directory-guides",
+      "/guides/care-directory-comparison/",
+      "301"
+    ],
+    [
+      "/directory-guides/",
+      "/guides/care-directory-comparison/",
+      "301"
+    ],
+    [
+      "/directory-guides/carehome-co-uk",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/directory-guides/carehome-co-uk/",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/carehome-co-uk-ranking",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/carehome-co-uk-ranking/",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/resources/carehome-co-uk-ranking-explained",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/resources/carehome-co-uk-ranking-explained/",
+      "/guides/carehome-co-uk-profile/",
+      "301"
+    ],
+    [
+      "/directory-guides/google-business-profile",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/directory-guides/google-business-profile/",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/google-business-profile-care-home",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/google-business-profile-care-home/",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/care-home-map-pack",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/care-home-map-pack/",
+      "/guides/google-business-profile-care/",
+      "301"
+    ],
+    [
+      "/about",
+      "/about/",
+      "301"
+    ],
+    [
+      "/services",
+      "/services/",
+      "301"
+    ],
+    [
+      "/services/home-care",
+      "/services/home-care/",
+      "301"
+    ],
+    [
+      "/talk-to-us",
+      "/talk-to-us/",
+      "301"
+    ],
+    [
+      "/privacy",
+      "/privacy/",
+      "301"
+    ],
+    [
+      "/terms",
+      "/terms/",
+      "301"
+    ],
+    [
+      "/resources/care-groups",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/care-groups/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/care-home-google-ranking",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/care-home-google-ranking/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/why-is-my-care-home-not-on-google",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/why-is-my-care-home-not-on-google/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/domiciliary-care",
+      "/guides/home-care-local-seo/",
+      "301"
+    ],
+    [
+      "/resources/domiciliary-care/",
+      "/guides/home-care-local-seo/",
+      "301"
+    ],
+    [
+      "/resources/live-in-care",
+      "/services/home-care/",
+      "301"
+    ],
+    [
+      "/resources/live-in-care/",
+      "/services/home-care/",
+      "301"
+    ],
+    [
+      "/resources/residential-care",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/residential-care/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/nursing-care",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/resources/nursing-care/",
+      "/services/care-home-seo/",
+      "301"
+    ],
+    [
+      "/how-it-works",
+      "/services/search-visibility/",
+      "301"
+    ],
+    [
+      "/how-it-works/",
+      "/services/search-visibility/",
+      "301"
+    ],
+    [
+      "/cookie-settings",
+      "/cookies/",
+      "301"
+    ],
+    [
+      "/cookie-settings/",
+      "/cookies/",
+      "301"
+    ],
+    [
+      "/contact",
+      "/talk-to-us/",
+      "301"
+    ],
+    [
+      "/contact/",
+      "/talk-to-us/",
+      "301"
+    ]
+  ]
+}

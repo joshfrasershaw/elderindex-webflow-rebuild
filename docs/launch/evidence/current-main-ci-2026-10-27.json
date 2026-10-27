@@ -1,0 +1,132 @@
+{
+  "github": {
+    "conclusion": "success",
+    "createdAt": "2026-10-27T14:41:25Z",
+    "databaseId": 40523530824,
+    "headSha": "125e8900313c215e79237344f0bfed648ca99173",
+    "jobs": [
+      {
+        "completedAt": "2026-10-27T14:43:13Z",
+        "conclusion": "success",
+        "databaseId": 122256765652,
+        "name": "quality",
+        "startedAt": "2026-10-27T14:41:29Z",
+        "status": "completed",
+        "steps": [
+          {
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "number": 2,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "number": 3,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run npm ci",
+            "number": 4,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run npx playwright install --with-deps chromium",
+            "number": 5,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Policy and repository hygiene",
+            "number": 6,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Provenance negative tests",
+            "number": 7,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Staging build and classified link audit",
+            "number": 8,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Browser, enquiry simulations and accessibility",
+            "number": 9,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Production build and actual asset-router checks (local only)",
+            "number": 10,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Restore safe staging output",
+            "number": 11,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "number": 12,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+            "number": 23,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "number": 24,
+            "status": "completed"
+          },
+          {
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 25,
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40523530824/job/122256765652"
+      }
+    ],
+    "status": "completed",
+    "updatedAt": "2026-10-27T14:43:14Z",
+    "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40523530824"
+  },
+  "checks": [
+    {
+      "name": "Workers Builds: elderindex-webflow-rebuild",
+      "status": "completed",
+      "conclusion": "success",
+      "completed_at": "2026-10-27T14:42:26Z",
+      "url": "https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/63cf1e7b-0b17-4811-ad8c-6b4861f47fbf",
+      "summary": "\nBuild ID: [63cf1e7b-0b17-4811-ad8c-6b4861f47fbf](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/63cf1e7b-0b17-4811-ad8c-6b4861f47fbf)\nScript: [elderindex-webflow-rebuild](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production)\nVersion ID: 214ab75c-b5c2-4bba-9244-4987c1b963dd\n"
+    },
+    {
+      "name": "quality",
+      "status": "completed",
+      "conclusion": "success",
+      "completed_at": "2026-10-27T14:43:13Z",
+      "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40523530824/job/122256765652",
+      "summary": null
+    }
+  ]
+}

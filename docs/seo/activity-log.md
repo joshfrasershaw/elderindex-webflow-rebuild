@@ -77,3 +77,5 @@ Final `npm run check` passed all 22 pages with zero issues, 22 known redirect ru
 ## 27 October 2026 — EI-20261027-06: implement current frameworks on main
 
 [Implementation and before/after record](../changes/2026-10-27-framework-implementation.md): all-page rendered/axe audit, image alternatives, audience concept correction, service scope clarity, preserved www canonical default, nine equivalent migrations plus direct contact alias. Existing Home Care SEO intent is preserved. GSC export is requested but has not arrived; no figures invented. Final exact-SHA tests and verified staging deployment are recorded in the current [go-live report](../launch/go-live-report.md). Old-domain DNS and CMS drafts remain untouched.
+
+Verified staging publication for EI-20261027-06: `125e8900313c215e79237344f0bfed648ca99173`, 2026-10-27T14:45:14.827839+00:00, https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/. GitHub quality and Cloudflare passed; 22 deployed pages and all 68 redirect rules verified. Old live domain remains Vercel. GSC export still absent; no metrics or retirement decisions invented. See deployment ledger and current report.

@@ -1,1 +1,2 @@
 event_id,source_commit_sha,first_verified_utc,environment,canonical_host,affected_paths,change_record,summary,verification_evidence
+EI-20261027-06-STAGING,125e8900313c215e79237344f0bfed648ca99173,2026-10-27T14:45:14.827839+00:00,staging,elderindex-webflow-rebuild.joshfrasershaw.workers.dev,all 22 canonical paths and 68 redirect rules,docs/changes/2026-10-27-framework-implementation.md,Framework fixes and ten verified migration additions deployed; no live-domain cutover,docs/launch/evidence/current-main-deployed-2026-10-27.json
