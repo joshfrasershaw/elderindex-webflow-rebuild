@@ -10,11 +10,11 @@
 
 # Active policy-driven operating system (27 October 2026)
 
-Before **any** change to ElderIndex, read docs/ops/README.md, docs/ops/decision-rights.md and docs/ops/change-control.md. For SEO/marketing work also read docs/seo/seo-standard.md, docs/seo/research-entity-map.md, docs/seo/editorial-policy.md, docs/seo/measurement-authority.md, docs/marketing/marketing-and-conversion.md, the existing docs/seo/strategy.md and docs/seo/internal-linking.md. For any launch/deployment/production change read docs/launch/release-gates.md, docs/launch/legacy-url-migration.md and docs/ops/qa-ci.md. The one-shot execution brief is docs/codex/MASTER-JOB.md. Old dated audits, docs/seo/implementation-plan.md and docs/launch-status.md are historical, not current authority.
+Before **any** change to ElderIndex, read docs/ops/README.md, docs/ops/decision-rights.md and docs/ops/change-control.md. For SEO/marketing work also read docs/seo/seo-standard.md, docs/seo/research-entity-map.md, docs/seo/editorial-policy.md, docs/seo/measurement-authority.md, docs/marketing/marketing-and-conversion.md, the existing docs/seo/strategy.md and docs/seo/internal-linking.md. For any launch/deployment/production change read docs/launch/release-gates.md, docs/launch/legacy-url-migration.md and docs/ops/qa-ci.md. The recurring autonomous implementation brief is docs/codex/AUDIT-FIX-PUBLISH.md. The historic one-shot rollout is archived at docs/codex/MASTER-JOB.md. Old dated audits, docs/seo/implementation-plan.md and docs/launch-status.md are historical, not current authority.
 
 **Operating precedence update:** see docs/ops/autonomous-publishing.md. Its standing owner mandate permits framework-compliant publication to main; the initial live-domain cutover, legal/financial/security exceptions and actual production verification remain protected. The default staging/noindex build is intentional.
 
-The owner's 27 October execution instruction authorises adopting and executing framework v1.0 in the non-deploying review lane, including commits, pushes and a PR. The older publication wording below continues to prohibit unapproved production publication; it does not prohibit authorised review-branch pushes or deterministic corrections. Policy precedence is defined in `docs/ops/README.md`. No autonomous production lane or cutover approval has been enabled.
+The owner's standing policy explicitly authorises production publishing of framework-compliant changes after the initial domain cutover. Before that one-time switch, main can be updated without touching live domain routing. Consult docs/ops/autonomous-publishing.md for boundaries and deployed-state evidence requirements.
 
 ---
 
