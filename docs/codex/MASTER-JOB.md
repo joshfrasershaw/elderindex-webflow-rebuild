@@ -1,3 +1,5 @@
+> **SUPERSEDED EXECUTION FLOW — 27 OCT 2026:** The former one-off task's instruction to use a policy review branch, prepare a PR and stop before publishing is superseded by [autonomous publishing](../ops/autonomous-publishing.md). The frameworks have been merged to main. All new Codex audit tasks should work from `main`, fix/test/push eligible changes directly, verify deployment and log what actually became live. Only the initial DNS/domain cutover and restricted business/account decisions require owner approval. Historical release gates still apply to first cutover; maintain the old site until then. Do not re-execute old instructions that conflict with this update.
+
 # ONE-SHOT CODEX JOB — adopt operating system, audit and prepare today's ElderIndex replacement
 Version 1.0 | 27 October 2026 | This is an execution specification, NOT authority to repoint a live domain.
 
