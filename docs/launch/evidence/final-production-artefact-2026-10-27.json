@@ -1,0 +1,22 @@
+{
+  "source_sha": "290211ab907bd0ae3dd4ddf0876eb1d172fb1005",
+  "created_at_utc": "2026-10-27T16:56:20.936094+00:00",
+  "path": "/workspace/exports/elderindex-release-290211a-www-production.zip",
+  "sha256": "41a1beb71c9488e6cceb0999b1666cf7e462ea33e3b7eea6a8eccb797cf1f74f",
+  "bytes": 7685405,
+  "environment": "production",
+  "canonical_origin": "https://www.elderindex.co.uk",
+  "page_count": 30,
+  "redirect_rules": 126,
+  "production_config": "wrangler.production.jsonc",
+  "apex_config": "wrangler.apex-redirect.jsonc",
+  "production_account_deployed": false,
+  "domain_bound": false,
+  "apex_source_hashes": {
+    "deploy/apex-entry.mjs": "0e7d9c776e964eefb1083a955420c1331f6126148fbeaf58f2565f1d3a6eb434",
+    "src/apex-redirect.mjs": "7494ab9bfd4d1bab3d0a35629dc6bcd72d8ace1a5cffde1163b453d80f0b712c",
+    "src/redirect-rules.mjs": "2ccaf5b5692094fbbc7a9b987111e1c222a4e12156d86250211a02ddebe13c2d",
+    "src/legacy-redirects.json": "c0abd5e5bee2216f8f3412cb51dfba107b674e2126c088027752a67e0990af85",
+    "wrangler.apex-redirect.jsonc": "50f3732144018c02a967865823b4b620899c5da06efb7d7a1b17ea6ce7fa4670"
+  }
+}

@@ -1,13 +1,13 @@
 # Quality assurance and CI implementation policy
 Version 1.0 | 27 October 2026.
 
-The review branch installs `.github/workflows/quality.yml`, a PR/push quality workflow with read-only repository permission and immutable action SHAs. It does not deploy, publish, change DNS or use production credentials. An unrelated untracked CMS deployment draft is excluded. Node 24 and pinned Wrangler provide the local Cloudflare Static Assets test runtime; they are development tools, not public-site runtime dependencies.
+Main provides `.github/workflows/quality.yml`, a PR/push quality workflow with read-only repository permission and immutable action SHAs. It does not deploy, publish, change DNS or use production credentials. An unrelated untracked CMS deployment draft is excluded. Node 24 and pinned Wrangler provide the local Cloudflare Static Assets test runtime; they are development tools, not public-site runtime dependencies.
 
 Required checks on the exact proposed SHA:
 1. npm ci; npm run build; npm run check.
 2. npm run audit:links -- --output /tmp/elderindex-links-ci.json; fail on broken URLs/unexpected orphans, review category-specific diagnostics; preserve legitimate legal-page footer-only links.
 3. npm test; use Playwright Chromium set-up as required; fail test regressions.
-4. SITE_ENV=production npm run build; SITE_ENV=production npm run check; inspect manifest of canonical/indexable routes, then restore staging outputs if used locally; CI artefacts should distinguish environments.
+4. npm run build:production; npm run check:production; npm run check:runtime:production; npm run check:runtime:apex. Production uses isolated dist-production and explicit www canonical; checksum assertions prove existing staging outputs were not overwritten. CI artefacts distinguish environments.
 5. Check for absent secrets, node_modules/dist leaks, malformed release-gate docs, unlogged material SEO modifications and unsafe changes to main/deployment config; automated policy checks can support, but not certify, owner/legal approvals.
 6. Retain concise test/log output and artefacts for code review, not real user data. Don't run real Formspree submissions or unauthorised traffic against production in CI.
 
@@ -26,3 +26,8 @@ A test cannot decide marketing tone or quality on its own. Use code tests for de
 GitHub quality is non-deploying, but Cloudflare separately posts failed build checks on policy commits. Production/preview trigger isolation cannot be certified without account settings/logs; this is an explicit external release blocker, not evidence that Cloudflare deployment is disabled.
 
 Percent-encoded probe spelling is distinguished from verified historic paths: Cloudflare normalises encoding with 307 before the explicit alias 301. The test asserts that documented sequence and query retention without pretending it is a one-hop permanent legacy URL. All 48 explicit redirect sources must still reach their 200 destination in one hop.
+
+
+### Final launch preparation — supersedes historical counts/settings above
+
+Current main tests 30 pages, 126 static rules and 60 mapped legacy paths. There are 551 static-router HTTP checks per environment, 285 actual apex-worker Host-header checks, five production-target safety tests, ten provenance cases and three real CLI cases per environment. Browser suite: 17 tests, including all-page desktop/mobile/axe. Read-only CI never deploys or sends real enquiries; the one owner-authorised real test is a separately dated manual evidence record. New production/apex configs are unbound, disable workers.dev/preview URLs and require owner authentication/deployment. Current release-gate report identifies exact tested and actually served revisions; never infer a deployment from main or a queued app suite.

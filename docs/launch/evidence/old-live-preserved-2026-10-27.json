@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-10-27T16:56:22.030721+00:00",
+  "www_title": "SEO for UK Care Homes &amp; Home Care Agencies \u2014 ElderIndex",
+  "apex_response_lines": [
+    "HTTP/1.1 200 OK",
+    "HTTP/2 308 ",
+    "location: https://www.elderindex.co.uk/"
+  ],
+  "account_project_deployment_id": "UNAVAILABLE: no authenticated Vercel credentials; GitHub deployment list empty",
+  "scope": "Public old-site observation only; no DNS/account/cutover action performed"
+}

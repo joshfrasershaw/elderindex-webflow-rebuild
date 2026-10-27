@@ -1,0 +1,64 @@
+{
+  "observed_at_utc": "2026-10-27T17:02:22.257574+00:00",
+  "tested_implementation": "290211ab907bd0ae3dd4ddf0876eb1d172fb1005",
+  "github_quality": {
+    "conclusion": "success",
+    "createdAt": "2026-10-27T16:41:53Z",
+    "databaseId": 40543453657,
+    "headSha": "290211ab907bd0ae3dd4ddf0876eb1d172fb1005",
+    "status": "completed",
+    "updatedAt": "2026-10-27T16:44:04Z",
+    "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40543453657"
+  },
+  "verified_ci_artifacts": {
+    "sourceSha": "290211ab907bd0ae3dd4ddf0876eb1d172fb1005",
+    "trackedChanges": false,
+    "staging_and_production_pages": 30,
+    "redirect_rules": 126,
+    "static_http_checks_per_environment": 551,
+    "apex_http_checks": 285,
+    "browser_tests": 17,
+    "staging_checksum_isolation": "PASS"
+  },
+  "last_served_cloudflare_checks": [
+    {
+      "completed_at": "2026-10-27T16:38:04Z",
+      "conclusion": "success",
+      "details_url": "https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/96ba847b-666b-4572-9321-def6ecace21d",
+      "name": "Workers Builds: elderindex-webflow-rebuild",
+      "status": "completed",
+      "summary": "\nBuild ID: [96ba847b-666b-4572-9321-def6ecace21d](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/96ba847b-666b-4572-9321-def6ecace21d)\nScript: [elderindex-webflow-rebuild](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production)\nVersion ID: 616fb520-a45e-4b2d-8ec5-49c715f86335\n"
+    },
+    {
+      "completed_at": "2026-10-27T16:40:14Z",
+      "conclusion": "success",
+      "details_url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40542742744/job/122325158841",
+      "name": "quality",
+      "status": "completed",
+      "summary": null
+    }
+  ],
+  "latest_implementation_app_suites": [
+    {
+      "app": "vercel",
+      "conclusion": null,
+      "status": "queued"
+    },
+    {
+      "app": "claude",
+      "conclusion": null,
+      "status": "queued"
+    },
+    {
+      "app": "cloudflare-workers-and-pages",
+      "conclusion": null,
+      "status": "queued"
+    },
+    {
+      "app": "github-actions",
+      "conclusion": "success",
+      "status": "completed"
+    }
+  ],
+  "access_limit": "No Cloudflare credential variables or Wrangler OAuth profiles; no Vercel account token or mailbox/Formspree dashboard tools. Latest source has no diagnostic Cloudflare build check/log linked at observation; app suite state does not establish an actual build-queue cause. No cause inferred."
+}

@@ -1,0 +1,1993 @@
+{
+  "audit_started_utc": "2026-10-27T16:53:58.253902+00:00",
+  "first_verified_utc": "2026-10-27T16:54:14.878013+00:00",
+  "origin": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev",
+  "identity": {
+    "sourceSha": "fcaaec5e0391d252f963aeb1165edd3ca626be70",
+    "trackedChanges": false,
+    "environment": "staging",
+    "canonicalOrigin": "https://www.elderindex.co.uk",
+    "pageCount": 30
+  },
+  "tested_implementation_sha": "290211ab907bd0ae3dd4ddf0876eb1d172fb1005",
+  "implementation_vs_served_note": "Exact identity above is observed, not substituted with Git HEAD. 290211a differs from fcaaec5 only by one draft-terms sentence and its change record; any newer served SHA is separately verified.",
+  "pages_and_utilities": [
+    {
+      "path": "/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "1b7e9b8751beb3c499313c1a78f3abc504548413f1c4b88b1f1109e941daf8ac"
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "ac0a3cc2163034b4f15089c6113a633f555dce0cb4a0a3e08179057f7d7b39f9"
+    },
+    {
+      "path": "/services/website-design/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "799673f76467d15a034ac419019232774c345dc196947c58736288e12c95c9ab"
+    },
+    {
+      "path": "/services/search-visibility/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "29ebbc3782e6bf3d1dbf3686270cc57792a2c98c3768b8c0a0ceca86c0658675"
+    },
+    {
+      "path": "/services/website-management/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "5483583a1e8d1f66a5a261fb6ab444e02ff67a7e4052e3c6b6b2c0b6ded36c05"
+    },
+    {
+      "path": "/services/care-directory-management/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "55bd9524022ee2c8bc2bba4e003b5bdd8414b267c5d309ff0866e6b74127185a"
+    },
+    {
+      "path": "/services/home-care/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "e283bbb7f504b95bf23f9a78e662d7a30d09a1ddedf4f155a554910c87b37aa9"
+    },
+    {
+      "path": "/services/care-home-seo/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "53dde848d662275e515f65b4532c3ddc2ef76e06361a1421c563387a00b15a86"
+    },
+    {
+      "path": "/for-care-homes/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "fd34c60d5852df62f34873a21963dc45b33cafd6e58ca60c0f2679e227f5d50b"
+    },
+    {
+      "path": "/for-home-care-agencies/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "eb7a53a1f139d56c2f775acde2abd573fb68ad42ad3eb76f1311e1e76d46b315"
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "f3671519a1933d40e87906828e45d5b7a9014f86c513fc9be62fd4cd00840d9d"
+    },
+    {
+      "path": "/guides/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "97acc70a9cb5f2f005cffa94d3d2affc9aeed14c74cfce89e5178890089c244f"
+    },
+    {
+      "path": "/talk-to-us/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "5cbc2f689f29f8bae6739626b52ffb244bc4403569eec1492aa4ceee6db39fbd"
+    },
+    {
+      "path": "/guides/choosing-a-care-website/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "84cc29b2081e748709f98934efe72304f82e99c8b9090b04db9ffc5b4dff1fac"
+    },
+    {
+      "path": "/guides/home-care-local-seo/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "4ce6458ebee106fec589c3877181278439831e57d102365ae90e36b265defc71"
+    },
+    {
+      "path": "/guides/care-directory-comparison/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "abd0a7e02098d6f14be956d1cbb6adeb74463679a59669752f6908ce6469c95d"
+    },
+    {
+      "path": "/guides/carehome-co-uk-profile/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "9d9cc8b9ebc6f0ce83c1a4bd55de56cd9926277259fa3fde0df8a9f4c24b8d50"
+    },
+    {
+      "path": "/guides/google-business-profile-care/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "73decd0fe46d02b6509228c796ca267b30e4d4f4d578350518a081d78d557aeb"
+    },
+    {
+      "path": "/privacy/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "d38b871eacaa79c39367c479feabe63d87353290cf44b954c847ea7876c57616"
+    },
+    {
+      "path": "/terms/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "6cd3ffbf19a9bd6823a63b970d009b499f6f03d49f652d6202e629d77e6d09d3"
+    },
+    {
+      "path": "/cookies/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "e144a8d46263a3d6660dacf4f64f6fc1c74781a61558f95bae205091a5e12c1f"
+    },
+    {
+      "path": "/guides/multi-location-home-care-seo/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "f2a6160c38409b344fda4fe14fbce89cdff4aba869587c0301b3e05c3cb5f53e"
+    },
+    {
+      "path": "/resources/dementia-care/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "4d857e53e39a4a4841954e7e5076e6d5f17fb4ead769998825496043982e80d1"
+    },
+    {
+      "path": "/resources/palliative-care/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "7f6bb69c17502217b8ffab3f078c3990e658e7c1b0528064e1242ab1fcbaeff4"
+    },
+    {
+      "path": "/resources/respite-care/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "fec1964fdba3711ea8e87abb55f69fc45a6d8bcb9a19596acf990ce4c8645e08"
+    },
+    {
+      "path": "/resources/specialist-care/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "906eb779438a228499bb306ec0a5a78d97418699c2035d664103d232aabe5b20"
+    },
+    {
+      "path": "/resources/supported-living/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "acf5e6bc029d30d587463035722d7c95c9e4702d44805a7ec43415b747c6eb14"
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "b4ff4e3b0a85964bbd5feba94a8cd81505596a701d25892ee6f852388bf415d9"
+    },
+    {
+      "path": "/glossary/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "3d032131b48cc0425f54c4f09039a8917413a818c6d2deae7ec533edfedff201"
+    },
+    {
+      "path": "/framework/",
+      "status": 200,
+      "robots": "noindex, follow",
+      "body_sha256": "13860838daa944b72ee2dada2c5274921d3a16e63eed067686853370b74951d8"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/assets/site.css",
+      "status": 200
+    },
+    {
+      "path": "/assets/site.js",
+      "status": 200
+    },
+    {
+      "path": "/this-path-does-not-exist",
+      "status": 404
+    },
+    {
+      "path": "/cms/",
+      "status": 404
+    },
+    {
+      "path": "/api/bootstrap",
+      "status": 404
+    }
+  ],
+  "redirects": [
+    {
+      "path": "/website-design",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-design/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/website-design?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-design/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/website-design/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-design/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/website-design/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-design/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/website-management",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-management/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/website-management?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-management/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/website-management/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-management/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/website-management/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-management/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/search-visibility",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/search-visibility?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/search-visibility/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/search-visibility/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-management",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-directory-management/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-management?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-directory-management/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-management/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-directory-management/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-management/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-directory-management/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-seo",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-seo?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-seo/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-seo/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/choosing-a-care-website",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/choosing-a-care-website/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/choosing-a-care-website?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/choosing-a-care-website/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/choosing-a-care-website/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/choosing-a-care-website/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/choosing-a-care-website/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/choosing-a-care-website/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care-local-seo",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care-local-seo?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care-local-seo/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/home-care-local-seo/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-comparison",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-comparison?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-comparison/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-directory-comparison/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-profile",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-profile?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-profile/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-homes",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-homes?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-homes/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-homes/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-groups",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-groups?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-groups/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/care-groups/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/carehome-co-uk/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-ranking",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-ranking?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-ranking/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/carehome-co-uk-ranking/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/carehome-co-uk-ranking-explained/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/google-business-profile",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/google-business-profile?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/google-business-profile/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/google-business-profile/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care-home",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care-home?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care-home/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/google-business-profile-care-home/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-map-pack",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-map-pack?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-map-pack/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/care-home-map-pack/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/about",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/about/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/about?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/about/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/home-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/services/home-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/talk-to-us",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/talk-to-us/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/talk-to-us?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/talk-to-us/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/privacy",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/privacy/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/privacy?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/privacy/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/terms",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/terms/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/terms?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/terms/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-groups",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-groups?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-groups/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-groups/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-home-google-ranking",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-home-google-ranking?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-home-google-ranking/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/care-home-google-ranking/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/why-is-my-care-home-not-on-google/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/domiciliary-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/domiciliary-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/domiciliary-care/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/domiciliary-care/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/live-in-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/live-in-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/live-in-care/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/live-in-care/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/residential-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/residential-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/residential-care/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/residential-care/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/nursing-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/nursing-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/nursing-care/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/nursing-care/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/how-it-works",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/how-it-works?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/how-it-works/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/how-it-works/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/cookie-settings",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/cookies/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/cookie-settings?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/cookies/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/cookie-settings/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/cookies/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/cookie-settings/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/cookies/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/contact",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/talk-to-us/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/contact?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/talk-to-us/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/contact/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/talk-to-us/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/contact/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/talk-to-us/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/autumna",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/autumna?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/autumna/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/autumna/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/homecare-co-uk/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/lottie",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/lottie?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/lottie/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/lottie/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/directory-guides/senior-homes-plus/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/authority",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/authority?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/authority/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/authority/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/credible",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/credible?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/credible/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/credible/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/effective",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/effective?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/effective/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/effective/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/relevance",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/relevance?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/relevance/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/framework/relevance/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/framework/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/cqc-rating-enquiries/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/cqc-rating-enquiries?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/cqc-rating-enquiries/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/dementia-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/dementia-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/dementia-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/dementia-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/palliative-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/palliative-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/palliative-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/palliative-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/respite-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/respite-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/respite-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/respite-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/specialist-care",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/specialist-care/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/specialist-care?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/specialist-care/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/supported-living",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/supported-living/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/resources/supported-living?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/resources/supported-living/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/autumna",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/autumna?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/autumna/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/autumna/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/carehome-co-uk",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/carehome-co-uk?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/carehome-co-uk/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/carehome-co-uk/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/core-web-vitals",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/core-web-vitals?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/core-web-vitals/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/core-web-vitals/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/cqc",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/cqc?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/cqc/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/cqc/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/duty-of-candour",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/duty-of-candour?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/duty-of-candour/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/duty-of-candour/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/google-business-profile",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/google-business-profile?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/google-business-profile/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/google-business-profile/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/indexability",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/indexability?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/indexability/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/indexability/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nap-consistency",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nap-consistency?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nap-consistency/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nap-consistency/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nice-guidelines",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nice-guidelines?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nice-guidelines/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/nice-guidelines/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/registered-manager",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/registered-manager?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/registered-manager/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/registered-manager/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-score",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-score?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-score/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-score/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-velocity",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-velocity?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-velocity/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/review-velocity/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/schema-markup",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/schema-markup?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/schema-markup/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/schema-markup/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/scie",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/scie?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/scie/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/scie/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/section-20a",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/section-20a?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/section-20a/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/section-20a/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/crawlability",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/crawlability?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/crawlability/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/crawlability/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/url-structure",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/url-structure?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/url-structure/",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/",
+      "destination_status": 200,
+      "cache_control": null
+    },
+    {
+      "path": "/glossary/url-structure/?utm_source=final-launch-check",
+      "status": 301,
+      "location": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/glossary/?utm_source=final-launch-check",
+      "destination_status": 200,
+      "cache_control": null
+    }
+  ],
+  "home_care_html_unchanged": true,
+  "mailbox_confirmation": "not available",
+  "domain_cutover": false
+}

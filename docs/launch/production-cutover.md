@@ -47,6 +47,12 @@ npx wrangler deploy --config wrangler.apex-redirect.jsonc
 
 These explicit configs have no route/custom-domain entries and no workers.dev/preview exposure. They do not change the existing staging Worker or Vercel routing. Record returned Worker version IDs. Do not replace the staging project’s build/deploy commands with these production commands.
 
+### Ongoing main publication after the initial switch
+
+In each new target’s Cloudflare Git Build settings, connect `joshfrasershaw/elderindex-webflow-rebuild`, production branch **main**, root `/`; disable production-target preview-branch builds. Production target build: `npm ci && npm run build:production`; deploy: `npx wrangler deploy --config wrangler.production.jsonc`. Apex target build: `npm ci`; deploy: `npx wrangler deploy --config wrangler.apex-redirect.jsonc`. Do not change the existing staging project’s commands.
+
+Default all-file watch coverage is safe. If restricting watches, include **all** source, build, deploy, public and package/config dependencies (`src/**`, `scripts/**`, `deploy/**`, `public/**`, package files and the relevant Wrangler config), rather than only entry files. These account settings are not changed by Codex. Verify the first deployment/version ID in the account and actual served release after binding; GitHub app suite state alone is not a diagnostic Cloudflare build log.
+
 ## Initial domain switch — OWNER ONLY, after all critical gates close
 
 1. In Workers & Pages → production Worker → Settings → Domains & Routes, connect **www.elderindex.co.uk** to `elderindex-public-production` using Cloudflare’s actual Custom Domain flow. Inspect existing bindings/routes before confirming; follow the dashboard’s real DNS conflict instructions rather than guessing a CNAME to workers.dev.
