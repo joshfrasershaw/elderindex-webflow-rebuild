@@ -1,5 +1,12 @@
 # SEO activity log
 
+## 27 October 2026 — Policy-driven SEO operating system and cutover governance
+
+**Status:** committed on non-deploying branch policy/seo-ops-and-launch-2026-10-27, owner review pending. Old live site and main source unchanged by this documentation work. No domain or DNS changes and no claimed website release.
+
+**Reason:** make Codex able to enact documented standards autonomously, distinguish fact-based remediation from owner-controlled changes, implement an evidence-backed release checklist, and leave a searchable human-readable history of changes alongside Git SHA and real deployment timestamps. **Record:** [EI-20261027-01](../changes/2026-10-27-seo-ops-framework.md). **Operating system:** [docs/ops/README.md](../ops/README.md). **Execution:** [master Codex job](../codex/MASTER-JOB.md). **Verification:** GitHub documentation commits only; build/live gate checks have NOT been run for these policy changes and remain Codex's next task.
+
+
 Record significant changes here. Every entry must identify its date, evidence, affected pages, purpose, validation and publication state. Do not label a local build or a commit as a deployment. Record ranking or enquiry outcomes only when supported by actual data.
 
 ## 26 October 2026 — Evidence-led commercial page and semantic review
