@@ -1,5 +1,7 @@
+> **CURRENT OVERRIDING EXECUTION RULE (27 October 2026):** [Autonomous publishing](autonomous-publishing.md) is the active owner mandate. Codex audits, implements, tests, commits directly to main, checks deployment and logs observed live changes without asking for routine PR approval. A prior requirement for review-branch-only work is superseded. The old live-domain switch remains owner-controlled, and Git commits are not automatically live releases.
+
 # ElderIndex operating system — active policies
-Version: 1.0 | Approved intent: owner discussion on 27 October 2026 | Status: owner authorised framework execution in the review lane on 27 October 2026; production adoption/cutover remains subject to release gates and explicit approval.
+Version: 2.0 | Owner-approved standing autonomous publication policy; initial domain cutover remains separately controlled.
 
 ## Purpose
 Josh and ChatGPT agree the objectives and update standards; Codex audits, researches, implements, tests and records compliance. Codex does NOT invent policy on its own. Autonomous corrections are explicitly permitted only within the decision-rights policy and safe execution boundary.
@@ -7,7 +9,7 @@ Josh and ChatGPT agree the objectives and update standards; Codex audits, resear
 ## Authority and precedence
 1. Direct, current, explicit owner instruction and applicable legal/security obligations.
 2. This repository's AGENTS.md (entrypoint and execution boundaries).
-3. docs/ops/decision-rights.md (who can do what, where).
+3. docs/ops/autonomous-publishing.md and docs/ops/decision-rights.md (approved standing authorisation and exceptions).
 4. docs/launch/release-gates.md for prelaunch, cutover, production and rollback.
 5. docs/ops/change-control.md (evidence and traceability).
 6. docs/seo/seo-standard.md + docs/seo/research-entity-map.md + docs/seo/editorial-policy.md + docs/seo/measurement-authority.md.
