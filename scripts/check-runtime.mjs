@@ -25,7 +25,16 @@ try{
  }
  for(const route of ['/robots.txt','/sitemap.xml','/assets/site.css','/assets/site.js'])await check(route,200);
  for(const route of ['/this-release-path-does-not-exist','/cms/','/api/bootstrap'])await check(route,404);
- const encoded=await fetch(origin+'/%77ebsite-design',{redirect:'manual'});assert.equal(encoded.status,301,'Encoded shortcut');assert.equal(new URL(encoded.headers.get('location'),origin).pathname,'/services/website-design/');results.push({path:'/%77ebsite-design',status:encoded.status,location:encoded.headers.get('location')});
+ // Cloudflare first normalises percent-encoding (307), then applies the explicit legacy 301.
+ // This is a platform-normalisation probe, not an additional historic URL mapping.
+ const query='?utm_source=encoded-release-check';
+ const encoded=await check('/%77ebsite-design'+query,307);
+ const decoded=new URL(encoded.headers.get('location'),origin);
+ assert.equal(decoded.origin,origin);assert.equal(decoded.pathname,'/website-design');assert.equal(decoded.search,query);
+ const alias=await check(decoded.pathname+decoded.search,301);
+ const canonical=new URL(alias.headers.get('location'),origin);
+ assert.equal(canonical.origin,origin);assert.equal(canonical.pathname,'/services/website-design/');assert.equal(canonical.search,query);
+ const end=await check(canonical.pathname+canonical.search,200);assert.equal(end.headers.get('location'),null);
  await check('/WEBSITE-DESIGN',404); // No unsupported case-insensitive migration invented.
  const out=process.argv[2];if(out)fs.writeFileSync(out,JSON.stringify({checkedAtUtc:started,scope:'LOCAL Cloudflare workerd, not deployed HTTP',environment:config.production?'production':'staging',results},null,2)+'\n');
  console.log(`Cloudflare local runtime: ${results.length} HTTP checks passed (${config.production?'production':'staging'}), including redirects with queries, assets, indexability and 404s.`);

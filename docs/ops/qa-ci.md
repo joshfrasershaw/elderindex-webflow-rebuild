@@ -24,3 +24,5 @@ A test cannot decide marketing tone or quality on its own. Use code tests for de
 `check:runtime` tests 48 explicit redirect rules, full same-origin destinations, query retention and direct HTTP 200 (no chains/loops), plus canonical slash routes remaining 200. Six same-role old slashless paths need explicit permanent rules; Static Assets' implicit 307 is not migration acceptance.
 
 GitHub quality is non-deploying, but Cloudflare separately posts failed build checks on policy commits. Production/preview trigger isolation cannot be certified without account settings/logs; this is an explicit external release blocker, not evidence that Cloudflare deployment is disabled.
+
+Percent-encoded probe spelling is distinguished from verified historic paths: Cloudflare normalises encoding with 307 before the explicit alias 301. The test asserts that documented sequence and query retention without pretending it is a one-hop permanent legacy URL. All 48 explicit redirect sources must still reach their 200 destination in one hop.

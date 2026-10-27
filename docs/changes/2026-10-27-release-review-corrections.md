@@ -10,3 +10,5 @@
 - Risk: minimal routing and QA change; strict checks intentionally reject unfinished work. Unmatched-content, legal, Formspree/mailbox, canonical-host and account gates stay open. A green local run is not deployed evidence.
 - Rollback: revert this implementation commit on a review branch, rebuild/test; restore the prior record as historical evidence. Any production/DNS rollback remains owner-controlled using the go-live report.
 - Measurement: no GSC/GA4/lead outcomes asserted. D+7 redirects/indexing; D+28 segmented queries/pages; D+90 qualified enquiries after actual cutover, not this commit.
+
+- Test diagnosis: initial stronger encoding assertion incorrectly assumed the raw percent-encoded spelling would receive the legacy 301 directly. Cloudflare normalises `/%77ebsite-design` with 307 to `/website-design`, then applies the explicit 301. The corrected probe verifies the exact normalisation → alias → 200 sequence, origin/query retention and termination. Known historic source paths still must redirect directly with 301; no encoded historic URL is invented.
