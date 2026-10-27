@@ -1,3 +1,11 @@
+# Active policy-driven operating system (27 October 2026)
+
+Before **any** change to ElderIndex, read docs/ops/README.md, docs/ops/decision-rights.md and docs/ops/change-control.md. For SEO/marketing work also read docs/seo/seo-standard.md, docs/seo/research-entity-map.md, docs/seo/editorial-policy.md, docs/seo/measurement-authority.md, docs/marketing/marketing-and-conversion.md, the existing docs/seo/strategy.md and docs/seo/internal-linking.md. For any launch/deployment/production change read docs/launch/release-gates.md, docs/launch/legacy-url-migration.md and docs/ops/qa-ci.md. The one-shot execution brief is docs/codex/MASTER-JOB.md. Old dated audits, docs/seo/implementation-plan.md and docs/launch-status.md are historical, not current authority.
+
+**Operate autonomously within written authority:** inspect -> establish baseline -> correct deterministic noncompliance -> test -> leave a docs/changes record with why, before/after, SHA and rollback. Do NOT micro-escalate authorised low-risk corrections. Push safe review branches only by default; do not infer approval to merge into production or change the old live domain. Release to production, switch DNS and commit legal/business promises only within docs/ops/decision-rights.md and docs/launch/release-gates.md. The default public build is intentionally staging/noindex: never mistake it for a live SEO error. Stop or escalate specific contradictions; continue unrelated safe work.
+
+---
+
 # ElderIndex repository instructions
 
 Use this existing checkout; cloud tasks are isolated. Do not create a Git worktree unless the user asks for one.
