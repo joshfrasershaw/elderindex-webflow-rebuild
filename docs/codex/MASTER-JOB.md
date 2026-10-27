@@ -1,3 +1,13 @@
+# Historic 27 October prelaunch Codex work order — COMPLETED
+
+This document records the initial framework rollout and cutover preparation. **Do not execute it again as the standing SEO workflow.** The owner has explicitly clarified that regular Codex jobs should implement, test, publish to main, verify live changes and log retrospectively, without routine review branches, PR approvals or micro-prompts. Use [the current autonomous audit/fix/publish job](AUDIT-FIX-PUBLISH.md) and [the standing publishing policy](../ops/autonomous-publishing.md) instead.
+
+The one-off old-site -> new-site domain/DNS switch remains owner-controlled and must follow [release gates](../launch/release-gates.md). Old historical test logs and work reports remain as recorded.
+
+---
+
+<details><summary>Historic master instructions (kept as audit evidence; superseded)</summary>
+
 > **SUPERSEDED EXECUTION FLOW — 27 OCT 2026:** The former one-off task's instruction to use a policy review branch, prepare a PR and stop before publishing is superseded by [autonomous publishing](../ops/autonomous-publishing.md). The frameworks have been merged to main. All new Codex audit tasks should work from `main`, fix/test/push eligible changes directly, verify deployment and log what actually became live. Only the initial DNS/domain cutover and restricted business/account decisions require owner approval. Historical release gates still apply to first cutover; maintain the old site until then. Do not re-execute old instructions that conflict with this update.
 
 # ONE-SHOT CODEX JOB — adopt operating system, audit and prepare today's ElderIndex replacement
@@ -40,3 +50,6 @@ If something is objectively noncompliant AND framework explicitly authorises fix
 
 ## Reporting expectation
 At minimum record: changed URLs, why, old/new values, baseline and current SHA, source/primary evidence, test results, actual commit time, actual deploy time (if any), risk and git revert or last-good rollback procedure. Changes must be explainable alongside future GSC data. Preserve both current old-site search baseline and new-site rollout milestone.
+
+
+</details>
