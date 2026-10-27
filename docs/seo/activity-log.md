@@ -1,5 +1,20 @@
 # SEO activity log
 
+## 27 October 2026 — Review corrections
+
+[EI-20261027-03](../changes/2026-10-27-release-review-corrections.md) records six permanent canonicalisation aliases, strict release identity/clean-source validation, meaningful negative/runtime tests and the unresolved Cloudflare account-log blocker. Baseline `fa0b4be`; policy review branch only. No main merge, deployment, DNS change or CMS modification. Clean implementation `3e891be` passed push CI 40486303392: 16 browser tests, 10 provenance unit tests, three CLI cases per environment and 231 runtime checks per environment. No metadata/internal links changed. Cloudflare external build remains failed/blocked pending the owner log and trigger-setting review.
+
+## 27 October 2026 — Release candidate preparation (review lane)
+
+**Status:** authorised non-deploying policy-branch checkpoint; no merge, deployment or domain changes. [EI-20261027-02](../changes/2026-10-27-launch-readiness.md) records code/tooling, ten verified migration mappings, retained migration blockers and lossless homepage optimisation. [Go-live report](../launch/go-live-report.md) is the current release-specific gate evidence. Remaining account/legal/migration decisions are explicit; no GSC, real inbox receipt or production result is invented. Release implementation commit `752f6a9` passed all remote quality checks and 16 browser tests in run 40483257586; final documentation-only handoff is linked from PR #1. A hashed clean-source proposed-www production build is recorded, with staging restored. No production deployment or cutover occurred.
+
+## 27 October 2026 — Policy-driven SEO operating system and cutover governance
+
+**Status:** committed on non-deploying branch policy/seo-ops-and-launch-2026-10-27, owner review pending. Old live site and main source unchanged by this documentation work. No domain or DNS changes and no claimed website release.
+
+**Reason:** make Codex able to enact documented standards autonomously, distinguish fact-based remediation from owner-controlled changes, implement an evidence-backed release checklist, and leave a searchable human-readable history of changes alongside Git SHA and real deployment timestamps. **Record:** [EI-20261027-01](../changes/2026-10-27-seo-ops-framework.md). **Operating system:** [docs/ops/README.md](../ops/README.md). **Execution:** [master Codex job](../codex/MASTER-JOB.md). **Verification:** GitHub documentation commits only; build/live gate checks have NOT been run for these policy changes and remain Codex's next task.
+
+
 Record significant changes here. Every entry must identify its date, evidence, affected pages, purpose, validation and publication state. Do not label a local build or a commit as a deployment. Record ranking or enquiry outcomes only when supported by actual data.
 
 ## 26 October 2026 — Evidence-led commercial page and semantic review

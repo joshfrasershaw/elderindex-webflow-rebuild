@@ -1,0 +1,302 @@
+[
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/",
+    "checked_at_utc": "2026-10-27T09:40:46.668502+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/",
+    "checked_at_utc": "2026-10-27T09:40:46.852040+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/services/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-design/",
+    "checked_at_utc": "2026-10-27T09:40:46.735105+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/services/website-design/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/search-visibility/",
+    "checked_at_utc": "2026-10-27T09:40:46.868033+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/services/search-visibility/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/website-management/",
+    "checked_at_utc": "2026-10-27T09:40:46.990158+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/services/website-management/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-directory-management/",
+    "checked_at_utc": "2026-10-27T09:40:46.955146+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/services/care-directory-management/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/home-care/",
+    "checked_at_utc": "2026-10-27T09:40:47.106571+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/services/home-care/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-home-seo/",
+    "checked_at_utc": "2026-10-27T09:40:47.133443+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/services/care-home-seo/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/for-care-homes/",
+    "checked_at_utc": "2026-10-27T09:40:47.168931+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/for-care-homes/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/for-home-care-agencies/",
+    "checked_at_utc": "2026-10-27T09:40:47.177898+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/for-home-care-agencies/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/about/",
+    "checked_at_utc": "2026-10-27T09:40:47.315565+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/about/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/",
+    "checked_at_utc": "2026-10-27T09:40:47.397921+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/guides/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/talk-to-us/",
+    "checked_at_utc": "2026-10-27T09:40:47.406441+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/talk-to-us/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/choosing-a-care-website/",
+    "checked_at_utc": "2026-10-27T09:40:47.378350+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/guides/choosing-a-care-website/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/home-care-local-seo/",
+    "checked_at_utc": "2026-10-27T09:40:47.565157+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/guides/home-care-local-seo/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/care-directory-comparison/",
+    "checked_at_utc": "2026-10-27T09:40:47.559099+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/guides/care-directory-comparison/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/carehome-co-uk-profile/",
+    "checked_at_utc": "2026-10-27T09:40:47.586769+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/guides/carehome-co-uk-profile/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/google-business-profile-care/",
+    "checked_at_utc": "2026-10-27T09:40:47.622450+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/guides/google-business-profile-care/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/privacy/",
+    "checked_at_utc": "2026-10-27T09:40:47.764031+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/privacy/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/terms/",
+    "checked_at_utc": "2026-10-27T09:40:47.784709+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/terms/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/cookies/",
+    "checked_at_utc": "2026-10-27T09:40:47.841850+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/cookies/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/guides/multi-location-home-care-seo/",
+    "checked_at_utc": "2026-10-27T09:40:47.808647+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": "https://elderindex.co.uk/guides/multi-location-home-care-seo/"
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/robots.txt",
+    "checked_at_utc": "2026-10-27T09:40:47.846065+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": null,
+    "canonical": null
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/sitemap.xml",
+    "checked_at_utc": "2026-10-27T09:40:48.023977+00:00",
+    "status": 200,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": null,
+    "canonical": null
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/website-design",
+    "checked_at_utc": "2026-10-27T09:40:47.881917+00:00",
+    "status": 301,
+    "curl_error": null,
+    "location": "/services/website-design/",
+    "robots_header": "noindex, follow",
+    "robots_meta": null,
+    "canonical": null
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/website-design/",
+    "checked_at_utc": "2026-10-27T09:40:47.940748+00:00",
+    "status": 301,
+    "curl_error": null,
+    "location": "/services/website-design/",
+    "robots_header": "noindex, follow",
+    "robots_meta": null,
+    "canonical": null
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/services/care-homes",
+    "checked_at_utc": "2026-10-27T09:40:48.022912+00:00",
+    "status": 404,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": null
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/this-page-does-not-exist",
+    "checked_at_utc": "2026-10-27T09:40:48.022144+00:00",
+    "status": 404,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": null
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/release.json",
+    "checked_at_utc": "2026-10-27T09:40:48.029370+00:00",
+    "status": 404,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": null
+  },
+  {
+    "url": "https://elderindex-webflow-rebuild.joshfrasershaw.workers.dev/api/bootstrap",
+    "checked_at_utc": "2026-10-27T09:40:48.107342+00:00",
+    "status": 404,
+    "curl_error": null,
+    "location": null,
+    "robots_header": "noindex, follow",
+    "robots_meta": "noindex, follow",
+    "canonical": null
+  }
+]

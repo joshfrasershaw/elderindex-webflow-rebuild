@@ -11,7 +11,7 @@ export const photo=(page,slot,className,options={})=>`<div class="image-frame ${
 
 // Original graphics supplied by the owner via GitHub. Preserve the source files.
 export const heroConcepts={
-  homepage:{src:'/assets/3129.png',width:512,height:341,alt:'Illustrative Riverside House care-home website displayed on a laptop and phone.'},
+  homepage:{src:'/assets/3129.webp',width:512,height:341,alt:'Illustrative Riverside House care-home website displayed on a laptop and phone.'},
   'website-design':{src:'/assets/3127.jpg',width:512,height:342,alt:'Illustrative The Oaklands care-home website displayed on a laptop and phone.'}
 };
 export function conceptImage(key){

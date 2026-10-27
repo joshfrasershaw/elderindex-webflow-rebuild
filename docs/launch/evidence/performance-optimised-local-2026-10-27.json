@@ -1,0 +1,32 @@
+{
+  "scope": "Optimised production configuration on local HTTP server, www canonical; not deployed production or field CWV",
+  "fetchTime": "2026-10-27T09:42:36.009Z",
+  "lighthouseVersion": "13.0.1",
+  "formFactor": "mobile",
+  "performanceScore": 0.89,
+  "metrics": {
+    "largest-contentful-paint": {
+      "value": 3765.2724,
+      "display": "3.8\u00a0s",
+      "score": 0.56
+    },
+    "total-blocking-time": {
+      "value": 8,
+      "display": "10\u00a0ms",
+      "score": 1
+    },
+    "cumulative-layout-shift": {
+      "value": 0,
+      "display": "0",
+      "score": 1
+    },
+    "first-contentful-paint": {
+      "value": 1372.9085999999998,
+      "display": "1.4\u00a0s",
+      "score": 0.97
+    }
+  },
+  "failedNetwork": [],
+  "imageRequests": 2,
+  "comparisonCaveat": "One run per version on a shared machine; transfer-size reduction is deterministic, metric movement is not proof of causality."
+}

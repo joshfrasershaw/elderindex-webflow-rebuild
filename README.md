@@ -80,3 +80,7 @@ Future SEO audits and content changes must follow [commercial strategy](docs/seo
 Run `npm run build`, then `npm run audit:links -- --output /tmp/elderindex-links.json` for a placement-aware rendered-site audit. Use `--compare` with a pre-change report to inspect removed links and metadata changes. Design and management have commercial priority, while each page retains its own search intent and useful SEO links.
 
 SEO changes are prepared locally for review. Pushing `main` automatically triggers Cloudflare; do not push or deploy a review draft without an explicit publication instruction.
+
+## Policy-driven SEO operating system (27 October 2026)
+
+The active operating system lives in [docs/ops/README.md](docs/ops/README.md). Codex authority is governed by [decision-rights](docs/ops/decision-rights.md), [change control](docs/ops/change-control.md), the [full SEO standard](docs/seo/seo-standard.md), the [editorial standards](docs/seo/editorial-policy.md), the [keyword and entity map](docs/seo/research-entity-map.md), [measurement policy](docs/seo/measurement-authority.md), [marketing and conversion guidance](docs/marketing/marketing-and-conversion.md) and the [go-live release gates](docs/launch/release-gates.md). The [one-shot Codex task](docs/codex/MASTER-JOB.md) executes the preparation. The old public site remains live until owner-authorised cutover. This policy branch does not deploy website changes.

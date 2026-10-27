@@ -1,3 +1,5 @@
+> **HISTORIC PROJECT:** This is the completed October INTERNAL-LINKING implementation plan, NOT today's website go-live plan or the master SEO framework. Current standards: [SEO operating standard](seo-standard.md) and [release gates](../launch/release-gates.md).
+
 # Commercial internal-linking implementation plan
 
 Date: 26 October 2026. Baseline: `b405cd0`. Status: implemented and validated locally; reviewed and approved by the owner, with explicit authorisation to publish to `main`. Cloudflare deployment verification is pending. This plan applies to the existing 22-page architecture.

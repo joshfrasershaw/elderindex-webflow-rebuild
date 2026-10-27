@@ -1,0 +1,15 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {validateProvenance} from './lib/release-provenance.mjs';
+const sha='a'.repeat(40),other='b'.repeat(40);
+const release=()=>({sourceSha:sha,trackedChanges:false,environment:'production'});
+const options=()=>({checkoutSha:sha,workingTreeDirty:false});
+test('clean exact-source production release passes strict validation',()=>assert.equal(validateProvenance(release(),options()).releaseVerified,true));
+test('wrong recorded source revision fails',()=>assert.throws(()=>validateProvenance({...release(),sourceSha:other},options()),/Build source SHA differs/));
+test('dirty build flag fails',()=>assert.throws(()=>validateProvenance({...release(),trackedChanges:true},options()),/Build was made with dirty/));
+test('tracked modifications after build fail',()=>assert.throws(()=>validateProvenance(release(),{...options(),workingTreeDirty:true}),/Checkout has tracked edits/));
+test('missing or non-boolean dirty state fails closed',()=>assert.throws(()=>validateProvenance({...release(),trackedChanges:undefined},options()),/dirty-source flag must be boolean/));
+test('push revision is compared to actual checkout',()=>{assert.equal(validateProvenance(release(),{...options(),expectedSha:sha}).expectedSha,sha);assert.throws(()=>validateProvenance(release(),{...options(),expectedSha:other}),/Expected CI revision differs/);});
+test('PR merge checkout must match workflow merge SHA, not PR source head',()=>{assert.equal(validateProvenance({...release(),sourceSha:other},{checkoutSha:other,expectedSha:other,workingTreeDirty:false}).checkoutSha,other);assert.throws(()=>validateProvenance({...release(),sourceSha:other},{checkoutSha:other,expectedSha:sha,workingTreeDirty:false}),/Expected CI revision differs/);});
+test('dirty staging draft is explicitly not a release',()=>assert.equal(validateProvenance({...release(),environment:'staging',trackedChanges:true},{...options(),workingTreeDirty:true,mode:'draft'}).releaseVerified,false));
+test('production cannot use draft bypass',()=>assert.throws(()=>validateProvenance(release(),{...options(),mode:'draft'}),/Draft validation is staging-only/));
+test('drafts must still identify checked-out revision',()=>assert.throws(()=>validateProvenance({...release(),environment:'staging',sourceSha:other},{...options(),mode:'draft'}),/Build source SHA differs/));

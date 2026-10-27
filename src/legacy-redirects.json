@@ -1,0 +1,120 @@
+[
+  {
+    "from": "/services/care-homes",
+    "to": "/services/care-home-seo/",
+    "source_url": "https://www.elderindex.co.uk/services/care-homes",
+    "rationale": "Same specialist residential/nursing care-home SEO service.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/services/care-groups",
+    "to": "/services/care-home-seo/",
+    "source_url": "https://www.elderindex.co.uk/services/care-groups",
+    "rationale": "Target explicitly covers groups, distinct homes and home-level reporting.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/resources",
+    "to": "/guides/",
+    "source_url": "https://www.elderindex.co.uk/resources",
+    "rationale": "Same provider-facing guide/resource hub.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/directory-guides",
+    "to": "/guides/care-directory-comparison/",
+    "source_url": "https://www.elderindex.co.uk/directory-guides",
+    "rationale": "Directory overview to provider-facing comparison of relevant platforms.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/directory-guides/carehome-co-uk",
+    "to": "/guides/carehome-co-uk-profile/",
+    "source_url": "https://www.elderindex.co.uk/directory-guides/carehome-co-uk",
+    "rationale": "Same platform-specific factual profile improvement intent; no old ranking formula claims copied.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/carehome-co-uk-ranking",
+    "to": "/guides/carehome-co-uk-profile/",
+    "source_url": "https://www.elderindex.co.uk/carehome-co-uk-ranking",
+    "rationale": "Same Carehome.co.uk improvement topic; target explains limits on current placement rules.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/resources/carehome-co-uk-ranking-explained",
+    "to": "/guides/carehome-co-uk-profile/",
+    "source_url": "https://www.elderindex.co.uk/resources/carehome-co-uk-ranking-explained",
+    "rationale": "Same platform explanation and profile-improvement subject.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/directory-guides/google-business-profile",
+    "to": "/guides/google-business-profile-care/",
+    "source_url": "https://www.elderindex.co.uk/directory-guides/google-business-profile",
+    "rationale": "Same eligible Google Business Profile guidance.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/google-business-profile-care-home",
+    "to": "/guides/google-business-profile-care/",
+    "source_url": "https://www.elderindex.co.uk/google-business-profile-care-home",
+    "rationale": "Same Google Business Profile care-provider topic.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/care-home-map-pack",
+    "to": "/guides/google-business-profile-care/",
+    "source_url": "https://www.elderindex.co.uk/care-home-map-pack",
+    "rationale": "Target covers local profile eligibility, relevance/distance/prominence and website connection.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/about",
+    "to": "/about/",
+    "slashVariants": false,
+    "source_url": "https://www.elderindex.co.uk/about",
+    "rationale": "Existing live slashless URL to replacement canonical; explicit permanent redirect replaces default 307. Canonical slash URL must stay HTTP 200.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/services",
+    "to": "/services/",
+    "slashVariants": false,
+    "source_url": "https://www.elderindex.co.uk/services",
+    "rationale": "Existing live slashless URL to replacement canonical; explicit permanent redirect replaces default 307. Canonical slash URL must stay HTTP 200.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/services/home-care",
+    "to": "/services/home-care/",
+    "slashVariants": false,
+    "source_url": "https://www.elderindex.co.uk/services/home-care",
+    "rationale": "Existing live slashless URL to replacement canonical; explicit permanent redirect replaces default 307. Canonical slash URL must stay HTTP 200.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/talk-to-us",
+    "to": "/talk-to-us/",
+    "slashVariants": false,
+    "source_url": "https://www.elderindex.co.uk/talk-to-us",
+    "rationale": "Existing live slashless URL to replacement canonical; explicit permanent redirect replaces default 307. Canonical slash URL must stay HTTP 200.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/privacy",
+    "to": "/privacy/",
+    "slashVariants": false,
+    "source_url": "https://www.elderindex.co.uk/privacy",
+    "rationale": "Existing live slashless URL to replacement canonical; explicit permanent redirect replaces default 307. Canonical slash URL must stay HTTP 200.",
+    "verified_date": "2026-10-27"
+  },
+  {
+    "from": "/terms",
+    "to": "/terms/",
+    "slashVariants": false,
+    "source_url": "https://www.elderindex.co.uk/terms",
+    "rationale": "Existing live slashless URL to replacement canonical; explicit permanent redirect replaces default 307. Canonical slash URL must stay HTTP 200.",
+    "verified_date": "2026-10-27"
+  }
+]

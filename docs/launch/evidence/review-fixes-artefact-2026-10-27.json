@@ -1,0 +1,12 @@
+{
+  "sourceSha": "3e891be6611f5745e0e6c5258e5284d888b27139",
+  "trackedChanges": false,
+  "environment": "production",
+  "canonicalOrigin": "https://www.elderindex.co.uk",
+  "pageCount": 22,
+  "archiveName": "elderindex-release-3e891be-proposed-www-production.zip",
+  "archiveBytes": 7645696,
+  "sha256": "52e2ff66cba040f91c684bcbce51ae027e0c128daec93fb344512cd7292e696e",
+  "builtAtUtc": "2026-10-27T10:09:59.336516+00:00",
+  "approval": "REVIEW ONLY: proposed www production configuration, not approved for deployment; source clean; 48 permanent rules"
+}

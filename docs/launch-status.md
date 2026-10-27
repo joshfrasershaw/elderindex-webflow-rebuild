@@ -1,3 +1,5 @@
+> **HISTORIC STATUS REPORT, 25 OCTOBER 2026.** This document preserves implementation history. The current governing go/no-go standard is [docs/launch/release-gates.md](launch/release-gates.md); Codex must create and verify a release-specific [go-live report](launch/go-live-report-template.md) before recommending a domain switch. Dates/test counts below belong to earlier builds.
+
 # Launch status — 25 October 2026
 
 The code changes support staging review. This is not a declaration that the production site, legal notices, live delivery or accounts have been verified.
