@@ -1,5 +1,10 @@
 # SEO activity log
 
+## 27 October 2026 — Owner-corrected autonomous publishing policy
+
+**Status:** adopted on `main` as a standing implementation instruction. **Record:** [EI-20261027-04](../changes/2026-10-27-autonomous-publishing-correction.md). **Job:** [audit, fix, publish and log](../codex/AUDIT-FIX-PUBLISH.md). Normal framework-compliant SEO/content/design fixes no longer wait in default review branches or PR queues. Codex must test, publish, independently verify actual live deployment and record a source SHA, affected URL, UTC live timestamp, reason and rollback. Failed deployment is NOT LIVE and cannot be compared to GSC as though released. The one-time initial domain/DNS cutover and legal/financial/account exceptions remain owner controlled. No website deployment claimed by this policy-only change.
+
+
 ## 27 October 2026 — Review corrections
 
 [EI-20261027-03](../changes/2026-10-27-release-review-corrections.md) records six permanent canonicalisation aliases, strict release identity/clean-source validation, meaningful negative/runtime tests and the unresolved Cloudflare account-log blocker. Baseline `fa0b4be`; policy review branch only. No main merge, deployment, DNS change or CMS modification. Clean implementation `3e891be` passed push CI 40486303392: 16 browser tests, 10 provenance unit tests, three CLI cases per environment and 231 runtime checks per environment. No metadata/internal links changed. Cloudflare external build remains failed/blocked pending the owner log and trigger-setting review.
