@@ -156,5 +156,145 @@
   {
     "from": "/contact",
     "to": "/talk-to-us/"
+  },
+  {
+    "from": "/framework",
+    "to": "/framework/",
+    "slashVariants": false
+  },
+  {
+    "from": "/glossary",
+    "to": "/glossary/",
+    "slashVariants": false
+  },
+  {
+    "from": "/directory-guides/autumna",
+    "to": "/guides/care-directory-comparison/"
+  },
+  {
+    "from": "/directory-guides/homecare-co-uk",
+    "to": "/guides/care-directory-comparison/"
+  },
+  {
+    "from": "/directory-guides/lottie",
+    "to": "/guides/care-directory-comparison/"
+  },
+  {
+    "from": "/directory-guides/senior-homes-plus",
+    "to": "/guides/care-directory-comparison/"
+  },
+  {
+    "from": "/framework/authority",
+    "to": "/framework/"
+  },
+  {
+    "from": "/framework/credible",
+    "to": "/framework/"
+  },
+  {
+    "from": "/framework/effective",
+    "to": "/framework/"
+  },
+  {
+    "from": "/framework/relevance",
+    "to": "/framework/"
+  },
+  {
+    "from": "/resources/cqc-rating-enquiries",
+    "to": "/resources/cqc-rating-enquiries/",
+    "slashVariants": false
+  },
+  {
+    "from": "/resources/dementia-care",
+    "to": "/resources/dementia-care/",
+    "slashVariants": false
+  },
+  {
+    "from": "/resources/palliative-care",
+    "to": "/resources/palliative-care/",
+    "slashVariants": false
+  },
+  {
+    "from": "/resources/respite-care",
+    "to": "/resources/respite-care/",
+    "slashVariants": false
+  },
+  {
+    "from": "/resources/specialist-care",
+    "to": "/resources/specialist-care/",
+    "slashVariants": false
+  },
+  {
+    "from": "/resources/supported-living",
+    "to": "/resources/supported-living/",
+    "slashVariants": false
+  },
+  {
+    "from": "/glossary/autumna",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/carehome-co-uk",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/core-web-vitals",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/cqc",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/duty-of-candour",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/google-business-profile",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/indexability",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/nap-consistency",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/nice-guidelines",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/registered-manager",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/review-score",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/review-velocity",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/schema-markup",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/scie",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/section-20a",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/crawlability",
+    "to": "/glossary/"
+  },
+  {
+    "from": "/glossary/url-structure",
+    "to": "/glossary/"
   }
 ]

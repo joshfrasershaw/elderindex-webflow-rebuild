@@ -38,3 +38,8 @@ What distinct user problem? Which owned page already answers? What first-hand ex
 
 ## Maintenance
 Review query-to-page map at D+28/D+90 and after meaningful service changes. Update historic audit docs only by dated addenda; use this living register as the current ownership map, docs/seo/commercial-clusters-2026-10-26.md as initial historical evidence.
+
+
+## 27 October 2026 — migration preservation based on first-party GSC
+
+See [dated baseline](gsc-baseline-2026-10-25.md) for actual metrics and limits. Commercial ownership and priorities above are unchanged. Retained `/glossary/` owns terminology/reference intent; `/framework/` owns the CARE methodology, with four old pillars consolidated into meaningful sections. The six retained `/resources/` specialist paths own their existing provider-facing website/content planning questions (dementia, palliative, respite, specialist care, supported living, CQC-rating/enquiry distinction), not new commercial service keyword variants or care placement searches. The guides hub connects these references; each has relevant service routes. This is migration retention of existing useful content, not speculative keyword-page expansion.

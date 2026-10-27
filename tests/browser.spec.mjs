@@ -83,7 +83,7 @@ test('analytics waits for consent, persists rejection, records contact clicks se
 test('homepage is compact, contact qualifies, guides use contextual next steps and genuine author metadata',async({page})=>{
   await page.goto('/');await expect(page.locator('form input:not([type="checkbox"]), form textarea')).toHaveCount(4);await expect(page.getByRole('checkbox')).toHaveCount(0);
   await page.goto('/talk-to-us/');await expect(page.getByRole('checkbox')).toHaveCount(5);
-  await page.goto('/guides/care-directory-comparison/');await expect(page.locator('table tbody tr')).toHaveCount(4);await expect(page.locator('form')).toHaveCount(0);await expect(page.locator('.article-byline')).toContainText('Josh');await expect(page.locator('.guide-next-step a').first()).toHaveAttribute('href','/services/care-directory-management/');
+  await page.goto('/guides/care-directory-comparison/');await expect(page.locator('table tbody tr')).toHaveCount(5);await expect(page.locator('form')).toHaveCount(0);await expect(page.locator('.article-byline')).toContainText('Josh');await expect(page.locator('.guide-next-step a').first()).toHaveAttribute('href','/services/care-directory-management/');
   await expect(page.getByRole('link',{name:'Google Business Profile checklist'})).toHaveCount(0);
 });
 test('navigation supports hover, focus, Escape and mobile taps',async({page})=>{
@@ -93,6 +93,7 @@ test('navigation supports hover, focus, Escape and mobile taps',async({page})=>{
   await page.setViewportSize({width:390,height:844});await page.locator('.menu-button').click();await page.locator('.mobile-services summary').click();await expect(page.locator('.mobile-services a').last()).toBeVisible();
 });
 test('crawl every page at desktop and mobile widths without JS exceptions or missing local resources',async({page})=>{
+  test.setTimeout(90000); // Whole-site crawl now visits 60 page/viewport combinations.
   const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith('http://127.0.0.1:4185')&&r.status()>=400)errors.push(r.url()+': '+r.status());});
   for(const width of [1440,390]){
     await page.setViewportSize({width,height:1000});
@@ -208,4 +209,19 @@ test('expanded design, management and buying guide pass automated accessibility 
     const result=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
     expect(result.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,summary:n.failureSummary}))})),path).toEqual([]);
   }
+});
+
+test('retained glossary fragments and methodology keep useful routes to commercial services',async({page})=>{
+  await page.setViewportSize({width:390,height:844});
+  await page.goto('/guides/');
+  await page.getByRole('link',{name:'care SEO glossary',exact:true}).click();
+  await expect(page).toHaveURL(/\/glossary\/$/);
+  for(const id of ['scie','crawlability','url-structure','section-20a']){
+    await page.locator(`.article-contents a[href="#${id}"]`).click();
+    await expect(page.locator(':target')).toHaveAttribute('id',id);
+  }
+  await page.goto('/framework/');
+  await page.locator('.article-contents a[href="#relevance"]').click();
+  await page.locator('#relevance a[href="/services/home-care/"]').click();
+  await expect(page.locator('.page-hero a[href="/talk-to-us/"]').first()).toBeVisible();
 });

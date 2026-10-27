@@ -301,11 +301,25 @@ export function applyEditorial(pages, guides) {
   home.sections.push(['Planning search content for live-in care',
     'For a live-in care agency, map the questions families need answered before enquiring: how the arrangement works, the support actually offered, where the agency operates, and how costs and assessment are discussed. Publish only provider-approved details; do not assume live-in care is always cheaper or more suitable than a care home.',
     'A useful service page can address related comparison questions and link to genuine coverage information. Separate guides are justified only when they answer a distinct question with evidence. A broad operating area does not establish offices in every town, and recruitment searches need a separate route from family enquiries.']);
+  // Retain the substance of old platform guides in this existing comparison.
+  comparison.sections[0].find(b=>b?.type==='table').rows.push([
+    '[Senior Homes Plus](https://www.seniorhomesplus.co.uk/)',
+    'Care-search and advice service; confirm the provider types and locations relevant to your business.',
+    'Ask how introductions reach your team, which approved facts are shared and how corrections are made.',
+    'Request the actual provider agreement, including any introduction or placement charges, attribution and cancellation terms.'
+  ]);
+  comparison.sections.push(
+    ['Autumna: what should the provider check?', 'Review whether the profile explains the actual home or service: setting, care provision, photographs, practical arrangements and monitored contact information. Ask which fields your team controls and how corrections are processed. Do not assume a premium feature, audience percentage or referral-fee claim from historic marketing copy; confirm the current agreement.'],
+    ['Homecare.co.uk: coverage, profiles and placement', 'Confirm the agency or branch represented, approved services and genuine coverage, and whether each available contact route reaches the correct team. Ask the platform for its current placement and review-score rules and applicable package terms. Do not publish old tier-point formulas, update intervals or review-volume targets without current official evidence. The [home care local SEO guide](/guides/home-care-local-seo/) covers the website’s separate coverage structure.'],
+    ['Lottie: information, introductions and responsibility', 'Check which provider details are displayed, who approves changes and how a family or introduction reaches your team. Ask what the offered arrangement includes, what triggers any charge and how duplicate or existing enquiries are handled. Confirm any availability tools or integrations directly rather than treating them as standard features or guaranteeing referral quality.'],
+    ['Senior Homes Plus: reviewing an advice-led channel', 'Ask how your home is considered, what factual information is held, who handles introductions and how changes to approved details are made. Review the offered provider agreement before making commercial comparisons. Do not assume that an adviser-led introduction is suitable, higher quality or free of provider charges.'],
+    ['Which platform should we compare with which?', 'For an agency comparing Homecare.co.uk with Autumna or Lottie, start with whether the specific arrangement covers your care model and actual operating area. For a home comparing Carehome.co.uk with either platform, compare approved information, contact ownership, relevant enquiries and the actual terms on the same basis. There is no universal winner or identical fee model. Keep your own enquiry records alongside platform reporting.']
+  );
   const commerciallyUpdatedGuides = new Set(['/guides/choosing-a-care-website/','/guides/home-care-local-seo/','/guides/care-directory-comparison/','/guides/carehome-co-uk-profile/','/guides/google-business-profile-care/','/guides/multi-location-home-care-seo/']);
   for (const p of pages.filter(p=>p.kind==='guide')) {
     // Keep the original publication date; advance only guides actually edited in this review.
     p.datePublished = '2026-10-25';
-    p.dateModified = commerciallyUpdatedGuides.has(p.path) ? '2026-10-26' : '2026-10-25';
+    p.dateModified = p.path==='/guides/care-directory-comparison/' ? '2026-10-27' : commerciallyUpdatedGuides.has(p.path) ? '2026-10-26' : '2026-10-25';
     if(nextSteps[p.path]) { const [heading,text,href,label]=nextSteps[p.path];p.nextStep={heading,text,href,label}; }
   }
 }

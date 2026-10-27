@@ -1,0 +1,48 @@
+[
+  {
+    "url": "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers",
+    "status": 200,
+    "final_url": "https://developers.google.com/crawling/docs/crawlers-fetchers/overview-google-crawlers",
+    "checked_at_utc": "2026-10-27T14:51:14.509934+00:00"
+  },
+  {
+    "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "status": 200,
+    "final_url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "checked_at_utc": "2026-10-27T14:51:13.970760+00:00"
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "status": 200,
+    "final_url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "checked_at_utc": "2026-10-27T14:51:14.262575+00:00"
+  },
+  {
+    "url": "https://www.cqc.org.uk/guidance-providers/all-services",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.nice.org.uk/about",
+    "status": 200,
+    "final_url": "https://www.nice.org.uk/about-us",
+    "checked_at_utc": "2026-10-27T14:51:14.578488+00:00"
+  },
+  {
+    "url": "https://www.scie.org.uk/about/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.seniorhomesplus.co.uk/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.autumna.co.uk/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://lottie.org/",
+    "status": 200,
+    "final_url": "https://lottie.org/",
+    "checked_at_utc": "2026-10-27T14:51:14.977857+00:00"
+  }
+]

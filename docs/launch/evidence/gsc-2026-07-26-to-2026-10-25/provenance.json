@@ -1,0 +1,19 @@
+{
+  "source_file": "27.10.26.zip",
+  "zip_sha256": "a74c82039fe247b6bce40d4d3cfdd7fc145dd77235579c89a0b147394bb451da",
+  "first_date": "2026-07-26",
+  "last_date": "2026-10-25",
+  "date_rows": 92,
+  "site_clicks": 4,
+  "site_impressions": 5223,
+  "page_rows": 23,
+  "page_row_clicks": 4,
+  "page_row_impressions": 5935,
+  "limits": [
+    "Filters.csv says Last 3 months; exact dates verified from Chart.csv.",
+    "Pages and Queries are separate aggregates; no query-by-page attribution.",
+    "Missing page/query rows do not prove zero demand or no backlinks.",
+    "Apex/www rows retained separately; any combined path total is an explicit sum, not a deduplicated site total.",
+    "No backlink/Links export supplied."
+  ]
+}

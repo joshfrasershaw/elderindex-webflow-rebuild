@@ -1,3 +1,4 @@
+import {applyMigrationContent} from './migration-content.mjs';
 // Reconstructed from ElderIndex's Webflow page titles, descriptions and editorial copy.
 // No fabricated client outcomes, endorsements or rankings.
 import { config } from './config.mjs';
@@ -144,4 +145,5 @@ export const pages = [
   ]}
 ];
 applyEditorial(pages, guides);
+applyMigrationContent(pages);
 export const lookup = new Map(pages.map(p=>[p.path,p]));

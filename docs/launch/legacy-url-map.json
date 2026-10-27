@@ -7,15 +7,26 @@
     "current_http_status": 200,
     "old_title": "SEO for UK Care Homes & Home Care Agencies — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 62,
     "destination_path": "/",
     "rationale": "Same canonical page role; Cloudflare HTML trailing-slash handling.",
     "approval_state": "SAME-PATH",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "SEO for UK Care Homes & Home Care Agencies — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/",
+        "Clicks": "0",
+        "Impressions": "62",
+        "CTR": "0%",
+        "Position": "32"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/about",
@@ -25,15 +36,26 @@
     "current_http_status": 200,
     "old_title": "Specialist Care Sector SEO — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/about",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 37,
     "destination_path": "/about/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Specialist Care Sector SEO — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/about",
+        "Clicks": "0",
+        "Impressions": "37",
+        "CTR": "0%",
+        "Position": "50.65"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/care-home-map-pack",
@@ -48,10 +70,13 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Target covers local profile eligibility, relevance/distance/prominence and website connection.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home Google Map Pack - How to Appear and Rank - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/carehome-co-uk-ranking",
@@ -66,10 +91,13 @@
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same Carehome.co.uk improvement topic; target explains limits on current placement rules.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How to Rank Higher on Carehome.co.uk - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/cookie-settings",
@@ -84,10 +112,13 @@
     "destination_path": "/cookies/",
     "rationale": "Same cookie/analytics information and settings purpose. Destination now reports actual configured analytics state and offers working preferences when configured; no dummy marketing toggle. Legal approval is separate.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Cookie Settings - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides",
@@ -97,15 +128,26 @@
     "current_http_status": 200,
     "old_title": "Care Directory Ranking Guides — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/directory-guides",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 1,
+    "gsc_impressions": 574,
     "destination_path": "/guides/care-directory-comparison/",
     "rationale": "Directory overview to provider-facing comparison of relevant platforms.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Directory Ranking Guides — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/directory-guides",
+        "Clicks": "1",
+        "Impressions": "574",
+        "CTR": "0.17%",
+        "Position": "49.47"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/autumna",
@@ -117,13 +159,16 @@
     "old_canonical": "https://www.elderindex.co.uk/directory-guides/autumna",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/guides/care-directory-comparison/",
+    "rationale": "Existing comparison expanded with a substantive named section for this platform, current-information questions, access/enquiry checks and commercial limits. Preserves useful operator purpose without republishing unsupported historic prices/ranking formulas. Not justified merely by missing GSC rows.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How Autumna Works for Care Homes — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/carehome-co-uk",
@@ -133,15 +178,26 @@
     "current_http_status": 200,
     "old_title": "How to Rank on Carehome.co.uk — ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/directory-guides/carehome-co-uk",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 15,
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same platform-specific factual profile improvement intent; no old ranking formula claims copied.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How to Rank on Carehome.co.uk — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/directory-guides/carehome-co-uk",
+        "Clicks": "0",
+        "Impressions": "15",
+        "CTR": "0%",
+        "Position": "7.33"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/google-business-profile",
@@ -156,10 +212,13 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Same eligible Google Business Profile guidance.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Google Business Profile for Care Homes — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/homecare-co-uk",
@@ -171,13 +230,16 @@
     "old_canonical": "https://www.elderindex.co.uk/directory-guides/homecare-co-uk",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/guides/care-directory-comparison/",
+    "rationale": "Existing comparison expanded with a substantive named section for this platform, current-information questions, access/enquiry checks and commercial limits. Preserves useful operator purpose without republishing unsupported historic prices/ranking formulas. Not justified merely by missing GSC rows.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How to Rank on Homecare.co.uk — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/lottie",
@@ -189,13 +251,16 @@
     "old_canonical": "https://www.elderindex.co.uk/directory-guides/lottie",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/guides/care-directory-comparison/",
+    "rationale": "Existing comparison expanded with a substantive named section for this platform, current-information questions, access/enquiry checks and commercial limits. Preserves useful operator purpose without republishing unsupported historic prices/ranking formulas. Not justified merely by missing GSC rows.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How Lottie Works for Care Providers — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/directory-guides/senior-homes-plus",
@@ -207,13 +272,16 @@
     "old_canonical": "https://www.elderindex.co.uk/directory-guides/senior-homes-plus",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a current platform-specific guide or approve consolidation after checking demand. Comparison guide alone is not equivalent to this platform-specific explanation. Historic package/pricing/ranking claims are unverified; do not copy or redirect merely by platform name.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/guides/care-directory-comparison/",
+    "rationale": "Existing comparison expanded with a substantive named section for this platform, current-information questions, access/enquiry checks and commercial limits. Preserves useful operator purpose without republishing unsupported historic prices/ranking formulas. Not justified merely by missing GSC rows.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Senior Homes Plus for Care Homes — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework",
@@ -223,15 +291,26 @@
     "current_http_status": 200,
     "old_title": "The CARE Framework — Our SEO Methodology — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/framework",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 198,
+    "destination_path": "/framework/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "The CARE Framework — Our SEO Methodology — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/framework",
+        "Clicks": "0",
+        "Impressions": "198",
+        "CTR": "0%",
+        "Position": "70.41"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/authority",
@@ -241,15 +320,26 @@
     "current_http_status": 200,
     "old_title": "Authority — The CARE Framework — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/framework/authority",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 23,
+    "destination_path": "/framework/",
+    "rationale": "Consolidate the four closely related CARE pillars into one retained substantive methodology with sections covering each original topic, source-aware claims and service routes. Original root (198 impressions) and all pillar subjects preserved; this is not a generic commercial redirect.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Authority — The CARE Framework — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/framework/authority",
+        "Clicks": "0",
+        "Impressions": "23",
+        "CTR": "0%",
+        "Position": "29.52"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/credible",
@@ -259,15 +349,26 @@
     "current_http_status": 200,
     "old_title": "Credible — The CARE Framework — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/framework/credible",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 33,
+    "destination_path": "/framework/",
+    "rationale": "Consolidate the four closely related CARE pillars into one retained substantive methodology with sections covering each original topic, source-aware claims and service routes. Original root (198 impressions) and all pillar subjects preserved; this is not a generic commercial redirect.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Credible — The CARE Framework — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/framework/credible",
+        "Clicks": "0",
+        "Impressions": "33",
+        "CTR": "0%",
+        "Position": "11.36"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/effective",
@@ -277,15 +378,26 @@
     "current_http_status": 200,
     "old_title": "Effective — The CARE Framework — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/framework/effective",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 10,
+    "destination_path": "/framework/",
+    "rationale": "Consolidate the four closely related CARE pillars into one retained substantive methodology with sections covering each original topic, source-aware claims and service routes. Original root (198 impressions) and all pillar subjects preserved; this is not a generic commercial redirect.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Effective — The CARE Framework — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/framework/effective",
+        "Clicks": "0",
+        "Impressions": "10",
+        "CTR": "0%",
+        "Position": "11.9"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/framework/relevance",
@@ -295,15 +407,26 @@
     "current_http_status": 200,
     "old_title": "Relevance — The CARE Framework — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/framework/relevance",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain or deliberately consolidate the branded CARE methodology. Current service pages cover some concepts but are not a full equivalent. Do not silently remove branded framework pages or republish unsupported statistics, ranking promises or regulatory conflation.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 18,
+    "destination_path": "/framework/",
+    "rationale": "Consolidate the four closely related CARE pillars into one retained substantive methodology with sections covering each original topic, source-aware claims and service routes. Original root (198 impressions) and all pillar subjects preserved; this is not a generic commercial redirect.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Relevance — The CARE Framework — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/framework/relevance",
+        "Clicks": "0",
+        "Impressions": "18",
+        "CTR": "0%",
+        "Position": "9.11"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary",
@@ -313,15 +436,26 @@
     "current_http_status": 200,
     "old_title": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/glossary",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 1749,
+    "destination_path": "/glossary/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/glossary",
+        "Clicks": "0",
+        "Impressions": "1749",
+        "CTR": "0%",
+        "Position": "32.89"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/google-business-profile-care-home",
@@ -336,10 +470,13 @@
     "destination_path": "/guides/google-business-profile-care/",
     "rationale": "Same Google Business Profile care-provider topic.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Google Business Profile for Care Homes - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/how-it-works",
@@ -349,15 +486,26 @@
     "current_http_status": 200,
     "old_title": "How ElderIndex Works - Care Home SEO Process — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/how-it-works",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 54,
     "destination_path": "/services/search-visibility/",
     "rationale": "New explicit review-to-implementation section answers the old SEO process intent: inputs, access, scope, implementation, verification and reporting; old free-audit deadlines/results promises are not repeated.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How ElderIndex Works - Care Home SEO Process — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/how-it-works",
+        "Clicks": "0",
+        "Impressions": "54",
+        "CTR": "0%",
+        "Position": "13.17"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/privacy",
@@ -372,10 +520,13 @@
     "destination_path": "/privacy/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Privacy Policy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources",
@@ -385,15 +536,26 @@
     "current_http_status": 200,
     "old_title": "Guides & Resources for UK Care Providers — ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/resources",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 187,
     "destination_path": "/guides/",
     "rationale": "Same provider-facing guide/resource hub.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Guides & Resources for UK Care Providers — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/resources",
+        "Clicks": "0",
+        "Impressions": "187",
+        "CTR": "0%",
+        "Position": "63.94"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/care-groups",
@@ -408,10 +570,13 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Existing three-home worked example covers group/home architecture, distinct contacts and shared services; replaces unsupported guarantees with a scoped group SEO method.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Group SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/care-home-google-ranking",
@@ -426,10 +591,13 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Care-home organic/local SEO and new missing-result diagnostics cover the same operator problem without invented ranking timelines.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How to Improve Your Care Home Google Ranking - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/carehome-co-uk-ranking-explained",
@@ -439,15 +607,33 @@
     "current_http_status": 200,
     "old_title": "How Carehome.co.uk Ranking Works — ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/resources/carehome-co-uk-ranking-explained",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 58,
     "destination_path": "/guides/carehome-co-uk-profile/",
     "rationale": "Same platform explanation and profile-improvement subject.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "How Carehome.co.uk Ranking Works — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/resources/carehome-co-uk-ranking-explained",
+        "Clicks": "0",
+        "Impressions": "50",
+        "CTR": "0%",
+        "Position": "7.78"
+      },
+      {
+        "Top pages": "https://elderindex.co.uk/resources/carehome-co-uk-ranking-explained",
+        "Clicks": "0",
+        "Impressions": "8",
+        "CTR": "0%",
+        "Position": "7.5"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/cqc-rating-enquiries",
@@ -459,13 +645,16 @@
     "old_canonical": "https://www.elderindex.co.uk/resources/cqc-rating-enquiries",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/resources/cqc-rating-enquiries/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Good CQC Rating but Still No Enquiries - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/dementia-care",
@@ -477,13 +666,16 @@
     "old_canonical": "https://www.elderindex.co.uk/resources/dementia-care",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/resources/dementia-care/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Dementia Care SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/domiciliary-care",
@@ -498,10 +690,13 @@
     "destination_path": "/guides/home-care-local-seo/",
     "rationale": "Same domiciliary agency area-page and local-search planning intent; guide preserves practical answers without blanket town-page or ranking claims.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Domiciliary Care SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/live-in-care",
@@ -511,15 +706,26 @@
     "current_http_status": 200,
     "old_title": "Live-in Care SEO Strategy — ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/resources/live-in-care",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 1,
     "destination_path": "/services/home-care/",
     "rationale": "Existing domiciliary/live-in SEO service now explicitly covers live-in comparison questions, approved costs/assessment information and genuine coverage.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Live-in Care SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/resources/live-in-care",
+        "Clicks": "0",
+        "Impressions": "1",
+        "CTR": "0%",
+        "Position": "11"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/nursing-care",
@@ -534,10 +740,13 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Same nursing-home SEO intent; destination distinguishes nursing and residential provision with provider approval, without republishing inappropriate Hospital schema or clinical claims.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Nursing Care SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/palliative-care",
@@ -549,13 +758,16 @@
     "old_canonical": "https://www.elderindex.co.uk/resources/palliative-care",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/resources/palliative-care/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Palliative & End-of-Life SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/residential-care",
@@ -570,10 +782,13 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Same residential-provider SEO intent; destination covers home-specific information, real imagery, local profiles and practical audit scope.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Residential Care SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/respite-care",
@@ -585,13 +800,16 @@
     "old_canonical": "https://www.elderindex.co.uk/resources/respite-care",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/resources/respite-care/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Respite Care SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/specialist-care",
@@ -603,13 +821,16 @@
     "old_canonical": "https://www.elderindex.co.uk/resources/specialist-care",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/resources/specialist-care/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Specialist Care SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/supported-living",
@@ -621,13 +842,16 @@
     "old_canonical": "https://www.elderindex.co.uk/resources/supported-living",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain/correct a distinct specialist marketing article, or explicitly approve retirement after considering demand/backlinks. Current broad service pages do not replace this specialist question. No unsupported clinical, regulatory or conversion assertions republished.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/resources/supported-living/",
+    "rationale": "Retain the existing topic and path as a useful substantive reference. Correct unsupported historic assertions; no useful content retired on the basis of absent/low metrics. Glossary retains all 97 term IDs; specialist articles remain distinct.",
+    "approval_state": "RETAINED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Supported Living SEO Strategy — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/resources/why-is-my-care-home-not-on-google",
@@ -642,10 +866,13 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Explicit missing-Google-result diagnostic section distinguishes website indexing from eligible Google profiles and links to current official rules.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Why Your Care Home Is Not Appearing on Google — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/services",
@@ -660,10 +887,13 @@
     "destination_path": "/services/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "SEO Services for UK Care Providers — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/services/care-groups",
@@ -678,10 +908,13 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Target explicitly covers groups, distinct homes and home-level reporting.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Group SEO - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/services/care-homes",
@@ -696,10 +929,13 @@
     "destination_path": "/services/care-home-seo/",
     "rationale": "Same specialist residential/nursing care-home SEO service.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Agency — Specialist SEO for UK Care Homes — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/services/home-care",
@@ -709,15 +945,26 @@
     "current_http_status": 200,
     "old_title": "Home Care SEO & Organic Growth — ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/services/home-care",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 3,
+    "gsc_impressions": 2876,
     "destination_path": "/services/home-care/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Home Care SEO & Organic Growth — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/services/home-care",
+        "Clicks": "3",
+        "Impressions": "2876",
+        "CTR": "0.1%",
+        "Position": "25.74"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/talk-to-us",
@@ -727,15 +974,26 @@
     "current_http_status": 200,
     "old_title": "Talk To Us — SEO for Care Providers — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/talk-to-us",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
+    "gsc_clicks": 0,
+    "gsc_impressions": 12,
     "destination_path": "/talk-to-us/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Talk To Us — SEO for Care Providers — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/talk-to-us",
+        "Clicks": "0",
+        "Impressions": "12",
+        "CTR": "0%",
+        "Position": "19"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/terms",
@@ -750,10 +1008,13 @@
     "destination_path": "/terms/",
     "rationale": "Explicit 301 to canonical slash URL; default Cloudflare 307 replaced. Canonical slash path remains 200.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Terms of Service — ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/autumna",
@@ -765,13 +1026,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/carehome-co-uk",
@@ -783,13 +1047,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/core-web-vitals",
@@ -801,13 +1068,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/cqc",
@@ -819,13 +1089,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/duty-of-candour",
@@ -837,13 +1110,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/google-business-profile",
@@ -855,13 +1131,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/indexability",
@@ -873,13 +1152,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/nap-consistency",
@@ -891,13 +1173,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/nice-guidelines",
@@ -907,15 +1192,26 @@
     "current_http_status": 200,
     "old_title": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/glossary",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 3,
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/glossary/nice-guidelines",
+        "Clicks": "0",
+        "Impressions": "3",
+        "CTR": "0%",
+        "Position": "17.33"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/registered-manager",
@@ -927,13 +1223,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/review-score",
@@ -945,13 +1244,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/review-velocity",
@@ -963,13 +1265,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/schema-markup",
@@ -981,13 +1286,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/scie",
@@ -997,15 +1305,33 @@
     "current_http_status": 200,
     "old_title": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
     "old_canonical": "https://www.elderindex.co.uk/glossary",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "gsc_clicks": 0,
+    "gsc_impressions": 21,
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/glossary/scie",
+        "Clicks": "0",
+        "Impressions": "20",
+        "CTR": "0%",
+        "Position": "18.2"
+      },
+      {
+        "Top pages": "https://elderindex.co.uk/glossary/scie",
+        "Clicks": "0",
+        "Impressions": "1",
+        "CTR": "0%",
+        "Position": "1"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/section-20a",
@@ -1017,13 +1343,16 @@
     "old_canonical": "https://www.elderindex.co.uk/glossary",
     "gsc_clicks": null,
     "gsc_impressions": null,
-    "destination_path": null,
-    "rationale": "Retain a glossary resource and its term aliases unless owner explicitly chooses retirement. All sixteen archived routes render the same 97-term glossary, not sixteen independent articles. Replacement has no equivalent; regulatory and unsupported SEO statements need correction before retention. No blanket service redirect.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
     "production_test_status": "NOT-RUN on live domain: owner cutover has not occurred.",
     "intent": "Care Home SEO Glossary - Industry Definitions - ElderIndex — ElderIndex",
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)"
+    "gsc_period": "2026-07-26/2026-10-25",
+    "gsc_rows": [],
+    "gsc_row_status": "NOT_IN_EXPORT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/contact",
@@ -1032,14 +1361,25 @@
     "last_verified_utc": "2026-10-27T14:37:17.558142+00:00",
     "current_http_status": 308,
     "old_redirect_location": "/talk-to-us",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)",
+    "gsc_clicks": 0,
+    "gsc_impressions": 2,
+    "gsc_period": "2026-07-26/2026-10-25",
     "destination_path": "/talk-to-us/",
     "rationale": "Existing old contact alias verified to redirect to Talk to Us; replacement redirects straight to canonical enquiry page without a chain.",
     "approval_state": "IMPLEMENTED-MAIN",
-    "staging_test_status": "PASS: actual deployed HTTPS at 125e8900313c215e79237344f0bfed648ca99173, verified 2026-10-27T14:45:14.827839+00:00; explicit aliases 301 with unchanged query, immediate destination 200. Root remains 200.",
-    "production_test_status": "NOT-RUN: no live-domain cutover"
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
+    "production_test_status": "NOT-RUN: no live-domain cutover",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/contact",
+        "Clicks": "0",
+        "Impressions": "2",
+        "CTR": "0%",
+        "Position": "4"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/crawlability",
@@ -1048,14 +1388,25 @@
     "last_verified_utc": "2026-10-27T14:37:17.737739+00:00",
     "current_http_status": 308,
     "old_redirect_location": "/glossary",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)",
-    "destination_path": null,
-    "rationale": "Existing old alias independently verified to redirect to the full glossary. Preserve with glossary retention decision; no direct equivalent exists in current replacement. Do not send to a broad service page.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
-    "production_test_status": "NOT-RUN: no live-domain cutover"
+    "gsc_clicks": 0,
+    "gsc_impressions": 1,
+    "gsc_period": "2026-07-26/2026-10-25",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
+    "production_test_status": "NOT-RUN: no live-domain cutover",
+    "gsc_rows": [
+      {
+        "Top pages": "https://elderindex.co.uk/glossary/crawlability",
+        "Clicks": "0",
+        "Impressions": "1",
+        "CTR": "0%",
+        "Position": "6"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   },
   {
     "old_url": "https://www.elderindex.co.uk/glossary/url-structure",
@@ -1064,13 +1415,24 @@
     "last_verified_utc": "2026-10-27T14:37:17.925842+00:00",
     "current_http_status": 308,
     "old_redirect_location": "/glossary",
-    "gsc_clicks": null,
-    "gsc_impressions": null,
-    "gsc_period": "2026-07-26/2026-10-25 (owner-specified; export not received)",
-    "destination_path": null,
-    "rationale": "Existing old alias independently verified to redirect to the full glossary. Preserve with glossary retention decision; no direct equivalent exists in current replacement. Do not send to a broad service page.",
-    "approval_state": "OWNER-DECISION",
-    "staging_test_status": "UNRESOLVED: no equivalent/retirement authorised; do not cut over with silent loss.",
-    "production_test_status": "NOT-RUN: no live-domain cutover"
+    "gsc_clicks": 0,
+    "gsc_impressions": 1,
+    "gsc_period": "2026-07-26/2026-10-25",
+    "destination_path": "/glossary/",
+    "rationale": "Old HTTP/HTML evidence shows this is an alias of the full glossary, not a unique term article. Retained glossary preserves all 97 term IDs and definitions/signposts. Direct 301 avoids an alias chain; includes SCIE (20 www + 1 apex impressions) and newly found crawlability/URL-structure aliases.",
+    "approval_state": "CONSOLIDATED-MAIN",
+    "staging_test_status": "Pending exact-source local/deployed checks of GSC migration implementation; prior release evidence is historical.",
+    "production_test_status": "NOT-RUN: no live-domain cutover",
+    "gsc_rows": [
+      {
+        "Top pages": "https://www.elderindex.co.uk/glossary/url-structure",
+        "Clicks": "0",
+        "Impressions": "1",
+        "CTR": "0%",
+        "Position": "16"
+      }
+    ],
+    "gsc_row_status": "PRESENT",
+    "gsc_aggregation": "Sum of separate supplied URL rows for this path, not deduplicated site demand. Missing row is unknown, not zero."
   }
 ]

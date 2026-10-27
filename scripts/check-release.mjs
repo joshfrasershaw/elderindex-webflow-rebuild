@@ -33,6 +33,16 @@ const rules=read('_redirects').trim().split('\n').map(x=>x.split(/\s+/));
 assert.equal(new Set(rules.map(r=>r[0])).size,rules.length,'Duplicate redirect source');
 for(const [from,to,status]of rules){assert.equal(status,'301');assert.ok(!from.startsWith('/assets/'));assert.ok(!rules.some(r=>r[0]===to),'Redirect chain '+from);assert.ok(pages.some(p=>p.path===to),'Unknown target '+to);}
 assert.ok(!/\/\*\s+\//.test(read('_redirects')),'No blanket homepage redirect');
+// Migration acceptance follows the inventoried paths, not only whatever rules were generated.
+const migration=JSON.parse(fs.readFileSync('docs/launch/legacy-url-map.json','utf8'));
+for(const row of migration){
+ assert.ok(row.destination_path&&pages.some(p=>p.path===row.destination_path),'Unresolved migration '+row.old_path);
+ if(row.old_path==='/'){assert.equal(row.destination_path,'/');continue;}
+ const rule=rules.find(r=>r[0]===row.old_path);
+ assert.ok(rule,'Missing inventoried old path '+row.old_path);
+ assert.equal(rule[1],row.destination_path,'Migration destination differs '+row.old_path);
+}
+
 const sitemap=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);assert.deepEqual(sitemap,pages.filter(p=>p.kind!=='legal').map(p=>baseUrl+p.path));
 for(const file of ['404.html','robots.txt','sitemap.xml','assets/site.js','assets/site.css'])assert.ok(read(file).length);
 assert.ok(!fs.existsSync(path.join(dist,'cms'))&&!fs.existsSync(path.join(dist,'api')),'Private CMS must not enter public output');

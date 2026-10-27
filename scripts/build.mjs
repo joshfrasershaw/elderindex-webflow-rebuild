@@ -9,7 +9,7 @@ fs.copyFileSync(path.join(dir,'src','client.js'),path.join(dist,'assets','site.j
 fs.cpSync(path.join(dir,'public'),dist,{recursive:true});
 const redirects=[['/website-design','/services/website-design/'],['/website-management','/services/website-management/'],['/search-visibility','/services/search-visibility/'],['/care-directory-management','/services/care-directory-management/'],['/care-home-seo','/services/care-home-seo/'],['/home-care','/services/home-care/'],['/choosing-a-care-website','/guides/choosing-a-care-website/'],['/home-care-local-seo','/guides/home-care-local-seo/'],['/care-directory-comparison','/guides/care-directory-comparison/'],['/carehome-co-uk-profile','/guides/carehome-co-uk-profile/'],['/google-business-profile-care','/guides/google-business-profile-care/']];
 // Only substantiated intent equivalents from the dated public-site crawl.
-// Unmatched framework, glossary and specialist articles remain owner decisions.
+// Retained/consolidated glossary, framework and specialist paths are documented in the migration map.
 const legacy=JSON.parse(fs.readFileSync(path.join(dir,'src/legacy-redirects.json'),'utf8'));
 for(const rule of legacy) redirects.push([rule.from,rule.to,rule.slashVariants??true]);
 fs.writeFileSync(path.join(dist,'_redirects'),redirects.flatMap(([from,to,slashVariants=true])=>slashVariants?[`${from} ${to} 301`,`${from}/ ${to} 301`]:[`${from} ${to} 301`]).join('\n')+'\n');
