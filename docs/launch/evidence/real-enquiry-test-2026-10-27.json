@@ -38,7 +38,19 @@
     "buttonDisabled": true,
     "fieldsReset": true
   },
-  "mailboxDelivery": "UNVERIFIED: no mailbox/Formspree account tools or credentials available",
+  "mailboxDelivery": "CONFIRMED BY OWNER: one mailbox delivery for EI-LAUNCH-20261027161513 in the 27 October 2026 test",
   "scope": "One real authorised UI submission, no mocks, no retries; public business address only.",
-  "browserTrust": "Pinned only the execution environment-provided proxy CA SPKI; no blanket ignoreHTTPSErrors. Curl separately validates the environment-trusted HTTPS chain. Initial navigation failed before any POST because Chromium did not inherit that CA."
+  "browserTrust": "Pinned only the execution environment-provided proxy CA SPKI; no blanket ignoreHTTPSErrors. Curl separately validates the environment-trusted HTTPS chain. Initial navigation failed before any POST because Chromium did not inherit that CA.",
+  "formspreeEntry": "CONFIRMED BY OWNER: exactly one Formspree entry for EI-LAUNCH-20261027161513",
+  "confirmationProvenance": {
+    "recordedOn": "2026-10-28",
+    "source": "Josh's explicit confirmation in the cutover-evidence reconciliation request",
+    "independentlyReadDashboardOrMailbox": false,
+    "deliveryTimestamp": "Not separately supplied; do not infer from API response time"
+  },
+  "remainingChecks": [
+    "Correct reply destination",
+    "Production-origin allowance and spam settings",
+    "One production-host enquiry during post-binding acceptance; do not repeat the completed staging test"
+  ]
 }

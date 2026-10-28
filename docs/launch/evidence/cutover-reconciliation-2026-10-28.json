@@ -1,0 +1,48 @@
+{
+  "recordedOn": "2026-10-28",
+  "baselineMainSha": "b3fa60ee39734904d37e5ff3691918201dedb575",
+  "githubChecks": [
+    {
+      "name": "Workers Builds: elderindex-webflow-rebuild",
+      "head_sha": "b3fa60ee39734904d37e5ff3691918201dedb575",
+      "status": "completed",
+      "conclusion": "success",
+      "completed_at": "2026-10-27T17:06:00Z",
+      "html_url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/runs/122341388445",
+      "summary": "\nBuild ID: [e10cbc75-fc4d-4c76-a263-2f7158cdfeb7](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/e10cbc75-fc4d-4c76-a263-2f7158cdfeb7)\nScript: [elderindex-webflow-rebuild](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production)\nVersion ID: d1c53437-8d02-4e5f-bb2d-28641e30c2a0\n"
+    },
+    {
+      "name": "quality",
+      "head_sha": "b3fa60ee39734904d37e5ff3691918201dedb575",
+      "status": "completed",
+      "conclusion": "success",
+      "completed_at": "2026-10-27T17:08:21Z",
+      "html_url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40547280233/job/122341152999",
+      "summary": null
+    }
+  ],
+  "formReceipt": {
+    "testId": "EI-LAUNCH-20261027161513",
+    "status": "CONFIRMED_BY_OWNER",
+    "formspreeEntries": 1,
+    "mailboxDeliveries": 1,
+    "testDate": "2026-10-27",
+    "independentAccountInspection": false
+  },
+  "confirmedDecisions": {
+    "canonical": "https://www.elderindex.co.uk",
+    "initialEditing": "code-driven; CMS separate",
+    "ga4": "intentionally off"
+  },
+  "remainingUnknowns": [
+    "Historical failed build 953a1da2 root cause/resolution",
+    "Account production/preview trigger and watch reach",
+    "Authenticated rollback export and serving Vercel restore ID",
+    "Production/apex deployment, routing and public certificates",
+    "Form reply destination and production-origin/spam settings",
+    "Current Search Console property access",
+    "Legal facts/approval"
+  ],
+  "publicDomainCutover": "NOT PERFORMED by this reconciliation",
+  "newPublicHttpProbe": false
+}
