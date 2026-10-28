@@ -101,7 +101,7 @@ export const glossaryTerms = [
 ];
 // Keep the public glossary limited to web design, SEO, analytics and digital infrastructure.
 // Preserve the old page itself and old term redirect URLs; care-regulation terminology belongs in client-approved care content, not this agency glossary.
-const excludedCarePracticeTerms = new Set(["care-plan","cqc","cqc-inspection","dols","duty-of-candour","fundamental-standards","kloe","mca","nice-guidelines","nominated-individual","person-centred-care","registered-manager","regulated-activity","saf","safeguarding","scie","section-20a","statement-of-purpose","whistleblowing"]);
+const excludedCarePracticeTerms = new Set(["care-plan","cqc","cqc-inspection","deprivation-of-liberty","duty-of-candour","fundamental-standards","kloe","mental-capacity-act","nice-guidelines","nominated-individual","person-centred-care","registered-manager","regulated-activity","saf","safeguarding","scie","section-20a","statement-of-purpose","whistleblowing"]);
 const technicalGlossaryTerms = [
  ["404-error","404 Error","An HTTP status code indicating that a requested page was not found. During a redesign, redirect valuable old URLs to relevant replacement pages rather than sending every missing page to the homepage."],
  ["301-redirect","301 Redirect","A permanent redirect from one URL to another. Use it when a page moves and preserve a relevant destination to help visitors and search engines."],
