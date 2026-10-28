@@ -28,13 +28,13 @@ npm run check:runtime:production
 npm run check:runtime:apex
 ```
 
-`build:production` forces `SITE_ENV=production`, `SITE_URL=https://www.elderindex.co.uk`, `BUILD_OUTPUT_DIR=dist-production`; it never overwrites `dist/`. Strict checks identify the exact clean checkout. Production contains 30 canonical pages, 126 rules and the 60-path migration map; 27 commercial/informational/reference pages are indexable, three unapproved legal notices remain draft/noindex. Staging remains noindex in HTML and headers. CI checksums staging files before/after isolated production verification. Output-directory guards prevent arbitrary deletion and reject a staging build in the production directory.
+`build:production` forces `SITE_ENV=production`, `SITE_URL=https://www.elderindex.co.uk`, `BUILD_OUTPUT_DIR=dist-production`; it never overwrites `dist/`. Strict checks identify the exact clean checkout. Production contains 30 canonical pages, 126 rules and the 60-path migration map; 27 commercial/informational/reference pages are indexable, three owner-approved legal notices remain intentionally noindex. Staging remains noindex in HTML and headers. CI checksums staging files before/after isolated production verification. Output-directory guards prevent arbitrary deletion and reject a staging build in the production directory.
 
 The public production archive includes `release.json`; verify `sourceSha`, `trackedChanges:false`, `environment:production` and `canonicalOrigin:https://www.elderindex.co.uk`. A build, deployment, owner binding and actual public launch are separate events.
 
 ## Owner account steps BEFORE any domain switch
 
-1. Confirm legal notice facts/approval and retain the owner-confirmed 27 October receipt evidence: exactly one Formspree entry and one intended-inbox delivery for `EI-LAUNCH-20261027161513` (recorded 28 October; no repeat staging test); check reply destination and that the production origin `https://www.elderindex.co.uk` is allowed by actual form/spam settings.
+1. Legal notice facts and business policy are now owner-approved; retain the owner-confirmed 27 October receipt evidence: exactly one Formspree entry and one intended-inbox delivery for `EI-LAUNCH-20261027161513` (recorded 28 October; no repeat staging test); check reply destination and that the production origin `https://www.elderindex.co.uk` is allowed by actual form/spam settings.
 2. Export the authenticated Cloudflare DNS zone plus proxy state, redirect rules, Worker routes and bindings. Record the current old-site Vercel **project and serving deployment ID** and how to restore it. No authenticated Vercel deployment ID is available from this checkout; GitHub’s deployment list is empty. Do not substitute a Git SHA, request ID or Next.js build ID.
 3. Authenticate locally to the correct Cloudflare account (`npx wrangler login` if needed; never paste tokens into chat). Confirm target names, then deploy **unbound** targets from the accepted clean source:
 

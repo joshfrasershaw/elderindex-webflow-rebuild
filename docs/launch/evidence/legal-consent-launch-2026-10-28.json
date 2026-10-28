@@ -1,0 +1,71 @@
+{
+  "releaseId": "EI-20261028-02",
+  "testedSourceSha": "e3275522e73e3d083ac768bc04da8e30b633bf05",
+  "featureImplementationSha": "a7030c4f4ec96a5ab43df7f3311ed7ed7b42ffdb",
+  "checks": [
+    {
+      "name": "Workers Builds: elderindex-webflow-rebuild",
+      "head_sha": "e3275522e73e3d083ac768bc04da8e30b633bf05",
+      "status": "completed",
+      "conclusion": "success",
+      "completed_at": "2026-10-28T11:41:44Z",
+      "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/runs/122794567748",
+      "summary": "\nBuild ID: [055ebe9e-9f5a-4e24-a353-2d28e46b3fe8](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production/builds/055ebe9e-9f5a-4e24-a353-2d28e46b3fe8)\nScript: [elderindex-webflow-rebuild](https://dash.cloudflare.com/c27156f8f3cc29038495bf64fbf2bae7/workers/services/view/elderindex-webflow-rebuild/production)\nVersion ID: 695c8998-04e5-4870-9905-2f4b0c066afa\n"
+    },
+    {
+      "name": "quality",
+      "head_sha": "e3275522e73e3d083ac768bc04da8e30b633bf05",
+      "status": "completed",
+      "conclusion": "success",
+      "completed_at": "2026-10-28T11:43:11Z",
+      "url": "https://github.com/joshfrasershaw/elderindex-webflow-rebuild/actions/runs/40681826240/job/122794179397",
+      "summary": null
+    }
+  ],
+  "githubQualityRun": 40681826240,
+  "browserTestsPassed": 22,
+  "runtimeHttpChecks": {
+    "staging": 551,
+    "production": 551,
+    "apex": 285
+  },
+  "sourceChecks": {
+    "pageCount": 30,
+    "issues": 0,
+    "redirectRules": 126,
+    "productionIndexablePages": 27,
+    "legalIntentionallyNoindex": [
+      "/privacy/",
+      "/terms/",
+      "/cookies/"
+    ],
+    "allStagingPagesNoindex": true,
+    "analyticsConfigured": false
+  },
+  "stagingObservation": {
+    "method": "Cloud Browser UI",
+    "sourceSha": "e3275522e73e3d083ac768bc04da8e30b633bf05",
+    "trackedChanges": false,
+    "environment": "staging",
+    "canonicalOrigin": "https://www.elderindex.co.uk",
+    "pageCount": 30,
+    "earlierFeatureUiVerified": [
+      "Branded banner and category dialog",
+      "Reject optional dismisses banner",
+      "Terms contain approved policy",
+      "Cookie page reopens settings",
+      "Missing URL renders branded page"
+    ],
+    "publicProductionDomainAcceptance": "NOT PERFORMED",
+    "newRealFormSubmission": false
+  },
+  "earlierRun": {
+    "id": 40681351392,
+    "result": "21/22 browser tests; one older test raced intentional consent revocation navigation; test wait corrected without app change"
+  },
+  "localRuntimeLimits": [
+    "Browser archive download returned non-ZIP data",
+    "workerd uv_interface_addresses denied in this host; remote CI passed actual runtime tests"
+  ],
+  "recordedAtUtc": "2026-10-28T11:43:50Z"
+}
