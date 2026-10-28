@@ -11,7 +11,7 @@ async function fillEnquiry(page){
   await page.getByLabel('Work email').fill('test@example.com');
   await page.getByLabel('Project details').fill('Automated test of the enquiry interface.');
 }
-async function allowAnalytics(page){await page.getByRole('button',{name:'Allow analytics',exact:true}).click();}
+async function allowAnalytics(page){await page.getByRole('button',{name:'Accept all',exact:true}).click();}
 async function eventNames(page){return page.evaluate(()=>Array.from(window.dataLayer||[]).filter(a=>a[0]==='event').map(a=>a[1]));}
 test('forms validate inline, preserve data on failure and allow a confirmed retry',async({page})=>{
   let requests=0;
@@ -69,15 +69,15 @@ test('a timed-out submission keeps the message and never records a lead',async({
 test('analytics waits for consent, persists rejection, records contact clicks separately and can be revoked',async({page})=>{
   let analyticsRequests=0;page.on('request',r=>{if(r.url().includes('googletagmanager.com'))analyticsRequests++;});
   await page.goto('/talk-to-us/?email=must-not-track@example.com');expect(analyticsRequests).toBe(0);
-  await page.getByRole('button',{name:'Reject analytics',exact:true}).click();await page.reload();
+  await page.getByRole('button',{name:'Reject optional',exact:true}).click();await page.reload();
   await expect(page.locator('.consent-banner')).toBeHidden();expect(analyticsRequests).toBe(0);
-  await page.getByRole('button',{name:'Analytics preferences'}).click();await allowAnalytics(page);
+  await page.getByRole('button',{name:'Cookie preferences'}).click();await allowAnalytics(page);
   await expect.poll(()=>analyticsRequests).toBe(1);
   await page.evaluate(()=>{document.addEventListener('click',e=>{if(e.target.closest('a[href^="mailto:"],a[href^="tel:"]'))e.preventDefault()});document.querySelector('a[href^="mailto:"]').dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));const phone=document.createElement('a');phone.href='tel:000000000';document.body.append(phone);phone.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));phone.remove();});
   expect(await eventNames(page)).toEqual(expect.arrayContaining(['email_click','phone_click']));
   expect(await page.evaluate(()=>JSON.stringify(window.dataLayer))).not.toContain('must-not-track');
   await page.evaluate(()=>{document.cookie='_ga=testing; path=/';});
-  await page.getByRole('button',{name:'Analytics preferences'}).click();await page.getByRole('button',{name:'Reject analytics',exact:true}).click();
+  await page.getByRole('button',{name:'Cookie preferences'}).click();await page.getByRole('button',{name:'Reject optional',exact:true}).click();
   expect(await page.evaluate(()=>window['ga-disable-G-TEST123'])).toBe(true);expect(await page.evaluate(()=>document.cookie)).not.toContain('_ga=');
 });
 test('homepage is compact, contact qualifies, guides use contextual next steps and genuine author metadata',async({page})=>{
@@ -224,4 +224,80 @@ test('retained glossary fragments and methodology keep useful routes to commerci
   await page.locator('.article-contents a[href="#relevance"]').click();
   await page.locator('#relevance a[href="/services/home-care/"]').click();
   await expect(page.locator('.page-hero a[href="/talk-to-us/"]').first()).toBeVisible();
+});
+
+test('cookie settings are granular, keyboard accessible and closing does not grant consent',async({page})=>{
+  await page.goto('/');
+  await page.getByRole('button',{name:'Manage preferences',exact:true}).click();
+  const dialog=page.getByRole('dialog');
+  await expect(dialog).toBeVisible();
+  await expect(page.getByRole('switch',{name:'Analytics',exact:true})).not.toBeChecked();
+  await expect(page.getByRole('switch',{name:'Advertising & social media'})).toBeDisabled();
+  const results=await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21a','wcag21aa']).analyze();
+  expect(results.violations.map(v=>v.id)).toEqual([]);
+  await page.keyboard.press('Escape');
+  await expect(dialog).toBeHidden();
+  expect(await eventNames(page)).toEqual([]);
+  await expect(page.getByRole('button',{name:'Manage preferences',exact:true})).toBeFocused();
+  await page.getByRole('button',{name:'Manage preferences',exact:true}).click();
+  await page.getByRole('switch',{name:'Analytics',exact:true}).check();
+  await page.getByRole('button',{name:'Save preferences'}).click();
+  expect(await eventNames(page)).toContain('page_view');
+  await page.reload();await expect(page.locator('.consent-banner')).toBeHidden();
+  await page.getByRole('button',{name:'Cookie preferences',exact:true}).click();
+  await expect(page.getByRole('switch',{name:'Analytics',exact:true})).toBeChecked();
+  await page.getByRole('switch',{name:'Analytics',exact:true}).uncheck();
+  await Promise.all([page.waitForNavigation(),page.getByRole('button',{name:'Save preferences'}).click()]);
+  await expect(page.locator('.consent-banner')).toBeHidden();
+  expect(await eventNames(page)).toEqual([]);
+});
+
+test('expired, malformed and differently scoped preferences never enable analytics',async({page})=>{
+  for(const saved of [
+    '{broken',
+    JSON.stringify({scope:'2026-10-28:ga4=G-TEST123:preferences=off:marketing=off',at:Date.now()-181*86400000,analytics:true,preferences:false,marketing:false}),
+    JSON.stringify({scope:'2026-10-28:ga4=off:preferences=off:marketing=off',at:Date.now(),analytics:true,preferences:false,marketing:false})
+  ]){
+    await page.goto('/');await page.evaluate(value=>localStorage.setItem('elderindex-cookie-consent-v2',value),saved);await page.reload();
+    await expect(page.locator('.consent-banner')).toBeVisible();expect(await eventNames(page)).toEqual([]);
+  }
+});
+
+test('privacy controls fail closed when browser storage is unavailable',async({page})=>{
+  await page.addInitScript(()=>{Storage.prototype.getItem=()=>{throw Error('blocked')};Storage.prototype.setItem=()=>{throw Error('blocked')};});
+  await page.goto('/talk-to-us/');
+  await page.getByRole('button',{name:'Reject optional',exact:true}).click();
+  await expect(page.locator('.consent-banner')).toBeHidden();expect(await eventNames(page)).toEqual([]);
+  await page.reload();await expect(page.locator('.consent-banner')).toBeVisible();
+});
+
+test('legal pages contain the approved business policy and keep the home address out of commercial pages',async({page})=>{
+  await page.goto('/terms/');
+  await expect(page.locator('main')).toContainText('Joshua Fraser Shaw');
+  await expect(page.locator('main')).toContainText('not VAT registered');
+  await expect(page.locator('main')).toContainText('does not entitle you to a pro-rata refund');
+  await expect(page.locator('main')).toContainText('if we breach the agreement');
+  await expect(page.locator('main')).not.toContainText('Draft pending');
+  await page.goto('/privacy/');await expect(page.locator('main')).toContainText('at least annually');
+  await expect(page.locator('main')).toContainText('Gmail');
+  await page.goto('/');await expect(page.locator('body')).not.toContainText('Connynger');
+  await page.goto('/404.html');
+  await expect(page.locator('h1')).toHaveText('That page isn’t here.');
+  await expect(page.locator('main a[href="/"]')).toBeVisible();
+  await expect(page.locator('main a[href="/services/"]')).toBeVisible();
+});
+
+test('the real analytics-off build offers controls without loading any tracker',async({page})=>{
+  const {render}=await import('../src/template.mjs');
+  // Runner uses the real default config; the main browser server uses a fake GA
+  // ID for consent tests. Serve an actual default-rendered page for this case.
+  await page.route('http://127.0.0.1:4185/no-tracking-test',route=>route.fulfill({contentType:'text/html',body:render(pages[0])}));
+  const external=[];page.on('request',r=>{if(!r.url().startsWith('http://127.0.0.1:4185'))external.push(r.url());});
+  await page.goto('/no-tracking-test');
+  await expect(page.locator('.consent-banner')).toContainText('no analytics or advertising trackers');
+  expect(await page.evaluate(()=>localStorage.length)).toBe(0);
+  await page.getByRole('button',{name:'Accept all',exact:true}).click();
+  await page.getByRole('button',{name:'Cookie preferences',exact:true}).click();
+  await expect(page.getByRole('switch',{name:'Analytics',exact:true})).toBeDisabled();
+  expect(await eventNames(page)).toEqual([]);expect(external).toEqual([]);
 });

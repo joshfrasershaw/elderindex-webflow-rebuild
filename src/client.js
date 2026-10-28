@@ -27,14 +27,18 @@
   let publicConfig = {};
   try { publicConfig = JSON.parse(document.getElementById('site-config')?.textContent || '{}'); } catch {}
   const measurementId = publicConfig.measurementId;
-  const preferenceKey = 'elderindex-analytics-consent-v1';
-  let consent = 'denied';
-  let analyticsStarted = false;
+  // Available services are part of the consent scope. Enabling a new provider/ID
+  // invalidates old choices rather than treating them as future blanket consent.
+  const preferenceKey = 'elderindex-cookie-consent-v2';
+  const consentScope = '2026-10-28:ga4=' + (measurementId || 'off') + ':preferences=off:marketing=off';
+  const available = {analytics:Boolean(measurementId), preferences:false, marketing:false};
   const consentBanner = document.querySelector('.consent-banner');
+  const consentDialog = document.querySelector('.consent-dialog');
+  let consent = 'denied', analyticsStarted = false, returnFocus = null;
   const readPreference = () => {
     try {
       const saved = JSON.parse(localStorage.getItem(preferenceKey));
-      if (saved && ['granted', 'denied'].includes(saved.value) && Date.now() - saved.at < 180 * 86400000) return saved.value;
+      if (saved?.scope === consentScope && Number.isFinite(saved.at) && saved.at <= Date.now() && Date.now() - saved.at < 180 * 86400000 && ['analytics','preferences','marketing'].every(k => typeof saved[k] === 'boolean')) return saved;
     } catch {}
     return null;
   };
@@ -62,31 +66,63 @@
       for (let i = 0; i < hostParts.length - 1; i++) document.cookie = name+'=; Max-Age=0; path=/; domain=.'+hostParts.slice(i).join('.');
     }
   };
-  const applyConsent = value => {
-    consent = value;
-    if (measurementId) window['ga-disable-' + measurementId] = value !== 'granted';
-    if (value === 'granted') {
+  const applyConsent = choice => {
+    const granted = available.analytics && choice?.analytics === true;
+    consent = granted ? 'granted' : 'denied';
+    if (measurementId) window['ga-disable-' + measurementId] = !granted;
+    if (granted) {
       if (analyticsStarted) window.gtag?.('consent', 'update', {analytics_storage:'granted'});
       else startAnalytics();
     } else {
-      window.gtag?.('consent', 'update', {analytics_storage:'denied'});
+      window.gtag?.('consent', 'update', {analytics_storage:'denied', ad_storage:'denied', ad_user_data:'denied', ad_personalization:'denied'});
       clearAnalyticsCookies();
     }
   };
-  if (measurementId && consentBanner) {
+  const syncSwitches = choice => {
+    for (const key of Object.keys(available)) {
+      const input = consentDialog?.querySelector(`[name="${key}"]`);
+      if (input) input.checked = available[key] && choice?.[key] === true;
+    }
+  };
+  const saveChoice = choice => {
+    const wasRunning = analyticsStarted;
+    const saved = {scope:consentScope, at:Date.now(), ...Object.fromEntries(Object.keys(available).map(key=>[key,available[key] && choice[key] === true]))};
+    applyConsent(saved);
+    try { localStorage.setItem(preferenceKey, JSON.stringify(saved)); localStorage.removeItem('elderindex-analytics-consent-v1'); } catch {}
+    consentBanner.hidden = true;
+    consentDialog.close();
+    // A loaded third-party library cannot be safely unloaded in place. Refresh
+    // after revocation so it cannot keep observing events in this document.
+    if (wasRunning && !saved.analytics) location.reload();
+  };
+  if (consentBanner && consentDialog) {
     const saved = readPreference();
-    if (saved) applyConsent(saved);
-    else consentBanner.hidden = false;
+    applyConsent(saved);
+    syncSwitches(saved);
+    consentBanner.hidden = Boolean(saved);
     document.querySelectorAll('[data-consent]').forEach(button => button.addEventListener('click', () => {
-      const value = button.dataset.consent;
-      applyConsent(value);
-      try { localStorage.setItem(preferenceKey, JSON.stringify({value, at:Date.now()})); } catch {}
-      consentBanner.hidden = true;
+      const accepted = button.dataset.consent === 'accept';
+      saveChoice({analytics:accepted, preferences:accepted, marketing:accepted});
     }));
     document.querySelectorAll('[data-cookie-preferences]').forEach(button => button.addEventListener('click', () => {
-      consentBanner.hidden = false;
-      consentBanner.querySelector('button')?.focus();
+      returnFocus = button;
+      syncSwitches({analytics:consent === 'granted'});
+      consentDialog.showModal();
+      consentDialog.querySelector('[data-cookie-close]').focus();
     }));
+    consentDialog.querySelector('[data-cookie-close]').addEventListener('click',()=>consentDialog.close());
+    consentDialog.addEventListener('close',()=>{ if(returnFocus && !returnFocus.closest('[hidden]')) returnFocus.focus(); });
+    consentDialog.querySelector('[data-cookie-save]').addEventListener('click',()=>saveChoice(Object.fromEntries(Object.keys(available).map(key=>[key,consentDialog.querySelector(`[name="${key}"]`).checked]))));
+    // Rejection/withdrawal in another tab applies here too. Missing, expired or
+    // differently scoped consent never enables an optional integration.
+    window.addEventListener('storage', event => {
+      if (event.key !== preferenceKey && event.key !== null) return;
+      const saved = readPreference(), wasRunning = analyticsStarted;
+      applyConsent(saved);
+      consentBanner.hidden = Boolean(saved);
+      syncSwitches(saved);
+      if (wasRunning && consent !== 'granted') location.reload();
+    });
   }
   const track = (event, parameters = {}) => {
     if (consent === 'granted' && measurementId) window.gtag?.('event', event, parameters);
