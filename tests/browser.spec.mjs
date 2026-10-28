@@ -77,7 +77,8 @@ test('analytics waits for consent, persists rejection, records contact clicks se
   expect(await eventNames(page)).toEqual(expect.arrayContaining(['email_click','phone_click']));
   expect(await page.evaluate(()=>JSON.stringify(window.dataLayer))).not.toContain('must-not-track');
   await page.evaluate(()=>{document.cookie='_ga=testing; path=/';});
-  await page.getByRole('button',{name:'Cookie preferences'}).click();await page.getByRole('button',{name:'Reject optional',exact:true}).click();
+  await page.getByRole('button',{name:'Cookie preferences'}).click();
+  await Promise.all([page.waitForNavigation(),page.getByRole('button',{name:'Reject optional',exact:true}).click()]);
   expect(await page.evaluate(()=>window['ga-disable-G-TEST123'])).toBe(true);expect(await page.evaluate(()=>document.cookie)).not.toContain('_ga=');
 });
 test('homepage is compact, contact qualifies, guides use contextual next steps and genuine author metadata',async({page})=>{

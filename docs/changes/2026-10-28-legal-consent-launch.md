@@ -13,3 +13,7 @@
 - Timing: 28 October 2026; commit UTC in Git metadata; live UTC NOT VERIFIED, domain cutover NOT PERFORMED. No new automated monitoring scheduled.
 - Follow-up: exact-source CI + deployed staging identity, owner production build/deployment/HTTPS acceptance, sitemap submission, D+1/D+7/D+28/D+90 from actual switch.
 - Rollback: selectively revert the implementation commit and rerun checks; retain unrelated main/CMS drafts. Actual domain rollback uses retained old-host deployment and recorded routing state, not this Git revert.
+
+## First remote verification and test synchronisation correction
+
+Implementation a7030c4 passed staging Cloudflare build and was independently observed in served staging release.json, legal terms, cookie settings and branded missing-path page at 2026-10-28T11:38:57Z. Quality run 40681351392 passed all 551 staging runtime HTTP checks and 21 of 22 browser tests, including all-page mobile/desktop/axe and the new consent-revocation test. One older analytics test read the new page before its reload scripts initialised; it observed undefined rather than the disabled flag. Updated that test to await the intentional withdrawal navigation before inspecting state. No application code changed for this correction; rerun full exact-source CI. Production runtime was skipped by the failed first suite and is not claimed passed from it.
