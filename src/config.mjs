@@ -9,7 +9,7 @@ if (endpoint) {
 }
 const measurementId = (env.GA4_MEASUREMENT_ID || '').trim();
 if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) throw new Error('Invalid GA4_MEASUREMENT_ID');
-const canonical = new URL(env.SITE_URL || 'https://www.elderindex.co.uk');
+const canonical = new URL(env.SITE_URL || 'https://elderindex.co.uk');
 if (canonical.protocol !== 'https:' || canonical.pathname !== '/' || canonical.search || canonical.hash || canonical.username || canonical.password) {
   throw new Error('SITE_URL must be an HTTPS origin');
 }
