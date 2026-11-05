@@ -212,12 +212,12 @@ test('expanded design, management and buying guide pass automated accessibility 
   }
 });
 
-test('retained glossary fragments and methodology keep useful routes to commercial services',async({page})=>{
+test('digital glossary fragments and methodology keep useful routes to commercial services',async({page})=>{
   await page.setViewportSize({width:390,height:844});
   await page.goto('/guides/');
   await page.getByRole('link',{name:'care SEO glossary',exact:true}).click();
   await expect(page).toHaveURL(/\/glossary\/$/);
-  for(const id of ['scie','crawlability','url-structure','section-20a']){
+  for(const id of ['hosting','crawlability','url-structure','responsive-design']){
     await page.locator(`.article-contents a[href="#${id}"]`).click();
     await expect(page.locator(':target')).toHaveAttribute('id',id);
   }
