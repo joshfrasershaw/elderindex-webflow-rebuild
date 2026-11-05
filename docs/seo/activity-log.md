@@ -1,5 +1,10 @@
 # SEO activity log
 
+## 5 November 2026 — EI-20261105-01: clickable residential and home care design concepts
+
+[Implementation and before/after record](../changes/2026-11-05-clickable-website-concepts.md). Replaced static Meadow House and Kindred at home homepage examples with working, responsive, fictional one-page concept websites. The card previews and live concepts share the same branded hero designs. Both concept paths are deliberately noindex, excluded from sitemap, and labelled uncommissioned examples rather than client work or care providers. No existing service-page keyword intent or real enquiry handling altered. Git commit does not prove live deployment; actual production observation remains to be confirmed.
+
+
 ## 27 October 2026 — Owner-corrected autonomous publishing policy
 
 **Status:** adopted on `main` as a standing implementation instruction. **Record:** [EI-20261027-04](../changes/2026-10-27-autonomous-publishing-correction.md). **Job:** [audit, fix, publish and log](../codex/AUDIT-FIX-PUBLISH.md). Normal framework-compliant SEO/content/design fixes no longer wait in default review branches or PR queues. Codex must test, publish, independently verify actual live deployment and record a source SHA, affected URL, UTC live timestamp, reason and rollback. Failed deployment is NOT LIVE and cannot be compared to GSC as though released. The one-time initial domain/DNS cutover and legal/financial/account exceptions remain owner controlled. No website deployment claimed by this policy-only change.
