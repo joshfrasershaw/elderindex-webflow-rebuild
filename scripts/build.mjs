@@ -15,7 +15,7 @@ fs.writeFileSync(path.join(dist,'robots.txt'),`User-agent: *\nAllow: /${config.p
 let sourceSha='UNVERIFIED',trackedChanges=true;
 try{sourceSha=execFileSync('git',['rev-parse','HEAD'],{cwd:dir,encoding:'utf8'}).trim();trackedChanges=Boolean(execFileSync('git',['status','--porcelain','--untracked-files=no'],{cwd:dir,encoding:'utf8'}).trim());}catch{}
 fs.writeFileSync(path.join(dist,'release.json'),JSON.stringify({sourceSha,trackedChanges,environment:config.production?'production':'staging',canonicalOrigin:baseUrl,pageCount:pages.length},null,2)+'\n');
-const sitemap=pages.filter(x=>x.kind!=='legal').map(p=>`  <url><loc>${baseUrl+p.path}</loc></url>`).join('\n');
+const sitemap=pages.filter(x=>!['legal','concept'].includes(x.kind)).map(p=>`  <url><loc>${baseUrl+p.path}</loc></url>`).join('\n');
 fs.writeFileSync(path.join(dist,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemap}\n</urlset>\n`);
 fs.writeFileSync(path.join(dist,'404.html'),renderNotFound());
 console.log(`Built ${pages.length} pages into ${dist}`);
