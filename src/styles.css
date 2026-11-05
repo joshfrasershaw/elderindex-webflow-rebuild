@@ -322,7 +322,7 @@
 .demo-kindred .demo-photo,.demo-kindred .demo-photo.image-frame{height:100%;width:100%;overflow:hidden;border-radius:inherit}
 .demo-kindred .demo-photo img,.demo-kindred .demo-photo .site-image{object-position:54% 38%;filter:saturate(.95) contrast(1.025) brightness(1.05)}
 .demo-kindred .demo-intro{position:relative;background:#fffcf2;overflow:hidden}
-.demo-kindred .demo-intro::before{content:'';position:absolute;top:-74px;left:-5%;height:142px;width:110%;border-radius:50%;background:#fffcf2}
+.demo-kindred .demo-intro::before{content:'';position:absolute;top:-102px;left:-5%;height:155px;width:110%;border-radius:50%;background:#f0f5a9}
 .demo-kindred .demo-intro .demo-wrap{position:relative}
 .demo-kindred .demo-intro-grid{grid-template-columns:.75fr 1.6fr;gap:46px}
 .demo-kindred .demo-kicker{letter-spacing:.025em;text-transform:none;font-size:.92rem;color:#315b34}
@@ -399,7 +399,7 @@
  .demo-preview.demo-meadow>.demo-header,.demo-preview.demo-kindred>.demo-header{height:53px;min-height:0;padding:12px 13px;display:flex}
  .demo-preview.demo-meadow .demo-nav,.demo-preview.demo-kindred .demo-nav{display:none}
  .demo-preview.demo-meadow .demo-brand{font-size:1.04rem}
- .demo-preview.demo-meadow>.demo-hero{height:293px;min-height:293px;display:flex;align-items:center}
+ .demo-preview.demo-meadow>.demo-hero{height:346px;min-height:346px;display:flex;align-items:center}
  .demo-preview.demo-meadow .demo-hero-copy{padding:60px 17px 25px;max-width:88%;min-height:0}
  .demo-preview.demo-meadow .demo-hero h3{font-size:clamp(2rem,8vw,2.7rem);max-width:300px}
  .demo-preview.demo-meadow .demo-hero p{font-size:.68rem;max-width:225px}

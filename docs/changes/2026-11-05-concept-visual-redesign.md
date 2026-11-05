@@ -13,3 +13,7 @@
 - **Deployment:** NOT VERIFIED at commit. GitHub Actions and hosting must be checked independently; initial old-site domain cutover remains outside this task.
 - **Expected effect:** Higher perceived design quality and clearer distinction between care-home and home-care concepts; no conversion or SEO result claimed.
 - **Rollback:** Revert this atomic change commit (parent `654e86a5345b1509f004e9839fcc5de084d53b6b`), rebuild and reverify. No migrations involved.
+
+## Final mobile visual polish
+
+The mobile Meadow House homepage preview now fills its entire 346px miniature card with the architectural photograph (instead of leaving 53px of unfilled space under a 293px hero). The Kindred introduction's rounded colour transition now visibly contrasts with the off-white content beneath it, rather than drawing a cream-on-cream invisible wave. These changes affect only the scoped demonstration styles and neither page routing nor content. Browser/axe checks from the first redesign commit `7479f55d9828d9c9318640e6a97d933263594fbf` passed; the final polish requires its own exact-SHA recheck. No live publication asserted.
