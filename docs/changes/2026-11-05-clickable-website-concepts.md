@@ -23,3 +23,7 @@ The first 32-page GitHub browser/axe run identified a `label-content-name-mismat
 ## Production runtime verification alignment
 
 Commit `4eee2324d1ae5be9c13b96fa8fe51e36b983caa3` extends the local Cloudflare production HTTP regression check to expect `noindex` on fictional `kind:concept` routes, matching the page renderer, sitemap exclusion, static check, and release checker. The previous runtime assertion treated every non-legal route as indexable and would have falsely failed on these intentional demonstrations. This is a test-only correction, not a change to site indexability or URLs. Check exact SHA CI and production deployment independently.
+
+## Final browser QA corrections
+
+The exact-SHA Playwright/axe run for `96d1c4f5381a4c3de2aedb98725226ee71c49ab0` reported a colour contrast ratio of 4.28:1 on the Meadow House section kicker; commit `70f08fa97140ed650aae17ba636c780a82f598a0` removes the 80% text opacity to maintain WCAG AA contrast. The same run exposed a stale *pre-existing* glossary-navigation regression check: `scie` and `section-20a` were intentionally excluded under the digital-only glossary editorial policy and so their links do not exist. Commit `77b198b125fe79ace8379bcf9691dbb6b2409391` updates the browser test to navigate retained digital terms, preserving the test's actual navigation purpose without reintroducing off-topic regulated terminology. Both changes are recorded for policy CI. Full browser, production runtime, and deployment verification require a fresh exact-SHA run; no live status is claimed here.
