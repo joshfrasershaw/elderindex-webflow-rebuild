@@ -8,7 +8,7 @@ const results=[];
 async function check(route,status){const r=await fetch(origin+route,{redirect:'manual'});assert.equal(r.status,status,route+' HTTP status');results.push({path:route,status:r.status,location:r.headers.get('location'),robotsHeader:r.headers.get('x-robots-tag')});return r;}
 try{
  let ready=false;for(let n=0;n<200;n++){if(child.exitCode!==null)throw Error(logs);try{await fetch(origin);ready=true;break;}catch{}await new Promise(r=>setTimeout(r,100));}assert.ok(ready,'Local Cloudflare runtime startup: '+logs);
- for(const p of pages){const r=await check(p.path,200);assert.equal(r.headers.get('x-robots-tag'),config.production?null:'noindex, follow');const h=await r.text();assert.ok(h.includes(`content="${config.production&&p.kind!=='legal'?'index':'noindex'}, follow"`));}
+ for(const p of pages){const r=await check(p.path,200);assert.equal(r.headers.get('x-robots-tag'),config.production?null:'noindex, follow');const h=await r.text();assert.ok(h.includes(`content="${config.production&&!['legal','concept'].includes(p.kind)?'index':'noindex'}, follow"`));}
  const rules=fs.readFileSync((process.env.BUILD_OUTPUT_DIR||'dist')+'/_redirects','utf8').trim().split('\n').map(l=>l.split(/\s+/));
  for(const[from,to]of rules){
   for(const search of ['', '?utm_source=release-check']){
