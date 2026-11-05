@@ -19,3 +19,7 @@
 ## Final browser accessibility correction
 
 The first 32-page GitHub browser/axe run identified a `label-content-name-mismatch` on both new concept preview anchors: their custom `aria-label` omitted some visible copy. Commit `2dd5a376c8db8a0f854b5892f495e441cb6f73a0` removes those redundant labels so assistive technology uses the actual visible link text. The next exact-SHA CI run reached repository policy hygiene, with no browser or static-check failures, but the incremental policy check required this dated change-record update within the same diff as the code fix. This document update satisfies that process requirement; successful CI and live deployment must still be independently checked.
+
+## Production runtime verification alignment
+
+Commit `4eee2324d1ae5be9c13b96fa8fe51e36b983caa3` extends the local Cloudflare production HTTP regression check to expect `noindex` on fictional `kind:concept` routes, matching the page renderer, sitemap exclusion, static check, and release checker. The previous runtime assertion treated every non-legal route as indexable and would have falsely failed on these intentional demonstrations. This is a test-only correction, not a change to site indexability or URLs. Check exact SHA CI and production deployment independently.
