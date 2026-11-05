@@ -23,7 +23,7 @@ const routes=pages.map(p=>{
  assert.doesNotMatch(html,/-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}/,p.path+' credential pattern');
  assert.doesNotMatch(html,/<script[^>]+src="https?:\/\//,p.path+' unapproved remote script');
  const robots=html.match(/<meta name="robots" content="([^"]+)"/)[1];
- assert.equal(robots,config.production&&p.kind!=='legal'?'index, follow':'noindex, follow',p.path);
+ assert.equal(robots,config.production&&!['legal','concept'].includes(p.kind)?'index, follow':'noindex, follow',p.path);
  const graph=JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1])['@graph'];
  const ids=graph.map(x=>x['@id']);assert.equal(ids.length,new Set(ids).size,p.path+' entity IDs');
  const walk=n=>{if(!n||typeof n!=='object')return;if(n['@id']&&Object.keys(n).length===1)assert.ok(ids.includes(n['@id']),p.path+' unresolved entity '+n['@id']);for(const v of Object.values(n))if(typeof v==='object')Array.isArray(v)?v.forEach(walk):walk(v);};graph.forEach(walk);
@@ -43,7 +43,7 @@ for(const row of migration){
  assert.equal(rule[1],row.destination_path,'Migration destination differs '+row.old_path);
 }
 
-const sitemap=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);assert.deepEqual(sitemap,pages.filter(p=>p.kind!=='legal').map(p=>baseUrl+p.path));
+const sitemap=[...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);assert.deepEqual(sitemap,pages.filter(p=>!['legal','concept'].includes(p.kind)).map(p=>baseUrl+p.path));
 for(const file of ['404.html','robots.txt','sitemap.xml','assets/site.js','assets/site.css'])assert.ok(read(file).length);
 assert.ok(!fs.existsSync(path.join(dist,'cms'))&&!fs.existsSync(path.join(dist,'api')),'Private CMS must not enter public output');
 const manifest={...release,provenance,ciIdentity,analyticsConfigured:Boolean(config.measurementId),pageCount:routes.length,routes,redirectRules:rules};
