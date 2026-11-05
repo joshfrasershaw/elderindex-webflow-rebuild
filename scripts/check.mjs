@@ -21,7 +21,7 @@ for(const p of pages){
   const canonical=html.match(/<link rel="canonical" href="([^"]+)"/i)?.[1];
   if(canonical!==baseUrl+p.path)fail(p.path,'Canonical differs from configured URL');
   const robots=html.match(/<meta name="robots" content="([^"]+)"/)?.[1];
-  if(!robots?.startsWith(!config.production||p.kind==='legal'?'noindex':'index'))fail(p.path,'Unexpected indexability');
+  if(!robots?.startsWith(!config.production||['legal','concept'].includes(p.kind)?'noindex':'index'))fail(p.path,'Unexpected indexability');
   const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
   if(new Set(ids).size!==ids.length)fail(p.path,'Duplicate HTML IDs');
   for(const match of html.matchAll(/\b(?:href|src)="([^" ]+)"/g)){
@@ -53,12 +53,14 @@ for(const p of pages){
     if(!['eager','lazy'].includes(attr(tag,'loading')))fail(p.path,'Image loading not explicit '+src);
     if(tag.includes('class="site-image"')&&!attr(tag,'srcset'))fail(p.path,'Photograph missing responsive sources '+src);
   }
+  if(p.kind==='concept' && (!html.includes('Fictional example, not a real care provider.') || !html.includes('Discuss your website with ElderIndex')))fail(p.path,'Missing concept disclosure or real enquiry route');
+  if(p.path==='/' && (!html.includes('/concepts/the-meadow-house/')||!html.includes('/concepts/kindred-at-home/')))fail(p.path,'Concept preview links missing');
   if(!html.includes('property="og:image"')||!html.includes('name="twitter:image"'))fail(p.path,'Missing social image metadata');
   if(html.includes('data-mailto'))fail(p.path,'Legacy mailto form remains');
 }
 const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
 const sitemapUrls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]);
-const expected=pages.filter(p=>p.kind!=='legal').map(p=>baseUrl+p.path);
+const expected=pages.filter(p=>!['legal','concept'].includes(p.kind)).map(p=>baseUrl+p.path);
 if(JSON.stringify(sitemapUrls)!==JSON.stringify(expected))fail('sitemap','URLs differ from canonical, non-legal pages');
 const robots=fs.readFileSync(path.join(root,'robots.txt'),'utf8');
 if(!robots.includes(`Sitemap: ${baseUrl}/sitemap.xml`)||!robots.includes('Allow: /'))fail('robots','Unexpected crawl policy');
