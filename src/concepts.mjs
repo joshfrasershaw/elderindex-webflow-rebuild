@@ -15,7 +15,7 @@ const demoHeader=(d,preview)=>`<header class="demo-header"><div class="demo-bran
 const demoHero=(d,preview)=>`<section class="demo-hero"><div class="demo-hero-copy"><${preview?'h3':'h1'}>${e(d.title)}</${preview?'h3':'h1'}><p>${e(d.lead)}</p>${preview?`<span class="demo-action">${e(d.action)} ↗</span>`:`<a class="demo-action" href="${d.actionHref}">${e(d.action)} ↗</a>`}</div><div class="demo-hero-image">${picture(d,preview)}</div></section>`;
 const item=(title,text)=>`<article class="demo-feature"><h3>${e(title)}</h3><p>${e(text)}</p></article>`;
 export function conceptCards(){
- return Object.values(DEMOS).map(d=>`<article class="concept-card"><a class="concept-card-link" href="${d.path}" aria-label="Explore the ${e(d.brand)} website concept"><div class="demo-site demo-${d.theme} demo-preview">${demoHeader(d,true)}${demoHero(d,true)}</div><div class="concept-caption"><div><h3>${e(d.category)}</h3><p>${e(d.summary)}</p></div><span>Explore website ↗</span></div></a></article>`).join('');
+ return Object.values(DEMOS).map(d=>`<article class="concept-card"><a class="concept-card-link" href="${d.path}"><div class="demo-site demo-${d.theme} demo-preview">${demoHeader(d,true)}${demoHero(d,true)}</div><div class="concept-caption"><div><h3>${e(d.category)}</h3><p>${e(d.summary)}</p></div><span>Explore website ↗</span></div></a></article>`).join('');
 }
 const meadow=()=>`
 <section class="demo-intro" id="home"><div class="demo-wrap demo-intro-grid"><p class="demo-kicker">Welcome to The Meadow House</p><div><h2>Somewhere to feel at home.</h2><p>Warm spaces, thoughtful details and the comfort of familiar routines. This illustrative website shows how a care home could introduce itself with clarity and character.</p></div></div></section>
