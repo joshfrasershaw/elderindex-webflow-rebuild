@@ -1,5 +1,9 @@
 # SEO activity log
 
+## 5 November 2026 — EI-20261105-02: visual refinement of both website concepts
+
+[Design change and before/after record](../changes/2026-11-05-concept-visual-redesign.md). Owner-supplied visual references informed a photographic, architectural Meadow House hero and a softer, curved, lime-and-forest Kindred home care design. Homepage previews share the actual live concept hero. Fictional disclosures, noindex, routes and ElderIndex enquiry handling unchanged. Commit does not establish live deployment.
+
 ## 5 November 2026 — EI-20261105-01: clickable residential and home care design concepts
 
 [Implementation and before/after record](../changes/2026-11-05-clickable-website-concepts.md). Replaced static Meadow House and Kindred at home homepage examples with working, responsive, fictional one-page concept websites. The card previews and live concepts share the same branded hero designs. Both concept paths are deliberately noindex, excluded from sitemap, and labelled uncommissioned examples rather than client work or care providers. No existing service-page keyword intent or real enquiry handling altered. Git commit does not prove live deployment; actual production observation remains to be confirmed.

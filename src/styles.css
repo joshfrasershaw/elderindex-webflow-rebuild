@@ -258,3 +258,162 @@
  .demo-preview .demo-hero{grid-template-columns:1.13fr .87fr}
 }
 @media(prefers-reduced-motion:reduce){.demo-action,.demo-contact-action{transition:none}}
+
+
+/* Concept visual direction — photographic care-home editorial and human-centred home care. 2026-11-05 */
+/* These rules use the same live HTML in the homepage previews and the two
+   destination sites: the card previews are not unrelated screenshots. */
+.demo-site{position:relative;isolation:isolate}
+.demo-site .demo-photo img{transition:transform .65s cubic-bezier(.2,.7,.2,1)}
+.concept-card-link:hover .demo-photo img{transform:scale(1.035)}
+.demo-site .demo-hero-copy{min-width:0}
+.demo-site .demo-hero h1,.demo-site .demo-hero h3{letter-spacing:-.047em}
+.demo-site .demo-header a:focus-visible,.demo-site .demo-action:focus-visible{outline-offset:4px}
+
+/* The Meadow House: the architecture, not an empty colour block, is the hero. */
+.demo-meadow{--demo-paper:#f5f3ec;--demo-wash:#dfe7d9;--demo-ink:#263e2d;--demo-face:var(--serif);background:#f5f3ec}
+.demo-meadow>.demo-header{position:absolute;inset:0 0 auto;z-index:5;height:98px;padding:24px max(40px,calc((100% - 1220px)/2));color:#fff;background:linear-gradient(180deg,rgba(10,20,13,.52),transparent)}
+.demo-meadow .demo-brand{font-family:var(--serif);font-weight:400;font-size:clamp(1.7rem,2.25vw,2.3rem);letter-spacing:-.044em;line-height:1;color:#fff;white-space:normal;max-width:220px}
+.demo-meadow .demo-nav{font-size:.78rem;font-weight:500;gap:clamp(16px,2.4vw,33px)}
+.demo-meadow .demo-nav a:last-child,.demo-meadow .demo-nav span:last-child{padding:11px 19px;border-radius:999px;background:#24432c;color:#fff}
+.demo-meadow .demo-nav a:last-child:hover{background:#365b3e;text-decoration:none}
+.demo-meadow>.demo-hero{min-height:min(86svh,790px);position:relative;display:flex;align-items:center;isolation:isolate;overflow:hidden;background:#394938}
+.demo-meadow>.demo-hero::after{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(11,25,15,.76) 0%,rgba(14,25,16,.46) 38%,rgba(10,21,12,.04) 77%),linear-gradient(0deg,rgba(8,21,13,.27),transparent 40%)}
+.demo-meadow .demo-hero-image{position:absolute;inset:0;width:100%;height:100%;z-index:0;overflow:hidden}
+.demo-meadow .demo-hero-image .demo-photo{height:100%;width:100%}
+.demo-meadow .demo-photo img,.demo-meadow .demo-photo .site-image{width:100%;height:100%;object-fit:cover;object-position:center 48%}
+.demo-meadow .demo-hero-copy{position:relative;z-index:2;padding:160px max(45px,calc((100% - 1220px)/2)) 95px;max-width:min(740px,70%);color:#fff}
+.demo-meadow .demo-hero h1,.demo-meadow .demo-hero h3{color:#fff;font-size:clamp(4.7rem,7.1vw,7.5rem);line-height:.99;max-width:620px;margin:0 0 28px;text-wrap:balance}
+.demo-meadow .demo-hero-copy>p{color:#fff;font-size:clamp(1.04rem,1.37vw,1.23rem);font-weight:400;line-height:1.65;max-width:410px;margin-bottom:33px}
+.demo-meadow .demo-action{background:#f8f5e9;color:#213e2b;border-radius:6px;padding:16px 22px;box-shadow:0 4px 22px #0d26122e;font-weight:700}
+.demo-meadow .demo-action:hover{background:#fff}
+.demo-meadow .demo-intro{background:#f9f7f0}
+.demo-meadow .demo-intro-grid{grid-template-columns:.72fr 1.6fr;gap:60px}
+.demo-meadow .demo-kicker{letter-spacing:.06em;font-size:.78rem;text-transform:none;color:#355840}
+.demo-meadow .demo-intro h2{font-size:clamp(3.1rem,5vw,5.8rem);max-width:730px;line-height:1.02}
+.demo-meadow .demo-intro-grid div>p{font-size:1.08rem;max-width:680px;color:#47594b}
+.demo-meadow .demo-features{background:#e9ede3}
+.demo-meadow .demo-feature{border:1px solid #b7c4b4;border-radius:6px;padding:34px 30px 28px;min-height:248px;background:#f8f9f4}
+.demo-meadow .demo-feature h3{font-size:clamp(1.75rem,2.5vw,2.5rem)}
+.demo-meadow .demo-section-lead{color:#415a45}
+.demo-meadow .demo-story{background:#213c2b;color:#f9f6ec;overflow:hidden}
+.demo-meadow .demo-story h2,.demo-meadow .demo-story .demo-kicker,.demo-meadow .demo-story p,.demo-meadow .demo-story a{color:#f9f6ec}
+.demo-meadow .demo-story .demo-glyph{color:#d7e1c6;opacity:.35}
+.demo-meadow .demo-story h2{font-size:clamp(3.3rem,5.4vw,6rem)}
+.demo-meadow .demo-contact{background:#f1efe6;color:#263e2d}
+.demo-meadow .demo-contact h2,.demo-meadow .demo-contact p{color:#263e2d}
+.demo-meadow .demo-contact-action{background:#263e2d;color:#fff}
+
+/* Kindred at Home: lively, caring, rounded and tactile rather than clinical. */
+.demo-kindred{--demo-paper:#f2f7b3;--demo-wash:#e6ecc9;--demo-ink:#254b2a;--demo-face:var(--serif);background:#f2f7b3;color:#254b2a}
+.demo-kindred>.demo-header{height:110px;background:#fffef9;padding:24px max(40px,calc((100% - 1220px)/2));gap:25px;position:relative;z-index:4}
+.demo-kindred .demo-brand{font-family:var(--sans);font-weight:800;color:#254b2a;font-size:clamp(1.85rem,2.25vw,2.4rem);letter-spacing:-.068em;line-height:1}
+.demo-kindred .demo-brand span{display:block;font-family:var(--serif);font-style:normal;font-weight:400;font-size:.63em;letter-spacing:-.03em;margin-top:4px}
+.demo-kindred .demo-nav{color:#244b2a;font-size:.84rem;font-weight:600;gap:clamp(16px,2.35vw,30px)}
+.demo-kindred .demo-nav a:last-child,.demo-kindred .demo-nav span:last-child{padding:13px 22px;border-radius:99px;background:#284e2b;color:#fff}
+.demo-kindred .demo-nav a:last-child:hover{background:#386a3b;text-decoration:none}
+.demo-kindred>.demo-hero{position:relative;display:grid;grid-template-columns:51% 49%;align-items:stretch;min-height:680px;background:#f0f5a9;overflow:hidden}
+.demo-kindred>.demo-hero::before{content:'';pointer-events:none;position:absolute;border:1px solid rgba(36,75,42,.11);width:460px;height:460px;border-radius:50%;left:-320px;bottom:-310px}
+.demo-kindred .demo-hero-copy{padding:85px 38px 95px max(40px,calc((100vw - 1220px)/2));position:relative;z-index:2}
+.demo-kindred .demo-hero h1,.demo-kindred .demo-hero h3{font-family:var(--serif);font-size:clamp(4.3rem,6vw,7.1rem);letter-spacing:-.052em;line-height:1.01;max-width:690px;margin-bottom:28px;color:#172d1b;text-wrap:balance}
+.demo-kindred .demo-hero-copy>p{font-size:clamp(1.04rem,1.3vw,1.22rem);line-height:1.68;max-width:440px;color:#263d26;margin-bottom:29px}
+.demo-kindred .demo-action{background:#254b2a;color:#fff;border-radius:999px;padding:18px 29px;font-size:.91rem}
+.demo-kindred .demo-hero-image{position:relative;min-height:100%;height:100%;overflow:hidden;border-radius:44% 0 0 44% / 46% 0 0 54%;background:#d4dec4}
+.demo-kindred .demo-photo,.demo-kindred .demo-photo.image-frame{height:100%;width:100%;overflow:hidden;border-radius:inherit}
+.demo-kindred .demo-photo img,.demo-kindred .demo-photo .site-image{object-position:54% 38%;filter:saturate(.95) contrast(1.025) brightness(1.05)}
+.demo-kindred .demo-intro{position:relative;background:#fffcf2;overflow:hidden}
+.demo-kindred .demo-intro::before{content:'';position:absolute;top:-74px;left:-5%;height:142px;width:110%;border-radius:50%;background:#fffcf2}
+.demo-kindred .demo-intro .demo-wrap{position:relative}
+.demo-kindred .demo-intro-grid{grid-template-columns:.75fr 1.6fr;gap:46px}
+.demo-kindred .demo-kicker{letter-spacing:.025em;text-transform:none;font-size:.92rem;color:#315b34}
+.demo-kindred .demo-intro h2,.demo-kindred .demo-story h2{font-size:clamp(3.3rem,5.5vw,5.8rem);line-height:1.02}
+.demo-kindred .demo-intro-grid div>p{font-size:1.08rem;color:#36543a}
+.demo-kindred .demo-features{background:#e9efc9;position:relative}
+.demo-kindred .demo-features h2{max-width:850px}
+.demo-kindred .demo-section-lead{color:#395a3c}
+.demo-kindred .demo-feature-grid{gap:24px}
+.demo-kindred .demo-feature{background:#fffef7;border:0;border-radius:34px;padding:38px 33px 32px;min-height:275px;box-shadow:0 12px 32px rgba(38,67,35,.07)}
+.demo-kindred .demo-feature h3{font-size:clamp(1.9rem,2.5vw,2.6rem)}
+.demo-kindred .demo-feature p{color:#37533b}
+.demo-kindred .demo-story{background:#f8dfdc;overflow:hidden;position:relative}
+.demo-kindred .demo-story::after{content:'';position:absolute;right:-170px;bottom:-220px;border:2px solid #7c46451e;border-radius:50%;width:550px;height:550px;pointer-events:none}
+.demo-kindred .demo-story .demo-glyph{font-family:var(--sans);font-weight:300;color:#b16562;opacity:.38}
+.demo-kindred .demo-contact{background:#285032}
+.demo-kindred .demo-contact h2,.demo-kindred .demo-contact p,.demo-kindred .demo-contact .demo-kicker{color:#fff}
+.demo-kindred .demo-contact-action{background:#f0f5a9;color:#1b3921;border-radius:99px}
+
+/* Cards are miniatures of the actual concept sites, not separate mock-ups. */
+.demo-preview{position:relative}
+.demo-preview.demo-meadow>.demo-header{height:57px;min-height:0;padding:10px 18px;background:linear-gradient(180deg,#10201980,transparent)}
+.demo-preview.demo-meadow .demo-brand{font-size:1.25rem;line-height:1.08;max-width:145px}
+.demo-preview.demo-meadow .demo-nav{font-size:.56rem;gap:10px}
+.demo-preview.demo-meadow .demo-nav span:last-child{padding:7px 10px}
+.demo-preview.demo-meadow>.demo-hero{height:380px;min-height:380px}
+.demo-preview.demo-meadow .demo-hero-copy{padding:80px 24px 30px;max-width:83%;justify-content:center}
+.demo-preview.demo-meadow .demo-hero h3{font-size:clamp(2.1rem,4.2vw,3.5rem);line-height:1.01;margin:0 0 14px;max-width:330px}
+.demo-preview.demo-meadow .demo-hero p{font-size:.75rem;max-width:245px;line-height:1.5;margin-bottom:17px}
+.demo-preview.demo-meadow .demo-action{font-size:.68rem;padding:10px 13px;box-shadow:none}
+.demo-preview.demo-meadow .demo-hero-image,.demo-preview.demo-meadow .demo-photo{height:100%}
+.demo-preview.demo-kindred>.demo-header{height:61px;padding:12px 18px}
+.demo-preview.demo-kindred .demo-brand{font-size:1.12rem}
+.demo-preview.demo-kindred .demo-brand span{margin-top:2px}
+.demo-preview.demo-kindred .demo-nav{font-size:.57rem;gap:10px}
+.demo-preview.demo-kindred .demo-nav span:last-child{padding:8px 12px}
+.demo-preview.demo-kindred>.demo-hero{height:319px;min-height:319px;grid-template-columns:52% 48%}
+.demo-preview.demo-kindred .demo-hero-copy{padding:24px 14px 22px 18px;justify-content:center;min-height:0}
+.demo-preview.demo-kindred .demo-hero h3{font-size:clamp(2rem,3.5vw,3.05rem);margin:0 0 13px;line-height:1.02}
+.demo-preview.demo-kindred .demo-hero p{font-size:.73rem;line-height:1.48;margin:0 0 15px}
+.demo-preview.demo-kindred .demo-action{font-size:.66rem;padding:10px 13px}
+.demo-preview.demo-kindred .demo-hero-image{height:100%;min-height:0}
+.demo-preview.demo-kindred .demo-photo{height:100%}
+
+@media(max-width:1000px){
+ .demo-kindred>.demo-header,.demo-meadow>.demo-header{padding-inline:28px}
+ .demo-kindred .demo-hero-copy{padding-left:35px}
+ .demo-kindred .demo-hero h1{font-size:clamp(3.7rem,6.6vw,5.5rem)}
+ .demo-meadow .demo-hero-copy{padding-left:42px}
+ .demo-meadow .demo-hero h1{font-size:clamp(4rem,7.8vw,6rem)}
+}
+@media(max-width:650px){
+ .demo-kindred>.demo-header,.demo-meadow>.demo-header{height:auto;min-height:82px;padding:19px 22px;display:flex;text-align:left;gap:8px}
+ .demo-meadow>.demo-header{height:82px}
+ .demo-meadow .demo-brand{font-size:1.72rem;max-width:210px}
+ .demo-kindred .demo-brand{font-size:1.85rem}
+ .demo-kindred .demo-nav,.demo-meadow .demo-nav{display:flex;margin:0;flex-wrap:nowrap}
+ .demo-kindred .demo-nav a:not(:last-child),.demo-meadow .demo-nav a:not(:last-child){display:none}
+ .demo-kindred .demo-nav a:last-child,.demo-meadow .demo-nav a:last-child{font-size:.77rem;padding:12px 16px;white-space:nowrap}
+ .demo-meadow>.demo-hero{display:flex;min-height:660px;align-items:flex-end}
+ .demo-meadow>.demo-hero::after{background:linear-gradient(0deg,rgba(10,23,14,.86) 0%,rgba(12,27,18,.56) 53%,rgba(13,27,16,.23) 100%)}
+ .demo-meadow .demo-hero-copy{max-width:100%;padding:115px 24px 62px}
+ .demo-meadow .demo-hero h1{font-size:clamp(3.7rem,12vw,5.2rem);max-width:530px}
+ .demo-meadow .demo-hero-copy p{font-size:1.06rem}
+ .demo-meadow .demo-hero-image,.demo-meadow .demo-hero-image .demo-photo{height:100%}
+ .demo-kindred>.demo-hero{display:flex;flex-direction:column;min-height:0}
+ .demo-kindred .demo-hero-copy{padding:72px 24px 58px;min-height:0;order:0}
+ .demo-kindred .demo-hero h1{font-size:clamp(4rem,11vw,5.8rem);max-width:520px}
+ .demo-kindred .demo-hero-image{order:1;width:100%;height:360px;min-height:360px;border-radius:45% 45% 0 0 / 23% 23% 0 0}
+ .demo-meadow .demo-feature,.demo-kindred .demo-feature{min-height:0}
+ .demo-meadow .demo-intro-grid,.demo-kindred .demo-intro-grid{grid-template-columns:1fr;gap:18px}
+ .demo-kindred .demo-intro h2,.demo-kindred .demo-story h2{font-size:3.5rem}
+ .demo-kindred .demo-feature-grid{gap:16px}
+ .demo-preview.demo-meadow>.demo-header,.demo-preview.demo-kindred>.demo-header{height:53px;min-height:0;padding:12px 13px;display:flex}
+ .demo-preview.demo-meadow .demo-nav,.demo-preview.demo-kindred .demo-nav{display:none}
+ .demo-preview.demo-meadow .demo-brand{font-size:1.04rem}
+ .demo-preview.demo-meadow>.demo-hero{height:293px;min-height:293px;display:flex;align-items:center}
+ .demo-preview.demo-meadow .demo-hero-copy{padding:60px 17px 25px;max-width:88%;min-height:0}
+ .demo-preview.demo-meadow .demo-hero h3{font-size:clamp(2rem,8vw,2.7rem);max-width:300px}
+ .demo-preview.demo-meadow .demo-hero p{font-size:.68rem;max-width:225px}
+ .demo-preview.demo-kindred>.demo-header{height:53px}
+ .demo-preview.demo-kindred .demo-brand{font-size:1.05rem}
+ .demo-preview.demo-kindred>.demo-hero{height:293px;min-height:293px;display:grid;grid-template-columns:52% 48%}
+ .demo-preview.demo-kindred .demo-hero-copy{padding:16px 9px 16px 13px;min-height:0}
+ .demo-preview.demo-kindred .demo-hero h3{font-size:clamp(1.75rem,6.1vw,2.45rem);margin-bottom:10px}
+ .demo-preview.demo-kindred .demo-hero p{font-size:.62rem;margin-bottom:11px}
+ .demo-preview.demo-kindred .demo-action{font-size:.58rem;padding:8px 10px}
+ .demo-preview.demo-kindred .demo-hero-image{order:initial;height:293px;min-height:0;border-radius:46% 0 0 46% / 46% 0 0 54%}
+}
+@media(max-width:390px){
+ .demo-preview.demo-meadow .demo-hero h3{font-size:1.9rem}
+ .demo-preview.demo-kindred .demo-hero h3{font-size:1.6rem}
+}
+@media(prefers-reduced-motion:reduce){.demo-site .demo-photo img{transition:none}}
