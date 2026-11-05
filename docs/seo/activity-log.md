@@ -2,7 +2,7 @@
 
 ## 5 November 2026 — EI-20261105-02: visual refinement of both website concepts
 
-[Design change and before/after record](../changes/2026-11-05-concept-visual-redesign.md). Owner-supplied visual references informed a photographic, architectural Meadow House hero and a softer, curved, lime-and-forest Kindred home care design. Homepage previews share the actual live concept hero. The mobile care-home preview now fills its photographic frame and the Kindred section wave has a visible soft-colour transition. Fictional disclosures, noindex, routes and ElderIndex enquiry handling unchanged. Commit does not establish live deployment.
+[Design change and before/after record](../changes/2026-11-05-concept-visual-redesign.md). Owner-supplied visual references informed a photographic, architectural Meadow House hero and a softer, curved, lime-and-forest Kindred home care design. Homepage previews share the actual live concept hero. The mobile care-home preview now fills its photographic frame and the Kindred section wave has a visible soft-colour transition. A follow-up desktop layout correction fixes the oversized Meadow House hero text caused by symmetrical padding collapsing its readable width; a browser regression now checks desktop wrapping and CTA placement. Fictional disclosures, noindex, routes and ElderIndex enquiry handling unchanged. Commit does not establish live deployment.
 
 ## 5 November 2026 — EI-20261105-01: clickable residential and home care design concepts
 

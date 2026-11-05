@@ -282,9 +282,9 @@
 .demo-meadow .demo-hero-image{position:absolute;inset:0;width:100%;height:100%;z-index:0;overflow:hidden}
 .demo-meadow .demo-hero-image .demo-photo{height:100%;width:100%}
 .demo-meadow .demo-photo img,.demo-meadow .demo-photo .site-image{width:100%;height:100%;object-fit:cover;object-position:center 48%}
-.demo-meadow .demo-hero-copy{position:relative;z-index:2;padding:160px max(45px,calc((100% - 1220px)/2)) 95px;max-width:min(740px,70%);color:#fff}
-.demo-meadow .demo-hero h1,.demo-meadow .demo-hero h3{color:#fff;font-size:clamp(4.7rem,7.1vw,7.5rem);line-height:.99;max-width:620px;margin:0 0 28px;text-wrap:balance}
-.demo-meadow .demo-hero-copy>p{color:#fff;font-size:clamp(1.04rem,1.37vw,1.23rem);font-weight:400;line-height:1.65;max-width:410px;margin-bottom:33px}
+.demo-meadow .demo-hero-copy{position:relative;z-index:2;box-sizing:border-box;width:min(1200px,94%);max-width:none;padding:158px 35px 90px max(45px,calc((100vw - 1220px)/2));align-items:flex-start;color:#fff}
+.demo-meadow .demo-hero h1,.demo-meadow .demo-hero h3{color:#fff;font-size:clamp(4.25rem,5.5vw,6.15rem);line-height:1.04;width:min(100%,760px);max-width:760px;margin:0 0 24px;text-wrap:balance}
+.demo-meadow .demo-hero-copy>p{color:#fff;font-size:clamp(1.04rem,1.25vw,1.2rem);font-weight:400;line-height:1.6;width:min(100%,520px);max-width:520px;margin-bottom:30px}
 .demo-meadow .demo-action{background:#f8f5e9;color:#213e2b;border-radius:6px;padding:16px 22px;box-shadow:0 4px 22px #0d26122e;font-weight:700}
 .demo-meadow .demo-action:hover{background:#fff}
 .demo-meadow .demo-intro{background:#f9f7f0}
@@ -349,8 +349,8 @@
 .demo-preview.demo-meadow .demo-nav{font-size:.56rem;gap:10px}
 .demo-preview.demo-meadow .demo-nav span:last-child{padding:7px 10px}
 .demo-preview.demo-meadow>.demo-hero{height:380px;min-height:380px}
-.demo-preview.demo-meadow .demo-hero-copy{padding:80px 24px 30px;max-width:83%;justify-content:center}
-.demo-preview.demo-meadow .demo-hero h3{font-size:clamp(2.1rem,4.2vw,3.5rem);line-height:1.01;margin:0 0 14px;max-width:330px}
+.demo-preview.demo-meadow .demo-hero-copy{width:83%;padding:80px 24px 30px;max-width:83%;justify-content:center}
+.demo-preview.demo-meadow .demo-hero h3{font-size:clamp(2.1rem,4.2vw,3.5rem);line-height:1.01;margin:0 0 14px;width:min(100%,330px);max-width:330px}
 .demo-preview.demo-meadow .demo-hero p{font-size:.75rem;max-width:245px;line-height:1.5;margin-bottom:17px}
 .demo-preview.demo-meadow .demo-action{font-size:.68rem;padding:10px 13px;box-shadow:none}
 .demo-preview.demo-meadow .demo-hero-image,.demo-preview.demo-meadow .demo-photo{height:100%}
@@ -384,8 +384,8 @@
  .demo-kindred .demo-nav a:last-child,.demo-meadow .demo-nav a:last-child{font-size:.77rem;padding:12px 16px;white-space:nowrap}
  .demo-meadow>.demo-hero{display:flex;min-height:660px;align-items:flex-end}
  .demo-meadow>.demo-hero::after{background:linear-gradient(0deg,rgba(10,23,14,.86) 0%,rgba(12,27,18,.56) 53%,rgba(13,27,16,.23) 100%)}
- .demo-meadow .demo-hero-copy{max-width:100%;padding:115px 24px 62px}
- .demo-meadow .demo-hero h1{font-size:clamp(3.7rem,12vw,5.2rem);max-width:530px}
+ .demo-meadow .demo-hero-copy{width:100%;max-width:100%;padding:115px 24px 62px}
+ .demo-meadow .demo-hero h1{font-size:clamp(3.25rem,11vw,4.8rem);width:100%;max-width:530px}
  .demo-meadow .demo-hero-copy p{font-size:1.06rem}
  .demo-meadow .demo-hero-image,.demo-meadow .demo-hero-image .demo-photo{height:100%}
  .demo-kindred>.demo-hero{display:flex;flex-direction:column;min-height:0}

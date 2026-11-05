@@ -93,6 +93,36 @@ test('navigation supports hover, focus, Escape and mobile taps',async({page})=>{
   await trigger.focus();await page.keyboard.press('Escape');await expect(menu).toBeHidden();await page.keyboard.press('Enter');await expect(menu).toBeVisible();await page.keyboard.press('Tab');await expect(menu.getByRole('link',{name:'All services',exact:true})).toBeFocused();
   await page.setViewportSize({width:390,height:844});await page.locator('.menu-button').click();await page.locator('.mobile-services summary').click();await expect(page.locator('.mobile-services a').last()).toBeVisible();
 });
+test('Meadow House photographic hero keeps legible headline and supporting copy at desktop widths',async({page})=>{
+  for(const width of [1440,1728]){
+    await page.setViewportSize({width,height:1000});
+    await page.goto('/concepts/the-meadow-house/');
+    const metrics=await page.evaluate(()=>{
+      const hero=document.querySelector('.demo-meadow > .demo-hero');
+      const title=hero.querySelector('h1'),copy=hero.querySelector('.demo-hero-copy'),description=copy.querySelector('p'),button=copy.querySelector('.demo-action');
+      const titleBox=title.getBoundingClientRect(),copyBox=copy.getBoundingClientRect(),textBox=description.getBoundingClientRect(),heroBox=hero.getBoundingClientRect();
+      return {titleLines:titleBox.height/parseFloat(getComputedStyle(title).lineHeight),
+        descriptionLines:textBox.height/parseFloat(getComputedStyle(description).lineHeight),
+        titleWidth:titleBox.width,copyWidth:copyBox.width,heroHeight:heroBox.height,
+        buttonBottom:button.getBoundingClientRect().bottom,heroBottom:heroBox.bottom};
+    });
+    expect(metrics.titleWidth,`headline too narrow at ${width}px`).toBeGreaterThan(600);
+    expect(metrics.copyWidth,`copy container too narrow at ${width}px`).toBeGreaterThan(700);
+    expect(metrics.titleLines,`headline wraps excessively at ${width}px`).toBeLessThan(3);
+    expect(metrics.descriptionLines,`description wraps excessively at ${width}px`).toBeLessThan(4);
+    expect(metrics.heroHeight,`hero extends too far down at ${width}px`).toBeLessThan(860);
+    expect(metrics.buttonBottom,`hero CTA is below fold at ${width}px`).toBeLessThanOrEqual(metrics.heroBottom);
+  }
+  await page.setViewportSize({width:390,height:844});
+  await page.goto('/concepts/the-meadow-house/');
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  const visibleCTA=await page.evaluate(()=>{
+    const h=document.querySelector('.demo-meadow > .demo-hero').getBoundingClientRect();
+    const b=document.querySelector('.demo-meadow .demo-action').getBoundingClientRect();
+    return b.top>=h.top&&b.bottom<=h.bottom;
+  });
+  expect(visibleCTA,'mobile CTA should stay inside photographic hero').toBe(true);
+});
 test('crawl every page at desktop and mobile widths without JS exceptions or missing local resources',async({page})=>{
   test.setTimeout(90000); // Whole-site crawl now visits 60 page/viewport combinations.
   const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.url().startsWith('http://127.0.0.1:4185')&&r.status()>=400)errors.push(r.url()+': '+r.status());});
