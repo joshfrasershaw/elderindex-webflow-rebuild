@@ -1,5 +1,9 @@
 # SEO activity log
 
+## 9 November 2026 — T01 indexability hotfix
+
+Owner-supplied live homepage HTML contains `<meta name="robots" content="noindex, follow">` on the public `https://elderindex.co.uk/`. The implicit staging default in `src/config.mjs` caused plain `npm run build` to generate `noindex` HTML and the global `X-Robots-Tag: noindex` header. Changed the default to production/indexable, preserved explicit staging via `npm run build:staging`, added named staging checks and an automated CI smoke test of the plain default deployment build. Existing legal and fictional concept `noindex` rules remain intentional. Baseline `6cbb3c5c255ec51f42805f3194a00d20bff32e92`. Deployment and real HTTP headers MUST be independently verified; GitHub commit/CI are not proof of live repair. See [change record](../changes/2026-11-09-production-indexability-hotfix.md).
+
 ## 5 November 2026 — EI-20261105-02: visual refinement of both website concepts
 
 [Design change and before/after record](../changes/2026-11-05-concept-visual-redesign.md). Owner-supplied visual references informed a photographic, architectural Meadow House hero and a softer, curved, lime-and-forest Kindred home care design. Homepage previews share the actual live concept hero. The mobile care-home preview now fills its photographic frame and the Kindred section wave has a visible soft-colour transition. A follow-up desktop layout correction fixes the oversized Meadow House hero text caused by symmetrical padding collapsing its readable width; a browser regression now checks desktop wrapping and CTA placement. Fictional disclosures, noindex, routes and ElderIndex enquiry handling unchanged. Commit does not establish live deployment.

@@ -32,3 +32,14 @@ test('build output guard refuses arbitrary paths and staging builds in the produ
   assert.notEqual(r.status,0);assert.match(r.stderr,/Unsupported build output directory|Production directory requires/);
  }
 });
+
+test('a missing SITE_ENV is production-safe, while explicit staging remains noindex',()=>{
+ for(const [siteEnv,expected] of [[undefined,'production'],['production','production'],['staging','staging']]){
+  const env={...process.env};
+  if(siteEnv===undefined)delete env.SITE_ENV;
+  else env.SITE_ENV=siteEnv;
+  const r=spawnSync(process.execPath,['--input-type=module','-e','import {config} from "./src/config.mjs"; process.stdout.write(config.production ? "production" : "staging")'],{env,encoding:'utf8'});
+  assert.equal(r.status,0,r.stderr);
+  assert.equal(r.stdout,expected,`SITE_ENV=${siteEnv??'(unset)'}`);
+ }
+});

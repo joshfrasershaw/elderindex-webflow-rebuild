@@ -6,6 +6,11 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "build:staging": "SITE_ENV=staging node scripts/build.mjs",
+    "check:staging": "SITE_ENV=staging node scripts/check.mjs",
+    "check:release:staging": "SITE_ENV=staging node scripts/check-release.mjs",
+    "check:runtime:staging": "SITE_ENV=staging node scripts/check-runtime.mjs",
+    "test:staging": "SITE_ENV=staging npm test",
     "dev": "npm run build && python3 -m http.server 4173 -d dist",
     "check": "node scripts/check.mjs",
     "test": "node scripts/test.mjs",

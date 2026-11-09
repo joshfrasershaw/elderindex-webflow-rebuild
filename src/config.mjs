@@ -1,6 +1,8 @@
 // Public build-time configuration. Never put API tokens or other secrets here.
 const env = process.env;
-if (env.SITE_ENV && !['staging', 'production'].includes(env.SITE_ENV)) throw new Error('SITE_ENV must be staging or production');
+// Public hosting must be indexable by default. Staging is an explicit opt-in.
+const siteEnvironment = env.SITE_ENV || 'production';
+if (!['staging', 'production'].includes(siteEnvironment)) throw new Error('SITE_ENV must be staging or production');
 const endpoint = (env.FORM_ENDPOINT ?? 'https://formspree.io/f/xpqlvnaa').trim();
 if (endpoint && !/^https:\/\//.test(endpoint)) throw new Error('FORM_ENDPOINT must be an HTTPS URL');
 if (endpoint) {
@@ -15,7 +17,7 @@ if (canonical.protocol !== 'https:' || canonical.pathname !== '/' || canonical.s
 }
 export const config = {
   baseUrl: canonical.origin,
-  production: env.SITE_ENV === 'production',
+  production: siteEnvironment === 'production',
   formEndpoint: endpoint,
   measurementId,
   founderName: 'Josh',

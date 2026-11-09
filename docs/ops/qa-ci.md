@@ -4,10 +4,10 @@ Version 1.0 | 27 October 2026.
 Main provides `.github/workflows/quality.yml`, a PR/push quality workflow with read-only repository permission and immutable action SHAs. It does not deploy, publish, change DNS or use production credentials. An unrelated untracked CMS deployment draft is excluded. Node 24 and pinned Wrangler provide the local Cloudflare Static Assets test runtime; they are development tools, not public-site runtime dependencies.
 
 Required checks on the exact proposed SHA:
-1. npm ci; npm run build; npm run check.
+1. npm ci; npm run build:staging; npm run check:staging for explicit staging, then `npm run build; npm run check` to confirm the safe indexable default.
 2. npm run audit:links -- --output /tmp/elderindex-links-ci.json; fail on broken URLs/unexpected orphans, review category-specific diagnostics; preserve legitimate legal-page footer-only links.
 3. npm test; use Playwright Chromium set-up as required; fail test regressions.
-4. npm run build:production; npm run check:production; npm run check:runtime:production; npm run check:runtime:apex. Production uses isolated dist-production and explicit www canonical; checksum assertions prove existing staging outputs were not overwritten. CI artefacts distinguish environments.
+4. npm run build:production; npm run check:production; npm run check:runtime:production; npm run check:runtime:apex. Production uses isolated dist-production and the current apex canonical; checksum assertions prove existing staging outputs were not overwritten. CI artefacts distinguish environments.
 5. Check for absent secrets, node_modules/dist leaks, malformed release-gate docs, unlogged material SEO modifications and unsafe changes to main/deployment config; automated policy checks can support, but not certify, owner/legal approvals.
 6. Retain concise test/log output and artefacts for code review, not real user data. Don't run real Formspree submissions or unauthorised traffic against production in CI.
 

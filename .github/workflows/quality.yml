@@ -41,14 +41,14 @@ jobs:
       - name: Staging build and classified link audit
         run: |
           mkdir -p .release-evidence
-          npm run build
-          npm run check
-          npm run check:release -- .release-evidence/staging-manifest.json
+          npm run build:staging
+          npm run check:staging
+          npm run check:release:staging -- .release-evidence/staging-manifest.json
           npm run test:release-cli
           npm run audit:links -- --output .release-evidence/links.json
-          npm run check:runtime -- .release-evidence/staging-runtime.json
+          npm run check:runtime:staging -- .release-evidence/staging-runtime.json
       - name: Browser, enquiry simulations and accessibility
-        run: npm test
+        run: npm run test:staging
       - name: Isolated production build and asset-router checks (local only)
         run: |
           sha256sum dist/release.json dist/robots.txt dist/index.html > .release-evidence/staging-before-production.sha256
@@ -57,9 +57,16 @@ jobs:
           npm run check:runtime:production -- .release-evidence/production-runtime.json
           npm run check:runtime:apex -- .release-evidence/apex-runtime.json
           sha256sum --check .release-evidence/staging-before-production.sha256
+      - name: Verify plain default build cannot publish noindex to public domain
+        run: |
+          npm run build
+          npm run check
+          npm run check:release
+          grep -q '<meta name="robots" content="index, follow">' dist/index.html
+          ! grep -q 'X-Robots-Tag: noindex' dist/_headers
       - name: Restore safe staging output
         if: always()
-        run: npm run build
+        run: npm run build:staging
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         if: always()
         with:
