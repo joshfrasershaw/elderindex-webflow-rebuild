@@ -44,7 +44,7 @@ jobs:
           npm run build:staging
           npm run check:staging
           npm run check:release:staging -- .release-evidence/staging-manifest.json
-          npm run test:release-cli
+          SITE_ENV=staging npm run test:release-cli
           npm run audit:links -- --output .release-evidence/links.json
           npm run check:runtime:staging -- .release-evidence/staging-runtime.json
       - name: Browser, enquiry simulations and accessibility
